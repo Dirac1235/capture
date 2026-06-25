@@ -1,26 +1,203 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/*
+ * Figma font-family name aliases.
+ * Figma exports use "FontName:WeightName" as font-family.
+ * These @font-face rules map those to the standard web fonts loaded in layout.tsx.
+ * src: local() works because the browser has already downloaded the fonts.
+ */
+@font-face { font-family: 'Inter Tight:Thin'; src: local('Inter Tight'); font-weight: 100; }
+@font-face { font-family: 'Inter Tight:ExtraLight'; src: local('Inter Tight'); font-weight: 200; }
+@font-face { font-family: 'Inter Tight:Light'; src: local('Inter Tight'); font-weight: 300; }
+@font-face { font-family: 'Inter Tight:Regular'; src: local('Inter Tight'); font-weight: 400; }
+@font-face { font-family: 'Inter Tight:Medium'; src: local('Inter Tight'); font-weight: 500; }
+@font-face { font-family: 'Inter Tight:SemiBold'; src: local('Inter Tight'); font-weight: 600; }
+@font-face { font-family: 'Inter Tight:Bold'; src: local('Inter Tight'); font-weight: 700; }
+@font-face { font-family: 'Inter Tight:ExtraBold'; src: local('Inter Tight'); font-weight: 800; }
+
+@font-face { font-family: 'Mozilla Headline:ExtraLight'; src: local('Mozilla Headline'); font-weight: 200; }
+@font-face { font-family: 'Mozilla Headline:Light'; src: local('Mozilla Headline'); font-weight: 300; }
+@font-face { font-family: 'Mozilla Headline:Regular'; src: local('Mozilla Headline'); font-weight: 400; }
+@font-face { font-family: 'Mozilla Headline:Medium'; src: local('Mozilla Headline'); font-weight: 500; }
+@font-face { font-family: 'Mozilla Headline:SemiBold'; src: local('Mozilla Headline'); font-weight: 600; }
+@font-face { font-family: 'Mozilla Headline:Bold'; src: local('Mozilla Headline'); font-weight: 700; }
+
+@font-face { font-family: 'Stack Sans Headline:ExtraLight'; src: local('Stack Sans Headline'); font-weight: 200; }
+@font-face { font-family: 'Stack Sans Headline:Light'; src: local('Stack Sans Headline'); font-weight: 300; }
+@font-face { font-family: 'Stack Sans Headline:Regular'; src: local('Stack Sans Headline'); font-weight: 400; }
+@font-face { font-family: 'Stack Sans Headline:Medium'; src: local('Stack Sans Headline'); font-weight: 500; }
+@font-face { font-family: 'Stack Sans Headline:SemiBold'; src: local('Stack Sans Headline'); font-weight: 600; }
+@font-face { font-family: 'Stack Sans Headline:Bold'; src: local('Stack Sans Headline'); font-weight: 700; }
+
+@font-face { font-family: 'Source Serif Pro:Regular'; src: local('Source Serif 4'); font-weight: 400; }
+@font-face { font-family: 'Source Serif Pro:SemiBold'; src: local('Source Serif 4'); font-weight: 600; }
+@font-face { font-family: 'Source Serif Pro:Bold'; src: local('Source Serif 4'); font-weight: 700; }
+
+@font-face { font-family: 'Figtree:Medium'; src: local('Figtree'); font-weight: 500; }
+@font-face { font-family: 'Figtree:SemiBold'; src: local('Figtree'); font-weight: 600; }
+
+@font-face { font-family: 'PT Serif:Bold'; src: local('PT Serif'); font-weight: 700; }
+@font-face { font-family: 'PT Serif:Regular'; src: local('PT Serif'); font-weight: 400; }
+
+@font-face { font-family: 'Pretendard:Thin'; src: local('Pretendard'); font-weight: 100; }
+@font-face { font-family: 'Pretendard:Light'; src: local('Pretendard'); font-weight: 300; }
+@font-face { font-family: 'Pretendard:Regular'; src: local('Pretendard'); font-weight: 400; }
+@font-face { font-family: 'Pretendard:Medium'; src: local('Pretendard'); font-weight: 500; }
+@font-face { font-family: 'Pretendard:SemiBold'; src: local('Pretendard'); font-weight: 600; }
+@font-face { font-family: 'Pretendard:Bold'; src: local('Pretendard'); font-weight: 700; }
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* ── Colors — all from Figma ──────────────────────────────── */
+  --color-background:           var(--background);
+  --color-foreground:           var(--foreground);
+  --color-card:                 var(--card);
+  --color-card-foreground:      var(--card-foreground);
+  --color-popover:              var(--popover);
+  --color-popover-foreground:   var(--popover-foreground);
+  --color-primary:              var(--primary);
+  --color-primary-foreground:   var(--primary-foreground);
+  --color-secondary:            var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted:                var(--muted);
+  --color-muted-foreground:     var(--muted-foreground);
+  --color-accent:               var(--accent);
+  --color-accent-foreground:    var(--accent-foreground);
+  --color-destructive:          var(--destructive);
+  --color-border:               var(--border);
+  --color-input:                var(--input);
+  --color-ring:                 var(--ring);
+
+  /* Figma brand palette */
+  --color-brand:          var(--brand);
+  --color-brand-dark:     var(--brand-dark);
+  --color-surface:        var(--surface);
+  --color-dark-bg:        var(--dark-bg);
+  --color-dark-bg-alt:    var(--dark-bg-alt);
+  --color-gold:           var(--gold);
+  --color-teal:           var(--teal);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted-clr: var(--text-muted-clr);
+
+  /* ── Fonts — loaded via next/font/google ──────────────────── */
+  --font-sans:    var(--font-inter-tight), system-ui, sans-serif;
+  --font-heading: var(--font-mozilla-headline), system-ui, sans-serif;
+  --font-display: var(--font-stack-sans-headline), system-ui, sans-serif;
+  --font-bebas:   var(--font-bebas-neue), sans-serif;
+  --font-serif:   var(--font-pt-serif), serif;
+
+  /* ── Font sizes — from Figma desktop frames ───────────────── */
+  --text-xs:         12px;
+  --text-xs--line-height: 1.4;
+  --text-sm:         14px;
+  --text-sm--line-height: 1.37;
+  --text-base:       16px;
+  --text-base--line-height: 1.37;
+  --text-lg:         20px;
+  --text-lg--line-height: 1.37;
+  --text-xl:         24px;
+  --text-xl--line-height: 1.3;
+  --text-2xl:        28px;
+  --text-2xl--line-height: 1.3;
+  --text-3xl:        40px;
+  --text-3xl--line-height: 1.25;
+  --text-4xl:        55px;
+  --text-4xl--line-height: 1.01;
+  --text-5xl:        68px;
+  --text-5xl--line-height: 0.96;
+  --text-6xl:        80px;
+  --text-6xl--line-height: 0.9;
+  --text-7xl:        100px;
+  --text-7xl--line-height: 0.9;
+  --text-8xl:        125px;
+  --text-8xl--line-height: 0.9;
+  --text-display:    194px;
+  --text-display--line-height: 0.9;
+
+  /* ── Letter spacing — from Figma ──────────────────────────── */
+  --tracking-tightest: -3.58px;
+  --tracking-tighter:  -2.8px;
+  --tracking-snug:     -1.12px;
+  --tracking-loose:    0.53px;
+  --tracking-widest:   1.6px;
+
+  /* ── Border radius — from Figma ───────────────────────────── */
+  --radius-sm:   4px;
+  --radius-md:   16px;
+  --radius-lg:   24px;
+  --radius-xl:   31px;
+  --radius-2xl:  39px;
+  --radius-full: 9999px;
+
+  /* ── Shadows — from Figma ─────────────────────────────────── */
+  --shadow-sm: 0 0.6px 2.3px 0 rgba(0,0,0,0.07), 0 2.3px 5.7px 0 rgba(0,0,0,0.02);
+  --shadow-md: 0 5.5px 5.6px 0 rgba(0,0,0,0.10);
+  --shadow-lg: 0 25px 40px 0 rgba(0,0,0,0.09);
+  --shadow-xl: 0 64px 88px 0 rgba(0,0,0,0.10);
+
+  /* shadcn sidebar (required by shadcn internals) */
+  --color-sidebar:                    var(--sidebar);
+  --color-sidebar-foreground:         var(--sidebar-foreground);
+  --color-sidebar-primary:            var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent:             var(--sidebar-accent);
+  --color-sidebar-accent-foreground:  var(--sidebar-accent-foreground);
+  --color-sidebar-border:             var(--sidebar-border);
+  --color-sidebar-ring:               var(--sidebar-ring);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  /* ── shadcn standard tokens — all set to Figma values ─────── */
+  --background:              #F6F6F6;
+  --foreground:              #131313;
+  --card:                    #FFFFFF;
+  --card-foreground:         #131313;
+  --popover:                 #FFFFFF;
+  --popover-foreground:      #131313;
+  --primary:                 #D08E8F;
+  --primary-foreground:      #FFFFFF;
+  --secondary:               #ECEEF1;
+  --secondary-foreground:    #131313;
+  --muted:                   #ECEEF1;
+  --muted-foreground:        #6B7278;
+  --accent:                  #D08E8F;
+  --accent-foreground:       #FFFFFF;
+  --destructive:             #C85A52;
+  --border:                  #F0F2F5;
+  --input:                   #F0F2F5;
+  --ring:                    #D08E8F;
+  --radius:                  16px;
+
+  /* ── Figma brand tokens ────────────────────────────────────── */
+  --brand:            #D08E8F;
+  --brand-dark:       #C85A52;
+  --surface:          #FFFFFF;
+  --dark-bg:          #382324;
+  --dark-bg-alt:      #3C4138;
+  --gold:             #938700;
+  --teal:             #004F56;
+  --text-secondary:   #6B7278;
+  --text-muted-clr:   #85919F;
+
+  /* shadcn sidebar (unused in this project but required for shadcn) */
+  --sidebar:                    #FFFFFF;
+  --sidebar-foreground:         #131313;
+  --sidebar-primary:            #D08E8F;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent:             #ECEEF1;
+  --sidebar-accent-foreground:  #131313;
+  --sidebar-border:             #F0F2F5;
+  --sidebar-ring:               #D08E8F;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
 }
