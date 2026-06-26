@@ -82,6 +82,19 @@
   --color-text-secondary: var(--text-secondary);
   --color-text-muted-clr: var(--text-muted-clr);
 
+  /* Figma UI palette — extracted from common component usage */
+  --color-warm-dark:     var(--warm-dark);     /* #482603 warm dark brown text */
+  --color-charcoal:      var(--charcoal);      /* #363636 dark charcoal text */
+  --color-forest:        var(--forest);        /* #2b3330 dark forest text */
+  --color-forest-deep:   var(--forest-deep);   /* #1a3b34 deep forest text */
+  --color-slate-text:    var(--slate-text);    /* #4f545b slate text */
+  --color-near-black:    var(--near-black);    /* #18191b near-black text */
+  --color-text-mid:      var(--text-mid);      /* #72777e mid gray text */
+  --color-ui-gray:       var(--ui-gray);       /* #434548 download button gray */
+  --color-dark-gray:     var(--dark-gray);     /* #2e2e2e dark gray text */
+  --color-border-subtle: var(--border-subtle); /* #ebeff4 subtle border */
+  --color-deep-black:    var(--deep-black);    /* #191919 deep black */
+
   /* ── Fonts — loaded via next/font/google ──────────────────── */
   --font-sans:    var(--font-inter-tight), system-ui, sans-serif;
   --font-heading: var(--font-mozilla-headline), system-ui, sans-serif;
@@ -138,6 +151,11 @@
   --shadow-lg: 0 25px 40px 0 rgba(0,0,0,0.09);
   --shadow-xl: 0 64px 88px 0 rgba(0,0,0,0.10);
 
+  /* ── Breakpoints — named for Figma frame widths ──────────────── */
+  --breakpoint-mobile:  438px;   /* mobile frame designed width */
+  --breakpoint-desktop: 1024px;  /* switch from mobile to desktop layout */
+  --breakpoint-wide:    1920px;  /* desktop frame designed width */
+
   /* shadcn sidebar (required by shadcn internals) */
   --color-sidebar:                    var(--sidebar);
   --color-sidebar-foreground:         var(--sidebar-foreground);
@@ -181,6 +199,19 @@
   --teal:             #004F56;
   --text-secondary:   #6B7278;
   --text-muted-clr:   #85919F;
+
+  /* Figma UI palette — common component colors */
+  --warm-dark:     #482603;
+  --charcoal:      #363636;
+  --forest:        #2b3330;
+  --forest-deep:   #1a3b34;
+  --slate-text:    #4f545b;
+  --near-black:    #18191b;
+  --text-mid:      #72777e;
+  --ui-gray:       #434548;
+  --dark-gray:     #2e2e2e;
+  --border-subtle: #ebeff4;
+  --deep-black:    #191919;
 
   /* shadcn sidebar (unused in this project but required for shadcn) */
   --sidebar:                    #FFFFFF;

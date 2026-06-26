@@ -198,10 +198,10 @@ function Group34() {
 function Frame() {
   return (
     <div className="-translate-x-1/2 absolute h-[858px] left-1/2 overflow-clip rounded-[16.268px] top-[2750px] w-[396px]">
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[901px] left-1/2 rounded-[16.268px] top-0 w-[396px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[901px] left-1/2 rounded-[16.268px] top-0 w-[396px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.092] left-[calc(50%-97.24px)] not-italic text-[25.881px] text-white top-[45.39px] whitespace-nowrap">Ready</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.24] left-[calc(50%-94.57px)] not-italic opacity-83 text-[16.064px] text-white top-[79.3px] whitespace-nowrap">Based on your signals from today</p>
-      <div className="absolute backdrop-blur-[5.533px] bg-[#d08e8f] h-[123px] left-[25px] opacity-16 rounded-[6.247px] top-[563px] w-[345px]" />
+      <div className="absolute backdrop-blur-[5.533px] bg-brand h-[123px] left-[25px] opacity-16 rounded-[6.247px] top-[563px] w-[345px]" />
       <div className="absolute bg-[rgba(255,255,255,0.1)] h-[115px] left-[28px] rounded-[6px] top-[150.21px] w-[342px]" />
       <div className="absolute bg-[rgba(255,255,255,0.1)] h-[115px] left-[28px] rounded-[6px] top-[285.21px] w-[342px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[50px] not-italic text-[#e09092] text-[13.387px] top-[608px] w-[320px]">{`"Your focus holds longer on weekdays but your recovery window is shorter. Today looks like a lighter load would serve you better."`}</p>
@@ -239,8 +239,8 @@ function Component() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.23%_14.29%_23.49%_38.97%] leading-[0.89] not-italic text-[#434548] text-[12.969px]">MacOS</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[19.07%_14.29%_63.79%_38.97%] leading-[0.89] not-italic text-[#434548] text-[6.484px] tracking-[0.3242px]">Download For</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.23%_14.29%_23.49%_38.97%] leading-[0.89] not-italic text-ui-gray text-[12.969px]">MacOS</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[19.07%_14.29%_63.79%_38.97%] leading-[0.89] not-italic text-ui-gray text-[6.484px] tracking-[0.3242px]">Download For</p>
       <div className="absolute inset-[16.91%_69.21%_27.06%_13.42%]" data-name="Vector">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 17.3654 19.6104">
           <path d={svgPaths.p3449b000} fill="var(--fill-0, #434548)" id="Vector" />
@@ -272,8 +272,8 @@ function Component1() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.23%_8.7%_23.49%_36.84%] leading-[0.89] not-italic text-[#434548] text-[12.969px] whitespace-nowrap">Windows</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[19.07%_20.58%_63.79%_36.84%] leading-[0.89] not-italic text-[#434548] text-[6.484px] tracking-[0.3242px] whitespace-nowrap">Download For</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.23%_8.7%_23.49%_36.84%] leading-[0.89] not-italic text-ui-gray text-[12.969px] whitespace-nowrap">Windows</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[19.07%_20.58%_63.79%_36.84%] leading-[0.89] not-italic text-ui-gray text-[6.484px] tracking-[0.3242px] whitespace-nowrap">Download For</p>
       <LineiconsWindows />
     </div>
   );
@@ -324,7 +324,7 @@ function Frame7() {
       <div className="-translate-x-1/2 absolute bg-[#3f2b2c] h-[926px] left-[calc(50%-62.28px)] top-0 w-[440px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:ExtraLight',sans-serif] font-extralight leading-[1.63] left-[calc(50%-237.28px)] text-[17px] text-white top-[148px] w-[351px]">Capture was founded with one clear mission: to create insurance that truly cares for pets and their families. We know that veterinary treatments, emergencies.</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-165.18px)] not-italic text-[37.706px] text-white top-[75.68px] whitespace-nowrap">Capture</p>
-      <div className="absolute bg-[#d08e8f] h-[57px] left-[46px] rounded-[11px] top-[61px] w-[58px]" />
+      <div className="absolute bg-brand h-[57px] left-[46px] rounded-[11px] top-[61px] w-[58px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[41.84px] text-[14.34px] text-white top-[369.37px] w-[88.43px]">How it Works</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[41.84px] text-[14.34px] text-white top-[407.61px] whitespace-nowrap">Meet Syni</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[41.84px] text-[14.34px] text-white top-[445.85px] w-[88.43px]">Desktop App</p>
@@ -423,8 +423,8 @@ function Component4() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_17.03%_20.62%_33.01%] leading-[0.89] not-italic text-[#434548] text-[25.323px] whitespace-nowrap">Windows</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[17.62%_27.77%_64.88%_33.01%] leading-[0.89] not-italic text-[#434548] text-[12.662px] tracking-[0.6331px] whitespace-nowrap">Download For</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_17.03%_20.62%_33.01%] leading-[0.89] not-italic text-ui-gray text-[25.323px] whitespace-nowrap">Windows</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[17.62%_27.77%_64.88%_33.01%] leading-[0.89] not-italic text-ui-gray text-[12.662px] tracking-[0.6331px] whitespace-nowrap">Download For</p>
       <LineiconsWindows1 />
     </div>
   );
@@ -770,10 +770,10 @@ function IPhone16ProMax1() {
         <div className="-translate-x-1/2 absolute bg-[#ebeced] h-[21.839px] left-[calc(50%+59.16px)] rounded-[3.64px] top-[-40.29px] w-[104.343px]" />
         <p className="[word-break:break-word] absolute font-['Figtree:SemiBold',sans-serif] font-semibold leading-[1.33] left-[27.34px] text-[#4d4d4d] text-[9.1px] top-[-205.55px] whitespace-nowrap">Back</p>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Bold',sans-serif] font-bold leading-[1.33] left-[calc(50%+0.34px)] text-[#1d1d1d] text-[12.74px] text-center top-[-208.33px] whitespace-nowrap">Ask Syni</p>
-        <p className="-translate-x-full [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.06] left-[calc(50%+101.05px)] text-[#2e2e2e] text-[7.886px] text-right top-[-142.21px] whitespace-nowrap">Compare weekdays and weekends.</p>
-        <p className="-translate-x-full [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.06] left-[calc(50%+101.45px)] text-[#2e2e2e] text-[7.886px] text-right top-[-33.62px] whitespace-nowrap">What kind of difference?</p>
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-92.5px)] text-[#2e2e2e] text-[8.493px] top-[-95.5px] w-[137.101px]">I’ve noticed a difference between your weekdays and weekends.</p>
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-92.5px)] text-[#2e2e2e] text-[8.493px] top-[21.58px] w-[191.699px]">{`On weekdays, your focus is more sustained, but your recovery is shorter. `}</p>
+        <p className="-translate-x-full [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.06] left-[calc(50%+101.05px)] text-dark-gray text-[7.886px] text-right top-[-142.21px] whitespace-nowrap">Compare weekdays and weekends.</p>
+        <p className="-translate-x-full [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.06] left-[calc(50%+101.45px)] text-dark-gray text-[7.886px] text-right top-[-33.62px] whitespace-nowrap">What kind of difference?</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-92.5px)] text-dark-gray text-[8.493px] top-[-95.5px] w-[137.101px]">I’ve noticed a difference between your weekdays and weekends.</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-92.5px)] text-dark-gray text-[8.493px] top-[21.58px] w-[191.699px]">{`On weekdays, your focus is more sustained, but your recovery is shorter. `}</p>
         <div className="absolute inset-[-63.49%_92.03%_161.77%_6.95%]" data-name="Vector">
           <div className="absolute inset-[-9.05%_-18.16%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.71482 6.45552">
@@ -842,7 +842,7 @@ function IPhone16ProMax1() {
         <Group29 />
         <Group30 />
         <div className="-translate-x-1/2 absolute bg-white h-[35.792px] left-[calc(50%+0.62px)] rounded-[7.28px] shadow-[0px_6.673px_36.399px_0px_#dedede] top-[60.41px] w-[235.984px]" />
-        <div className="-translate-x-1/2 absolute bg-[#004f56] left-[calc(50%+99.8px)] rounded-[13.649px] size-[21.839px] top-[67.69px]" />
+        <div className="-translate-x-1/2 absolute bg-teal left-[calc(50%+99.8px)] rounded-[13.649px] size-[21.839px] top-[67.69px]" />
         <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[0] left-[31.9px] not-italic text-[9.1px] text-black top-[73.15px] whitespace-nowrap">
           <span className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal]">T</span>
           <span className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] text-[#4abca5]">|</span>
@@ -980,33 +980,33 @@ function IPhone16ProMax1() {
           <div aria-hidden className="absolute bg-white inset-0 rounded-[4.134px]" />
           <div className="absolute inset-0 rounded-[inherit] shadow-[inset_0px_0.585px_2.341px_0px_rgba(0,0,0,0.07)]" />
         </div>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[18.24px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">Q</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[30.73px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">A</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[44.41px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">W</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[57.18px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">S</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[57.18px] text-[#363636] text-[11.811px] text-center top-[219.81px] whitespace-nowrap">Z</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[21.25px] text-[#363636] text-[10.63px] text-center top-[254.65px] whitespace-nowrap">123</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[68.83px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">E</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[82.84px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">D</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[82.93px] text-[#363636] text-[11.811px] text-center top-[219.81px] whitespace-nowrap">X</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[95.68px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">R</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[108.77px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">F</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[108.58px] text-[#363636] text-[11.811px] text-center top-[219.81px] whitespace-nowrap">C</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[121.54px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">T</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[134.33px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">G</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[133.72px] text-[#363636] text-[11.811px] text-center top-[219.81px] whitespace-nowrap">V</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[147.18px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">Y</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[160.08px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">H</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[160.17px] text-[#363636] text-[11.811px] text-center top-[219.81px] whitespace-nowrap">B</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[172.83px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">U</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[186.01px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">J</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[185.72px] text-[#363636] text-[11.811px] text-center top-[219.81px] whitespace-nowrap">N</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[198.43px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">I</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[211.66px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">K</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[211.4px] text-[#363636] text-[11.811px] text-center top-[219.81px] whitespace-nowrap">M</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[224.22px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">O</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[237.5px] text-[#363636] text-[11.811px] text-center top-[186.74px] whitespace-nowrap">L</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[249.66px] text-[#363636] text-[11.811px] text-center top-[154.26px] whitespace-nowrap">P</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[18.24px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">Q</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[30.73px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">A</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[44.41px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">W</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[57.18px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">S</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[57.18px] text-charcoal text-[11.811px] text-center top-[219.81px] whitespace-nowrap">Z</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[21.25px] text-charcoal text-[10.63px] text-center top-[254.65px] whitespace-nowrap">123</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[68.83px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">E</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[82.84px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">D</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[82.93px] text-charcoal text-[11.811px] text-center top-[219.81px] whitespace-nowrap">X</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[95.68px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">R</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[108.77px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">F</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[108.58px] text-charcoal text-[11.811px] text-center top-[219.81px] whitespace-nowrap">C</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[121.54px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">T</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[134.33px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">G</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[133.72px] text-charcoal text-[11.811px] text-center top-[219.81px] whitespace-nowrap">V</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[147.18px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">Y</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[160.08px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">H</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[160.17px] text-charcoal text-[11.811px] text-center top-[219.81px] whitespace-nowrap">B</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[172.83px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">U</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[186.01px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">J</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[185.72px] text-charcoal text-[11.811px] text-center top-[219.81px] whitespace-nowrap">N</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[198.43px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">I</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[211.66px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">K</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[211.4px] text-charcoal text-[11.811px] text-center top-[219.81px] whitespace-nowrap">M</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[224.22px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">O</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[237.5px] text-charcoal text-[11.811px] text-center top-[186.74px] whitespace-nowrap">L</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[249.66px] text-charcoal text-[11.811px] text-center top-[154.26px] whitespace-nowrap">P</p>
         <div className="absolute h-[10.335px] left-[15.1px] top-[221.58px] w-[12.993px]">
           <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12.9926 10.335">
             <path d={svgPaths.p16c8cc00} fill="var(--fill-0, #363636)" id="Vector 2986" />
@@ -1022,9 +1022,9 @@ function IPhone16ProMax1() {
         <div className="-translate-x-1/2 absolute bg-white border-[0.664px] border-[rgba(226,227,228,0.7)] border-solid h-[13.953px] left-[calc(50%-10.3px)] rounded-[3.322px] shadow-[0px_7.309px_39.865px_0px_#dedede] top-[120.47px] w-[52.778px]" />
         <div className="-translate-x-1/2 absolute bg-white border-[0.664px] border-[rgba(226,227,228,0.7)] border-solid h-[13.953px] left-[calc(50%+54.3px)] rounded-[3.322px] shadow-[0px_7.309px_39.865px_0px_#dedede] top-[120.47px] w-[69.157px]" />
         <div className="-translate-x-1/2 absolute bg-white left-[calc(50%+112.82px)] rounded-[7.28px] size-[23.623px] top-[115.62px]" />
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-76.73px)] text-[#2e2e2e] text-[5.98px] top-[123.5px] whitespace-nowrap">Focus :</p>
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-20.92px)] text-[#2e2e2e] text-[5.98px] top-[123.5px] whitespace-nowrap">Stress :</p>
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%+34.29px)] text-[#2e2e2e] text-[5.98px] top-[123.5px] whitespace-nowrap">Readiness :</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-76.73px)] text-dark-gray text-[5.98px] top-[123.5px] whitespace-nowrap">Focus :</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-20.92px)] text-dark-gray text-[5.98px] top-[123.5px] whitespace-nowrap">Stress :</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%+34.29px)] text-dark-gray text-[5.98px] top-[123.5px] whitespace-nowrap">Readiness :</p>
         <p className="[word-break:break-word] absolute bg-clip-text font-['Figtree:Medium',sans-serif] font-medium leading-[1.24] left-[calc(50%-53.68px)] text-[5.46px] text-[transparent] top-[124.11px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(128.069deg, rgb(255, 137, 1) 8.8235%, rgb(201, 173, 138) 50.459%, rgb(156, 203, 252) 100%)" }}>
           72
         </p>
@@ -1093,9 +1093,9 @@ function Frame2() {
       <div className="-translate-x-1/2 absolute bg-white border-[1.105px] border-[rgba(216,216,216,0.72)] border-solid h-[33.44px] left-[calc(50%-115.88px)] rounded-[9.396px] top-[-0.16px] w-[92.307px]" />
       <div className="-translate-x-1/2 absolute bg-white border-[1.105px] border-[rgba(216,216,216,0.72)] border-solid h-[33.44px] left-[calc(50%-16.67px)] rounded-[9.396px] top-[-0.16px] w-[93.412px]" />
       <div className="-translate-x-1/2 absolute bg-white border-[1.105px] border-[rgba(216,216,216,0.72)] border-solid h-[33.44px] left-[calc(50%+97.61px)] rounded-[9.396px] top-[-0.16px] w-[122.431px]" />
-      <p className="[word-break:break-word] absolute font-['Figtree:Bold',sans-serif] font-bold leading-[1.24] left-[calc(50%-134.17px)] text-[#2e2e2e] text-[10.581px] top-[9.09px] whitespace-nowrap">Focus :</p>
-      <p className="[word-break:break-word] absolute font-['Figtree:Bold',sans-serif] font-bold leading-[1.24] left-[calc(50%-35.42px)] text-[#2e2e2e] text-[10.581px] top-[9.09px] whitespace-nowrap">Stress :</p>
-      <p className="[word-break:break-word] absolute font-['Figtree:Bold',sans-serif] font-bold leading-[1.24] left-[calc(50%+61.16px)] text-[#2e2e2e] text-[10.581px] top-[9.09px] whitespace-nowrap">Readiness :</p>
+      <p className="[word-break:break-word] absolute font-['Figtree:Bold',sans-serif] font-bold leading-[1.24] left-[calc(50%-134.17px)] text-dark-gray text-[10.581px] top-[9.09px] whitespace-nowrap">Focus :</p>
+      <p className="[word-break:break-word] absolute font-['Figtree:Bold',sans-serif] font-bold leading-[1.24] left-[calc(50%-35.42px)] text-dark-gray text-[10.581px] top-[9.09px] whitespace-nowrap">Stress :</p>
+      <p className="[word-break:break-word] absolute font-['Figtree:Bold',sans-serif] font-bold leading-[1.24] left-[calc(50%+61.16px)] text-dark-gray text-[10.581px] top-[9.09px] whitespace-nowrap">Readiness :</p>
       <p className="[word-break:break-word] absolute bg-clip-text font-['Figtree:Bold',sans-serif] font-bold leading-[1.24] left-[calc(50%-93.38px)] text-[9.661px] text-[transparent] top-[10.16px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(125.676deg, rgb(255, 137, 1) 8.8235%, rgb(201, 173, 138) 50.459%, rgb(156, 203, 252) 100%)" }}>
         72
       </p>
@@ -1382,7 +1382,7 @@ function IPhone16ProMax2() {
         </div>
         <div className="-translate-x-1/2 absolute bg-[#f1f1f1] h-[49.88px] left-[calc(50%+0.28px)] rounded-[8.027px] top-[347.44px] w-[220.735px]" />
         <div className="-translate-x-1/2 absolute bg-[#f1f1f1] h-[49.88px] left-[calc(50%+0.29px)] rounded-[8.027px] top-[412.23px] w-[220.735px]" />
-        <div className="-translate-x-1/2 absolute bg-[#004f56] left-1/2 rounded-[15.48px] size-[30.96px] top-[505.28px]" />
+        <div className="-translate-x-1/2 absolute bg-teal left-1/2 rounded-[15.48px] size-[30.96px] top-[505.28px]" />
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[46.19px] text-[#82828c] text-[6.88px] text-center top-[525.92px] whitespace-nowrap">Home</p>
         <div className="absolute left-[38.41px] size-[14.338px] top-[509.87px]" data-name="vuesax/linear/home">
           <VuesaxLinearHome />
@@ -1394,8 +1394,8 @@ function IPhone16ProMax2() {
         <div className="-translate-x-1/2 absolute bg-[#e2e2e2] h-[44.147px] left-1/2 opacity-74 rounded-[7.453px] top-[85.43px] w-[223.602px]" />
         <p className="[word-break:break-word] absolute font-['Figtree:Regular',sans-serif] font-normal leading-[1.33] left-[63.07px] text-[#293a4b] text-[6.307px] top-[110.08px] whitespace-nowrap">Last Sync: 2D ago</p>
         <p className="[word-break:break-word] absolute font-['Figtree:SemiBold',sans-serif] font-semibold leading-[1.33] left-[63.07px] text-[#30353a] text-[8.6px] top-[96.89px] whitespace-nowrap">Apple Watch</p>
-        <div className="-translate-x-1/2 absolute bg-[#004f56] left-[calc(50%-88.58px)] rounded-[6.407px] size-[28.094px] top-[93.45px]" />
-        <div className="-translate-x-1/2 absolute bg-[#004f56] h-[12.04px] left-[calc(50%+82.56px)] rounded-[1.72px] top-[102.05px] w-[37.84px]" />
+        <div className="-translate-x-1/2 absolute bg-teal left-[calc(50%-88.58px)] rounded-[6.407px] size-[28.094px] top-[93.45px]" />
+        <div className="-translate-x-1/2 absolute bg-teal h-[12.04px] left-[calc(50%+82.56px)] rounded-[1.72px] top-[102.05px] w-[37.84px]" />
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Figtree:SemiBold',sans-serif] font-semibold leading-[1.33] left-[212.09px] text-[4.587px] text-center text-white top-[104.92px] whitespace-nowrap">Connected</p>
         <div className="-translate-x-1/2 absolute bg-white border-[#eee] border-[0.573px] border-solid h-[51.027px] left-[calc(50%+0.29px)] rounded-[8.027px] shadow-[0px_6.88px_18.918px_0px_rgba(0,0,0,0.05)] top-[353.75px] w-[220.735px]" />
         <div className="-translate-x-1/2 absolute bg-white border-[#eee] border-[0.573px] border-solid h-[51.027px] left-[calc(50%+0.29px)] rounded-[8.027px] shadow-[0px_6.88px_18.918px_0px_rgba(0,0,0,0.05)] top-[418.54px] w-[220.735px]" />
@@ -1825,7 +1825,7 @@ function IPhone16ProMax() {
         <Items6 />
         <Items7 />
         <div className="-translate-x-1/2 absolute bg-white border-[0.608px] border-solid border-white h-[17.939px] left-[calc(50%+0.15px)] rounded-[3.649px] shadow-[0px_3.345px_18.243px_0px_#e1e1e1] top-[263.31px] w-[118.277px]" />
-        <div className="-translate-x-1/2 absolute bg-[#004f56] left-[calc(50%+49.87px)] rounded-[6.841px] size-[10.946px] top-[266.96px]" />
+        <div className="-translate-x-1/2 absolute bg-teal left-[calc(50%+49.87px)] rounded-[6.841px] size-[10.946px] top-[266.96px]" />
         <div className="-translate-x-1/2 absolute bg-black h-[10.997px] left-1/2 rounded-[5.498px] top-[5.04px] w-[38.311px]" />
         <p className="[word-break:break-word] absolute font-['Figtree:SemiBold',sans-serif] font-semibold leading-[1.33] left-[13.53px] text-[#4d4d4d] text-[4.561px] top-[27.54px] whitespace-nowrap">Back</p>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[0] left-[calc(50%+0.15px)] not-italic text-[#404049] text-[0px] text-center top-[114.32px] w-[76.926px]">
@@ -2422,99 +2422,99 @@ export default function IPhone1617ProMax() {
             <path d={svgPaths.p1150d300} fill="var(--fill-0, #D08E8F)" id="Rectangle 34624439" />
           </svg>
         </div>
-        <div className="-translate-x-1/2 absolute bg-[#382324] h-[41.112px] left-[calc(50%+131px)] top-[51px] w-[1518px]" />
+        <div className="-translate-x-1/2 absolute bg-dark-bg h-[41.112px] left-[calc(50%+131px)] top-[51px] w-[1518px]" />
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+140.5px)] not-italic text-[12.65px] text-center text-white top-[64.44px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
         <NotoFire />
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-125.8px)] not-italic text-[#382324] text-[33.051px] top-[123.36px] whitespace-nowrap">Capture</p>
-        <div className="absolute bg-[#382324] left-[31px] rounded-[9px] size-[51px] top-[111px]" />
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-125.8px)] not-italic text-dark-bg text-[33.051px] top-[123.36px] whitespace-nowrap">Capture</p>
+        <div className="absolute bg-dark-bg left-[31px] rounded-[9px] size-[51px] top-[111px]" />
         <div className="absolute left-[372px] size-[47px] top-[112px]">
           <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 47 47">
             <circle cx="23.5" cy="23.5" id="Ellipse 4" opacity="0.18" r="23" stroke="var(--stroke-0, black)" />
           </svg>
         </div>
-        <div className="absolute bg-[#191919] h-[2px] left-[392px] rounded-[4px] top-[129px] w-[12px]" />
-        <div className="absolute bg-[#191919] h-[2px] left-[388px] rounded-[4px] top-[141px] w-[12px]" />
-        <div className="absolute bg-[#191919] h-[2px] left-[385px] rounded-[4px] top-[135px] w-[19px]" />
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[normal] left-[calc(50%+229.5px)] not-italic text-[#382324] text-[221.575px] text-center top-[162px] uppercase whitespace-nowrap">CAPTURE</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-1/2 text-[#d08e8f] text-[13.846px] text-center top-[734px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</p>
+        <div className="absolute bg-deep-black h-[2px] left-[392px] rounded-[4px] top-[129px] w-[12px]" />
+        <div className="absolute bg-deep-black h-[2px] left-[388px] rounded-[4px] top-[141px] w-[12px]" />
+        <div className="absolute bg-deep-black h-[2px] left-[385px] rounded-[4px] top-[135px] w-[19px]" />
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[normal] left-[calc(50%+229.5px)] not-italic text-dark-bg text-[221.575px] text-center top-[162px] uppercase whitespace-nowrap">CAPTURE</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-1/2 text-brand text-[13.846px] text-center top-[734px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</p>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[normal] left-[calc(50%+0.5px)] opacity-66 text-[18px] text-black text-center top-[989px] w-[363px]">Plus gives you more out of your data, Get a personalised dashboard and storage sing Plus, securely, with a customizable dashboard.</p>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.8] left-1/2 text-[#2c2c2c] text-[64.639px] text-center top-[769px] w-[368px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Get More Out Of Capture Using Plus
         </p>
         <div className="absolute bg-white h-[190.13px] left-[29px] shadow-[0px_28.634px_45.815px_0px_rgba(0,0,0,0.09)] top-[1090px] w-[381.406px]" />
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-165.8px)] opacity-58 text-[16.035px] text-black top-[1225.72px] whitespace-nowrap">HRV, strain, sleep, recovery scores</p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[54.2px] text-[#2b3330] text-[26.343px] top-[1189.65px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[54.2px] text-forest text-[26.343px] top-[1189.65px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           Whoop
         </p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[57.183px] left-[calc(50%-139.42px)] top-[1117.77px] w-[55.423px]" />
+        <div className="-translate-x-1/2 absolute bg-brand h-[57.183px] left-[calc(50%-139.42px)] top-[1117.77px] w-[55.423px]" />
         <ArcticonsWhoop />
         <div className="absolute bg-white h-[190.13px] left-[29px] shadow-[0px_28.634px_45.815px_0px_rgba(0,0,0,0.09)] top-[1307px] w-[381.406px]" />
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-162.6px)] opacity-58 text-[16.035px] text-black top-[1442.72px] whitespace-nowrap">Body Battery, stress, sleep stages, HRV</p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[57.4px] text-[#2b3330] text-[26.343px] top-[1406.65px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[57.4px] text-forest text-[26.343px] top-[1406.65px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           Garmin
         </p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[57.183px] left-[calc(50%-136.22px)] top-[1334.77px] w-[55.423px]" />
+        <div className="-translate-x-1/2 absolute bg-brand h-[57.183px] left-[calc(50%-136.22px)] top-[1334.77px] w-[55.423px]" />
         <CibGarmin />
         <div className="absolute bg-white h-[190.13px] left-[29px] shadow-[0px_28.634px_45.815px_0px_rgba(0,0,0,0.09)] top-[1524px] w-[381.406px]" />
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-157.07px)] opacity-58 text-[16.035px] text-black top-[1659.72px] whitespace-nowrap">Heart rate, HRV, sleep, activity rings</p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[62.93px] text-[#2b3330] text-[26.343px] top-[1623.65px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[62.93px] text-forest text-[26.343px] top-[1623.65px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           Apple Watch
         </p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[57.183px] left-[calc(50%-130.69px)] top-[1551.77px] w-[55.423px]" />
+        <div className="-translate-x-1/2 absolute bg-brand h-[57.183px] left-[calc(50%-130.69px)] top-[1551.77px] w-[55.423px]" />
         <IcRoundApple />
         <div className="absolute bg-white h-[190.13px] left-[29px] shadow-[0px_28.634px_45.815px_0px_rgba(0,0,0,0.09)] top-[1741px] w-[381.406px]" />
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-157.79px)] opacity-58 text-[16.035px] text-black top-[1876.72px] whitespace-nowrap">Readiness, sleep quality, activity</p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[62.21px] text-[#2b3330] text-[26.343px] top-[1840.65px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[62.21px] text-forest text-[26.343px] top-[1840.65px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           Oura Ring
         </p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[57.183px] left-[calc(50%-131.41px)] top-[1768.77px] w-[55.423px]" />
+        <div className="-translate-x-1/2 absolute bg-brand h-[57.183px] left-[calc(50%-131.41px)] top-[1768.77px] w-[55.423px]" />
         <CbiOuraO />
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-190.64px)] text-[#d08e8f] text-[17px] top-[1989px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</p>
-        <p className="[word-break:break-word] absolute capitalize font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.96] left-[calc(50%-191px)] text-[#482603] text-[54.057px] top-[2036px] w-[255px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-190.64px)] text-brand text-[17px] top-[1989px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</p>
+        <p className="[word-break:break-word] absolute capitalize font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.96] left-[calc(50%-191px)] text-warm-dark text-[54.057px] top-[2036px] w-[255px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           See your state.
           <br aria-hidden />
           Talk to it.
         </p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-191px)] text-[#72777e] text-[20px] top-[2225px] w-[381px]">Capture reads your biosignals and behavioral patterns every day building a picture of your focus, stress, and energy that gets clearer the longer you use it.</p>
-        <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[65px] left-[calc(50%-4.5px)] rounded-[32.358px] top-[2634px] w-[381px]" />
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-191px)] text-text-mid text-[20px] top-[2225px] w-[381px]">Capture reads your biosignals and behavioral patterns every day building a picture of your focus, stress, and energy that gets clearer the longer you use it.</p>
+        <div className="-translate-x-1/2 absolute bg-brand-dark h-[65px] left-[calc(50%-4.5px)] rounded-[32.358px] top-[2634px] w-[381px]" />
         <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-164px)] text-[21.218px] text-white top-[2653.44px] whitespace-nowrap">Learn More</p>
-        <div className="-translate-x-1/2 absolute bg-[#382324] left-[calc(50%+153.03px)] rounded-[22.029px] size-[44.059px] top-[2645.13px]" />
+        <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+153.03px)] rounded-[22.029px] size-[44.059px] top-[2645.13px]" />
         <div className="absolute flex items-center justify-center left-[357.33px] size-[30.546px] top-[2651.46px]">
           <div className="flex-none rotate-90">
             <TablerArrowUp />
           </div>
         </div>
         <Frame />
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-0.5px)] text-[#482603] text-[54.776px] text-center top-[4023px] w-[429px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-0.5px)] text-warm-dark text-[54.776px] text-center top-[4023px] w-[429px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Your biosignals and behavioral patterns, finally in one place.
         </p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-[#482603] text-[54.776px] text-center top-[8913px] w-[336px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[54.776px] text-center top-[8913px] w-[336px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Two sources. One complete picture.
         </p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-0.5px)] text-[#d08e8f] text-[20px] text-center top-[3978px] uppercase whitespace-nowrap">WHAT CAPTURE ACTUALLY IS</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-0.5px)] text-[#d08e8f] text-[20px] text-center top-[8868px] uppercase whitespace-nowrap">WHAT CAPTURE READS</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-0.5px)] not-italic text-[#4f545b] text-[17px] text-center top-[4259px] w-[367px]">Capture learns your patterns over time by combining behavioral signals from the Company Keyboard and biosignals from your wearable. Together, these insights create a personalized picture of your growth, stability, and stress, while Syni helps you understand what it all means.</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-0.5px)] not-italic text-[#4f545b] text-[17px] text-center top-[9149px] w-[367px]">Capture combines biosignals from your wearable with behavioral signals from how you interact with your phone without ever reading what you write.</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-0.5px)] text-brand text-[20px] text-center top-[3978px] uppercase whitespace-nowrap">WHAT CAPTURE ACTUALLY IS</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-0.5px)] text-brand text-[20px] text-center top-[8868px] uppercase whitespace-nowrap">WHAT CAPTURE READS</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-0.5px)] not-italic text-slate-text text-[17px] text-center top-[4259px] w-[367px]">Capture learns your patterns over time by combining behavioral signals from the Company Keyboard and biosignals from your wearable. Together, these insights create a personalized picture of your growth, stability, and stress, while Syni helps you understand what it all means.</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-0.5px)] not-italic text-slate-text text-[17px] text-center top-[9149px] w-[367px]">Capture combines biosignals from your wearable with behavioral signals from how you interact with your phone without ever reading what you write.</p>
         <div className="-translate-x-1/2 absolute bg-white h-[611px] left-[calc(50%+0.5px)] rounded-[30px] shadow-[0px_21.08px_65.126px_0px_rgba(0,0,0,0.12)] top-[4480px] w-[389px]" />
         <div className="-translate-x-1/2 absolute bg-white h-[611px] left-[calc(50%+0.5px)] rounded-[30px] shadow-[0px_21.08px_65.126px_0px_rgba(0,0,0,0.12)] top-[5123px] w-[389px]" />
         <div className="-translate-x-1/2 absolute bg-white h-[611px] left-[calc(50%+0.5px)] rounded-[30px] shadow-[0px_21.08px_65.126px_0px_rgba(0,0,0,0.12)] top-[5766px] w-[389px]" />
         <div className="-translate-x-1/2 absolute bg-white h-[611px] left-[calc(50%+0.5px)] rounded-[30px] shadow-[0px_21.08px_65.126px_0px_rgba(0,0,0,0.12)] top-[6411px] w-[389px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.49px)] text-[#482603] text-[31.743px] top-[4958.47px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.49px)] text-warm-dark text-[31.743px] top-[4958.47px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           Behavioral Keyboard
         </p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.55px)] text-[#482603] text-[31.743px] top-[5598.82px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.55px)] text-warm-dark text-[31.743px] top-[5598.82px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           Live biosignals
         </p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.55px)] text-[#482603] text-[31.743px] top-[6241.82px] w-[228.813px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.55px)] text-warm-dark text-[31.743px] top-[6241.82px] w-[228.813px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Pattern history
         </p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.54px)] text-[#482603] text-[31.743px] top-[6886.44px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.54px)] text-warm-dark text-[31.743px] top-[6886.44px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           Syni companion
         </p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-157.55px)] not-italic text-[#6b7278] text-[15.871px] top-[5010.08px] w-[319.049px]">Learns your patterns through how you type rhythm, pace, focus stability every single day.</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-157.55px)] not-italic text-[#6b7278] text-[15.871px] top-[5650.39px] w-[317.974px]">HRV, heart rate, recovery pulled from your wearable in real time to complete the picture.</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-157.52px)] not-italic text-[#6b7278] text-[15.871px] top-[6293.39px] w-[276.757px]">Your growth, stability, and state across days, months, and a year all in one view.</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-157.55px)] not-italic text-[#6b7278] text-[15.871px] top-[6938.05px] w-[312.603px]">Your personal AI who understands your state and is always here to talk things through.</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-157.55px)] not-italic text-text-secondary text-[15.871px] top-[5010.08px] w-[319.049px]">Learns your patterns through how you type rhythm, pace, focus stability every single day.</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-157.55px)] not-italic text-text-secondary text-[15.871px] top-[5650.39px] w-[317.974px]">HRV, heart rate, recovery pulled from your wearable in real time to complete the picture.</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-157.52px)] not-italic text-text-secondary text-[15.871px] top-[6293.39px] w-[276.757px]">Your growth, stability, and state across days, months, and a year all in one view.</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-157.55px)] not-italic text-text-secondary text-[15.871px] top-[6938.05px] w-[312.603px]">Your personal AI who understands your state and is always here to talk things through.</p>
         <div className="absolute inset-[23.91%_67.76%_75.68%_12.95%]" data-name="Rectangle">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
         </div>
@@ -2580,12 +2580,12 @@ export default function IPhone1617ProMax() {
         <div className="absolute h-[466.498px] left-[-56px] rounded-[15.337px] top-[12430px] w-[546.871px]" data-name="image 289">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15.337px] size-full" src={imgImage289} />
         </div>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[55.202px] left-[calc(50%-3.2px)] rounded-[27.48px] top-[12975px] w-[215.599px]" />
+        <div className="-translate-x-1/2 absolute bg-brand h-[55.202px] left-[calc(50%-3.2px)] rounded-[27.48px] top-[12975px] w-[215.599px]" />
         <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-49px)] text-[18.02px] text-white top-[12991.51px] whitespace-nowrap">Read More</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[76.29000091552734%] left-[calc(50%-2px)] not-italic text-[#482603] text-[100px] text-center top-[13258px] uppercase w-[310px]">SEE IT IN ACTION</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%-12px)] not-italic text-[#d08e8f] text-[35px] text-center top-[13583px] uppercase w-[338px]">how Capture works in real Capture.</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.69] left-[calc(50%-6.5px)] not-italic text-[#6b7278] text-[20px] text-center top-[13689px] w-[361px]">{`Behavioral signal processing happens on your device. No content is ever read. Your signals are not sold, shared with advertisers, or used to build a profile. The Company Keyboard reads rhythm, pace, and interaction patterns. It has no access to the content of what you write. That's a technical boundary, not just a policy.`}</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-2px)] not-italic text-[#4f545b] text-[18px] text-center top-[13480px] w-[370px]">{`Capture surfaces observable patterns over time. It doesn't label you, score your personality, or tell you whether you had a good or bad day.`}</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[76.29000091552734%] left-[calc(50%-2px)] not-italic text-warm-dark text-[100px] text-center top-[13258px] uppercase w-[310px]">SEE IT IN ACTION</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%-12px)] not-italic text-brand text-[35px] text-center top-[13583px] uppercase w-[338px]">how Capture works in real Capture.</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.69] left-[calc(50%-6.5px)] not-italic text-text-secondary text-[20px] text-center top-[13689px] w-[361px]">{`Behavioral signal processing happens on your device. No content is ever read. Your signals are not sold, shared with advertisers, or used to build a profile. The Company Keyboard reads rhythm, pace, and interaction patterns. It has no access to the content of what you write. That's a technical boundary, not just a policy.`}</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-2px)] not-italic text-slate-text text-[18px] text-center top-[13480px] w-[370px]">{`Capture surfaces observable patterns over time. It doesn't label you, score your personality, or tell you whether you had a good or bad day.`}</p>
         <div className="absolute flex h-[99.711px] items-center justify-center left-[220px] top-[93px] w-[133.484px]">
           <div className="-rotate-90 -scale-y-100 flex-none">
             <div className="h-[133.484px] relative w-[99.711px]" data-name="image 832">
@@ -2601,14 +2601,14 @@ export default function IPhone1617ProMax() {
           </div>
         </div>
         <div className="-translate-x-1/2 absolute backdrop-blur-[5.871px] bg-[rgba(255,255,255,0.4)] h-[622px] left-[calc(50%+1px)] rounded-[16.349px] shadow-[0px_2.973px_98.691px_0px_rgba(0,0,0,0.05)] top-[15756px] w-[406px]" />
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-169.07px)] text-[#18191b] text-[14.742px] top-[15789.94px] whitespace-nowrap">How is Capture different from Oura or WHOOP?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-[#18191b] text-[14.742px] top-[15916.41px] whitespace-nowrap">What is Capture by Company?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-[#18191b] text-[14.742px] top-[15983.56px] whitespace-nowrap">Does Capture read what I type?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-[#18191b] text-[14.742px] top-[16050.63px] whitespace-nowrap">Is there a desktop version?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-[#18191b] text-[14.742px] top-[16117.71px] whitespace-nowrap">QIs Capture a mental health app?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-[#18191b] text-[14.742px] top-[16250.37px] whitespace-nowrap">QIs Capture a mental health app?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-[#18191b] text-[14.742px] top-[16184.05px] whitespace-nowrap">Who is Capture built for?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.37] left-[calc(50%-169px)] opacity-85 text-[#4f545b] text-[11.147px] top-[15816px] w-[331px]">{`Oura and WHOOP focus on physical recovery biosignals like HRV, sleep, and strain. Capture adds the behavioral layer those devices can't see...`}</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-169.07px)] text-near-black text-[14.742px] top-[15789.94px] whitespace-nowrap">How is Capture different from Oura or WHOOP?</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[15916.41px] whitespace-nowrap">What is Capture by Company?</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[15983.56px] whitespace-nowrap">Does Capture read what I type?</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[16050.63px] whitespace-nowrap">Is there a desktop version?</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[16117.71px] whitespace-nowrap">QIs Capture a mental health app?</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[16250.37px] whitespace-nowrap">QIs Capture a mental health app?</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[16184.05px] whitespace-nowrap">Who is Capture built for?</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.37] left-[calc(50%-169px)] opacity-85 text-slate-text text-[11.147px] top-[15816px] w-[331px]">{`Oura and WHOOP focus on physical recovery biosignals like HRV, sleep, and strain. Capture adds the behavioral layer those devices can't see...`}</p>
         <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+5.43px)] top-[15893.89px] w-[349px]">
           <div className="absolute inset-[-0.63px_0_0_0]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 349 0.628275">
@@ -2707,21 +2707,21 @@ export default function IPhone1617ProMax() {
         <div className="-translate-x-1/2 absolute h-[478px] left-[calc(50%-2.59px)] rounded-[12.836px] top-[15255px] w-[402.816px]">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12.836px] size-full" src={imgRectangle34625684} />
         </div>
-        <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0] left-[calc(50%+3.35px)] opacity-94 text-[#482603] text-[47.206px] text-center top-[15286.01px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0] left-[calc(50%+3.35px)] opacity-94 text-warm-dark text-[47.206px] text-center top-[15286.01px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           <p className="leading-[0.91] mb-0">people</p>
           <p className="leading-[0.91]">usually ask</p>
         </div>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%-39.63px)] not-italic text-[#d08e8f] text-[8.293px] top-[15263.94px] uppercase whitespace-nowrap">COMMON QUESTIONS</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%-0.5px)] not-italic text-[#4f545b] text-[22px] text-center top-[19072px] w-[363px]">Capture reads your biosignals and behavioral patterns every day and gets smarter the longer you use it. Your signals have been telling a story. Capture helps you finally read it.</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%-0.5px)] text-[#482603] text-[40px] text-center top-[18902px] uppercase w-[367px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%-39.63px)] not-italic text-brand text-[8.293px] top-[15263.94px] uppercase whitespace-nowrap">COMMON QUESTIONS</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%-0.5px)] not-italic text-slate-text text-[22px] text-center top-[19072px] w-[363px]">Capture reads your biosignals and behavioral patterns every day and gets smarter the longer you use it. Your signals have been telling a story. Capture helps you finally read it.</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%-0.5px)] text-warm-dark text-[40px] text-center top-[18902px] uppercase w-[367px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Visualize your state. Understand it. Interact with it.
         </p>
         <Frame7 />
         <Items />
         <Items1 />
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-[#72777e] text-[17px] top-[2375px] w-[357px]">Smart keyboard that learns your behavioral patterns as you type</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-[#72777e] text-[17px] top-[2518px] w-[349px]">Syni, your personal AI companion, talks things through with you</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-[#72777e] text-[17px] top-[2449px] w-[333px]">Live biosignals from your wearable ,HRV, heart rate, recovery</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-text-mid text-[17px] top-[2375px] w-[357px]">Smart keyboard that learns your behavioral patterns as you type</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-text-mid text-[17px] top-[2518px] w-[349px]">Syni, your personal AI companion, talks things through with you</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-text-mid text-[17px] top-[2449px] w-[333px]">Live biosignals from your wearable ,HRV, heart rate, recovery</p>
         <div className="absolute h-[25.29px] left-[24px] top-[2386px] w-[32px]" data-name="image 446">
           <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgImage446} />
         </div>
@@ -2790,28 +2790,28 @@ export default function IPhone1617ProMax() {
         <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[127.16px] opacity-52 text-[#003329] text-[8.317px] top-[5823.21px] whitespace-pre">{`2026-02-14  12:45 pm`}</p>
         <div className="-translate-x-1/2 absolute bg-white h-[49px] left-[calc(50%-74.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[5853px] w-[141px]" />
         <div className="-translate-x-1/2 absolute bg-white h-[49px] left-[calc(50%+75.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[5853px] w-[141px]" />
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[268.67px] text-[#1a3b34] text-[8.19px] top-[5862.18px] whitespace-nowrap">Speed</p>
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-[#1a3b34] text-[8.19px] top-[5862.68px] whitespace-nowrap">Tap Count</p>
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[268.67px] not-italic text-[#1a3b34] text-[15.883px] top-[5877.57px] whitespace-nowrap">0.67/ms</p>
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-[#1a3b34] text-[15.883px] top-[5878.06px] whitespace-nowrap">567</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[268.67px] text-forest-deep text-[8.19px] top-[5862.18px] whitespace-nowrap">Speed</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-forest-deep text-[8.19px] top-[5862.68px] whitespace-nowrap">Tap Count</p>
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[268.67px] not-italic text-forest-deep text-[15.883px] top-[5877.57px] whitespace-nowrap">0.67/ms</p>
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-forest-deep text-[15.883px] top-[5878.06px] whitespace-nowrap">567</p>
         <div className="-translate-x-1/2 absolute bg-white h-[48px] left-[calc(50%-74.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[5910px] w-[141px]" />
         <div className="-translate-x-1/2 absolute bg-white h-[48px] left-[calc(50%+75.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[5910px] w-[141px]" />
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[268.67px] text-[#1a3b34] text-[8.19px] top-[5919.1px] whitespace-nowrap">Gap Count</p>
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-[#1a3b34] text-[8.19px] top-[5919.6px] whitespace-nowrap">Stability</p>
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[268.67px] not-italic text-[#1a3b34] text-[15.883px] top-[5933.16px] whitespace-nowrap">3</p>
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-[#1a3b34] text-[15.883px] top-[5933.65px] whitespace-nowrap">345</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[268.67px] text-forest-deep text-[8.19px] top-[5919.1px] whitespace-nowrap">Gap Count</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-forest-deep text-[8.19px] top-[5919.6px] whitespace-nowrap">Stability</p>
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[268.67px] not-italic text-forest-deep text-[15.883px] top-[5933.16px] whitespace-nowrap">3</p>
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-forest-deep text-[15.883px] top-[5933.65px] whitespace-nowrap">345</p>
         <div className="-translate-x-1/2 absolute bg-white h-[49px] left-[calc(50%-74.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[5967px] w-[141px]" />
         <div className="-translate-x-1/2 absolute bg-white h-[49px] left-[calc(50%+75.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[5967px] w-[141px]" />
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[268.67px] text-[#1a3b34] text-[8.19px] top-[5976.84px] whitespace-nowrap">Gap Ratio</p>
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-[#1a3b34] text-[8.19px] top-[5977.33px] whitespace-nowrap">Activity Ratio</p>
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[268.67px] not-italic text-[#1a3b34] text-[15.883px] top-[5991.66px] whitespace-nowrap">2ms</p>
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-[#1a3b34] text-[15.883px] top-[5992.15px] whitespace-nowrap">78%</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[268.67px] text-forest-deep text-[8.19px] top-[5976.84px] whitespace-nowrap">Gap Ratio</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-forest-deep text-[8.19px] top-[5977.33px] whitespace-nowrap">Activity Ratio</p>
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[268.67px] not-italic text-forest-deep text-[15.883px] top-[5991.66px] whitespace-nowrap">2ms</p>
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-forest-deep text-[15.883px] top-[5992.15px] whitespace-nowrap">78%</p>
         <div className="-translate-x-1/2 absolute bg-white h-[49px] left-[calc(50%-74.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[6025px] w-[141px]" />
         <div className="-translate-x-1/2 absolute bg-white h-[104px] left-[calc(50%+75.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[6025px] w-[141px]" />
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[268.67px] text-[#1a3b34] text-[8.19px] top-[6032.56px] whitespace-nowrap">Intensity</p>
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-[#1a3b34] text-[8.19px] top-[6033.38px] whitespace-nowrap">Tap Interval</p>
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[268.67px] not-italic text-[#1a3b34] text-[15.883px] top-[6047px] whitespace-nowrap">87%</p>
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-[#1a3b34] text-[15.883px] top-[6047.49px] whitespace-nowrap">5ms</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[268.67px] text-forest-deep text-[8.19px] top-[6032.56px] whitespace-nowrap">Intensity</p>
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-forest-deep text-[8.19px] top-[6033.38px] whitespace-nowrap">Tap Interval</p>
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[268.67px] not-italic text-forest-deep text-[15.883px] top-[6047px] whitespace-nowrap">87%</p>
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-forest-deep text-[15.883px] top-[6047.49px] whitespace-nowrap">5ms</p>
         <div className="absolute h-[35.64px] left-[245.56px] top-[6068.1px] w-[68.911px]">
           <div className="absolute inset-[-1.12%_-0.23%_-0.93%_-0.4%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 69.3432 36.3732">
@@ -2819,15 +2819,15 @@ export default function IPhone1617ProMax() {
             </svg>
           </div>
         </div>
-        <div className="absolute bg-[#d08e8f] border-[0.309px] border-solid border-white h-[40.881px] left-[315.6px] rounded-[0.944px] top-[6073.6px] w-[7.702px]" />
+        <div className="absolute bg-brand border-[0.309px] border-solid border-white h-[40.881px] left-[315.6px] rounded-[0.944px] top-[6073.6px] w-[7.702px]" />
         <div className="-translate-x-1/2 absolute bg-white h-[48px] left-[calc(50%-74.5px)] rounded-[8.686px] shadow-[0px_5.46px_5.584px_0px_rgba(0,0,0,0.1)] top-[6081px] w-[141px]" />
-        <div className="absolute bg-[#d08e8f] border-[0.309px] border-solid border-white h-[31.494px] left-[301.91px] rounded-[0.944px] top-[6083.08px] w-[7.785px]" />
-        <div className="absolute bg-[#d08e8f] border-[0.309px] border-solid border-white h-[25.124px] left-[288.2px] rounded-[0.944px] top-[6089.45px] w-[7.785px]" />
-        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-[#1a3b34] text-[8.19px] top-[6089.49px] whitespace-nowrap">Burstiness</p>
-        <div className="absolute bg-[#d08e8f] border-[0.309px] border-solid border-white h-[17.929px] left-[274.49px] rounded-[0.944px] top-[6096.64px] w-[7.785px]" />
-        <div className="absolute bg-[#d08e8f] border-[0.309px] border-solid border-white h-[12.739px] left-[260.78px] rounded-[0.944px] top-[6101.83px] w-[7.785px]" />
-        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-[#1a3b34] text-[15.883px] top-[6103.08px] whitespace-nowrap">57%</p>
-        <div className="absolute bg-[#d08e8f] border-[0.309px] border-solid border-white h-[6.488px] left-[247.07px] rounded-[0.944px] top-[6108.08px] w-[7.785px]" />
+        <div className="absolute bg-brand border-[0.309px] border-solid border-white h-[31.494px] left-[301.91px] rounded-[0.944px] top-[6083.08px] w-[7.785px]" />
+        <div className="absolute bg-brand border-[0.309px] border-solid border-white h-[25.124px] left-[288.2px] rounded-[0.944px] top-[6089.45px] w-[7.785px]" />
+        <p className="[word-break:break-word] absolute font-['Figtree:Medium',sans-serif] font-medium leading-[1.33] left-[118.67px] text-forest-deep text-[8.19px] top-[6089.49px] whitespace-nowrap">Burstiness</p>
+        <div className="absolute bg-brand border-[0.309px] border-solid border-white h-[17.929px] left-[274.49px] rounded-[0.944px] top-[6096.64px] w-[7.785px]" />
+        <div className="absolute bg-brand border-[0.309px] border-solid border-white h-[12.739px] left-[260.78px] rounded-[0.944px] top-[6101.83px] w-[7.785px]" />
+        <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[1.33] left-[118.67px] not-italic text-forest-deep text-[15.883px] top-[6103.08px] whitespace-nowrap">57%</p>
+        <div className="absolute bg-brand border-[0.309px] border-solid border-white h-[6.488px] left-[247.07px] rounded-[0.944px] top-[6108.08px] w-[7.785px]" />
         <IconParkOutlineClickTap />
         <MaterialSymbolsVideoStableOutlineSharp />
         <LucideRatio />
@@ -2839,21 +2839,21 @@ export default function IPhone1617ProMax() {
         <PhFire />
         <div className="-translate-x-1/2 absolute bg-[#eaeaea] h-[362px] left-1/2 rounded-[20px] top-[6431px] w-[346px]" />
         <Frame5 />
-        <div className="-translate-x-1/2 absolute bg-[#382324] h-[1719px] left-1/2 top-[7115px] w-[438px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[690px] left-[calc(50%-0.5px)] rounded-[20px] top-[7199px] w-[413px]" />
-        <div className="-translate-x-1/2 absolute bg-[#382324] h-[64px] left-[calc(50%-0.5px)] rounded-[31.737px] top-[7785px] w-[353px]" />
+        <div className="-translate-x-1/2 absolute bg-dark-bg h-[1719px] left-1/2 top-[7115px] w-[438px]" />
+        <div className="-translate-x-1/2 absolute bg-brand h-[690px] left-[calc(50%-0.5px)] rounded-[20px] top-[7199px] w-[413px]" />
+        <div className="-translate-x-1/2 absolute bg-dark-bg h-[64px] left-[calc(50%-0.5px)] rounded-[31.737px] top-[7785px] w-[353px]" />
         <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-150.68px)] text-[20.811px] text-white top-[7804.07px] whitespace-nowrap">Learn More</p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%+142.61px)] rounded-[21.607px] size-[43.214px] top-[7795.92px]" />
+        <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%+142.61px)] rounded-[21.607px] size-[43.214px] top-[7795.92px]" />
         <div className="absolute flex items-center justify-center left-[346.21px] size-[29.96px] top-[7802.12px]">
           <div className="flex-none rotate-90">
             <TablerArrowUp1 />
           </div>
         </div>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.86] left-[calc(50%-180px)] text-[#382324] text-[82.664px] top-[7305px] tracking-[-3.3066px] w-[370.623px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.86] left-[calc(50%-180px)] text-dark-bg text-[82.664px] top-[7305px] tracking-[-3.3066px] w-[370.623px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Simple to start. Gets smarter as you go.
         </p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[1.37] left-[calc(50%-174px)] not-italic text-[#382324] text-[24px] top-[7623px] w-[330px] whitespace-pre-wrap">{`No daily check-ins. No surveys. Capture works in the background  and builds a clearer picture of you the longer it runs.`}</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%-174px)] not-italic text-[#382324] text-[22px] top-[7257px] whitespace-nowrap">THE SYSTEM</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[1.37] left-[calc(50%-174px)] not-italic text-dark-bg text-[24px] top-[7623px] w-[330px] whitespace-pre-wrap">{`No daily check-ins. No surveys. Capture works in the background  and builds a clearer picture of you the longer it runs.`}</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%-174px)] not-italic text-dark-bg text-[22px] top-[7257px] whitespace-nowrap">THE SYSTEM</p>
         <div className="-translate-x-1/2 absolute h-[505px] left-[calc(50%-0.5px)] rounded-[26px] top-[7958px] w-[413px]">
           <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none rounded-[26px] size-full" src={imgRectangle34625682} />
         </div>
@@ -2868,52 +2868,52 @@ export default function IPhone1617ProMax() {
         <div className="-translate-x-1/2 absolute backdrop-blur-[21.5px] bg-white h-[285px] left-[calc(50%+415px)] rounded-[15px] top-[8485px] w-[384px]" />
         <div className="-translate-x-1/2 absolute backdrop-blur-[21.5px] bg-white h-[285px] left-[calc(50%+828px)] rounded-[15px] top-[8485px] w-[384px]" />
         <div className="-translate-x-1/2 absolute backdrop-blur-[21.5px] bg-white h-[285px] left-[calc(50%+1241px)] rounded-[15px] top-[8485px] w-[384px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-165px)] text-[#382324] text-[70px] top-[8518px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-165px)] text-dark-bg text-[70px] top-[8518px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           01
         </p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-165px)] text-[#382324] text-[28px] top-[8615px] tracking-[-1.12px] whitespace-nowrap">Connect your signals</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+249px)] text-[#382324] text-[28px] top-[8615px] tracking-[-1.12px] whitespace-nowrap">Capture learns your patterns</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+662px)] text-[#382324] text-[28px] top-[8615px] tracking-[-1.12px] whitespace-nowrap">History and insights</p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+1075px)] text-[#382324] text-[70px] top-[8518px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-165px)] text-dark-bg text-[28px] top-[8615px] tracking-[-1.12px] whitespace-nowrap">Connect your signals</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+249px)] text-dark-bg text-[28px] top-[8615px] tracking-[-1.12px] whitespace-nowrap">Capture learns your patterns</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+662px)] text-dark-bg text-[28px] top-[8615px] tracking-[-1.12px] whitespace-nowrap">History and insights</p>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+1075px)] text-dark-bg text-[70px] top-[8518px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           04
         </p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+1075px)] text-[#382324] text-[28px] top-[8615px] tracking-[-1.12px] whitespace-nowrap">Talk to Syni</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%-165px)] opacity-66 text-[#382324] text-[17px] top-[8667px] w-[327px]">Enable the Company Keyboard and pair your wearable. Capture starts reading your behavioral and biosignals right away.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%+249px)] opacity-66 text-[#382324] text-[17px] top-[8667px] w-[325px]">Day by day, Capture builds a picture of your behavioral patterns and body signals your rhythms, your stress, your recovery.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%+662px)] opacity-66 text-[#382324] text-[17px] top-[8667px] w-[302px]">Visualize your growth, stability, and state over time, with insights tailored to the moment.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%+1075px)] opacity-66 text-[#382324] text-[17px] top-[8667px] w-[314px]">Ask about anything that shifted. Syni knows your patterns and is here to talk things through anytime you need it.</p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+249px)] text-[#382324] text-[70px] top-[8518px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+1075px)] text-dark-bg text-[28px] top-[8615px] tracking-[-1.12px] whitespace-nowrap">Talk to Syni</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%-165px)] opacity-66 text-dark-bg text-[17px] top-[8667px] w-[327px]">Enable the Company Keyboard and pair your wearable. Capture starts reading your behavioral and biosignals right away.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%+249px)] opacity-66 text-dark-bg text-[17px] top-[8667px] w-[325px]">Day by day, Capture builds a picture of your behavioral patterns and body signals your rhythms, your stress, your recovery.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%+662px)] opacity-66 text-dark-bg text-[17px] top-[8667px] w-[302px]">Visualize your growth, stability, and state over time, with insights tailored to the moment.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%+1075px)] opacity-66 text-dark-bg text-[17px] top-[8667px] w-[314px]">Ask about anything that shifted. Syni knows your patterns and is here to talk things through anytime you need it.</p>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+249px)] text-dark-bg text-[70px] top-[8518px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           02
         </p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+662px)] text-[#382324] text-[70px] top-[8518px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+662px)] text-dark-bg text-[70px] top-[8518px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           03
         </p>
         <div className="absolute bg-white h-[662px] left-[20px] rounded-[21px] shadow-[34.736px_44.288px_217.098px_0px_rgba(0,0,0,0.13)] top-[9269px] w-[401px]" />
         <div className="absolute bg-white h-[686px] left-[20px] rounded-[21px] shadow-[34.736px_44.288px_217.098px_0px_rgba(0,0,0,0.13)] top-[9965px] w-[401px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[52.41px] text-[#2b3330] text-[33.703px] top-[9394.9px] w-[313.755px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[52.41px] text-forest text-[33.703px] top-[9394.9px] w-[313.755px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Behavioral signals Company Keyboard
         </p>
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[52px] text-[#2b3330] text-[33.703px] top-[10091px] w-[173px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[52px] text-forest text-[33.703px] top-[10091px] w-[173px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Biosignals Wearable
         </p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[73.312px] left-[calc(50%-133.47px)] top-[9297px] w-[71.056px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[73.312px] left-[calc(50%-133.47px)] top-[9993px] w-[71.056px]" />
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.65px)] text-[#72777e] text-[14.785px] top-[9519.75px] w-[279.065px]">How steady your typing rhythm was a window into whether your attention held or scattered.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.65px)] text-[#72777e] text-[14.785px] top-[10219px] w-[279.065px]">Heart rate variability shows how well your body actually recovered not just how long you slept.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-[#72777e] text-[14.785px] top-[9626.94px] w-[292.002px]">Speed, tap intervals, and pattern consistency that reflect your cognitive state in real time.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-[#72777e] text-[14.785px] top-[10334.82px] w-[292.002px]">Resting rate, active rate, and the load your body carried through the day.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-[#72777e] text-[14.785px] top-[9733.2px] w-[281.837px]">Whether your activity is steady and sustained or intense and fragmented.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-[#72777e] text-[14.785px] top-[10432.46px] w-[281.837px]">How deeply you rested, and how that connects to your focus and regulation the next day.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-[#72777e] text-[14.785px] top-[9840.4px] w-[283.686px]">How consistent your patterns are across days and where shifts in state show up.</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-[#72777e] text-[14.785px] top-[10539.65px] w-[283.686px]">{`Whether your body is in recovery mode or carrying more than it's recovering from.`}</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-[#2b3330] text-[19.259px] top-[9491.1px] whitespace-nowrap">Focus stability</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-[#2b3330] text-[19.259px] top-[10187.1px] whitespace-nowrap">HRV and recovery</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-[#2b3330] text-[19.259px] top-[9597.37px] whitespace-nowrap">Typing rhythm and pace</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-[#2b3330] text-[19.259px] top-[10302px] whitespace-nowrap">Heart rate and daily strain</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-[#2b3330] text-[19.259px] top-[9704.56px] whitespace-nowrap">Activity ratio and burstiness</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-[#2b3330] text-[19.259px] top-[10400.56px] whitespace-nowrap">Sleep and recovery trends</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-[#2b3330] text-[19.259px] top-[9810.83px] whitespace-nowrap">Behavioral coherence over time</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-[#2b3330] text-[19.259px] top-[10506.83px] whitespace-nowrap">Restorative vs. load balance</p>
+        <div className="-translate-x-1/2 absolute bg-brand h-[73.312px] left-[calc(50%-133.47px)] top-[9297px] w-[71.056px]" />
+        <div className="-translate-x-1/2 absolute bg-brand h-[73.312px] left-[calc(50%-133.47px)] top-[9993px] w-[71.056px]" />
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.65px)] text-text-mid text-[14.785px] top-[9519.75px] w-[279.065px]">How steady your typing rhythm was a window into whether your attention held or scattered.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.65px)] text-text-mid text-[14.785px] top-[10219px] w-[279.065px]">Heart rate variability shows how well your body actually recovered not just how long you slept.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-text-mid text-[14.785px] top-[9626.94px] w-[292.002px]">Speed, tap intervals, and pattern consistency that reflect your cognitive state in real time.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-text-mid text-[14.785px] top-[10334.82px] w-[292.002px]">Resting rate, active rate, and the load your body carried through the day.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-text-mid text-[14.785px] top-[9733.2px] w-[281.837px]">Whether your activity is steady and sustained or intense and fragmented.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-text-mid text-[14.785px] top-[10432.46px] w-[281.837px]">How deeply you rested, and how that connects to your focus and regulation the next day.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-text-mid text-[14.785px] top-[9840.4px] w-[283.686px]">How consistent your patterns are across days and where shifts in state show up.</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.35] left-[calc(50%-124.87px)] text-text-mid text-[14.785px] top-[10539.65px] w-[283.686px]">{`Whether your body is in recovery mode or carrying more than it's recovering from.`}</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-forest text-[19.259px] top-[9491.1px] whitespace-nowrap">Focus stability</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-forest text-[19.259px] top-[10187.1px] whitespace-nowrap">HRV and recovery</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-forest text-[19.259px] top-[9597.37px] whitespace-nowrap">Typing rhythm and pace</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-forest text-[19.259px] top-[10302px] whitespace-nowrap">Heart rate and daily strain</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-forest text-[19.259px] top-[9704.56px] whitespace-nowrap">Activity ratio and burstiness</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-forest text-[19.259px] top-[10400.56px] whitespace-nowrap">Sleep and recovery trends</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-forest text-[19.259px] top-[9810.83px] whitespace-nowrap">Behavioral coherence over time</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-124.87px)] text-forest text-[19.259px] top-[10506.83px] whitespace-nowrap">Restorative vs. load balance</p>
         <div className="absolute h-[25.84px] left-[50px] top-[9497.61px] w-[32.695px]" data-name="image 821">
           <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgImage446} />
         </div>
@@ -2947,46 +2947,46 @@ export default function IPhone1617ProMax() {
             </svg>
           </div>
         </div>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[72.1550064086914%] left-[calc(50%+2px)] text-[#482603] text-[48.425px] text-center top-[11416px] w-[368px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[72.1550064086914%] left-[calc(50%+2px)] text-warm-dark text-[48.425px] text-center top-[11416px] w-[368px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Wearables know how you recovered. Capture knows what those signals mean for you.
         </p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-0.5px)] text-[#d08e8f] text-[13.35px] text-center top-[11378px] uppercase whitespace-nowrap">HOW CAPTURE FITS IN</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-1/2 not-italic text-[#4f545b] text-[12.976px] text-center top-[11705px] w-[348px]">Tools like Oura and WHOOP are excellent at physical recovery data. Capture takes the next step adding the behavioral layer and giving you a companion who helps you make sense of both.</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-0.5px)] text-brand text-[13.35px] text-center top-[11378px] uppercase whitespace-nowrap">HOW CAPTURE FITS IN</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-1/2 not-italic text-slate-text text-[12.976px] text-center top-[11705px] w-[348px]">Tools like Oura and WHOOP are excellent at physical recovery data. Capture takes the next step adding the behavioral layer and giving you a companion who helps you make sense of both.</p>
         <div className="-translate-x-1/2 absolute backdrop-blur-[44.265px] bg-[rgba(255,255,255,0.6)] h-[558.578px] left-[calc(50%+365.51px)] rounded-[7.729px] shadow-[-30px_-4px_47.075px_0px_rgba(0,0,0,0.1)] top-[11807px] w-[1117.157px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[71.667px] left-[calc(50%+165.26px)] opacity-22 rounded-[7.729px] top-[11817.54px] w-[689.967px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[11909.58px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[11981.25px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12045.19px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12109.12px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12237px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12173.06px]" />
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12300.94px]" />
+        <div className="-translate-x-1/2 absolute bg-brand h-[71.667px] left-[calc(50%+165.26px)] opacity-22 rounded-[7.729px] top-[11817.54px] w-[689.967px]" />
+        <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[11909.58px]" />
+        <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[11981.25px]" />
+        <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12045.19px]" />
+        <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12109.12px]" />
+        <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12237px]" />
+        <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12173.06px]" />
+        <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-135.81px)] opacity-22 rounded-[6.324px] size-[38.644px] top-[12300.94px]" />
         <div className="-translate-x-1/2 absolute bg-[#cccbc2] h-[450.376px] left-[calc(50%+717.52px)] opacity-22 rounded-[7.729px] top-[11901.15px] w-[386.438px]" />
         <div className="-translate-x-1/2 absolute bg-[#cccbc2] h-[71.667px] left-[calc(50%+717.52px)] opacity-22 rounded-[7.729px] top-[11817.54px] w-[386.438px]" />
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-83.12px)] text-[#3c4138] text-[16.863px] text-center top-[11842.13px] uppercase whitespace-nowrap">WHAT IT COVERS</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-[#3c4138] text-[16.16px] top-[11918.01px] whitespace-nowrap">Primary signals</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-[#3c4138] text-[16.16px] top-[11989.68px] whitespace-nowrap">Behavioral layer</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-[#3c4138] text-[16.16px] top-[12117.56px] whitespace-nowrap">AI companion</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-[#3c4138] text-[16.16px] top-[12245.43px] whitespace-nowrap">Personalized notifications</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-[#3c4138] text-[16.16px] top-[12053.62px] whitespace-nowrap">Pattern history</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-[#3c4138] text-[16.16px] top-[12181.49px] whitespace-nowrap">Wearable integration</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-[#3c4138] text-[16.16px] top-[12309.37px] whitespace-nowrap">Desktop version</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-[#3c4138] text-[16.16px] top-[11918.01px] whitespace-nowrap">Biosignals only</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-[#3c4138] text-[16.16px] top-[11989.68px] whitespace-nowrap">Not included</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-[#3c4138] text-[16.16px] top-[12117.56px] whitespace-nowrap">Not included</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-[#3c4138] text-[16.16px] top-[12245.43px] whitespace-nowrap">General alerts</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-[#3c4138] text-[16.16px] top-[12053.62px] whitespace-nowrap">Physical trends</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-[#3c4138] text-[16.16px] top-[12181.49px] whitespace-nowrap">Native — core feature</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-[#3c4138] text-[16.16px] top-[12309.37px] whitespace-nowrap">No</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-[#3c4138] text-[16.16px] top-[11918.01px] whitespace-nowrap">Biosignals + behavioral patterns</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-[#3c4138] text-[16.16px] top-[11989.68px] whitespace-nowrap">Yes , Company Keyboard</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-[#3c4138] text-[16.16px] top-[12117.56px] whitespace-nowrap">Yes , Syni, built in</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-[#3c4138] text-[16.16px] top-[12245.43px] whitespace-nowrap">State-aware, based on your learned patterns</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-[#3c4138] text-[16.16px] top-[12053.62px] whitespace-nowrap">Behavioral + physical across time</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-[#3c4138] text-[16.16px] top-[12181.49px] whitespace-nowrap">Yes Whoop, Garmin, Apple Watch, Oura</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-[#3c4138] text-[16.16px] top-[12309.37px] whitespace-nowrap">Yes — macOS and Windows</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%+319.51px)] text-[#3c4138] text-[16.863px] text-center top-[11842.13px] uppercase whitespace-nowrap">WEARABLES (OURA, WHOOP)</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%+617.38px)] text-[#3c4138] text-[16.863px] text-center top-[11842.13px] uppercase whitespace-nowrap">CAPTURE BY COMPANY</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-83.12px)] text-dark-bg-alt text-[16.863px] text-center top-[11842.13px] uppercase whitespace-nowrap">WHAT IT COVERS</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-dark-bg-alt text-[16.16px] top-[11918.01px] whitespace-nowrap">Primary signals</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-dark-bg-alt text-[16.16px] top-[11989.68px] whitespace-nowrap">Behavioral layer</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-dark-bg-alt text-[16.16px] top-[12117.56px] whitespace-nowrap">AI companion</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-dark-bg-alt text-[16.16px] top-[12245.43px] whitespace-nowrap">Personalized notifications</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-dark-bg-alt text-[16.16px] top-[12053.62px] whitespace-nowrap">Pattern history</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-dark-bg-alt text-[16.16px] top-[12181.49px] whitespace-nowrap">Wearable integration</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-102.43px)] text-dark-bg-alt text-[16.16px] top-[12309.37px] whitespace-nowrap">Desktop version</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-dark-bg-alt text-[16.16px] top-[11918.01px] whitespace-nowrap">Biosignals only</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-dark-bg-alt text-[16.16px] top-[11989.68px] whitespace-nowrap">Not included</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-dark-bg-alt text-[16.16px] top-[12117.56px] whitespace-nowrap">Not included</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-dark-bg-alt text-[16.16px] top-[12245.43px] whitespace-nowrap">General alerts</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-dark-bg-alt text-[16.16px] top-[12053.62px] whitespace-nowrap">Physical trends</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-dark-bg-alt text-[16.16px] top-[12181.49px] whitespace-nowrap">Native — core feature</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+206.01px)] text-dark-bg-alt text-[16.16px] top-[12309.37px] whitespace-nowrap">No</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-dark-bg-alt text-[16.16px] top-[11918.01px] whitespace-nowrap">Biosignals + behavioral patterns</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-dark-bg-alt text-[16.16px] top-[11989.68px] whitespace-nowrap">Yes , Company Keyboard</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-dark-bg-alt text-[16.16px] top-[12117.56px] whitespace-nowrap">Yes , Syni, built in</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-dark-bg-alt text-[16.16px] top-[12245.43px] whitespace-nowrap">State-aware, based on your learned patterns</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-dark-bg-alt text-[16.16px] top-[12053.62px] whitespace-nowrap">Behavioral + physical across time</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-dark-bg-alt text-[16.16px] top-[12181.49px] whitespace-nowrap">Yes Whoop, Garmin, Apple Watch, Oura</p>
+        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+545.38px)] text-dark-bg-alt text-[16.16px] top-[12309.37px] whitespace-nowrap">Yes — macOS and Windows</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%+319.51px)] text-dark-bg-alt text-[16.863px] text-center top-[11842.13px] uppercase whitespace-nowrap">WEARABLES (OURA, WHOOP)</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%+617.38px)] text-dark-bg-alt text-[16.863px] text-center top-[11842.13px] uppercase whitespace-nowrap">CAPTURE BY COMPANY</p>
         <div className="absolute h-0 left-[37.17px] top-[11968.6px] w-[1092.565px]">
           <div className="absolute inset-[-0.7px_0_0_0]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1092.57 0.702614">
@@ -3084,8 +3084,8 @@ export default function IPhone1617ProMax() {
         <div className="absolute h-[323.491px] left-[682.49px] top-[13915.06px] w-[256.352px]" data-name="telegram-cloud-document-4-5814283686010428407 6">
           <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgTelegramCloudDocument458142836860104284076} />
         </div>
-        <div className="-translate-x-1/2 absolute bg-[#382324] h-[687.287px] left-[calc(50%+416.66px)] rounded-[16.059px] top-[14284.77px] w-[1436.29px]" />
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%+11.87px)] text-[#d08e8f] text-[16.208px] text-center top-[14076px] whitespace-nowrap">BUILT FOR YOU</p>
+        <div className="-translate-x-1/2 absolute bg-dark-bg h-[687.287px] left-[calc(50%+416.66px)] rounded-[16.059px] top-[14284.77px] w-[1436.29px]" />
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%+11.87px)] text-brand text-[16.208px] text-center top-[14076px] whitespace-nowrap">BUILT FOR YOU</p>
         <div className="absolute h-[458.191px] left-[-464px] top-[14454.02px] w-[1838.376px]">
           <div className="absolute inset-[-32.9%_-7.97%_-27.32%_-8.14%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 2134.55 734.102">
@@ -3108,7 +3108,7 @@ export default function IPhone1617ProMax() {
         <div className="-translate-x-1/2 absolute backdrop-blur-[72.796px] bg-[rgba(255,255,255,0.11)] h-[265.564px] left-[calc(50%+417.13px)] rounded-[13.122px] top-[14640.1px] w-[395.541px]" />
         <div className="-translate-x-1/2 absolute backdrop-blur-[72.796px] bg-[rgba(255,255,255,0.11)] h-[265.564px] left-[calc(50%+833.24px)] rounded-[13.122px] top-[14353.03px] w-[395.541px]" />
         <div className="-translate-x-1/2 absolute backdrop-blur-[72.796px] bg-[rgba(255,255,255,0.11)] h-[265.564px] left-[calc(50%+833.24px)] rounded-[13.122px] top-[14640.1px] w-[395.541px]" />
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.13] left-[calc(50%-0.5px)] text-[#482603] text-[40.52px] text-center top-[14100.46px] w-[399px]" style={{ fontVariationSettings: '"wdth" 100' }}>{`Some people who've been waiting for this.`}</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.13] left-[calc(50%-0.5px)] text-warm-dark text-[40.52px] text-center top-[14100.46px] w-[399px]" style={{ fontVariationSettings: '"wdth" 100' }}>{`Some people who've been waiting for this.`}</p>
         <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.28] left-[calc(50%-161.22px)] not-italic opacity-74 text-[15.896px] text-white top-[14526.96px] w-[320.734px]">Capture shows when you’re at your best and when it’s time to recharge so you can make clearer decisions.</p>
         <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.28] left-[calc(50%-161.22px)] not-italic opacity-74 text-[15.896px] text-white top-[14814.03px] w-[320.734px]">{`When self-perception isn't always reliable, having real behavioral signal data to look at changes things.`}</p>
         <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.28] left-[calc(50%+254.89px)] not-italic opacity-74 text-[15.896px] text-white top-[14526.96px] w-[306.708px]">Capture helps you find your real focus windows and work with your patterns instead of against them.</p>
@@ -3121,12 +3121,12 @@ export default function IPhone1617ProMax() {
         <CuidaUserOutline3 />
         <CuidaUserOutline4 />
         <CuidaUserOutline5 />
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%-161.22px)] not-italic text-[#d08e8f] text-[12.156px] top-[14437.19px] tracking-[0.4862px] whitespace-nowrap">{`FOUNDERS & EXECUTIVES`}</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%-161.22px)] not-italic text-[#d08e8f] text-[12.156px] top-[14724.26px] tracking-[0.4862px] whitespace-nowrap">{`ADHD & NEURODIVERGENT`}</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%+254.89px)] not-italic text-[#d08e8f] text-[12.156px] top-[14437.19px] tracking-[0.4862px] whitespace-nowrap">KNOWLEDGE WORKERS</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%+254.89px)] not-italic text-[#d08e8f] text-[12.156px] top-[14724.26px] tracking-[0.4862px] whitespace-nowrap">{`WELLNESS & MINDFULNESS`}</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%+671px)] not-italic text-[#d08e8f] text-[12.156px] top-[14437.19px] tracking-[0.4862px] whitespace-nowrap">{`CREATIVES & RESEARCHERS`}</p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%+671px)] not-italic text-[#d08e8f] text-[12.156px] top-[14724.26px] tracking-[0.4862px] whitespace-nowrap">HIGH-STAKES PROFESSIONALS</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%-161.22px)] not-italic text-brand text-[12.156px] top-[14437.19px] tracking-[0.4862px] whitespace-nowrap">{`FOUNDERS & EXECUTIVES`}</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%-161.22px)] not-italic text-brand text-[12.156px] top-[14724.26px] tracking-[0.4862px] whitespace-nowrap">{`ADHD & NEURODIVERGENT`}</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%+254.89px)] not-italic text-brand text-[12.156px] top-[14437.19px] tracking-[0.4862px] whitespace-nowrap">KNOWLEDGE WORKERS</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%+254.89px)] not-italic text-brand text-[12.156px] top-[14724.26px] tracking-[0.4862px] whitespace-nowrap">{`WELLNESS & MINDFULNESS`}</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%+671px)] not-italic text-brand text-[12.156px] top-[14437.19px] tracking-[0.4862px] whitespace-nowrap">{`CREATIVES & RESEARCHERS`}</p>
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.37] left-[calc(50%+671px)] not-italic text-brand text-[12.156px] top-[14724.26px] tracking-[0.4862px] whitespace-nowrap">HIGH-STAKES PROFESSIONALS</p>
         <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.22] left-[calc(50%-161.22px)] not-italic text-[22.013px] text-white top-[14461.5px] w-[217.875px]">Lead from where you actually are</p>
         <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.22] left-[calc(50%-161.22px)] not-italic text-[22.013px] text-white top-[14748.57px] w-[217.875px]">See what your patterns actually are</p>
         <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.22] left-[calc(50%+254.89px)] not-italic text-[22.013px] text-white top-[14461.5px] w-[247.797px]">Know when to push and when to step back</p>
@@ -3143,53 +3143,53 @@ export default function IPhone1617ProMax() {
         <div className="absolute left-[-607.16px] size-[113.96px] top-[14174.01px]" data-name="4e613751157188230432b7db82abd067-Photoroom 5">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img4E613751157188230432B7Db82Abd067Photoroom5} />
         </div>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[2404px] left-[calc(50%+0.5px)] opacity-19 top-[16414px] w-[439px]" />
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-[#482603] text-[44.603px] text-center top-[16533.52px] w-[380px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <div className="-translate-x-1/2 absolute bg-brand h-[2404px] left-[calc(50%+0.5px)] opacity-19 top-[16414px] w-[439px]" />
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[44.603px] text-center top-[16533.52px] w-[380px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Your signals. Your patterns. Your understanding.
         </p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%+0.5px)] text-[#d08e8f] text-[18.966px] text-center top-[16491px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</p>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-0.5px)] not-italic text-[#4f545b] text-[20px] text-center top-[16681px] w-[321px]">A few things worth knowing about how Capture reads your signals and what it does with them.</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%+0.5px)] text-brand text-[18.966px] text-center top-[16491px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-0.5px)] not-italic text-slate-text text-[20px] text-center top-[16681px] w-[321px]">A few things worth knowing about how Capture reads your signals and what it does with them.</p>
         <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.067px] border-solid h-[301px] left-[calc(50%+0.5px)] opacity-85 rounded-[9.043px] top-[16805px] w-[385px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-160.98px)] text-[#482603] text-[30.538px] top-[16926.18px] w-[183.577px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-160.98px)] text-warm-dark text-[30.538px] top-[16926.18px] w-[183.577px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Patterns, not verdicts
         </p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-161.25px)] not-italic text-[#6b7278] text-[16.278px] top-[17003.05px] w-[352.685px]">{`Capture surfaces observable patterns over time. It doesn't label you, score your personality, or tell you whether you had a good or bad day.`}</p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[54.974px] left-[calc(50%-131.81px)] rounded-[5.752px] top-[16842.98px] w-[58.34px]" />
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-161.25px)] not-italic text-text-secondary text-[16.278px] top-[17003.05px] w-[352.685px]">{`Capture surfaces observable patterns over time. It doesn't label you, score your personality, or tell you whether you had a good or bad day.`}</p>
+        <div className="-translate-x-1/2 absolute bg-brand h-[54.974px] left-[calc(50%-131.81px)] rounded-[5.752px] top-[16842.98px] w-[58.34px]" />
         <FamiconsCalendarOutline />
         <div className="-translate-x-1/2 absolute bg-white h-[301px] left-[calc(50%+0.5px)] opacity-85 rounded-[9.043px] top-[17134px] w-[385px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-160.35px)] text-[#482603] text-[30.538px] top-[17255.35px] w-[236.932px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-160.35px)] text-warm-dark text-[30.538px] top-[17255.35px] w-[236.932px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Your device. Your data.
         </p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-160px)] not-italic text-[#6b7278] text-[16.278px] top-[17332px] w-[346px]">Behavioral signal processing happens on your device. No content is ever read. Your signals are not sold, shared with advertisers, or used to build a profile.</p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[54.974px] left-[calc(50%-135.7px)] rounded-[5.752px] top-[17172.15px] w-[58.34px]" />
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-160px)] not-italic text-text-secondary text-[16.278px] top-[17332px] w-[346px]">Behavioral signal processing happens on your device. No content is ever read. Your signals are not sold, shared with advertisers, or used to build a profile.</p>
+        <div className="-translate-x-1/2 absolute bg-brand h-[54.974px] left-[calc(50%-135.7px)] rounded-[5.752px] top-[17172.15px] w-[58.34px]" />
         <LucideLabWatchCheck />
         <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.067px] border-solid h-[301px] left-[calc(50%+0.5px)] opacity-85 rounded-[9.043px] top-[17463px] w-[385px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.36px)] text-[#482603] text-[30.538px] top-[17584.52px] w-[214.324px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.36px)] text-warm-dark text-[30.538px] top-[17584.52px] w-[214.324px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           How you type never what
         </p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-157px)] not-italic text-[#6b7278] text-[15.269px] top-[17661px] w-[343px]">{`The Company Keyboard reads rhythm, pace, and interaction patterns. It has no access to the content of what you write. That's a technical boundary, not just a policy.`}</p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[54.974px] left-[calc(50%-128.19px)] rounded-[5.752px] top-[17501.33px] w-[58.34px]" />
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-157px)] not-italic text-text-secondary text-[15.269px] top-[17661px] w-[343px]">{`The Company Keyboard reads rhythm, pace, and interaction patterns. It has no access to the content of what you write. That's a technical boundary, not just a policy.`}</p>
+        <div className="-translate-x-1/2 absolute bg-brand h-[54.974px] left-[calc(50%-128.19px)] rounded-[5.752px] top-[17501.33px] w-[58.34px]" />
         <AntDesignCloudSyncOutlined />
         <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.067px] border-solid h-[301px] left-[calc(50%+0.5px)] opacity-85 rounded-[9.043px] top-[17793px] w-[385px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-160.98px)] text-[#482603] text-[30.538px] top-[17913.7px] w-[248.688px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-160.98px)] text-warm-dark text-[30.538px] top-[17913.7px] w-[248.688px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           For awareness, not optimization
         </p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-161px)] not-italic text-[#6b7278] text-[16.278px] top-[17990px] w-[333px]">Capture is a companion for understanding your patterns not a tool for becoming more efficient. Self-awareness is the goal. What you do with it is up to you.</p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[54.974px] left-[calc(50%-131.81px)] rounded-[5.752px] top-[17830.5px] w-[58.34px]" />
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-161px)] not-italic text-text-secondary text-[16.278px] top-[17990px] w-[333px]">Capture is a companion for understanding your patterns not a tool for becoming more efficient. Self-awareness is the goal. What you do with it is up to you.</p>
+        <div className="-translate-x-1/2 absolute bg-brand h-[54.974px] left-[calc(50%-131.81px)] rounded-[5.752px] top-[17830.5px] w-[58.34px]" />
         <FluentMdl2Insights />
         <div className="-translate-x-1/2 absolute bg-white h-[301px] left-[calc(50%+0.5px)] opacity-85 rounded-[9.043px] top-[18122px] w-[385px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-160.35px)] text-[#482603] text-[30.538px] top-[18242.87px] w-[260.444px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-160.35px)] text-warm-dark text-[30.538px] top-[18242.87px] w-[260.444px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           A companion, not a medical tool
         </p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-160px)] not-italic text-[#6b7278] text-[16.278px] top-[18319px] w-[338px]">{`Capture doesn't diagnose, treat, or replace professional care. If you're experiencing a health concern, please speak with someone qualified to help.`}</p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[54.974px] left-[calc(50%-135.7px)] rounded-[5.752px] top-[18159.67px] w-[58.34px]" />
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-160px)] not-italic text-text-secondary text-[16.278px] top-[18319px] w-[338px]">{`Capture doesn't diagnose, treat, or replace professional care. If you're experiencing a health concern, please speak with someone qualified to help.`}</p>
+        <div className="-translate-x-1/2 absolute bg-brand h-[54.974px] left-[calc(50%-135.7px)] rounded-[5.752px] top-[18159.67px] w-[58.34px]" />
         <MaterialSymbolsBeachAccessOutline />
         <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.067px] border-solid h-[301px] left-[calc(50%+0.5px)] opacity-85 rounded-[9.043px] top-[18451px] w-[385px]" />
-        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.36px)] text-[#482603] text-[30.538px] top-[18572.04px] w-[201.663px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-157.36px)] text-warm-dark text-[30.538px] top-[18572.04px] w-[201.663px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           Built on open foundations
         </p>
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-158px)] not-italic text-[#6b7278] text-[15.269px] top-[18648px] w-[331px]">{`Capture is built on Company's open human state infrastructure. The core signal detection layer is open source and available for inspection at Company.ai.`}</p>
-        <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[54.974px] left-[calc(50%-128.19px)] rounded-[5.752px] top-[18488.84px] w-[58.34px]" />
+        <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-158px)] not-italic text-text-secondary text-[15.269px] top-[18648px] w-[331px]">{`Capture is built on Company's open human state infrastructure. The core signal detection layer is open source and available for inspection at Company.ai.`}</p>
+        <div className="-translate-x-1/2 absolute bg-brand h-[54.974px] left-[calc(50%-128.19px)] rounded-[5.752px] top-[18488.84px] w-[58.34px]" />
         <HugeiconsAccess />
         <div className="absolute h-[27.88px] left-[41px] top-[122px] w-[33.117px]" data-name="image 835">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">

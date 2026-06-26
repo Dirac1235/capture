@@ -274,7 +274,7 @@ function Frame() {
 function Frame1() {
   return (
     <div className="absolute h-[544px] left-[52px] top-[2252px] w-[1799px]">
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[404px] left-[calc(50%+8.5px)] rounded-tl-[60px] rounded-tr-[60px] top-[85px] w-[1730px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[404px] left-[calc(50%+8.5px)] rounded-tl-[60px] rounded-tr-[60px] top-[85px] w-[1730px]" />
       <div className="absolute flex h-[368.705px] items-center justify-center left-0 top-[158px] w-[321.082px]">
         <div className="-scale-y-100 flex-none rotate-[165.81deg]">
           <div className="h-[316.814px] opacity-28 relative w-[251.06px]" data-name="telegram-cloud-document-4-5814283686010428407 3">
@@ -318,7 +318,7 @@ function Frame1() {
         </div>
       </div>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-592.4px)] not-italic text-[37.706px] text-white top-[174.68px] whitespace-nowrap">Capture</p>
-      <div className="absolute bg-[#d08e8f] h-[57px] left-[235px] rounded-[11px] top-[160px] w-[58px]" />
+      <div className="absolute bg-brand h-[57px] left-[235px] rounded-[11px] top-[160px] w-[58px]" />
       <div className="absolute flex h-[270.441px] items-center justify-center left-[666px] top-0 w-[380.51px]">
         <div className="-scale-y-100 flex-none rotate-[172.73deg]">
           <div className="h-[227.396px] opacity-20 relative w-[354.583px]" data-name="telegram-cloud-document-4-5814283686010428407 4">
@@ -383,35 +383,35 @@ export default function Desktop() {
       <div className="-translate-x-1/2 absolute bg-black h-[49px] left-[calc(50%-27px)] opacity-12 rounded-[24px] top-[131px] w-[424px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[40px] left-[calc(50%+102px)] rounded-[24.416px] top-[135px] w-[152px]" />
       <div className="-translate-x-1/2 absolute bg-[#ededed] left-[calc(50%+777px)] rounded-[30.043px] size-[60.087px] top-[125px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%+45.99px)] rounded-[4.994px] size-[9.988px] top-[150px]" />
+      <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%+45.99px)] rounded-[4.994px] size-[9.988px] top-[150px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-742.8px)] not-italic text-[#1e1e1e] text-[33.051px] top-[142px] whitespace-nowrap">Capture</p>
-      <div className="absolute bg-[#382324] left-[154px] rounded-[9px] size-[51px] top-[130px]" />
+      <div className="absolute bg-dark-bg left-[154px] rounded-[9px] size-[51px] top-[130px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[751px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Capture</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[851px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Syni</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[921px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Plus</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1022.17px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Foundations</p>
       <Group3 />
-      <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[52px] left-1/2 top-[12px] w-[1920px]" />
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[52px] left-1/2 top-[12px] w-[1920px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Download Syni</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+18.5px)] not-italic text-[16px] text-center text-white top-[29px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
       <NotoFire />
       <SiCloseLine />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-[#482603] text-[68.921px] text-center top-[1200px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[1200px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Our Principles
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-14px)] text-[#d08e8f] text-[22px] text-center top-[1161px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-1/2 not-italic text-[#4f545b] text-[18.468px] text-center top-[1283.74px] whitespace-nowrap">Why we chose to build in the open.</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-14px)] text-brand text-[22px] text-center top-[1161px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-1/2 not-italic text-slate-text text-[18.468px] text-center top-[1283.74px] whitespace-nowrap">Why we chose to build in the open.</p>
       <div className="absolute left-[114px] size-[100.129px] top-[1185.01px]" data-name="4e613751157188230432b7db82abd067-Photoroom 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img4E613751157188230432B7Db82Abd067Photoroom1} />
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%+9.5px)] not-italic text-[#4f545b] text-[22px] text-center top-[2043px] w-[689px]">Syni runs on your machine. Nothing you say and nothing it learns about your state ever leaves your device. No servers. No data harvesting. What Syni knows about you stays yours.</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-1/2 text-[#482603] text-[70.909px] text-center top-[1939px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%+9.5px)] not-italic text-slate-text text-[22px] text-center top-[2043px] w-[689px]">Syni runs on your machine. Nothing you say and nothing it learns about your state ever leaves your device. No servers. No data harvesting. What Syni knows about you stays yours.</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-1/2 text-warm-dark text-[70.909px] text-center top-[1939px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Build With Us
       </p>
-      <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[55px] left-[calc(50%-28px)] rounded-[27.48px] top-[2179px] w-[334px]" />
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-[calc(50%-28px)] rounded-[27.48px] top-[2179px] w-[334px]" />
       <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-163px)] text-[18.02px] text-white top-[2195px] whitespace-nowrap">Explore Open Foundations</p>
-      <div className="-translate-x-1/2 absolute bg-[#382324] left-[calc(50%+109.71px)] rounded-[18.709px] size-[37.417px] top-[2188.45px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+109.71px)] rounded-[18.709px] size-[37.417px] top-[2188.45px]" />
       <div className="absolute flex items-center justify-center left-[1056.37px] size-[25.941px] top-[2193.83px]">
         <div className="flex-none rotate-90">
           <TablerArrowUp />
@@ -443,7 +443,7 @@ export default function Desktop() {
           </div>
         </div>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.9] left-1/2 text-[#382324] text-[194.444px] text-center top-[345px] whitespace-nowrap">Human State Interface</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.9] left-1/2 text-dark-bg text-[194.444px] text-center top-[345px] whitespace-nowrap">Human State Interface</p>
       <p className="[word-break:break-word] absolute bottom-[75.84%] font-['Inter_Tight:SemiBold',sans-serif] leading-[1.029] left-[calc(50%+329.99px)] not-italic text-[#7e7e7e] text-[16px] top-[23.59%] tracking-[1.6px] whitespace-nowrap">Introduction</p>
       <p className="[word-break:break-word] absolute bottom-[73.31%] capitalize font-['Inter_Tight:Bold',sans-serif] leading-[1.18] left-[calc(50%+328px)] not-italic text-[#222b32] text-[23.668px] top-[24.68%] w-[396px]">We open source every foundational block behind Syni Capture.</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[20.828px] left-[1288px] not-italic text-[#414141] text-[14px] top-[751.32px] w-[399px]">The same infrastructure powers both Syni and Company. Privacy first. Transparent. Built to be extended.</p>
@@ -501,7 +501,7 @@ export default function Desktop() {
       <ProiconsInstagram />
       <ProiconsXTwitter />
       <PhDribbbleLogoLight />
-      <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[50px] left-[calc(50%+419px)] rounded-[25px] top-[838.32px] w-[182px]" />
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[50px] left-[calc(50%+419px)] rounded-[25px] top-[838.32px] w-[182px]" />
       <div className="-translate-x-1/2 absolute border border-black border-solid h-[50px] left-[calc(50%+605.5px)] rounded-[25px] top-[838.32px] w-[165px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%+346px)] not-italic text-[14.201px] text-white top-[854.32px] whitespace-nowrap">Explore on Github</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%+605.5px)] not-italic text-[14.201px] text-black text-center top-[854.32px] whitespace-nowrap">Read the Docs</p>
@@ -528,10 +528,10 @@ export default function Desktop() {
       <div className="-translate-x-1/2 absolute bg-white h-[296.847px] left-[calc(50%-198.95px)] rounded-[20.66px] shadow-[0px_64px_87.754px_0px_rgba(0,0,0,0.1)] top-[1441.45px] w-[400.294px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[296.847px] left-[calc(50%+233.95px)] rounded-[20.66px] shadow-[0px_64px_87.754px_0px_rgba(0,0,0,0.1)] top-[1441.45px] w-[400.294px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[296.847px] left-[calc(50%+666.85px)] rounded-[20.66px] shadow-[0px_64px_87.754px_0px_rgba(0,0,0,0.1)] top-[1441.45px] w-[400.294px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%-764.04px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%-330.76px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%+101.39px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%+534.29px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-764.04px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-330.76px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%+101.39px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%+534.29px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-795.82px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Transparent by Design
       </p>
@@ -548,7 +548,7 @@ export default function Desktop() {
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-363.12px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[308.091px]">Data stays on-device by default. We built the system so we never have to trust ourselves with your data.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+68.66px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[304.718px]">The best ideas come from real users. Open development means anyone can contribute, critique, or extend.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+501.56px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[304.718px]">Built to be extended. The architecture welcomes contributions, custom integrations, and new use cases.</p>
-      <div className="-translate-x-1/2 absolute bg-[#382324] left-[calc(50%+484.96px)] rounded-[17.962px] size-[35.925px] top-[845.32px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+484.96px)] rounded-[17.962px] size-[35.925px] top-[845.32px]" />
       <div className="absolute flex items-center justify-center left-[1432.16px] size-[24.907px] top-[850.48px]">
         <div className="flex-none rotate-90">
           <TablerArrowUp1 />

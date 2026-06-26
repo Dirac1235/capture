@@ -95,7 +95,7 @@ function SiCloseLine() {
 function Frame5() {
   return (
     <div className="-translate-x-1/2 absolute h-[888px] left-[calc(50%+0.38px)] overflow-clip rounded-[31.473px] top-[213px] w-[1746.761px]">
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[887.522px] left-[calc(50%-1.95px)] top-[0.24px] w-[1750.662px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[887.522px] left-[calc(50%-1.95px)] top-[0.24px] w-[1750.662px]" />
       <div className="absolute flex h-[903px] items-center justify-center left-0 top-0 w-[1746px]">
         <div className="flex-none rotate-90">
           <div className="h-[1746px] opacity-32 relative w-[903px]" data-name="image 828">
@@ -138,9 +138,9 @@ function Frame5() {
         </div>
       </div>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[normal] left-[calc(50%-2.35px)] not-italic text-[125.786px] text-center text-white top-[108px] uppercase whitespace-nowrap">MORE CONTEXT</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[normal] left-[calc(50%-1.76px)] not-italic text-[#d08e8f] text-[125.786px] text-center top-[236.74px] uppercase whitespace-nowrap">BETTER ANSWERS</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[normal] left-[calc(50%-1.76px)] not-italic text-brand text-[125.786px] text-center top-[236.74px] uppercase whitespace-nowrap">BETTER ANSWERS</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.35] left-[calc(50%+2.39px)] text-[17.485px] text-center text-white top-[388.89px] w-[769.329px]">A full year of pattern history. Your wearable data. Cloud sync across devices. And a version of Syni that has been watching long enough to say something genuinely useful.</p>
-      <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[59px] left-[calc(50%-177.88px)] rounded-[29.376px] top-[490px] w-[285px]" />
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[59px] left-[calc(50%-177.88px)] rounded-[29.376px] top-[490px] w-[285px]" />
       <div className="-translate-x-1/2 absolute border border-solid border-white h-[59px] left-[calc(50%+141.12px)] rounded-[29.376px] top-[490px] w-[299px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[696px] not-italic text-[20.029px] text-center text-white top-[507px] whitespace-nowrap">Start 7 day Free Trial</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1015px] not-italic text-[20.029px] text-center text-white top-[507px] whitespace-nowrap">View Supported devices</p>
@@ -627,9 +627,9 @@ function Frame() {
       </div>
       <IconParkOutlineCopyright />
       <Group2 />
-      <div className="absolute bg-[#d08e8f] h-[25.217px] left-[13.01px] opacity-18 rounded-[1.891px] top-[445.31px] w-[174.631px]" />
-      <div className="absolute bg-[#d08e8f] h-[25.217px] left-[13.01px] rounded-bl-[1.891px] rounded-tl-[1.891px] top-[445.31px] w-[2.522px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-520.75px)] not-italic text-[#004f56] text-[10.087px] top-[452.24px] whitespace-nowrap">Insights</p>
+      <div className="absolute bg-brand h-[25.217px] left-[13.01px] opacity-18 rounded-[1.891px] top-[445.31px] w-[174.631px]" />
+      <div className="absolute bg-brand h-[25.217px] left-[13.01px] rounded-bl-[1.891px] rounded-tl-[1.891px] top-[445.31px] w-[2.522px]" />
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-520.75px)] not-italic text-teal text-[10.087px] top-[452.24px] whitespace-nowrap">Insights</p>
       <ProiconsGraph />
       <Frame2 />
       <MingcuteLivePhotoLine />
@@ -661,13 +661,13 @@ function Frame() {
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[912.64px] not-italic text-[#7d2626] text-[7.565px] top-[459.81px] whitespace-nowrap">69% Detected</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[912.64px] not-italic text-[#7d2626] text-[14.456px] top-[435.22px] whitespace-nowrap">High Stress</p>
       <IconParkOutlineCaution />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.723px] border-solid h-[99.609px] left-[calc(50%+430.26px)] rounded-[3.783px] top-[calc(50%-417.65px)] w-[221.284px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.723px] border-solid h-[99.609px] left-[calc(50%+430.26px)] rounded-[3.783px] top-[calc(50%-309.85px)] w-[221.284px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.723px] border-solid h-[99.609px] left-[calc(50%+430.26px)] rounded-[3.783px] top-[calc(50%-417.65px)] w-[221.284px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.723px] border-solid h-[99.609px] left-[calc(50%+430.26px)] rounded-[3.783px] top-[calc(50%-309.85px)] w-[221.284px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[894.36px] not-italic text-[#272727] text-[9.457px] top-[195.65px] whitespace-nowrap">Focus Improvement</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[894.36px] not-italic text-[#272727] text-[9.457px] top-[303.46px] whitespace-nowrap">Peak Performance</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[894.36px] not-italic text-[#85919f] text-[8.674px] top-[256.85px] whitespace-nowrap">vs Last week</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[894.36px] not-italic text-[#85919f] text-[8.674px] top-[364.65px] whitespace-nowrap">optimal focus window</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[894.36px] not-italic text-[#d08e8f] text-[14.456px] top-[222.81px] whitespace-nowrap">+15%</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[894.36px] not-italic text-text-muted-clr text-[8.674px] top-[256.85px] whitespace-nowrap">vs Last week</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[894.36px] not-italic text-text-muted-clr text-[8.674px] top-[364.65px] whitespace-nowrap">optimal focus window</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[894.36px] not-italic text-brand text-[14.456px] top-[222.81px] whitespace-nowrap">+15%</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[894.36px] not-italic text-[#3c3c3c] text-[14.456px] top-[330.61px] whitespace-nowrap">2:00 PM - 4:00 PM</p>
       <div className="absolute h-0 left-[868.51px] top-[490.07px] w-[232.001px]">
         <div className="absolute inset-[-0.63px_0_0_0]">
@@ -714,12 +714,12 @@ function Frame() {
       <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#108f67] h-[3.783px] left-[calc(50%+374.15px)] rounded-bl-[6.935px] rounded-tl-[6.935px] top-[calc(50%+419.57px)] w-[83.848px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[893.73px] not-italic text-[#8a8b8e] text-[6.935px] top-[975.5px] whitespace-nowrap">86% complete</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[893.73px] not-italic text-[#8a8b8e] text-[6.935px] top-[1075.74px] whitespace-nowrap">Needs improvement</p>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#d08e8f] h-[27.739px] left-[calc(50%+430.26px)] rounded-[1.891px] top-[calc(50%+476.31px)] w-[221.284px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-brand h-[27.739px] left-[calc(50%+430.26px)] rounded-[1.891px] top-[calc(50%+476.31px)] w-[221.284px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[992.25px] not-italic text-[8.826px] text-center text-white top-[1121.76px] whitespace-nowrap">Set Wellness Goals</p>
       <MaterialSymbolsHelpOutline />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.664px] border-solid h-[131.383px] left-[calc(50%-188.39px)] rounded-[3.474px] shadow-[0px_2.522px_26.541px_0px_rgba(0,0,0,0.05)] top-[calc(50%+4.49px)] w-[321.767px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.664px] border-solid h-[131.383px] left-[calc(50%+146.76px)] rounded-[3.474px] shadow-[0px_2.522px_26.541px_0px_rgba(0,0,0,0.05)] top-[calc(50%+4.49px)] w-[321.767px]" />
-      <div className="absolute bg-[#d08e8f] h-[6.935px] left-[227.36px] rounded-[0.608px] top-[677.31px] w-[198.588px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.664px] border-solid h-[131.383px] left-[calc(50%-188.39px)] rounded-[3.474px] shadow-[0px_2.522px_26.541px_0px_rgba(0,0,0,0.05)] top-[calc(50%+4.49px)] w-[321.767px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.664px] border-solid h-[131.383px] left-[calc(50%+146.76px)] rounded-[3.474px] shadow-[0px_2.522px_26.541px_0px_rgba(0,0,0,0.05)] top-[calc(50%+4.49px)] w-[321.767px]" />
+      <div className="absolute bg-brand h-[6.935px] left-[227.36px] rounded-[0.608px] top-[677.31px] w-[198.588px]" />
       <div className="absolute bg-[#ff6c6f] h-[6.935px] left-[430.99px] rounded-[0.608px] top-[677.31px] w-[76.913px]" />
       <div className="absolute bg-[#ffa600] h-[6.691px] left-[562.58px] rounded-[0.608px] top-[677.49px] w-[63.867px]" />
       <div className="absolute bg-[#68a6e0] h-[6.691px] left-[630.1px] rounded-[0.608px] top-[677.49px] w-[131.383px]" />
@@ -770,22 +770,22 @@ function Frame() {
           <circle cx="2.83892" cy="2.83892" fill="var(--fill-0, #AE77EA)" id="Ellipse 5487" r="2.83892" />
         </svg>
       </div>
-      <div className="absolute bg-[#fcfcfc] border-[#ebeff4] border-[0.63px] border-solid h-[89.522px] left-[229.88px] rounded-[3.783px] top-[465.48px] w-[301.349px]" />
-      <div className="absolute bg-[#fcfcfc] border-[#ebeff4] border-[0.63px] border-solid h-[89.522px] left-[544.47px] rounded-[3.783px] top-[465.48px] w-[301.349px]" />
-      <div className="absolute bg-[#eceef1] h-[33.937px] left-[383.07px] rounded-[1.579px] top-[507.77px] w-[13.923px]" />
-      <div className="absolute bg-[#eceef1] h-[33.937px] left-[697.66px] rounded-[1.579px] top-[507.77px] w-[13.923px]" />
-      <div className="absolute bg-[#eceef1] h-[21.754px] left-[402.22px] rounded-[1.579px] top-[519.95px] w-[13.923px]" />
-      <div className="absolute bg-[#eceef1] h-[21.754px] left-[716.81px] rounded-[1.579px] top-[519.95px] w-[13.923px]" />
-      <div className="absolute bg-[#eceef1] h-[47.86px] left-[421.36px] rounded-[1.579px] top-[493.85px] w-[13.053px]" />
-      <div className="absolute bg-[#eceef1] h-[47.86px] left-[735.95px] rounded-[1.579px] top-[493.85px] w-[13.053px]" />
-      <div className="absolute bg-[#d08e8f] h-[29.985px] left-[439.67px] rounded-[1.579px] top-[511.99px] w-[14.036px]" />
+      <div className="absolute bg-[#fcfcfc] border-border-subtle border-[0.63px] border-solid h-[89.522px] left-[229.88px] rounded-[3.783px] top-[465.48px] w-[301.349px]" />
+      <div className="absolute bg-[#fcfcfc] border-border-subtle border-[0.63px] border-solid h-[89.522px] left-[544.47px] rounded-[3.783px] top-[465.48px] w-[301.349px]" />
+      <div className="absolute bg-muted h-[33.937px] left-[383.07px] rounded-[1.579px] top-[507.77px] w-[13.923px]" />
+      <div className="absolute bg-muted h-[33.937px] left-[697.66px] rounded-[1.579px] top-[507.77px] w-[13.923px]" />
+      <div className="absolute bg-muted h-[21.754px] left-[402.22px] rounded-[1.579px] top-[519.95px] w-[13.923px]" />
+      <div className="absolute bg-muted h-[21.754px] left-[716.81px] rounded-[1.579px] top-[519.95px] w-[13.923px]" />
+      <div className="absolute bg-muted h-[47.86px] left-[421.36px] rounded-[1.579px] top-[493.85px] w-[13.053px]" />
+      <div className="absolute bg-muted h-[47.86px] left-[735.95px] rounded-[1.579px] top-[493.85px] w-[13.053px]" />
+      <div className="absolute bg-brand h-[29.985px] left-[439.67px] rounded-[1.579px] top-[511.99px] w-[14.036px]" />
       <div className="absolute bg-[#e9a53e] h-[29.985px] left-[754.26px] rounded-[1.579px] top-[511.99px] w-[14.036px]" />
-      <div className="absolute bg-[#eceef1] h-[10.846px] left-[458.81px] rounded-[1.579px] top-[531.13px] w-[14.036px]" />
-      <div className="absolute bg-[#eceef1] h-[10.846px] left-[773.4px] rounded-[1.579px] top-[531.13px] w-[14.036px]" />
-      <div className="absolute bg-[#eceef1] h-[33.937px] left-[477.92px] rounded-[1.579px] top-[507.77px] w-[13.053px]" />
-      <div className="absolute bg-[#eceef1] h-[33.937px] left-[792.51px] rounded-[1.579px] top-[507.77px] w-[13.053px]" />
-      <div className="absolute bg-[#eceef1] h-[39.158px] left-[496.2px] rounded-[1.579px] top-[502.55px] w-[13.923px]" />
-      <div className="absolute bg-[#eceef1] h-[39.158px] left-[810.78px] rounded-[1.579px] top-[502.55px] w-[13.923px]" />
+      <div className="absolute bg-muted h-[10.846px] left-[458.81px] rounded-[1.579px] top-[531.13px] w-[14.036px]" />
+      <div className="absolute bg-muted h-[10.846px] left-[773.4px] rounded-[1.579px] top-[531.13px] w-[14.036px]" />
+      <div className="absolute bg-muted h-[33.937px] left-[477.92px] rounded-[1.579px] top-[507.77px] w-[13.053px]" />
+      <div className="absolute bg-muted h-[33.937px] left-[792.51px] rounded-[1.579px] top-[507.77px] w-[13.053px]" />
+      <div className="absolute bg-muted h-[39.158px] left-[496.2px] rounded-[1.579px] top-[502.55px] w-[13.923px]" />
+      <div className="absolute bg-muted h-[39.158px] left-[810.78px] rounded-[1.579px] top-[502.55px] w-[13.923px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[245.56px] not-italic text-[11.348px] text-black top-[476.94px] whitespace-nowrap">Focus</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[560.15px] not-italic text-[11.348px] text-black top-[476.94px] whitespace-nowrap">Load</p>
       <p className="[word-break:break-word] absolute font-['Poppins:Medium',sans-serif] leading-[1.13] left-[276.53px] not-italic text-[#b0b7be] text-[8.698px] top-[529.71px] whitespace-nowrap">this month</p>
@@ -818,12 +818,12 @@ function Frame() {
       </div>
       <MdiHumanSkateboarding />
       <MdiHumanSkateboarding1 />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.63px] border-solid h-[162.653px] left-[calc(50%-188.51px)] rounded-[5.674px] top-[calc(50%+200.81px)] w-[321.523px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.63px] border-solid h-[162.653px] left-[calc(50%-188.51px)] rounded-[5.674px] top-[calc(50%+377.96px)] w-[321.523px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.63px] border-solid h-[162.653px] left-[calc(50%-188.51px)] rounded-[5.674px] top-[calc(50%+552.59px)] w-[321.523px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.63px] border-solid h-[162.653px] left-[calc(50%+147.51px)] rounded-[5.674px] top-[calc(50%+200.81px)] w-[321.523px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.63px] border-solid h-[162.653px] left-[calc(50%+147.51px)] rounded-[5.674px] top-[calc(50%+377.96px)] w-[321.523px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.63px] border-solid h-[162.653px] left-[calc(50%+147.51px)] rounded-[5.674px] top-[calc(50%+552.59px)] w-[321.523px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.63px] border-solid h-[162.653px] left-[calc(50%-188.51px)] rounded-[5.674px] top-[calc(50%+200.81px)] w-[321.523px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.63px] border-solid h-[162.653px] left-[calc(50%-188.51px)] rounded-[5.674px] top-[calc(50%+377.96px)] w-[321.523px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.63px] border-solid h-[162.653px] left-[calc(50%-188.51px)] rounded-[5.674px] top-[calc(50%+552.59px)] w-[321.523px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.63px] border-solid h-[162.653px] left-[calc(50%+147.51px)] rounded-[5.674px] top-[calc(50%+200.81px)] w-[321.523px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.63px] border-solid h-[162.653px] left-[calc(50%+147.51px)] rounded-[5.674px] top-[calc(50%+377.96px)] w-[321.523px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.63px] border-solid h-[162.653px] left-[calc(50%+147.51px)] rounded-[5.674px] top-[calc(50%+552.59px)] w-[321.523px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[246.27px] not-italic text-[10.717px] text-black top-[785.74px] whitespace-nowrap">Focus</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[246.27px] not-italic text-[10.717px] text-black top-[962.89px] whitespace-nowrap">Focus</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[246.27px] not-italic text-[10.717px] text-black top-[1137.53px] whitespace-nowrap">Focus</p>
@@ -2862,14 +2862,14 @@ function Frame1() {
       <TdesignFogNight />
       <StreamlineTarget />
       <Group18 />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.723px] border-solid h-[61.152px] left-[calc(50%-270.78px)] rounded-[3.783px] top-[calc(50%+88.71px)] w-[158.24px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fcfcfc] border-[#ebeff4] border-[0.688px] border-solid h-[70.609px] left-[calc(50%-258.18px)] rounded-[3.6px] top-[calc(50%+231.5px)] w-[148.153px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.723px] border-solid h-[61.152px] left-[calc(50%-103.72px)] rounded-[3.783px] top-[calc(50%+88.71px)] w-[158.24px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fcfcfc] border-[#ebeff4] border-[0.688px] border-solid h-[70.609px] left-[calc(50%-99.94px)] rounded-[3.6px] top-[calc(50%+231.5px)] w-[148.153px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.723px] border-solid h-[61.152px] left-[calc(50%+62.09px)] rounded-[3.783px] top-[calc(50%+88.71px)] w-[158.24px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fcfcfc] border-[#ebeff4] border-[0.688px] border-solid h-[70.609px] left-[calc(50%+59.56px)] rounded-[3.6px] top-[calc(50%+231.5px)] w-[148.153px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-[#ebeff4] border-[0.723px] border-solid h-[61.152px] left-[calc(50%+227.89px)] rounded-[3.783px] top-[calc(50%+88.71px)] w-[158.24px]" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fcfcfc] border-[#ebeff4] border-[0.688px] border-solid h-[70.609px] left-[calc(50%+217.8px)] rounded-[3.6px] top-[calc(50%+231.5px)] w-[148.153px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.723px] border-solid h-[61.152px] left-[calc(50%-270.78px)] rounded-[3.783px] top-[calc(50%+88.71px)] w-[158.24px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fcfcfc] border-border-subtle border-[0.688px] border-solid h-[70.609px] left-[calc(50%-258.18px)] rounded-[3.6px] top-[calc(50%+231.5px)] w-[148.153px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.723px] border-solid h-[61.152px] left-[calc(50%-103.72px)] rounded-[3.783px] top-[calc(50%+88.71px)] w-[158.24px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fcfcfc] border-border-subtle border-[0.688px] border-solid h-[70.609px] left-[calc(50%-99.94px)] rounded-[3.6px] top-[calc(50%+231.5px)] w-[148.153px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.723px] border-solid h-[61.152px] left-[calc(50%+62.09px)] rounded-[3.783px] top-[calc(50%+88.71px)] w-[158.24px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fcfcfc] border-border-subtle border-[0.688px] border-solid h-[70.609px] left-[calc(50%+59.56px)] rounded-[3.6px] top-[calc(50%+231.5px)] w-[148.153px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white border-border-subtle border-[0.723px] border-solid h-[61.152px] left-[calc(50%+227.89px)] rounded-[3.783px] top-[calc(50%+88.71px)] w-[158.24px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#fcfcfc] border-border-subtle border-[0.688px] border-solid h-[70.609px] left-[calc(50%+217.8px)] rounded-[3.6px] top-[calc(50%+231.5px)] w-[148.153px]" />
       <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#009168] h-[19.515px] left-[calc(50%-211.18px)] opacity-38 rounded-[3.614px] top-[calc(50%+78.01px)] w-[20.238px]" />
       <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#b6c66f] h-[19.515px] left-[calc(50%-44.2px)] opacity-71 rounded-[3.614px] top-[calc(50%+78.01px)] w-[20.238px]" />
       <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#e07777] h-[19.515px] left-[calc(50%+121.53px)] opacity-71 rounded-[3.614px] top-[calc(50%+78.01px)] w-[20.238px]" />
@@ -2884,20 +2884,20 @@ function Frame1() {
         <VuesaxLinearFilter />
       </div>
       <div className="absolute border-[#37bd35] border-[0.63px] border-solid h-[15.13px] left-[835.4px] rounded-[2.522px] top-[51.33px] w-[40.978px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[254.11px] not-italic text-[#85919f] text-[8.674px] top-[217.09px] whitespace-nowrap">Latest Snapshot</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[270.82px] not-italic text-[#85919f] text-[8.256px] top-[350.67px] whitespace-nowrap">TOTAL SNAPSHOTS</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[270.82px] not-italic text-[#85919f] text-[8.256px] top-[391.13px] whitespace-nowrap">Latest Snapshot</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[429.4px] not-italic text-[#85919f] text-[8.256px] top-[391.13px] whitespace-nowrap">Latest Snapshot</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[588.27px] not-italic text-[#85919f] text-[8.256px] top-[391.13px] whitespace-nowrap">Latest Snapshot</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[746.51px] not-italic text-[#85919f] text-[8.256px] top-[391.13px] whitespace-nowrap">Latest Snapshot</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[249.73px] not-italic text-[#85919f] text-[8.256px] top-[172.37px] whitespace-nowrap">{`A quick look at today's signal flow`}</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[249.73px] not-italic text-[#85919f] text-[8.256px] top-[312.33px] whitespace-nowrap">{`A quick look at today's signal flow`}</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[421.09px] not-italic text-[#85919f] text-[8.674px] top-[217.09px] whitespace-nowrap">Snapshots Today</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[428.89px] not-italic text-[#85919f] text-[8.256px] top-[350.67px] whitespace-nowrap">LAST HOUR</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[586.81px] not-italic text-[#85919f] text-[8.674px] top-[217.09px] whitespace-nowrap">Active Sources</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[588.22px] not-italic text-[#85919f] text-[8.256px] top-[350.67px] whitespace-nowrap">AVG FOCUS (1H)</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[752.53px] not-italic text-[#85919f] text-[8.674px] top-[217.09px] whitespace-nowrap">Focus Pulse</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[746.29px] not-italic text-[#85919f] text-[8.256px] top-[350.67px] whitespace-nowrap">SOURCES</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[254.11px] not-italic text-text-muted-clr text-[8.674px] top-[217.09px] whitespace-nowrap">Latest Snapshot</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[270.82px] not-italic text-text-muted-clr text-[8.256px] top-[350.67px] whitespace-nowrap">TOTAL SNAPSHOTS</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[270.82px] not-italic text-text-muted-clr text-[8.256px] top-[391.13px] whitespace-nowrap">Latest Snapshot</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[429.4px] not-italic text-text-muted-clr text-[8.256px] top-[391.13px] whitespace-nowrap">Latest Snapshot</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[588.27px] not-italic text-text-muted-clr text-[8.256px] top-[391.13px] whitespace-nowrap">Latest Snapshot</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[746.51px] not-italic text-text-muted-clr text-[8.256px] top-[391.13px] whitespace-nowrap">Latest Snapshot</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[249.73px] not-italic text-text-muted-clr text-[8.256px] top-[172.37px] whitespace-nowrap">{`A quick look at today's signal flow`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[249.73px] not-italic text-text-muted-clr text-[8.256px] top-[312.33px] whitespace-nowrap">{`A quick look at today's signal flow`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[421.09px] not-italic text-text-muted-clr text-[8.674px] top-[217.09px] whitespace-nowrap">Snapshots Today</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[428.89px] not-italic text-text-muted-clr text-[8.256px] top-[350.67px] whitespace-nowrap">LAST HOUR</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[586.81px] not-italic text-text-muted-clr text-[8.674px] top-[217.09px] whitespace-nowrap">Active Sources</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[588.22px] not-italic text-text-muted-clr text-[8.256px] top-[350.67px] whitespace-nowrap">AVG FOCUS (1H)</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[752.53px] not-italic text-text-muted-clr text-[8.674px] top-[217.09px] whitespace-nowrap">Focus Pulse</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[normal] left-[746.29px] not-italic text-text-muted-clr text-[8.256px] top-[350.67px] whitespace-nowrap">SOURCES</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[254.11px] not-italic text-[14.456px] text-black top-[235.16px] whitespace-nowrap">07:29 PM</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[270.82px] not-italic text-[13.76px] text-black top-[367.87px] whitespace-nowrap">38</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[421.09px] not-italic text-[14.456px] text-black top-[235.16px] whitespace-nowrap">39</p>
@@ -3159,7 +3159,7 @@ function Frame4() {
 function Frame7() {
   return (
     <div className="absolute h-[544px] left-[52px] top-[8487px] w-[1799px]">
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[404px] left-[calc(50%+8.5px)] rounded-tl-[60px] rounded-tr-[60px] top-[85px] w-[1730px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[404px] left-[calc(50%+8.5px)] rounded-tl-[60px] rounded-tr-[60px] top-[85px] w-[1730px]" />
       <div className="absolute flex h-[368.705px] items-center justify-center left-0 top-[158px] w-[321.082px]">
         <div className="-scale-y-100 flex-none rotate-[165.81deg]">
           <div className="h-[316.814px] opacity-28 relative w-[251.06px]" data-name="telegram-cloud-document-4-5814283686010428407 3">
@@ -3203,7 +3203,7 @@ function Frame7() {
         </div>
       </div>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-592.4px)] not-italic text-[37.706px] text-white top-[174.68px] whitespace-nowrap">Capture</p>
-      <div className="absolute bg-[#d08e8f] h-[57px] left-[235px] rounded-[11px] top-[160px] w-[58px]" />
+      <div className="absolute bg-brand h-[57px] left-[235px] rounded-[11px] top-[160px] w-[58px]" />
       <div className="absolute flex h-[270.441px] items-center justify-center left-[666px] top-0 w-[380.51px]">
         <div className="-scale-y-100 flex-none rotate-[172.73deg]">
           <div className="h-[227.396px] opacity-20 relative w-[354.583px]" data-name="telegram-cloud-document-4-5814283686010428407 4">
@@ -3382,35 +3382,35 @@ export default function Desktop() {
       <div className="-translate-x-1/2 absolute bg-black h-[49px] left-[calc(50%-42.5px)] opacity-12 rounded-[24px] top-[131px] w-[489px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[39.953px] left-[calc(50%-10.61px)] rounded-[24.416px] top-[135px] w-[88.784px]" />
       <div className="-translate-x-1/2 absolute bg-[#ededed] left-[calc(50%+777px)] rounded-[30.043px] size-[60.087px] top-[125px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-37.01px)] rounded-[4.994px] size-[9.988px] top-[150px]" />
+      <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-37.01px)] rounded-[4.994px] size-[9.988px] top-[150px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-742.8px)] not-italic text-[#1e1e1e] text-[33.051px] top-[142px] whitespace-nowrap">Capture</p>
       <div className="absolute bg-[#2f1918] left-[154px] rounded-[9px] size-[51px] top-[130px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[729px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Capture</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[840px] not-italic text-[#482603] text-[17.757px] top-[145px] whitespace-nowrap">Syni</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[840px] not-italic text-warm-dark text-[17.757px] top-[145px] whitespace-nowrap">Syni</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[937.48px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Plus</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1022.17px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Foundations</p>
       <Group17 />
-      <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[52px] left-1/2 top-[12px] w-[1920px]" />
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[52px] left-1/2 top-[12px] w-[1920px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.05px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Start Free Trial</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+15.5px)] not-italic text-[16px] text-center text-white top-[28px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
       <NotoFire />
       <SiCloseLine />
       <Frame5 />
       <Frame1 />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-[#482603] text-[68.921px] text-center top-[2639.26px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[2639.26px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         A full year of you.
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-14px)] text-[#d08e8f] text-[22px] text-center top-[2600.26px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-11.41px)] text-[#d08e8f] text-[19.502px] text-center top-[5810px] uppercase whitespace-nowrap">PRICING</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-28px)] not-italic text-[#4f545b] text-[18.468px] text-center top-[2723px] w-[460px]">{`Patterns you can only see once you've been paying attention for long enough.`}</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-14px)] text-brand text-[22px] text-center top-[2600.26px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-11.41px)] text-brand text-[19.502px] text-center top-[5810px] uppercase whitespace-nowrap">PRICING</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-28px)] not-italic text-slate-text text-[18.468px] text-center top-[2723px] w-[460px]">{`Patterns you can only see once you've been paying attention for long enough.`}</p>
       <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.18px] border-solid h-[333px] left-[calc(50%-525px)] opacity-85 rounded-[17px] shadow-[0px_26px_58px_0px_rgba(0,0,0,0.05)] top-[2818px] w-[486px]" />
       <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.18px] border-solid h-[333px] left-[calc(50%-525px)] opacity-85 rounded-[17px] shadow-[0px_26px_58px_0px_rgba(0,0,0,0.05)] top-[3188px] w-[486px]" />
       <div className="-translate-x-1/2 absolute bg-[#dfdfdf] h-[494px] left-[calc(50%-392.5px)] opacity-85 rounded-[13px] top-[5156px] w-[751px]" />
       <div className="-translate-x-1/2 absolute bg-[#dfdfdf] h-[494px] left-[calc(50%+391.5px)] opacity-85 rounded-[13px] top-[5156px] w-[751px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[294px] left-[calc(50%-392.5px)] rounded-[13px] top-[5311px] w-[597px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[294px] left-[calc(50%+391.5px)] rounded-[13px] top-[5311px] w-[597px]" />
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[485px] left-1/2 rounded-[29px] top-[4639px] w-[1534px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[485px] left-1/2 rounded-[29px] top-[4639px] w-[1534px]" />
       <Frame6 />
       <div className="-translate-x-1/2 absolute bg-[#f6f6f6] h-[39px] left-1/2 rounded-bl-[15px] rounded-br-[15px] top-[4639px] w-[178px]" />
       <div className="absolute h-[7.185px] left-[1320.7px] top-[5061.19px] w-[229.926px]">
@@ -3433,30 +3433,30 @@ export default function Desktop() {
       <div className="-translate-x-1/2 absolute bg-white h-[333px] left-[calc(50%-1px)] opacity-85 rounded-[17px] shadow-[0px_26px_58px_0px_rgba(0,0,0,0.05)] top-[3188px] w-[486px]" />
       <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.18px] border-solid h-[333px] left-[calc(50%+523px)] opacity-85 rounded-[17px] shadow-[0px_26px_58px_0px_rgba(0,0,0,0.05)] top-[2818px] w-[486px]" />
       <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.18px] border-solid h-[333px] left-[calc(50%+523px)] opacity-85 rounded-[17px] shadow-[0px_26px_58px_0px_rgba(0,0,0,0.05)] top-[3188px] w-[486px]" />
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-722.22px)] text-[#482603] text-[33.769px] top-[2951.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-722.22px)] text-warm-dark text-[33.769px] top-[2951.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         365 days of history
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-722.22px)] text-[#482603] text-[33.769px] top-[3321.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-722.22px)] text-warm-dark text-[33.769px] top-[3321.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Plus-only insights
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-198.16px)] text-[#482603] text-[33.769px] top-[2951.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-198.16px)] text-warm-dark text-[33.769px] top-[2951.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Wearable integration
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-198.16px)] text-[#482603] text-[33.769px] top-[3321.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-198.16px)] text-warm-dark text-[33.769px] top-[3321.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Same privacy
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+325.71px)] text-[#482603] text-[33.769px] top-[2951.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+325.71px)] text-warm-dark text-[33.769px] top-[2951.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Cloud sync
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+325.71px)] text-[#482603] text-[33.769px] top-[3321.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+325.71px)] text-warm-dark text-[33.769px] top-[3321.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Early access
       </p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-722.3px)] not-italic text-[#6b7278] text-[18px] top-[3006.89px] w-[390px]">Free gives Syni 30 days to work with. Plus gives it a year. The longer the view, the more honest the pattern. Seasonal shifts, recurring slumps, gradual improvements they only show up over time.</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-722.3px)] not-italic text-[#6b7278] text-[18px] top-[3376.89px] w-[390px]">{`Some patterns only surface after Syni has been watching long enough. Plus unlocks the insight surfaces that need that longer view things free simply doesn't have enough data to show you yet.`}</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-198px)] not-italic text-[#6b7278] text-[18px] top-[3007px] w-[409px]">Heart rate, HRV, sleep quality pulled directly from your Whoop, Garmin, Apple Watch, or Oura. Syni uses that data to give you a picture that goes beyond behavior into what your body is actually carrying.</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-198px)] not-italic text-[#6b7278] text-[18px] top-[3377px] w-[409px]">{`All Plus features stay private. Your wearable data is processed on your device. What gets synced to the cloud is encrypted and tied to your account nobody else's.`}</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+325.7px)] not-italic text-[#6b7278] text-[16.885px] top-[3006.89px] w-[399px]">{`Your state data moves with you. Start a conversation on your phone, pick it up on desktop. Syni keeps the context either way so you're never starting from scratch.`}</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+325.7px)] not-italic text-[#6b7278] text-[16.885px] top-[3376.89px] w-[399px]">{`Plus members get new features, integrations, and model updates before everyone else. If we're testing something new, you see it first.`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-722.3px)] not-italic text-text-secondary text-[18px] top-[3006.89px] w-[390px]">Free gives Syni 30 days to work with. Plus gives it a year. The longer the view, the more honest the pattern. Seasonal shifts, recurring slumps, gradual improvements they only show up over time.</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-722.3px)] not-italic text-text-secondary text-[18px] top-[3376.89px] w-[390px]">{`Some patterns only surface after Syni has been watching long enough. Plus unlocks the insight surfaces that need that longer view things free simply doesn't have enough data to show you yet.`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-198px)] not-italic text-text-secondary text-[18px] top-[3007px] w-[409px]">Heart rate, HRV, sleep quality pulled directly from your Whoop, Garmin, Apple Watch, or Oura. Syni uses that data to give you a picture that goes beyond behavior into what your body is actually carrying.</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-198px)] not-italic text-text-secondary text-[18px] top-[3377px] w-[409px]">{`All Plus features stay private. Your wearable data is processed on your device. What gets synced to the cloud is encrypted and tied to your account nobody else's.`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+325.7px)] not-italic text-text-secondary text-[16.885px] top-[3006.89px] w-[399px]">{`Your state data moves with you. Start a conversation on your phone, pick it up on desktop. Syni keeps the context either way so you're never starting from scratch.`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+325.7px)] not-italic text-text-secondary text-[16.885px] top-[3376.89px] w-[399px]">{`Plus members get new features, integrations, and model updates before everyone else. If we're testing something new, you see it first.`}</p>
       <div className="absolute flex items-center justify-center left-[252.68px] size-[125.339px] top-[2446.05px]">
         <div className="flex-none rotate-[17.27deg]">
           <div className="relative size-[100.129px]" data-name="4e613751157188230432b7db82abd067-Photoroom 1">
@@ -3467,43 +3467,43 @@ export default function Desktop() {
       <div className="absolute h-[717.635px] left-[145px] rounded-[63px] top-[3760px] w-[704.487px]" data-name="image 289">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[63px] size-full" src={imgImage289} />
       </div>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.013] left-[calc(50%-44px)] text-[#482603] text-[60px] top-[3790px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.013] left-[calc(50%-44px)] text-warm-dark text-[60px] top-[3790px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Connect your wearable
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.013] left-[calc(50%+0.51px)] text-[#482603] text-[53.187px] text-center top-[5850.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.013] left-[calc(50%+0.51px)] text-warm-dark text-[53.187px] text-center top-[5850.78px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         One plan. Everything unlocked.
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.013] left-[calc(50%+0.51px)] text-[#482603] text-[55px] text-center top-[6958px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.013] left-[calc(50%+0.51px)] text-warm-dark text-[55px] text-center top-[6958px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Quick answers.
       </p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%-44px)] not-italic text-[#d08e8f] text-[40.01px] top-[3876px] uppercase w-[688.174px]">Your body signals, finally in the picture.</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[1.251] left-[calc(50%-1px)] not-italic text-[#d08e8f] text-[21px] text-center top-[4643px] uppercase whitespace-nowrap">CAPTURE</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%-44px)] not-italic text-brand text-[40.01px] top-[3876px] uppercase w-[688.174px]">Your body signals, finally in the picture.</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[1.251] left-[calc(50%-1px)] not-italic text-brand text-[21px] text-center top-[4643px] uppercase whitespace-nowrap">CAPTURE</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[1.06] left-[calc(50%-688px)] not-italic text-[51.2px] text-white top-[4715px] w-[624.64px]">
         Syni on Plus knows more.
         <br aria-hidden />
         So it says more.
       </p>
-      <div className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[0] left-[calc(50%-39px)] text-[#6b7278] text-[22px] top-[4013px] w-[709.893px] whitespace-pre-wrap">
+      <div className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[0] left-[calc(50%-39px)] text-text-secondary text-[22px] top-[4013px] w-[709.893px] whitespace-pre-wrap">
         <p className="leading-[1.31] mb-0">{`Behavioral patterns tell you how you're showing up. Biometric data tells you why. Plus connects both giving Syni a complete picture of your state, not just half of it.`}</p>
         <p className="leading-[1.31] mb-0">​</p>
         <p className="leading-[1.31]">All wearable data is processed locally on your device. Nothing is sent to our servers.</p>
       </div>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-256.84px)] text-[#6b7278] text-[19.502px] top-[5930.56px] whitespace-nowrap">Try it free for 7 days. No charge until you decide to keep it.</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-256.84px)] text-text-secondary text-[19.502px] top-[5930.56px] whitespace-nowrap">Try it free for 7 days. No charge until you decide to keep it.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.31] left-[calc(50%-222.27px)] text-[#292b2d] text-[21.275px] top-[5993.49px] whitespace-nowrap">Monthly</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.31] left-[calc(50%-27.25px)] text-[#292b2d] text-[21.275px] top-[5993.49px] whitespace-nowrap">Yearly</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.31] left-[calc(50%-692px)] opacity-70 text-[22px] text-white top-[4858px] w-[725px]">On free, Syni reads your last 30 days and your current signals. On Plus, it has 365 days of history, your wearable data, and context from previous conversations. The difference shows up in how specific it can be.</p>
-      <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[71px] left-[calc(50%-588.37px)] rounded-[35.474px] top-[4990px] w-[205.255px]" />
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[71px] left-[calc(50%-588.37px)] rounded-[35.474px] top-[4990px] w-[205.255px]" />
       <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-648.4px)] text-[23.262px] text-white top-[5010.65px] whitespace-nowrap">Learn more</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-613px)] opacity-58 text-[22px] text-black top-[5245.26px] whitespace-nowrap">HRV, strain, sleep, recovery scores</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+171px)] opacity-58 text-[22px] text-black top-[5245.26px] whitespace-nowrap">HRV, strain, sleep, recovery scores</p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[347px] text-[#2b3330] text-[32.326px] top-[5208px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[347px] text-forest text-[32.326px] top-[5208px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Free
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1131px] text-[#2b3330] text-[32.326px] top-[5208px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1131px] text-forest text-[32.326px] top-[5208px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Capture Plus
       </p>
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[70.17px] left-[calc(50%-676.99px)] rounded-[13px] top-[5206px] w-[68.011px]" />
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[70.17px] left-[calc(50%+107.01px)] rounded-[13px] top-[5206px] w-[68.011px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[70.17px] left-[calc(50%-676.99px)] rounded-[13px] top-[5206px] w-[68.011px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[70.17px] left-[calc(50%+107.01px)] rounded-[13px] top-[5206px] w-[68.011px]" />
       <div className="absolute flex h-[65px] items-center justify-center left-[416px] top-[5472px] w-[378px]">
         <div className="-scale-y-100 flex-none rotate-180">
           <div className="backdrop-blur-[5.38px] bg-[#9f9f9f] h-[65px] opacity-13 relative rounded-[6.074px] w-[378px]" />
@@ -3511,7 +3511,7 @@ export default function Desktop() {
       </div>
       <div className="absolute flex h-[78px] items-center justify-center left-[1145px] top-[5472px] w-[433px]">
         <div className="-scale-y-100 flex-none rotate-180">
-          <div className="backdrop-blur-[5.38px] bg-[#d08e8f] h-[78px] opacity-13 relative rounded-[6.074px] w-[433px]" />
+          <div className="backdrop-blur-[5.38px] bg-brand h-[78px] opacity-13 relative rounded-[6.074px] w-[433px]" />
         </div>
       </div>
       <div className="absolute flex h-[52px] items-center justify-center left-[312px] top-[5372px] w-[319px]">
@@ -3526,24 +3526,24 @@ export default function Desktop() {
       </div>
       <div className="absolute flex h-[30px] items-center justify-center left-[700px] top-[5324px] w-[152px]">
         <div className="-scale-y-100 flex-none rotate-180">
-          <div className="bg-[#d08e8f] h-[30px] relative rounded-[6px] w-[152px]" />
+          <div className="bg-brand h-[30px] relative rounded-[6px] w-[152px]" />
         </div>
       </div>
       <div className="absolute flex h-[30px] items-center justify-center left-[1438px] top-[5324px] w-[198px]">
         <div className="-scale-y-100 flex-none rotate-180">
-          <div className="bg-[#d08e8f] h-[30px] relative rounded-[6px] w-[198px]" />
+          <div className="bg-brand h-[30px] relative rounded-[6px] w-[198px]" />
         </div>
       </div>
-      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[780px] not-italic text-[#131313] text-[13.017px] text-right top-[5484px] w-[328px]">Your load tends to be higher mid-week. Friday may just be the result catching up with you.</p>
-      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[1564px] not-italic text-[#131313] text-[13.017px] text-right top-[5484px] w-[384px]">{`Looking at 47 Fridays your HRV drops below baseline every Thursday night. It's consistent. Your body is already in deficit before Friday starts. The pattern goes back to November.`}</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[363.41px] not-italic text-[#131313] text-[13.017px] top-[5389px] whitespace-nowrap">Why do I feel worse on Fridays?</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[1147.41px] not-italic text-[#131313] text-[13.017px] top-[5389px] whitespace-nowrap">Why do I feel worse on Fridays?</p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[780px] not-italic text-foreground text-[13.017px] text-right top-[5484px] w-[328px]">Your load tends to be higher mid-week. Friday may just be the result catching up with you.</p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[1564px] not-italic text-foreground text-[13.017px] text-right top-[5484px] w-[384px]">{`Looking at 47 Fridays your HRV drops below baseline every Thursday night. It's consistent. Your body is already in deficit before Friday starts. The pattern goes back to November.`}</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[363.41px] not-italic text-foreground text-[13.017px] top-[5389px] whitespace-nowrap">Why do I feel worse on Fridays?</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[1147.41px] not-italic text-foreground text-[13.017px] top-[5389px] whitespace-nowrap">Why do I feel worse on Fridays?</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.365] left-[776px] not-italic text-[12px] text-center text-white top-[5331px] whitespace-nowrap">30 day history on device</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.365] left-[1536px] not-italic text-[12px] text-center text-white top-[5331px] whitespace-nowrap">365-day history · wearable data</p>
-      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[794.92px] not-italic text-[#131313] text-[11.864px] text-right top-[5549.9px] whitespace-nowrap">2:21 PM</p>
-      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[1578.92px] not-italic text-[#131313] text-[11.864px] text-right top-[5561px] whitespace-nowrap">2:21 PM</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[313.98px] not-italic text-[#131313] text-[11.864px] top-[5439.17px] whitespace-nowrap">2:21 PM</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[1097.98px] not-italic text-[#131313] text-[11.864px] top-[5439.17px] whitespace-nowrap">2:21 PM</p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[794.92px] not-italic text-foreground text-[11.864px] text-right top-[5549.9px] whitespace-nowrap">2:21 PM</p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[1578.92px] not-italic text-foreground text-[11.864px] text-right top-[5561px] whitespace-nowrap">2:21 PM</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[313.98px] not-italic text-foreground text-[11.864px] top-[5439.17px] whitespace-nowrap">2:21 PM</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[1097.98px] not-italic text-foreground text-[11.864px] top-[5439.17px] whitespace-nowrap">2:21 PM</p>
       <Group19 />
       <Group20 />
       <div className="absolute left-[323.6px] size-[30.421px] top-[5382.82px]">
@@ -3584,8 +3584,8 @@ export default function Desktop() {
         </div>
       </div>
       <TablerFreeRights />
-      <div className="absolute bg-[#382324] h-[39.003px] left-[837.01px] rounded-[19.502px] top-[5989.06px] w-[73.575px]" />
-      <div className="absolute bg-[#d08e8f] h-[39.003px] left-[1023.16px] opacity-34 rounded-[19.502px] top-[5989.06px] w-[122.329px]" />
+      <div className="absolute bg-dark-bg h-[39.003px] left-[837.01px] rounded-[19.502px] top-[5989.06px] w-[73.575px]" />
+      <div className="absolute bg-brand h-[39.003px] left-[1023.16px] opacity-34 rounded-[19.502px] top-[5989.06px] w-[122.329px]" />
       <div className="absolute left-[841.44px] size-[30.139px] top-[5993.49px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 30.139 30.139">
           <circle cx="15.0695" cy="15.0695" fill="var(--fill-0, white)" id="Ellipse 5549" r="15.0695" />
@@ -3598,7 +3598,7 @@ export default function Desktop() {
         <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-[19.948px]">$</span>
         <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-[73.975px]">0</span>
       </p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-420.36px)] text-[#6b7278] text-[18.286px] top-[6188.79px] whitespace-nowrap">{`Nothing locked that you'd miss on day`}</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-420.36px)] text-text-secondary text-[18.286px] top-[6188.79px] whitespace-nowrap">{`Nothing locked that you'd miss on day`}</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-355.53px)] opacity-58 text-[18.286px] text-black top-[6287.7px] whitespace-nowrap">/ forever</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-248.65px)] text-[18.286px] text-black text-center top-[6353.99px] whitespace-nowrap">Current Plan</p>
       <div className="absolute border-[#e6e6e6] border-[0.886px] border-solid h-[51.414px] left-[529.85px] rounded-[25.707px] top-[6339.81px] w-[363.441px]" />
@@ -3668,13 +3668,13 @@ export default function Desktop() {
         </div>
       </div>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-395.73px)] text-[#4c4e51] text-[16.842px] top-[6638.54px] whitespace-nowrap">Smart keyboard</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%+0.5px)] not-italic text-[#4f545b] text-[22px] text-center top-[8301px] w-[689px]">See what Syni is like with a full year of context and your wearable data in the picture.</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-1/2 text-[#482603] text-[70.909px] text-center top-[8212px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%+0.5px)] not-italic text-slate-text text-[22px] text-center top-[8301px] w-[689px]">See what Syni is like with a full year of context and your wearable data in the picture.</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-1/2 text-warm-dark text-[70.909px] text-center top-[8212px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Start with 7 days free.
       </p>
-      <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[55px] left-[calc(50%+6px)] rounded-[27.48px] top-[8380px] w-[236px]" />
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-[calc(50%+6px)] rounded-[27.48px] top-[8380px] w-[236px]" />
       <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-85px)] text-[18.02px] text-white top-[8396px] whitespace-nowrap">Start Free trial</p>
-      <div className="-translate-x-1/2 absolute bg-[#382324] left-[calc(50%+94.71px)] rounded-[18.709px] size-[37.417px] top-[8389.45px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+94.71px)] rounded-[18.709px] size-[37.417px] top-[8389.45px]" />
       <div className="absolute flex items-center justify-center left-[1041.37px] size-[25.941px] top-[8394.83px]">
         <div className="flex-none rotate-90">
           <TablerArrowUp />
@@ -3686,12 +3686,12 @@ export default function Desktop() {
       <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-1/2 rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7667px] w-[1240px]" />
       <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-1/2 rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7533px] w-[1240px]" />
       <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-1/2 rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7801px] w-[1240px]" />
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-[#18191b] text-[25px] top-[7104px] whitespace-nowrap">What happens after the free trial?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-[#18191b] text-[25px] top-[7303px] whitespace-nowrap">Do I lose my data if I cancel?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-[#18191b] text-[25px] top-[7437px] whitespace-nowrap">Is Plus available on all platforms?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-[#18191b] text-[25px] top-[7705px] whitespace-nowrap">Is my wearable data private?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-[#18191b] text-[25px] top-[7571px] whitespace-nowrap">Does Plus work with both Capture and Syni?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-[#18191b] text-[25px] top-[7839px] whitespace-nowrap">{`What if my device isn't supported yet?`}</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7104px] whitespace-nowrap">What happens after the free trial?</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7303px] whitespace-nowrap">Do I lose my data if I cancel?</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7437px] whitespace-nowrap">Is Plus available on all platforms?</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7705px] whitespace-nowrap">Is my wearable data private?</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7571px] whitespace-nowrap">Does Plus work with both Capture and Syni?</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7839px] whitespace-nowrap">{`What if my device isn't supported yet?`}</p>
       <div className="absolute flex h-[10.873px] items-center justify-center left-[1505px] top-[7148px] w-[21.747px]">
         <div className="-scale-y-100 flex-none">
           <div className="h-[10.873px] relative w-[21.747px]">
@@ -3738,7 +3738,7 @@ export default function Desktop() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.37] left-[calc(50%-491px)] opacity-85 text-[#4f545b] text-[20px] top-[7148px] w-[788px]">{`Oura and WHOOP focus on physical recovery biosignals like HRV, sleep, and strain. Capture adds the behavioral layer those devices can't see...`}</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.37] left-[calc(50%-491px)] opacity-85 text-slate-text text-[20px] top-[7148px] w-[788px]">{`Oura and WHOOP focus on physical recovery biosignals like HRV, sleep, and strain. Capture adds the behavioral layer those devices can't see...`}</p>
       <div className="absolute left-[386.32px] size-[40.353px] top-[7301.18px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40.3533 40.3533">
           <circle cx="20.1767" cy="20.1767" fill="var(--fill-0, #D08E8F)" id="Ellipse 5566" r="20.1767" />
@@ -3812,30 +3812,30 @@ export default function Desktop() {
       <div className="absolute h-[405.963px] left-[1067px] top-[4667px] w-[531.801px]" data-name="image 829">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage829} />
       </div>
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%+358.26px)] rounded-[6.361px] top-[2860px] w-[64.512px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%+358.26px)] rounded-[6.361px] top-[3230px] w-[64.512px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%-170.74px)] rounded-[6.361px] top-[2860px] w-[64.512px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%-170.74px)] rounded-[6.361px] top-[3230px] w-[64.512px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%-689.74px)] rounded-[6.361px] top-[2860px] w-[64.512px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[60.79px] left-[calc(50%-689.74px)] rounded-[6.361px] top-[3230px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%+358.26px)] rounded-[6.361px] top-[2860px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%+358.26px)] rounded-[6.361px] top-[3230px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-170.74px)] rounded-[6.361px] top-[2860px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-170.74px)] rounded-[6.361px] top-[3230px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-689.74px)] rounded-[6.361px] top-[2860px] w-[64.512px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-689.74px)] rounded-[6.361px] top-[3230px] w-[64.512px]" />
       <FamiconsCalendarOutline />
       <LucideLabWatchCheck />
       <AntDesignCloudSyncOutlined />
       <HugeiconsAccess />
       <MaterialSymbolsBeachAccessOutline />
       <FluentMdl2Insights />
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[617px] left-[calc(50%+222.5px)] rounded-[25.707px] top-[6082.14px] w-[441px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[617px] left-[calc(50%+222.5px)] rounded-[25.707px] top-[6082.14px] w-[441px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[1.31] left-[calc(50%+48px)] text-[25px] text-white top-[6151px] whitespace-nowrap">Capture Plus · Yearly</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[0] left-[calc(50%+48px)] text-[#71ff00] text-[0px] top-[6233.68px] whitespace-nowrap">
-        <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-[#d08e8f] text-[19.948px]">$</span>
-        <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-[#d08e8f] text-[73.975px]">79</span>
+        <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-brand text-[19.948px]">$</span>
+        <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-brand text-[73.975px]">79</span>
       </p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+48px)] text-[#d1d1d1] text-[18.286px] top-[6188.79px] whitespace-nowrap">Everything in free, plus wearables...</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+48px)] text-[#d08e8f] text-[14px] top-[6117px] uppercase whitespace-nowrap">Save 2 months</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-420.15px)] text-[#d08e8f] text-[14px] top-[6117px] uppercase whitespace-nowrap">FREE</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+48px)] text-brand text-[14px] top-[6117px] uppercase whitespace-nowrap">Save 2 months</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-420.15px)] text-brand text-[14px] top-[6117px] uppercase whitespace-nowrap">FREE</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+149.85px)] opacity-58 text-[18.286px] text-white top-[6287.7px] whitespace-nowrap">/ year</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+212.85px)] opacity-58 text-[18.286px] text-white top-[6287.7px] whitespace-nowrap">$6.58/month</p>
-      <div className="absolute bg-[#c85a52] h-[51.414px] left-[997.85px] rounded-[25.707px] top-[6339.81px] w-[363.441px]" />
+      <div className="absolute bg-brand-dark h-[51.414px] left-[997.85px] rounded-[25.707px] top-[6339.81px] w-[363.441px]" />
       <div className="absolute bg-white h-[272.138px] left-[974.13px] rounded-[25.707px] top-[6415.16px] w-[417.514px]" />
       <div className="absolute left-[998.07px] size-[23.048px] top-[6442.64px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 23.0475 23.0475">
@@ -3918,37 +3918,37 @@ export default function Desktop() {
       </div>
       <div className="-translate-x-1/2 absolute backdrop-blur-[63px] bg-[rgba(255,255,255,0.6)] h-[819px] left-[calc(50%+9px)] rounded-[11px] shadow-[45px_114px_67px_0px_rgba(0,0,0,0.04)] top-[1532px] w-[1590px]" />
       <div className="-translate-x-1/2 absolute bg-[#a6a6a6] h-[102px] left-[calc(50%-276px)] opacity-16 rounded-[11px] top-[1547px] w-[982px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[1678px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[1780px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[1871px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[1962px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[2144px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[2053px]" />
-      <div className="-translate-x-1/2 absolute bg-[#c85a52] h-[64px] left-[calc(50%+26.5px)] opacity-31 rounded-[9px] top-[2249px] w-[1517px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[551px] left-[calc(50%+510px)] opacity-22 rounded-[11px] top-[1666px] w-[550px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[102px] left-[calc(50%+510px)] opacity-22 rounded-[11px] top-[1547px] w-[550px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-630px)] text-[#3c4138] text-[24px] text-center top-[1582px] uppercase whitespace-nowrap">FEATURE</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-[#3c4138] text-[23px] top-[1690px] whitespace-nowrap">Pattern history</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-[#3c4138] text-[23px] top-[1792px] whitespace-nowrap">Syni</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-[#3c4138] text-[23px] top-[1974px] whitespace-nowrap">Wearable integration</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-[#3c4138] text-[23px] top-[2156px] whitespace-nowrap">Plus-only insight surfaces</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-[#3c4138] text-[23px] top-[1883px] whitespace-nowrap">Cloud sync</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-[#3c4138] text-[23px] top-[2065px] whitespace-nowrap">Long-range insights</p>
+      <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[1678px]" />
+      <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[1780px]" />
+      <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[1871px]" />
+      <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[1962px]" />
+      <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[2144px]" />
+      <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%-704.5px)] opacity-22 rounded-[9px] size-[55px] top-[2053px]" />
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[64px] left-[calc(50%+26.5px)] opacity-31 rounded-[9px] top-[2249px] w-[1517px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[551px] left-[calc(50%+510px)] opacity-22 rounded-[11px] top-[1666px] w-[550px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[102px] left-[calc(50%+510px)] opacity-22 rounded-[11px] top-[1547px] w-[550px]" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-630px)] text-dark-bg-alt text-[24px] text-center top-[1582px] uppercase whitespace-nowrap">FEATURE</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-dark-bg-alt text-[23px] top-[1690px] whitespace-nowrap">Pattern history</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-dark-bg-alt text-[23px] top-[1792px] whitespace-nowrap">Syni</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-dark-bg-alt text-[23px] top-[1974px] whitespace-nowrap">Wearable integration</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-dark-bg-alt text-[23px] top-[2156px] whitespace-nowrap">Plus-only insight surfaces</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-dark-bg-alt text-[23px] top-[1883px] whitespace-nowrap">Cloud sync</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-657px)] text-dark-bg-alt text-[23px] top-[2065px] whitespace-nowrap">Long-range insights</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-612px)] text-[#481903] text-[23px] top-[2266px] whitespace-nowrap">On free, your data never expires it stays on your device. The 30-day window is what Syni actively uses for pattern reading.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-[#3c4138] text-[23px] top-[1690px] whitespace-nowrap">30 days</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-[#3c4138] text-[23px] top-[1792px] whitespace-nowrap">On-device only</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-[#3c4138] text-[23px] top-[1974px] whitespace-nowrap">-</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-[#3c4138] text-[23px] top-[2156px] whitespace-nowrap">-</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-[#3c4138] text-[23px] top-[1883px] whitespace-nowrap">-</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-[#3c4138] text-[23px] top-[2065px] whitespace-nowrap">-</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+265px)] text-[#3c4138] text-[23px] top-[1690px] whitespace-nowrap">365 days</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+265px)] text-[#3c4138] text-[23px] top-[1792px] whitespace-nowrap">Cloud-powered, longer memory</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+299px)] text-[#3c4138] text-[23px] top-[1974px] whitespace-nowrap">Whoop, Garmin, and more</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+299px)] text-[#3c4138] text-[23px] top-[2156px] whitespace-nowrap">Available</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+299px)] text-[#3c4138] text-[23px] top-[1883px] whitespace-nowrap">Across all your devices</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+299px)] text-[#3c4138] text-[23px] top-[2065px] whitespace-nowrap">Available</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-218px)] text-[#3c4138] text-[24px] top-[1582px] uppercase whitespace-nowrap">FREE</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%+265px)] text-[#3c4138] text-[24px] top-[1582px] uppercase whitespace-nowrap">CAPTURE PLUS</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-dark-bg-alt text-[23px] top-[1690px] whitespace-nowrap">30 days</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-dark-bg-alt text-[23px] top-[1792px] whitespace-nowrap">On-device only</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-dark-bg-alt text-[23px] top-[1974px] whitespace-nowrap">-</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-dark-bg-alt text-[23px] top-[2156px] whitespace-nowrap">-</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-dark-bg-alt text-[23px] top-[1883px] whitespace-nowrap">-</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-218px)] text-dark-bg-alt text-[23px] top-[2065px] whitespace-nowrap">-</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+265px)] text-dark-bg-alt text-[23px] top-[1690px] whitespace-nowrap">365 days</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+265px)] text-dark-bg-alt text-[23px] top-[1792px] whitespace-nowrap">Cloud-powered, longer memory</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+299px)] text-dark-bg-alt text-[23px] top-[1974px] whitespace-nowrap">Whoop, Garmin, and more</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+299px)] text-dark-bg-alt text-[23px] top-[2156px] whitespace-nowrap">Available</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+299px)] text-dark-bg-alt text-[23px] top-[1883px] whitespace-nowrap">Across all your devices</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+299px)] text-dark-bg-alt text-[23px] top-[2065px] whitespace-nowrap">Available</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-218px)] text-dark-bg-alt text-[24px] top-[1582px] uppercase whitespace-nowrap">FREE</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%+265px)] text-dark-bg-alt text-[24px] top-[1582px] uppercase whitespace-nowrap">CAPTURE PLUS</p>
       <div className="absolute h-0 left-[190px] top-[1762px] w-[1555px]">
         <div className="absolute inset-[-1px_0_0_0]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1555 1">
@@ -3991,11 +3991,11 @@ export default function Desktop() {
           </svg>
         </div>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-[#482603] text-[68.921px] text-center top-[1253px] w-[690px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[68.921px] text-center top-[1253px] w-[690px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Free gets you a lot. Plus takes it further.
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%+0.5px)] text-[#d08e8f] text-[19px] text-center top-[1215px] uppercase whitespace-nowrap">FREE VS PLUS</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+0.5px)] not-italic text-[#4f545b] text-[18.468px] text-center top-[1407px] w-[633px]">Every on-device feature is free. Plus adds the things that need more time, more data, and more context to work properly.</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%+0.5px)] text-brand text-[19px] text-center top-[1215px] uppercase whitespace-nowrap">FREE VS PLUS</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+0.5px)] not-italic text-slate-text text-[18.468px] text-center top-[1407px] w-[633px]">Every on-device feature is free. Plus adds the things that need more time, more data, and more context to work properly.</p>
       <div className="absolute h-[13px] left-[1226px] top-[1892px] w-[17.5px]">
         <div className="absolute inset-[-15.39%_-11.43%_-15.38%_-11.43%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 21.5001 17.0001">
@@ -4032,16 +4032,16 @@ export default function Desktop() {
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+46.62px)] opacity-58 text-[14px] text-black top-[4407.49px] whitespace-nowrap">Heart rate, HRV, sleep, activity rings</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+430.8px)] opacity-58 text-[14px] text-black top-[4286.24px] whitespace-nowrap">Body Battery, stress, sleep stages, HRV</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+433px)] opacity-58 text-[14px] text-black top-[4406.49px] whitespace-nowrap">Readiness, sleep quality, activity</p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[999px] text-[#2b3330] text-[23px] top-[4253.75px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[999px] text-forest text-[23px] top-[4253.75px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Whoop
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1006.62px] text-[#2b3330] text-[23px] top-[4376px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1006.62px] text-forest text-[23px] top-[4376px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Apple Watch
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1390.8px] text-[#2b3330] text-[23px] top-[4254.75px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1390.8px] text-forest text-[23px] top-[4254.75px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Garmin
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1393px] text-[#2b3330] text-[23px] top-[4375px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1393px] text-forest text-[23px] top-[4375px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Oura Ring
       </p>
       <div className="-translate-x-1/2 absolute bg-[#2d473c] h-[49.925px] left-[calc(50%+1.03px)] top-[4253px] w-[48.389px]" />

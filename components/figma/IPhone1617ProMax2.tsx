@@ -162,11 +162,11 @@ function Bg() {
 function AudioWave() {
   return (
     <div className="absolute left-[68.52px] rounded-[32px] size-[20.685px] top-[40.08px]" data-name="Audio_wave">
-      <div className="absolute bg-[#131313] bottom-[43.75%] left-1/4 right-[62.5%] rounded-[10px] top-[43.75%]" data-name="bar1" />
-      <div className="absolute bg-[#131313] inset-[43.75%_81.25%_43.75%_6.25%] rounded-[10px]" data-name="bar4" />
-      <div className="absolute bg-[#131313] inset-[43.75%] rounded-[10px]" data-name="bar2" />
-      <div className="absolute bg-[#131313] bottom-[43.75%] left-[62.5%] right-1/4 rounded-[10px] top-[43.75%]" data-name="bar3" />
-      <div className="absolute bg-[#131313] inset-[43.75%_6.25%_43.75%_81.25%] rounded-[10px]" data-name="bar5" />
+      <div className="absolute bg-foreground bottom-[43.75%] left-1/4 right-[62.5%] rounded-[10px] top-[43.75%]" data-name="bar1" />
+      <div className="absolute bg-foreground inset-[43.75%_81.25%_43.75%_6.25%] rounded-[10px]" data-name="bar4" />
+      <div className="absolute bg-foreground inset-[43.75%] rounded-[10px]" data-name="bar2" />
+      <div className="absolute bg-foreground bottom-[43.75%] left-[62.5%] right-1/4 rounded-[10px] top-[43.75%]" data-name="bar3" />
+      <div className="absolute bg-foreground inset-[43.75%_6.25%_43.75%_81.25%] rounded-[10px]" data-name="bar5" />
     </div>
   );
 }
@@ -265,8 +265,8 @@ function Frame2() {
   return (
     <div className="absolute drop-shadow-[0px_29.818px_64.822px_rgba(0,0,0,0.12)] h-[453.754px] left-[21px] overflow-clip rounded-[19.375px] top-[751px] w-[397.504px]">
       <div className="absolute bg-white h-[453.754px] left-0 rounded-[10px] top-0 w-[397.504px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.092] left-[calc(50%-122.5px)] not-italic text-[#131313] text-[15.909px] top-[26.61px] whitespace-nowrap">Syni</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.24] left-[calc(50%-120.86px)] not-italic opacity-83 text-[#131313] text-[9.875px] top-[47.45px] whitespace-nowrap">Reading your signals</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.092] left-[calc(50%-122.5px)] not-italic text-foreground text-[15.909px] top-[26.61px] whitespace-nowrap">Syni</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.24] left-[calc(50%-120.86px)] not-italic opacity-83 text-foreground text-[9.875px] top-[47.45px] whitespace-nowrap">Reading your signals</p>
       <div className="absolute flex h-[41.25px] items-center justify-center left-[65px] top-[228.75px] w-[273.753px]">
         <div className="-scale-y-100 flex-none rotate-180">
           <div className="backdrop-blur-[3.401px] bg-[#9f9f9f] h-[41.25px] opacity-18 relative rounded-[3.84px] w-[273.753px]" />
@@ -289,16 +289,16 @@ function Frame2() {
       </div>
       <div className="absolute bg-[rgba(180,180,180,0.2)] h-[48.125px] left-[31.93px] rounded-[3.84px] top-[85.63px] w-[105.001px]" />
       <div className="absolute bg-[rgba(180,180,180,0.2)] h-[48.125px] left-[146.93px] rounded-[3.84px] top-[85.63px] w-[105.626px]" />
-      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[329.38px] not-italic text-[#131313] text-[8.229px] text-right top-[236.25px] w-[264.378px]">Your focus is high but load is building. Write the report first while your clarity holds then group the meetings after with short breaks between.</p>
-      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[329.38px] not-italic text-[#131313] text-[8.229px] text-right top-[374.38px] w-[264.378px]">Your focus is high but load is building. Write the report first while your clarity holds then group the meetings after with short breaks between.</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[66.25px] not-italic text-[#131313] text-[8.229px] top-[171.25px] w-[160.627px]">Help me plan my afternoon. Three meetings and a report to write.</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[66.25px] not-italic text-[#131313] text-[8.229px] top-[312.5px] w-[160.627px]">Help me plan my afternoon. Three meetings and a report to write.</p>
-      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[339.13px] not-italic text-[#131313] text-[7.5px] text-right top-[278.13px] whitespace-nowrap">2:21 PM</p>
-      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[339.13px] not-italic text-[#131313] text-[7.5px] text-right top-[416.25px] whitespace-nowrap">2:21 PM</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[35px] not-italic text-[#131313] text-[7.5px] top-[208.13px] whitespace-nowrap">2:21 PM</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[35px] not-italic text-[#131313] text-[7.5px] top-[350.63px] whitespace-nowrap">2:21 PM</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[42.22px] not-italic text-[#131313] text-[11.25px] top-[110.86px] whitespace-nowrap">High</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[157.42px] not-italic text-[#131313] text-[11.25px] top-[110.86px] whitespace-nowrap">Moderate</p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[329.38px] not-italic text-foreground text-[8.229px] text-right top-[236.25px] w-[264.378px]">Your focus is high but load is building. Write the report first while your clarity holds then group the meetings after with short breaks between.</p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[329.38px] not-italic text-foreground text-[8.229px] text-right top-[374.38px] w-[264.378px]">Your focus is high but load is building. Write the report first while your clarity holds then group the meetings after with short breaks between.</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[66.25px] not-italic text-foreground text-[8.229px] top-[171.25px] w-[160.627px]">Help me plan my afternoon. Three meetings and a report to write.</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[66.25px] not-italic text-foreground text-[8.229px] top-[312.5px] w-[160.627px]">Help me plan my afternoon. Three meetings and a report to write.</p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[339.13px] not-italic text-foreground text-[7.5px] text-right top-[278.13px] whitespace-nowrap">2:21 PM</p>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[339.13px] not-italic text-foreground text-[7.5px] text-right top-[416.25px] whitespace-nowrap">2:21 PM</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[35px] not-italic text-foreground text-[7.5px] top-[208.13px] whitespace-nowrap">2:21 PM</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.365] left-[35px] not-italic text-foreground text-[7.5px] top-[350.63px] whitespace-nowrap">2:21 PM</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[42.22px] not-italic text-foreground text-[11.25px] top-[110.86px] whitespace-nowrap">High</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[157.42px] not-italic text-foreground text-[11.25px] top-[110.86px] whitespace-nowrap">Moderate</p>
       <div className="absolute left-[-32.5px] size-[129.278px] top-[20.83px]" data-name="voice">
         <Bg />
         <AudioWave />
@@ -306,11 +306,11 @@ function Frame2() {
       <Group7 />
       <Group8 />
       <Group9 />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[42.22px] not-italic opacity-55 text-[#131313] text-[7.5px] top-[94.95px] whitespace-nowrap">Focus</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[157.97px] not-italic opacity-55 text-[#131313] text-[7.5px] top-[94.95px] whitespace-nowrap">Load</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[42.22px] not-italic opacity-55 text-foreground text-[7.5px] top-[94.95px] whitespace-nowrap">Focus</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[157.97px] not-italic opacity-55 text-foreground text-[7.5px] top-[94.95px] whitespace-nowrap">Load</p>
       <div className="absolute bg-[rgba(180,180,180,0.2)] h-[48.125px] left-[261.3px] rounded-[3.84px] top-[85.63px] w-[105.001px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[271.53px] not-italic text-[#131313] text-[11.25px] top-[110.86px] whitespace-nowrap">Good</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[272.08px] not-italic opacity-55 text-[#131313] text-[7.5px] top-[94.95px] whitespace-nowrap">Recovery</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[271.53px] not-italic text-foreground text-[11.25px] top-[110.86px] whitespace-nowrap">Good</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[272.08px] not-italic opacity-55 text-foreground text-[7.5px] top-[94.95px] whitespace-nowrap">Recovery</p>
       <div className="absolute left-[41.09px] size-[19.231px] top-[172.5px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 19.2314 19.2314">
           <circle cx="9.61572" cy="9.61572" fill="var(--fill-0, #171717)" id="Ellipse 5315" r="9.61572" />
@@ -439,8 +439,8 @@ function Component() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_29.12%_22.14%_31.78%] leading-[0.89] not-italic text-[#434548] text-[22.977px] whitespace-nowrap">MacOS</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[17.62%_28.6%_64.85%_31.78%] leading-[0.89] not-italic text-[#434548] text-[11.488px] tracking-[0.5744px] whitespace-nowrap">Download For</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_29.12%_22.14%_31.78%] leading-[0.89] not-italic text-ui-gray text-[22.977px] whitespace-nowrap">MacOS</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[17.62%_28.6%_64.85%_31.78%] leading-[0.89] not-italic text-ui-gray text-[11.488px] tracking-[0.5744px] whitespace-nowrap">Download For</p>
       <div className="absolute inset-[15.28%_75.09%_23.81%_10.35%]" data-name="Vector">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 28.3054 34.7442">
           <path d={svgPaths.p8128c00} fill="var(--fill-0, #434548)" id="Vector" />
@@ -472,8 +472,8 @@ function Component1() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_16.56%_22.14%_33.01%] leading-[0.89] not-italic text-[#434548] text-[22.977px] whitespace-nowrap">Windows</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[17.62%_27.36%_64.85%_33.01%] leading-[0.89] not-italic text-[#434548] text-[11.488px] tracking-[0.5744px] whitespace-nowrap">Download For</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_16.56%_22.14%_33.01%] leading-[0.89] not-italic text-ui-gray text-[22.977px] whitespace-nowrap">Windows</p>
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[17.62%_27.36%_64.85%_33.01%] leading-[0.89] not-italic text-ui-gray text-[11.488px] tracking-[0.5744px] whitespace-nowrap">Download For</p>
       <LineiconsWindows />
     </div>
   );
@@ -507,7 +507,7 @@ function Frame4() {
       <div className="-translate-x-1/2 absolute bg-[#3f2b2c] h-[926px] left-[calc(50%-62.28px)] top-0 w-[440px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:ExtraLight',sans-serif] font-extralight leading-[1.63] left-[calc(50%-237.28px)] text-[17px] text-white top-[148px] w-[351px]">Capture was founded with one clear mission: to create insurance that truly cares for pets and their families. We know that veterinary treatments, emergencies.</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-165.18px)] not-italic text-[37.706px] text-white top-[75.68px] whitespace-nowrap">Capture</p>
-      <div className="absolute bg-[#d08e8f] h-[57px] left-[46px] rounded-[11px] top-[61px] w-[58px]" />
+      <div className="absolute bg-brand h-[57px] left-[46px] rounded-[11px] top-[61px] w-[58px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[41.84px] text-[14.34px] text-white top-[369.37px] w-[88.43px]">How it Works</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[41.84px] text-[14.34px] text-white top-[407.61px] whitespace-nowrap">Meet Syni</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[41.84px] text-[14.34px] text-white top-[445.85px] w-[88.43px]">Desktop App</p>
@@ -646,9 +646,9 @@ export default function IPhone1617ProMax() {
           </div>
         </div>
       </div>
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[10px] left-[calc(50%-4px)] rounded-bl-[4px] rounded-br-[4px] top-[4917px] w-[160px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[10px] left-[calc(50%-4px)] rounded-bl-[4px] rounded-br-[4px] top-[4917px] w-[160px]" />
       <div className="-translate-x-1/2 absolute bg-[#ff912b] h-[10px] left-[calc(50%+456.5px)] rounded-bl-[4px] rounded-br-[4px] top-[4917px] w-[255px]" />
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[10px] left-[calc(50%+910px)] rounded-bl-[4px] rounded-br-[4px] top-[4917px] w-[160px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[10px] left-[calc(50%+910px)] rounded-bl-[4px] rounded-br-[4px] top-[4917px] w-[160px]" />
       <div className="absolute h-[157px] left-[56px] top-[4924px] w-[317px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 317 157">
           <path d={svgPaths.p286cf500} fill="url(#paint0_linear_1_3411)" id="Vector 20" opacity="0.2" />
@@ -682,22 +682,22 @@ export default function IPhone1617ProMax() {
           </defs>
         </svg>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[214.5px] not-italic text-[#424749] text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Focus</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%-5px)] not-italic text-[#424749] text-[50px] text-center top-[4953.87px] whitespace-nowrap">High</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[683.22px] not-italic text-[#424749] text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Load</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+464px)] not-italic text-[#424749] text-[50px] text-center top-[4953.87px] whitespace-nowrap">Moderate</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[1129px] not-italic text-[#424749] text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Recovery</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+910.5px)] not-italic text-[#424749] text-[50px] text-center top-[4953.87px] whitespace-nowrap">Good</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[78.2699966430664%] left-[calc(50%-0.5px)] text-[#482603] text-[100px] text-center top-[4079px] w-[341px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[214.5px] not-italic text-ui-gray text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Focus</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%-5px)] not-italic text-ui-gray text-[50px] text-center top-[4953.87px] whitespace-nowrap">High</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[683.22px] not-italic text-ui-gray text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Load</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+464px)] not-italic text-ui-gray text-[50px] text-center top-[4953.87px] whitespace-nowrap">Moderate</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[1129px] not-italic text-ui-gray text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Recovery</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+910.5px)] not-italic text-ui-gray text-[50px] text-center top-[4953.87px] whitespace-nowrap">Good</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[78.2699966430664%] left-[calc(50%-0.5px)] text-warm-dark text-[100px] text-center top-[4079px] w-[341px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         How it Works
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-1/2 not-italic text-[#d08e8f] text-[40.01px] text-center top-[4326px] uppercase w-[408px]">Syni reads your signals before you say anything</p>
-      <div className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[0] left-[calc(50%-184px)] text-[#6b7278] text-[22px] top-[4519px] w-[387px] whitespace-pre-wrap">
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-1/2 not-italic text-brand text-[40.01px] text-center top-[4326px] uppercase w-[408px]">Syni reads your signals before you say anything</p>
+      <div className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[0] left-[calc(50%-184px)] text-text-secondary text-[22px] top-[4519px] w-[387px] whitespace-pre-wrap">
         <p className="leading-[1.31] mb-0">{`Syni pulls your focus, stress, and recovery from the status bar before the conversation starts. By the time you open it, it already has a picture of where you are. Ask it what to do next. `}</p>
         <p className="leading-[1.31] mb-0">​</p>
         <p className="leading-[1.31]">{`Ask it why today feels heavy. Ask it whether now is a good time to push. It answers based on what it's actually seeing not what you tell it.`}</p>
       </div>
-      <div className="-translate-x-1/2 absolute bg-[#382324] h-[41.112px] left-[calc(50%+131px)] top-[60px] w-[1518px]" />
+      <div className="-translate-x-1/2 absolute bg-dark-bg h-[41.112px] left-[calc(50%+131px)] top-[60px] w-[1518px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+141.34px)] not-italic text-[12.65px] text-center text-white top-[73.44px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
       <NotoFire />
       <div className="absolute left-[372px] size-[47px] top-[112px]">
@@ -705,10 +705,10 @@ export default function IPhone1617ProMax() {
           <circle cx="23.5" cy="23.5" id="Ellipse 4" opacity="0.18" r="23" stroke="var(--stroke-0, black)" />
         </svg>
       </div>
-      <div className="absolute bg-[#191919] h-[2px] left-[392px] rounded-[4px] top-[129px] w-[12px]" />
-      <div className="absolute bg-[#191919] h-[2px] left-[388px] rounded-[4px] top-[141px] w-[12px]" />
-      <div className="absolute bg-[#191919] h-[2px] left-[385px] rounded-[4px] top-[135px] w-[19px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-1/2 text-[#d08e8f] text-[13.846px] text-center top-[204px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</p>
+      <div className="absolute bg-deep-black h-[2px] left-[392px] rounded-[4px] top-[129px] w-[12px]" />
+      <div className="absolute bg-deep-black h-[2px] left-[388px] rounded-[4px] top-[141px] w-[12px]" />
+      <div className="absolute bg-deep-black h-[2px] left-[385px] rounded-[4px] top-[135px] w-[19px]" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-1/2 text-brand text-[13.846px] text-center top-[204px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[normal] left-[calc(50%+0.5px)] opacity-66 text-[18px] text-black text-center top-[482px] w-[363px]">Plus gives you more out of your data, Get a personalised dashboard and storage sing Plus, securely, with a customizable dashboard.</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0] left-1/2 text-[#2c2c2c] text-[64.639px] text-center top-[239px] w-[368px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         <span className="leading-[0.8]">
@@ -718,11 +718,11 @@ export default function IPhone1617ProMax() {
         </span>
         <span className="leading-[0.8] text-[#bb797b]">Your State</span>
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%-0.5px)] not-italic text-[#4f545b] text-[22px] text-center top-[7022px] w-[363px]">Connect your wearables and Capture Plus gives Syni access to richer, longer data. Your patterns become clearer. Every conversation gets more personal the longer you use it</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%-0.18px)] text-[#482603] text-[49.595px] text-center top-[6824px] uppercase w-[381.635px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%-0.5px)] not-italic text-slate-text text-[22px] text-center top-[7022px] w-[363px]">Connect your wearables and Capture Plus gives Syni access to richer, longer data. Your patterns become clearer. Every conversation gets more personal the longer you use it</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%-0.18px)] text-warm-dark text-[49.595px] text-center top-[6824px] uppercase w-[381.635px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Capture Plus gives Syni more to work with
       </p>
-      <div className="-translate-x-1/2 absolute bg-[#d08e8f] h-[55px] left-1/2 rounded-[27.48px] top-[7213px] w-[392px]" />
+      <div className="-translate-x-1/2 absolute bg-brand h-[55px] left-1/2 rounded-[27.48px] top-[7213px] w-[392px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-107.5px)] text-[18.02px] text-center text-white top-[7229px] whitespace-nowrap">Get Capture Plus</p>
       <Items />
       <Items1 />
@@ -761,18 +761,18 @@ export default function IPhone1617ProMax() {
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-156.46px)] opacity-76 text-[12.679px] text-white top-[3124.02px] w-[285.708px]">{`On your Mac or Windows desktop on its own. On your phone through Capture. Either way, it's the same Syni.`}</p>
       <MingcuteTimeLine />
       <MeteorIconsDevices />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.963] left-1/2 text-[#424749] text-[68px] text-center top-[5229px] w-[460px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.963] left-1/2 text-ui-gray text-[68px] text-center top-[5229px] w-[460px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Same question. Different answer.
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%+9px)] text-[#d08e8f] text-[22px] text-center top-[5173px] uppercase whitespace-nowrap">WHAT YOU CAN ASK SYNI</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%+9px)] text-brand text-[22px] text-center top-[5173px] uppercase whitespace-nowrap">WHAT YOU CAN ASK SYNI</p>
       <div className="-translate-x-1/2 absolute bg-white h-[211px] left-[calc(50%+0.5px)] rounded-[11px] shadow-[0px_27px_18.6px_0px_rgba(0,0,0,0.05)] top-[5568px] w-[383px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[211px] left-[calc(50%+0.5px)] rounded-[11px] shadow-[0px_27px_18.6px_0px_rgba(0,0,0,0.05)] top-[6051px] w-[383px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[224px] left-[calc(50%+0.5px)] rounded-[11px] shadow-[0px_27px_18.6px_0px_rgba(0,0,0,0.05)] top-[5803px] w-[383px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[224px] left-[calc(50%+0.5px)] rounded-[11px] shadow-[0px_27px_18.6px_0px_rgba(0,0,0,0.05)] top-[6286px] w-[383px]" />
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[118px] not-italic text-[#482603] text-[23px] top-[5605px] w-[268px]">{`"Help me plan today. I'm overloaded."`}</p>
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[118px] not-italic text-[#482603] text-[23px] top-[6088px] w-[268px]">{`"Help me plan today. I'm overloaded."`}</p>
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[118px] not-italic text-[#482603] text-[23px] top-[5840px] w-[249px]">{`"Think through this with me."`}</p>
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[118px] not-italic text-[#482603] text-[23px] top-[6323px] w-[249px]">{`"Think through this with me."`}</p>
+      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[118px] not-italic text-warm-dark text-[23px] top-[5605px] w-[268px]">{`"Help me plan today. I'm overloaded."`}</p>
+      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[118px] not-italic text-warm-dark text-[23px] top-[6088px] w-[268px]">{`"Help me plan today. I'm overloaded."`}</p>
+      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[118px] not-italic text-warm-dark text-[23px] top-[5840px] w-[249px]">{`"Think through this with me."`}</p>
+      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[118px] not-italic text-warm-dark text-[23px] top-[6323px] w-[249px]">{`"Think through this with me."`}</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%-101px)] text-[#8a8b8c] text-[17px] top-[5674px] w-[274px]">Syni cuts the list down, protects recovery time, and tells you what actually needs doing today.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%-101px)] text-[#8a8b8c] text-[17px] top-[6157px] w-[274px]">Syni cuts the list down, protects recovery time, and tells you what actually needs doing today.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%-101px)] text-[#8a8b8c] text-[17px] top-[5917px] w-[267px]">Calm, steady reasoning. No rush. Paced to what your focus can actually hold right now.</p>
@@ -798,7 +798,7 @@ export default function IPhone1617ProMax() {
       <div className="absolute h-[244px] left-0 top-[6587px] w-[162.667px]" data-name="image 820">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage820} />
       </div>
-      <div className="absolute bg-[#c85a52] h-[65px] left-[18px] rounded-[5px] top-[607px] w-[220px]" />
+      <div className="absolute bg-brand-dark h-[65px] left-[18px] rounded-[5px] top-[607px] w-[220px]" />
       <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[60px] not-italic text-[19.931px] text-white top-[627.33px] whitespace-nowrap">Download Syni</p>
       <Component />
       <Component1 />
@@ -809,8 +809,8 @@ export default function IPhone1617ProMax() {
         </div>
       </div>
       <Frame4 />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-138.44px)] not-italic text-[#382324] text-[25.918px] top-[124px] whitespace-nowrap">Capture</p>
-      <div className="absolute bg-[#382324] left-[31px] rounded-[7.058px] size-[39.993px] top-[115px]" />
+      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-138.44px)] not-italic text-dark-bg text-[25.918px] top-[124px] whitespace-nowrap">Capture</p>
+      <div className="absolute bg-dark-bg left-[31px] rounded-[7.058px] size-[39.993px] top-[115px]" />
       <div className="absolute h-[21.863px] left-[38.06px] top-[124px] w-[25.969px]" data-name="image 835">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[290.86%] left-[-73.08%] max-w-none top-[-95.94%] w-[244.87%]" src={imgImage840} />
