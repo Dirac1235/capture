@@ -1,21 +1,22 @@
 import Desktop101 from "@/components/figma/Desktop101";
 import IPhone1617ProMax4 from "@/components/figma/IPhone1617ProMax4";
+import { ResponsiveFrame } from "@/components/layout/ResponsiveFrame";
 
 export default function PageFour() {
   return (
     <>
-      {/* Desktop frame — shown on md+ screens */}
-      <div className="hidden md:block overflow-x-auto">
-        <div style={{ width: "1920px", height: "2796px", position: "relative" }}>
-          <Desktop101 />
-        </div>
+      {/* Mobile frame — below 1024px, scaled to fit */}
+      <div className="block desktop:hidden">
+        <ResponsiveFrame width={430} height={5070}>
+          <IPhone1617ProMax4 />
+        </ResponsiveFrame>
       </div>
 
-      {/* Mobile frame — shown on small screens */}
-      <div className="block md:hidden overflow-x-hidden">
-        <div style={{ width: "430px", height: "5070px", position: "relative", margin: "0 auto" }}>
-          <IPhone1617ProMax4 />
-        </div>
+      {/* Desktop frame — 1024px and up, scaled to fit */}
+      <div className="hidden desktop:block">
+        <ResponsiveFrame width={1920} height={2741}>
+          <Desktop101 />
+        </ResponsiveFrame>
       </div>
     </>
   );
