@@ -1,21 +1,21 @@
-import Desktop100 from "@/components/figma/Desktop100";
-import IPhone1617ProMax3 from "@/components/figma/IPhone1617ProMax3";
+import Desktop101 from "@/components/figma/Desktop101";
+import IPhone1617ProMax4 from "@/components/figma/IPhone1617ProMax4";
 import { ResponsiveFrame } from "@/components/layout/ResponsiveFrame";
 
-export default function PageThree() {
+export default function FoundationsPage() {
   return (
     <>
       {/* Mobile frame — below 1024px, scaled to fit */}
       <div className="block desktop:hidden">
-        <ResponsiveFrame width={438} height={11746}>
-          <IPhone1617ProMax3 />
+        <ResponsiveFrame width={438} height={4954}>
+          <IPhone1617ProMax4 />
         </ResponsiveFrame>
       </div>
 
       {/* Desktop frame — 1024px and up, scaled to fit */}
       <div className="hidden desktop:block">
-        <ResponsiveFrame width={1920} height={8976}>
-          <Desktop100 />
+        <ResponsiveFrame width={1920} height={2741}>
+          <Desktop101 />
         </ResponsiveFrame>
       </div>
     </>

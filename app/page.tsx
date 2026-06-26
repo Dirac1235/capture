@@ -2,7 +2,7 @@ import Desktop98 from "@/components/figma/Desktop98";
 import IPhone1617ProMax1 from "@/components/figma/IPhone1617ProMax1";
 import { ResponsiveFrame } from "@/components/layout/ResponsiveFrame";
 
-export default function HomePage() {
+export default function CapturePage() {
   return (
     <>
       {/* Mobile frame — below 1024px, scaled to fit */}
