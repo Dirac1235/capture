@@ -556,6 +556,7 @@ export default function PlusDesktop() {
       </div>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%+72.64px)] text-[#4c4e51] text-[16.842px] top-[6638.54px] whitespace-nowrap">Cloud-powered Syni</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%+219.35px)] text-[18px] text-center text-white top-[6353.99px] whitespace-nowrap">Get Plus Yearly</p>
+      <HotspotButton aria-label="Get Plus Yearly" className="left-[997.85px] top-[6339.81px] w-[363.441px] h-[51.414px] rounded-[25.707px]" />
       <div className="absolute left-[1162.85px] size-[4px] top-[6298px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 4 4">
           <circle cx="2" cy="2" fill="var(--fill-0, #949999)" id="Ellipse 5573" r="2" />
