@@ -14,7 +14,7 @@ export default function CapturePage() {
 
       {/* Desktop frame — 1024px and up, scaled to fit */}
       <div className="hidden desktop:block">
-        <ResponsiveFrame width={1920} height={13914}>
+        <ResponsiveFrame width={1920} height={13914} collapsibleTopPx={52}>
           <CaptureDesktop />
         </ResponsiveFrame>
       </div>

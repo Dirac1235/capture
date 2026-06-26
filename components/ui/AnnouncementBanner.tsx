@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
 import svgPaths from "@/lib/figma/svg-j898oj6jf2";
+import { dismissBanner, useBannerDismissed } from "@/components/ui/bannerStore";
 
 /**
  * Global top announcement bar.
@@ -12,8 +12,8 @@ import svgPaths from "@/lib/figma/svg-j898oj6jf2";
  * flush to the top (removing the original white gap), and the ✕ dismisses it.
  */
 export function AnnouncementBanner() {
-  const [visible, setVisible] = useState(true);
-  if (!visible) return null;
+  const dismissed = useBannerDismissed();
+  if (dismissed) return null;
 
   return (
     <>
@@ -48,7 +48,7 @@ export function AnnouncementBanner() {
       <button
         type="button"
         aria-label="Dismiss announcement"
-        onClick={() => setVisible(false)}
+        onClick={() => dismissBanner()}
         className="absolute left-[1850px] size-[32px] top-[10px] cursor-pointer rounded-full transition-opacity hover:opacity-70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
       >
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 32 32">

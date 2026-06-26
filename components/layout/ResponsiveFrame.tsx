@@ -2,12 +2,19 @@
 
 import { useLayoutEffect, useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
+import { useBannerDismissed } from "@/components/ui/bannerStore";
 
 interface ResponsiveFrameProps {
   /** Intrinsic design width of the Figma frame, e.g. 1920 (desktop) or 430 (mobile). */
   width: number;
   /** Intrinsic design height of the Figma frame. */
   height: number;
+  /**
+   * Design-px height occupied by the dismissable banner at the very top of the
+   * frame. When the banner is dismissed, the frame crops this band away so the
+   * content pulls up to reclaim the space (and the frame shortens to match).
+   */
+  collapsibleTopPx?: number;
   className?: string;
   children: React.ReactNode;
 }
@@ -36,11 +43,14 @@ const useIsomorphicLayoutEffect =
 export function ResponsiveFrame({
   width,
   height,
+  collapsibleTopPx = 0,
   className,
   children,
 }: ResponsiveFrameProps) {
   const outerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
+  const bannerDismissed = useBannerDismissed();
+  const cropTop = bannerDismissed ? collapsibleTopPx : 0;
 
   useIsomorphicLayoutEffect(() => {
     const el = outerRef.current;
@@ -55,15 +65,15 @@ export function ResponsiveFrame({
   return (
     <div
       ref={outerRef}
-      className={cn("w-full overflow-hidden", className)}
-      style={{ aspectRatio: `${width} / ${height}` }}
+      className={cn("w-full overflow-hidden transition-[aspect-ratio] duration-200", className)}
+      style={{ aspectRatio: `${width} / ${height - cropTop}` }}
     >
       <div
-        className="origin-top-left"
+        className="origin-top-left transition-transform duration-200"
         style={{
           width: `${width}px`,
           height: `${height}px`,
-          transform: `scale(${scale})`,
+          transform: `scale(${scale}) translateY(${-cropTop}px)`,
         }}
       >
         {children}

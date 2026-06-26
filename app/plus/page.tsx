@@ -14,7 +14,7 @@ export default function PlusPage() {
 
       {/* Desktop frame — 1024px and up, scaled to fit */}
       <div className="hidden desktop:block">
-        <ResponsiveFrame width={1920} height={8976}>
+        <ResponsiveFrame width={1920} height={8976} collapsibleTopPx={52}>
           <PlusDesktop />
         </ResponsiveFrame>
       </div>

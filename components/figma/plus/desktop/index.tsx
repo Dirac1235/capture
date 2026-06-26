@@ -4,6 +4,7 @@
 import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
 
 import Link from "next/link";
+import { HotspotButton } from "@/components/ui/Hotspot";
 
 import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom1, imgImage289, imgImage823, imgImage829, imgImage836, imgImage840, imgTelegramCloudDocument458142836860104284071, svgPaths } from "./assets";
 import { Frame5, Frame6 } from "./graphics";
@@ -45,6 +46,7 @@ export default function PlusDesktop() {
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
       <AnnouncementBanner />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.05px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Start Free Trial</p>
+      <HotspotButton aria-label="Start Free Trial" className="-translate-x-1/2 left-[calc(50%+648.82px)] top-[126px] w-[209.636px] h-[58.751px] rounded-[29.376px]" />
       <Frame5 />
       <Frame1 />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[2639.26px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -143,6 +145,7 @@ export default function PlusDesktop() {
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.31] left-[calc(50%-692px)] opacity-70 text-[22px] text-white top-[4858px] w-[725px]">On free, Syni reads your last 30 days and your current signals. On Plus, it has 365 days of history, your wearable data, and context from previous conversations. The difference shows up in how specific it can be.</p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[71px] left-[calc(50%-588.37px)] rounded-[35.474px] top-[4990px] w-[205.255px]" />
       <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-648.4px)] text-[23.262px] text-white top-[5010.65px] whitespace-nowrap">Learn more</p>
+      <HotspotButton aria-label="Learn more" className="-translate-x-1/2 left-[calc(50%-588.37px)] top-[4990px] w-[205.255px] h-[71px] rounded-[35.474px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-613px)] opacity-58 text-[22px] text-black top-[5245.26px] whitespace-nowrap">HRV, strain, sleep, recovery scores</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+171px)] opacity-58 text-[22px] text-black top-[5245.26px] whitespace-nowrap">HRV, strain, sleep, recovery scores</p>
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[347px] text-forest text-[32.326px] top-[5208px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -323,6 +326,7 @@ export default function PlusDesktop() {
       </p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-[calc(50%+6px)] rounded-[27.48px] top-[8380px] w-[236px]" />
       <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-85px)] text-[18.02px] text-white top-[8396px] whitespace-nowrap">Start Free trial</p>
+      <HotspotButton aria-label="Start Free trial" className="-translate-x-1/2 left-[calc(50%+6px)] top-[8380px] w-[236px] h-[55px] rounded-[27.48px]" />
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+94.71px)] rounded-[18.709px] size-[37.417px] top-[8389.45px]" />
       <div className="absolute flex items-center justify-center left-[1041.37px] size-[25.941px] top-[8394.83px]">
         <div className="flex-none rotate-90">
