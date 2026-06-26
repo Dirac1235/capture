@@ -1,11 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
+
 import Link from "next/link";
 
 import { img4E613751157188230432B7Db82Abd067Photoroom1, imgChatGptImageMay232025043440PmPhotoroom, imgImage, imgImage831, imgImage836, imgImage837, imgTelegramCloudDocument458142836860104284071, svgPaths } from "./assets";
 import { MaskGroup } from "./graphics";
-import { FlowbiteUsersGroupOutline, HeroiconsCubeTransparent20Solid, IcOutlinePrivacyTip, IconoirFacebook, NotoFire, PhDribbbleLogoLight, ProiconsXTwitter, SiCloseLine, StreamlineLinkedin, TablerArrowUp, TablerArrowUp1 } from "./icons";
+import { FlowbiteUsersGroupOutline, HeroiconsCubeTransparent20Solid, IcOutlinePrivacyTip, IconoirFacebook, PhDribbbleLogoLight, ProiconsXTwitter, StreamlineLinkedin, TablerArrowUp, TablerArrowUp1 } from "./icons";
 import { Frame1, Group3, IconoirDesignPencil, ProiconsInstagram } from "./widgets";
 
 export default function FoundationsDesktop() {
@@ -64,11 +66,8 @@ export default function FoundationsDesktop() {
       </nav>
       <Group3 />
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
-      <div className="-translate-x-1/2 absolute bg-dark-bg h-[52px] left-1/2 top-[12px] w-[1920px]" />
+      <AnnouncementBanner />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Download Syni</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+18.5px)] not-italic text-[16px] text-center text-white top-[29px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
-      <NotoFire />
-      <SiCloseLine />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[1200px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Our Principles
       </p>

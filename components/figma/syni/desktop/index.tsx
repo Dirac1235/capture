@@ -1,11 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
+
 import Link from "next/link";
 
 import { imgImage, imgImage1, imgImage2, imgImage3, imgImage820, imgImage836, imgImage837, imgTelegramCloudDocument458142836860104284071, svgPaths } from "./assets";
 import { MaskGroup } from "./graphics";
-import { Component, NotoFire, OcticonQuestion, RiMindMap, SiCloseLine, TablerArrowUp } from "./icons";
+import { Component, OcticonQuestion, RiMindMap, TablerArrowUp } from "./icons";
 import { Component1, Frame, Frame2, Frame3, Frame4, Frame5, Frame6, Group9, MeteorIconsDevices, MingcuteTimeLine } from "./widgets";
 
 export default function SyniDesktop() {
@@ -55,11 +57,8 @@ export default function SyniDesktop() {
       </nav>
       <Group9 />
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
-      <div className="-translate-x-1/2 absolute bg-dark-bg h-[52px] left-1/2 top-[12px] w-[1920px]" />
+      <AnnouncementBanner />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Download Syni</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+28.5px)] not-italic text-[16px] text-center text-white top-[30px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
-      <NotoFire />
-      <SiCloseLine />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%+0.5px)] text-warm-dark text-[70.909px] text-center top-[3927px] uppercase w-[991px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Capture Plus gives Syni more to work with
       </p>

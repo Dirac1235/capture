@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
+
 import { img4E613751157188230432B7Db82Abd067Photoroom2, imgChatGptImageMay232025043440PmPhotoroom, imgImage831, imgImage836, imgImage837, svgPaths } from "./assets";
 import { Items, Items1, MaskGroup } from "./graphics";
 import { FlowbiteUsersGroupOutline, HeroiconsCubeTransparent20Solid, IcOutlinePrivacyTip, NotoFire, TablerArrowUp, TablerArrowUp1 } from "./icons";
@@ -229,7 +231,7 @@ export default function FoundationsMobile() {
           <TablerArrowUp />
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-138.44px)] not-italic text-dark-bg text-[25.918px] top-[124px] whitespace-nowrap">Capture</p>
+      <Link href="/" aria-label="Capture home" className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-138.44px)] not-italic text-dark-bg text-[25.918px] top-[124px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
       <div className="absolute bg-dark-bg left-[31px] rounded-[7.058px] size-[39.993px] top-[115px]" />
       <div className="absolute h-[21.863px] left-[38.06px] top-[124px] w-[25.969px]" data-name="image 835">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">

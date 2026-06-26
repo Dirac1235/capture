@@ -1,10 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
+
 import Link from "next/link";
 import { HotspotButton } from "@/components/ui/Hotspot";
 import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom1, imgImage289, imgImage446, imgImage79, imgImage816, imgImage817, imgImage818, imgImage820, imgImage821, imgImage830, imgImage836, imgImage840, imgRectangle, imgRectangle34625607, imgRectangle34625614, imgRectangle34625623, imgTelegramCloudDocument458142836860104283961, imgTelegramCloudDocument458142836860104284071, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284073, imgTelegramCloudDocument458142836860104284075, svgPaths } from "./assets";
-import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsLightNeurologyOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, NotoFire, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SiCloseLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerArrowUp2, TablerArrowUp3, TablerNotification } from "./icons";
+import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsLightNeurologyOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerArrowUp2, TablerArrowUp3, TablerNotification } from "./icons";
 import { Component1, Component4, CuidaUserOutline, Frame, Frame2, Frame3, Frame4, Frame6, Frame7, Frame8, GlyphsSignalBold, Group27, Group28, HugeiconsAccess, HugeiconsLamp, IPhone16ProMax1, IconParkOutlineBrain, IconParkOutlineClickTap, IconParkOutlineKeyboard, LetsIconsSpeed, LucideLabWatchCheck, LucideRatio, MageBriefcase, MageHeartHealth, MaskGroup, MynauiWatch } from "./widgets";
 
 export default function CaptureDesktop() {
@@ -63,7 +65,7 @@ export default function CaptureDesktop() {
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[68.921px] text-center top-[7043.75px] w-[1090px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Wearables know how you recovered. Capture knows what those signals mean for you.
       </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[83.904px] text-center top-[4702px] w-[706px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[83.904px] text-center top-[4702px] w-[1090px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Two sources. One complete picture.
       </p>
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[0.89] left-[calc(50%+110.24px)] text-[66.442px] text-white top-[6072px] w-[482.372px]" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -226,12 +228,9 @@ export default function CaptureDesktop() {
       </div>
       <Group27 />
       <div className="-translate-x-1/2 absolute bg-[#6e4b4c] h-[58.751px] left-[calc(50%+718.82px)] rounded-[29.376px] top-[104.34px] w-[209.636px]" />
-      <div className="-translate-x-1/2 absolute bg-dark-bg h-[52px] left-1/2 top-[12px] w-[1920px]" />
+      <AnnouncementBanner />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1673.55px] not-italic text-[20.029px] text-center text-white top-[121.69px] whitespace-nowrap">Download Syni</p>
       <HotspotButton aria-label="Download Syni" className="-translate-x-1/2 left-[calc(50%+718.82px)] top-[104.34px] w-[209.636px] h-[58.751px] rounded-[29.376px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+15.5px)] not-italic text-[16px] text-center text-white top-[29px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
-      <NotoFire />
-      <SiCloseLine />
       <div className="absolute bg-white h-[166px] left-[252px] shadow-[0px_25px_40px_0px_rgba(0,0,0,0.09)] top-[1399px] w-[333px]" />
       <div className="absolute bg-white h-[851px] left-[162px] rounded-[34px] shadow-[40px_51px_250px_0px_rgba(0,0,0,0.05)] top-[5007px] w-[773px]" />
       <div className="-translate-x-1/2 absolute backdrop-blur-[63px] bg-[rgba(255,255,255,0.6)] h-[795px] left-1/2 rounded-[11px] shadow-[45px_114px_67px_0px_rgba(0,0,0,0.04)] top-[7419px] w-[1590px]" />
@@ -257,7 +256,7 @@ export default function CaptureDesktop() {
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[274px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Whoop
       </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[220px] text-forest text-[42px] top-[5175px] w-[391px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[220px] text-forest text-[42px] top-[5175px] w-[400px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Behavioral signals Company Keyboard
       </p>
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[1033px] text-forest text-[42px] top-[5175px] w-[214px]" style={{ fontVariationSettings: '"wdth" 100' }}>

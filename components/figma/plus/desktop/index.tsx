@@ -1,11 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
+
 import Link from "next/link";
 
 import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom1, imgImage289, imgImage823, imgImage829, imgImage836, imgImage840, imgTelegramCloudDocument458142836860104284071, svgPaths } from "./assets";
 import { Frame5, Frame6 } from "./graphics";
-import { AntDesignCloudSyncOutlined, AntDesignCloudSyncOutlined1, ArcticonsWhoop, CbiOuraO, CibGarmin, FamiconsCalendarOutline, FluentMdl2Insights, IcRoundApple, MaterialSymbolsBeachAccessOutline, NotoFire, SiCloseLine, SiInsightsFill, SolarHistoryBold, TablerArrowUp } from "./icons";
+import { AntDesignCloudSyncOutlined, AntDesignCloudSyncOutlined1, ArcticonsWhoop, CbiOuraO, CibGarmin, FamiconsCalendarOutline, FluentMdl2Insights, IcRoundApple, MaterialSymbolsBeachAccessOutline, SiInsightsFill, SolarHistoryBold, TablerArrowUp } from "./icons";
 import { Frame1, Frame7, Group17, Group19, Group20, Group21, HugeiconsAccess, LucideLabWatchCheck, MynauiWatch, TablerFreeRights } from "./widgets";
 
 export default function PlusDesktop() {
@@ -41,11 +43,8 @@ export default function PlusDesktop() {
       </nav>
       <Group17 />
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
-      <div className="-translate-x-1/2 absolute bg-dark-bg h-[52px] left-1/2 top-[12px] w-[1920px]" />
+      <AnnouncementBanner />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.05px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Start Free Trial</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+15.5px)] not-italic text-[16px] text-center text-white top-[28px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
-      <NotoFire />
-      <SiCloseLine />
       <Frame5 />
       <Frame1 />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[2639.26px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
