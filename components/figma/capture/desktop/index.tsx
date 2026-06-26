@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
+import { HotspotButton } from "@/components/ui/Hotspot";
 import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom1, imgImage289, imgImage446, imgImage79, imgImage816, imgImage817, imgImage818, imgImage820, imgImage821, imgImage830, imgImage836, imgImage840, imgRectangle, imgRectangle34625607, imgRectangle34625614, imgRectangle34625623, imgTelegramCloudDocument458142836860104283961, imgTelegramCloudDocument458142836860104284071, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284073, imgTelegramCloudDocument458142836860104284075, svgPaths } from "./assets";
 import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsLightNeurologyOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, NotoFire, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SiCloseLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerArrowUp2, TablerArrowUp3, TablerNotification } from "./icons";
 import { Component1, Component4, CuidaUserOutline, Frame, Frame2, Frame3, Frame4, Frame6, Frame7, Frame8, GlyphsSignalBold, Group27, Group28, HugeiconsAccess, HugeiconsLamp, IPhone16ProMax1, IconParkOutlineBrain, IconParkOutlineClickTap, IconParkOutlineKeyboard, LetsIconsSpeed, LucideLabWatchCheck, LucideRatio, MageBriefcase, MageHeartHealth, MaskGroup, MynauiWatch } from "./widgets";
@@ -115,6 +117,8 @@ export default function CaptureDesktop() {
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%-814.96px)] rounded-[35.962px] size-[71.925px] top-[893px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1601.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap">Get Capture Free</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[316.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap">Get Capture Free</p>
+      <HotspotButton aria-label="Get Capture Free" className="-translate-x-1/2 left-[calc(50%+655.5px)] top-[877px] w-[415px] h-[102px] rounded-[51px]" />
+      <HotspotButton aria-label="Get Capture Free" className="-translate-x-1/2 left-[calc(50%-657.5px)] top-[877px] w-[415px] h-[102px] rounded-[51px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[584px] left-[calc(50%-602.5px)] rounded-[36px] shadow-[25px_36px_250px_0px_rgba(0,0,0,0.05)] top-[2782px] w-[383px]" />
       <div className="-translate-x-1/2 absolute bg-[#eaeaea] h-[362px] left-[calc(50%-601.5px)] rounded-[20px] top-[2799px] w-[347px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[601px] left-[calc(50%-346px)] rounded-[20px] top-[3597px] w-[896px]" />
@@ -163,7 +167,9 @@ export default function CaptureDesktop() {
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[53px] left-[calc(50%+90.86px)] rounded-[26.384px] top-[2129px] w-[207px]" />
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[63.754px] left-[calc(50%-621.5px)] rounded-[31.737px] top-[4068px] w-[249px]" />
       <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%+11.74px)] text-[17.301px] text-white top-[2144.85px] whitespace-nowrap">Learn More</p>
+      <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%+90.86px)] top-[2129px] w-[207px] h-[53px] rounded-[26.384px]" />
       <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-716.68px)] text-[20.811px] text-white top-[4087.07px] whitespace-nowrap">Learn More</p>
+      <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%-621.5px)] top-[4068px] w-[249px] h-[63.754px] rounded-[31.737px]" />
       <div className="absolute left-[114px] size-[100.129px] top-[2426px]" data-name="4e613751157188230432b7db82abd067-Photoroom 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img4E613751157188230432B7Db82Abd067Photoroom1} />
       </div>
@@ -184,13 +190,15 @@ export default function CaptureDesktop() {
       <div className="absolute left-[526px] size-[73.871px] top-[511px]" data-name="4e613751157188230432b7db82abd067-Photoroom 4">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img4E613751157188230432B7Db82Abd067Photoroom1} />
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-787.8px)] not-italic text-dark-bg text-[33.051px] top-[120.36px] whitespace-nowrap">Capture</p>
+      <Link href="/" aria-label="Capture home" className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-787.8px)] not-italic text-dark-bg text-[33.051px] top-[120.36px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
       <div className="absolute bg-dark-bg left-[109px] rounded-[9px] size-[51px] top-[108px]" />
       <Group28 />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[766.35px] not-italic text-[17.757px] text-white top-[126.39px] whitespace-nowrap">Capture</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[892.35px] not-italic text-[17.757px] text-white top-[126.39px] whitespace-nowrap">Syni</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[974.48px] not-italic text-[17.757px] text-white top-[126.39px] whitespace-nowrap">Plus</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1052.17px] not-italic text-[17.757px] text-white top-[126.39px] whitespace-nowrap">Foundations</p>
+      <nav aria-label="Primary" className="contents">
+        <Link href="/" aria-current="page" className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[normal] left-[766.35px] not-italic text-[17.757px] text-white top-[126.39px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
+        <Link href="/syni" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[892.35px] not-italic text-[17.757px] text-white top-[126.39px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Syni</Link>
+        <Link href="/plus" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[974.48px] not-italic text-[17.757px] text-white top-[126.39px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Plus</Link>
+        <Link href="/foundations" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1052.17px] not-italic text-[17.757px] text-white top-[126.39px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Foundations</Link>
+      </nav>
       <div className="absolute backdrop-blur-[14.821px] bg-[rgba(255,255,255,0.7)] h-[169.578px] left-[1299.21px] rounded-[20px] top-[608.52px] w-[327.139px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.24] left-[calc(50%+366px)] text-dark-gray text-[18px] top-[654px] w-[239px]">I’ve noticed a difference between your weekdays and weekends.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Notch:Medium',sans-serif] font-medium leading-[normal] left-[1325.69px] opacity-37 text-[#141414] text-[16.757px] top-[735px] whitespace-nowrap">2:21 AM</p>
@@ -220,6 +228,7 @@ export default function CaptureDesktop() {
       <div className="-translate-x-1/2 absolute bg-[#6e4b4c] h-[58.751px] left-[calc(50%+718.82px)] rounded-[29.376px] top-[104.34px] w-[209.636px]" />
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[52px] left-1/2 top-[12px] w-[1920px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1673.55px] not-italic text-[20.029px] text-center text-white top-[121.69px] whitespace-nowrap">Download Syni</p>
+      <HotspotButton aria-label="Download Syni" className="-translate-x-1/2 left-[calc(50%+718.82px)] top-[104.34px] w-[209.636px] h-[58.751px] rounded-[29.376px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+15.5px)] not-italic text-[16px] text-center text-white top-[29px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
       <NotoFire />
       <SiCloseLine />

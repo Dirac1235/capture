@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
+
 import { img4E613751157188230432B7Db82Abd067Photoroom1, imgChatGptImageMay232025043440PmPhotoroom, imgImage, imgImage831, imgImage836, imgImage837, imgTelegramCloudDocument458142836860104284071, svgPaths } from "./assets";
 import { MaskGroup } from "./graphics";
 import { FlowbiteUsersGroupOutline, HeroiconsCubeTransparent20Solid, IcOutlinePrivacyTip, IconoirFacebook, NotoFire, PhDribbbleLogoLight, ProiconsXTwitter, SiCloseLine, StreamlineLinkedin, TablerArrowUp, TablerArrowUp1 } from "./icons";
@@ -54,10 +56,12 @@ export default function FoundationsDesktop() {
       <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%+45.99px)] rounded-[4.994px] size-[9.988px] top-[150px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-742.8px)] not-italic text-[#1e1e1e] text-[33.051px] top-[142px] whitespace-nowrap">Capture</p>
       <div className="absolute bg-dark-bg left-[154px] rounded-[9px] size-[51px] top-[130px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[751px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Capture</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[851px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Syni</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[921px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Plus</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1022.17px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap">Foundations</p>
+      <nav aria-label="Primary" className="contents">
+        <Link href="/" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[751px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
+        <Link href="/syni" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[851px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Syni</Link>
+        <Link href="/plus" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[921px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Plus</Link>
+        <Link href="/foundations" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1022.17px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Foundations</Link>
+      </nav>
       <Group3 />
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[52px] left-1/2 top-[12px] w-[1920px]" />

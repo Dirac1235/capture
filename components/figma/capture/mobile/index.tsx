@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
+import { HotspotButton } from "@/components/ui/Hotspot";
 import { img4E613751157188230432B7Db82Abd067Photoroom5, imgImage289, imgImage446, imgImage816, imgImage817, imgImage818, imgImage831, imgImage832, imgImage836, imgImage839, imgImage840, imgRectangle, imgRectangle34625682, imgRectangle34625683, imgRectangle34625684, imgTelegramCloudDocument458142836860104283961, imgTelegramCloudDocument458142836860104284071, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284076, imgTelegramCloudDocument458142836860104284077, svgPaths } from "./assets";
 import { Items, Items1 } from "./graphics";
 import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, NotoFire, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerNotification } from "./icons";
@@ -22,7 +24,7 @@ export default function CaptureMobile() {
         <div className="-translate-x-1/2 absolute bg-dark-bg h-[41.112px] left-[calc(50%+131px)] top-[51px] w-[1518px]" />
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+140.5px)] not-italic text-[12.65px] text-center text-white top-[64.44px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
         <NotoFire />
-        <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-125.8px)] not-italic text-dark-bg text-[33.051px] top-[123.36px] whitespace-nowrap">Capture</p>
+        <Link href="/" aria-label="Capture home" className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-125.8px)] not-italic text-dark-bg text-[33.051px] top-[123.36px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
         <div className="absolute bg-dark-bg left-[31px] rounded-[9px] size-[51px] top-[111px]" />
         <div className="absolute left-[372px] size-[47px] top-[112px]">
           <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 47 47">
@@ -75,6 +77,7 @@ export default function CaptureMobile() {
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-191px)] text-text-mid text-[20px] top-[2225px] w-[381px]">Capture reads your biosignals and behavioral patterns every day building a picture of your focus, stress, and energy that gets clearer the longer you use it.</p>
         <div className="-translate-x-1/2 absolute bg-brand-dark h-[65px] left-[calc(50%-4.5px)] rounded-[32.358px] top-[2634px] w-[381px]" />
         <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-164px)] text-[21.218px] text-white top-[2653.44px] whitespace-nowrap">Learn More</p>
+        <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%-4.5px)] top-[2634px] w-[381px] h-[65px] rounded-[32.358px]" />
         <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+153.03px)] rounded-[22.029px] size-[44.059px] top-[2645.13px]" />
         <div className="absolute flex items-center justify-center left-[357.33px] size-[30.546px] top-[2651.46px]">
           <div className="flex-none rotate-90">
@@ -179,6 +182,7 @@ export default function CaptureMobile() {
         </div>
         <div className="-translate-x-1/2 absolute bg-brand h-[55.202px] left-[calc(50%-3.2px)] rounded-[27.48px] top-[12975px] w-[215.599px]" />
         <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-49px)] text-[18.02px] text-white top-[12991.51px] whitespace-nowrap">Read More</p>
+        <HotspotButton aria-label="Read More" className="-translate-x-1/2 left-[calc(50%-3.2px)] top-[12975px] w-[215.599px] h-[55.202px] rounded-[27.48px]" />
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[76.29000091552734%] left-[calc(50%-2px)] not-italic text-warm-dark text-[100px] text-center top-[13258px] uppercase w-[310px]">SEE IT IN ACTION</p>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%-12px)] not-italic text-brand text-[35px] text-center top-[13583px] uppercase w-[338px]">how Capture works in real Capture.</p>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.69] left-[calc(50%-6.5px)] not-italic text-text-secondary text-[20px] text-center top-[13689px] w-[361px]">{`Behavioral signal processing happens on your device. No content is ever read. Your signals are not sold, shared with advertisers, or used to build a profile. The Company Keyboard reads rhythm, pace, and interaction patterns. It has no access to the content of what you write. That's a technical boundary, not just a policy.`}</p>
@@ -440,6 +444,7 @@ export default function CaptureMobile() {
         <div className="-translate-x-1/2 absolute bg-brand h-[690px] left-[calc(50%-0.5px)] rounded-[20px] top-[7199px] w-[413px]" />
         <div className="-translate-x-1/2 absolute bg-dark-bg h-[64px] left-[calc(50%-0.5px)] rounded-[31.737px] top-[7785px] w-[353px]" />
         <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-150.68px)] text-[20.811px] text-white top-[7804.07px] whitespace-nowrap">Learn More</p>
+        <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%-0.5px)] top-[7785px] w-[353px] h-[64px] rounded-[31.737px]" />
         <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%+142.61px)] rounded-[21.607px] size-[43.214px] top-[7795.92px]" />
         <div className="absolute flex items-center justify-center left-[346.21px] size-[29.96px] top-[7802.12px]">
           <div className="flex-none rotate-90">
