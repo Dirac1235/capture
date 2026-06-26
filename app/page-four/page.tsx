@@ -7,7 +7,7 @@ export default function PageFour() {
     <>
       {/* Mobile frame — below 1024px, scaled to fit */}
       <div className="block desktop:hidden">
-        <ResponsiveFrame width={430} height={5070}>
+        <ResponsiveFrame width={438} height={4954}>
           <IPhone1617ProMax4 />
         </ResponsiveFrame>
       </div>

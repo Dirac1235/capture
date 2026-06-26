@@ -1,21 +1,22 @@
 import Desktop100 from "@/components/figma/Desktop100";
 import IPhone1617ProMax3 from "@/components/figma/IPhone1617ProMax3";
+import { ResponsiveFrame } from "@/components/layout/ResponsiveFrame";
 
 export default function PageThree() {
   return (
     <>
-      {/* Desktop frame — shown on md+ screens */}
-      <div className="hidden md:block overflow-x-auto">
-        <div style={{ width: "1920px", height: "9000px", position: "relative" }}>
-          <Desktop100 />
-        </div>
+      {/* Mobile frame — below 1024px, scaled to fit */}
+      <div className="block desktop:hidden">
+        <ResponsiveFrame width={438} height={11746}>
+          <IPhone1617ProMax3 />
+        </ResponsiveFrame>
       </div>
 
-      {/* Mobile frame — shown on small screens */}
-      <div className="block md:hidden overflow-x-hidden">
-        <div style={{ width: "430px", height: "11200px", position: "relative", margin: "0 auto" }}>
-          <IPhone1617ProMax3 />
-        </div>
+      {/* Desktop frame — 1024px and up, scaled to fit */}
+      <div className="hidden desktop:block">
+        <ResponsiveFrame width={1920} height={8976}>
+          <Desktop100 />
+        </ResponsiveFrame>
       </div>
     </>
   );

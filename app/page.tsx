@@ -1,22 +1,23 @@
 import Desktop98 from "@/components/figma/Desktop98";
 import IPhone1617ProMax1 from "@/components/figma/IPhone1617ProMax1";
+import { ResponsiveFrame } from "@/components/layout/ResponsiveFrame";
 
 export default function HomePage() {
   return (
-    <div className="w-full">
-      {/* Mobile layout — base (no prefix), hidden at custom desktop breakpoint (1024px) */}
-      <div className="block desktop:hidden overflow-x-hidden">
-        <div style={{ width: "438px", height: "20400px", position: "relative", margin: "0 auto" }}>
+    <>
+      {/* Mobile frame — below 1024px, scaled to fit */}
+      <div className="block desktop:hidden">
+        <ResponsiveFrame width={438} height={20410}>
           <IPhone1617ProMax1 />
-        </div>
+        </ResponsiveFrame>
       </div>
 
-      {/* Desktop layout — hidden by default, shown at custom desktop breakpoint (1024px) */}
-      <div className="hidden desktop:block overflow-x-auto">
-        <div style={{ width: "1920px", height: "14000px", position: "relative" }}>
+      {/* Desktop frame — 1024px and up, scaled to fit */}
+      <div className="hidden desktop:block">
+        <ResponsiveFrame width={1920} height={13914}>
           <Desktop98 />
-        </div>
+        </ResponsiveFrame>
       </div>
-    </div>
+    </>
   );
 }
