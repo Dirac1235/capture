@@ -95,12 +95,31 @@
   --color-border-subtle: var(--border-subtle); /* #ebeff4 subtle border */
   --color-deep-black:    var(--deep-black);    /* #191919 deep black */
 
+  /* Recurring bespoke colors extracted from the layout frames (each used 4+
+     times as a hardcoded hex). Values are exact — tokenizing changes nothing
+     visually, it just names the colour and removes the repetition. */
+  --color-ink:           var(--ink);           /* #090909 near-black text */
+  --color-ink-soft:      var(--ink-soft);      /* #292b2d soft near-black text */
+  --color-graphite:      var(--graphite);      /* #313734 graphite text */
+  --color-graphite-soft: var(--graphite-soft); /* #414141 soft graphite text */
+  --color-slate:         var(--slate);         /* #4c4e51 slate text */
+  --color-gray-mid:      var(--gray-mid);      /* #8a8b8c mid gray text */
+  --color-line:          var(--line);          /* #ebedf0 light divider/border */
+  --color-haze:          var(--haze);          /* #eaeaea light gray surface */
+  --color-haze-dark:     var(--haze-dark);     /* #dfdfdf gray surface */
+  --color-stone:         var(--stone);         /* #cccbc2 warm gray surface */
+  --color-pine:          var(--pine);          /* #003329 deep green */
+  --color-moss:          var(--moss);          /* #2d473c dark green */
+  --color-coral:         var(--coral);         /* #ff7477 coral accent */
+
   /* ── Fonts — loaded via next/font/google ──────────────────── */
   --font-sans:    var(--font-inter-tight), system-ui, sans-serif;
   --font-heading: var(--font-mozilla-headline), system-ui, sans-serif;
   --font-display: var(--font-stack-sans-headline), system-ui, sans-serif;
   --font-bebas:   var(--font-bebas-neue), sans-serif;
   --font-serif:   var(--font-pt-serif), serif;
+  --font-ui:         var(--font-figtree), system-ui, sans-serif;
+  --font-pretendard: "Pretendard", system-ui, sans-serif;
 
   /* ── Font sizes — from Figma desktop frames ───────────────── */
   --text-xs:         12px;
@@ -212,6 +231,21 @@
   --dark-gray:     #2e2e2e;
   --border-subtle: #ebeff4;
   --deep-black:    #191919;
+
+  /* recurring bespoke colors extracted from the layout frames (exact values) */
+  --ink:           #090909;
+  --ink-soft:      #292b2d;
+  --graphite:      #313734;
+  --graphite-soft: #414141;
+  --slate:         #4c4e51;
+  --gray-mid:      #8a8b8c;
+  --line:          #ebedf0;
+  --haze:          #eaeaea;
+  --haze-dark:     #dfdfdf;
+  --stone:         #cccbc2;
+  --pine:          #003329;
+  --moss:          #2d473c;
+  --coral:         #ff7477;
 
   /* shadcn sidebar (unused in this project but required for shadcn) */
   --sidebar:                    #FFFFFF;

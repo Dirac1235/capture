@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PrimaryButton } from "@/components/ui/PrimaryButton";
+import { AppButton } from "@/components/ui/AppButton";
 import { cn } from "@/lib/utils";
 
 interface NavbarProps {
@@ -53,9 +53,9 @@ export function Navbar({ className }: NavbarProps) {
           </ul>
 
           {/* CTA */}
-          <PrimaryButton className="text-xs px-4 py-2">
+          <AppButton className="text-xs px-4 py-2">
             Get Capture Free
-          </PrimaryButton>
+          </AppButton>
         </nav>
       </div>
     </header>

@@ -47,57 +47,57 @@ export default function FoundationsMobile() {
           </defs>
         </svg>
       </div>
-      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[1129px] not-italic text-ui-gray text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Recovery</motion.p>
-      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+910.5px)] not-italic text-ui-gray text-[50px] text-center top-[4953.87px] whitespace-nowrap">Good</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-pretendard font-medium leading-[normal] left-[1129px] not-italic text-ui-gray text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Recovery</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-serif font-bold leading-[normal] left-[calc(50%+910.5px)] not-italic text-ui-gray text-[50px] text-center top-[4953.87px] whitespace-nowrap">Good</motion.p>
       <AnnouncementBannerMobile />
       <MobileNavMenu />
-      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%-0.5px)] not-italic text-slate-text text-[22px] text-center top-[3694px] w-[363px]">Syni runs on your machine. Nothing you say and nothing it learns about your state ever leaves your device. No servers. No data harvesting. What Syni knows about you stays yours.</motion.p>
-      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%+0.5px)] text-warm-dark text-[67.229px] text-center top-[3550px] uppercase w-[294.156px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-sans font-normal leading-[1.34] left-[calc(50%-0.5px)] not-italic text-slate-text text-[22px] text-center top-[3694px] w-[363px]">Syni runs on your machine. Nothing you say and nothing it learns about your state ever leaves your device. No servers. No data harvesting. What Syni knows about you stays yours.</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-heading font-bold font-bold leading-[0.91] left-[calc(50%+0.5px)] text-warm-dark text-[67.229px] text-center top-[3550px] uppercase w-[294.156px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Build With Us
       </motion.p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-1/2 rounded-[27.48px] top-[3885px] w-[392px]" />
-      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-39.5px)] text-[18.02px] text-center text-white top-[3901px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Explore Open Foundations</button>
+      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-display font-medium font-medium leading-[1.251] left-[calc(50%-39.5px)] text-[18.02px] text-center text-white top-[3901px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Explore Open Foundations</button>
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[962px] left-1/2 top-[4037px] w-[440px]" />
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:ExtraLight',sans-serif] font-extralight leading-[1.63] left-[calc(50%-175px)] text-[17px] text-white top-[4185px] w-[351px]">Capture was founded with one clear mission: to create insurance that truly cares for pets and their families. We know that veterinary treatments, emergencies.</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-102.9px)] not-italic text-[37.706px] text-white top-[4112.68px] whitespace-nowrap">Capture</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-extralight font-extralight leading-[1.63] left-[calc(50%-175px)] text-[17px] text-white top-[4185px] w-[351px]">Capture was founded with one clear mission: to create insurance that truly cares for pets and their families. We know that veterinary treatments, emergencies.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-sans font-bold leading-[0.8] left-[calc(50%-102.9px)] not-italic text-[37.706px] text-white top-[4112.68px] whitespace-nowrap">Capture</motion.p>
       <div className="absolute bg-brand h-[57px] left-[45px] rounded-[11px] top-[4098px] w-[58px]" />
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[40.84px] text-[14.34px] text-white top-[4406.37px] w-[88.43px]">ABOUT US</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[40.84px] text-[14.34px] text-white top-[4444.61px] w-[88.43px]">SERVICES</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[40.84px] text-[14.34px] text-white top-[4482.85px] w-[88.43px]">CONTACT</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[40.84px] text-[14.34px] text-white top-[4521.09px] w-[88.43px]">TEAM</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.63] left-[calc(50%-179.16px)] text-[32.265px] text-white top-[4339.45px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[40.84px] text-[14.34px] text-white top-[4406.37px] w-[88.43px]">ABOUT US</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[40.84px] text-[14.34px] text-white top-[4444.61px] w-[88.43px]">SERVICES</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[40.84px] text-[14.34px] text-white top-[4482.85px] w-[88.43px]">CONTACT</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[40.84px] text-[14.34px] text-white top-[4521.09px] w-[88.43px]">TEAM</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-heading font-semibold font-semibold leading-[1.63] left-[calc(50%-179.16px)] text-[32.265px] text-white top-[4339.45px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Menu
       </motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4406.37px] whitespace-nowrap">+1254-844-5132</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4678.83px] whitespace-nowrap">+1254-844-5132</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4444.61px] whitespace-nowrap">CONTACT@CAPTURE.COM</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4717.07px] whitespace-nowrap">CONTACT@CAPTURE.COM</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4482.85px] w-[88.43px]">CONTACT</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4755.31px] w-[88.43px]">CONTACT</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4521.09px] w-[88.43px]">TEAM</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4793.55px] w-[88.43px]">TEAM</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.63] left-[calc(50%-11.67px)] text-[32.265px] text-white top-[4339.45px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4406.37px] whitespace-nowrap">+1254-844-5132</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4678.83px] whitespace-nowrap">+1254-844-5132</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4444.61px] whitespace-nowrap">CONTACT@CAPTURE.COM</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4717.07px] whitespace-nowrap">CONTACT@CAPTURE.COM</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4482.85px] w-[88.43px]">CONTACT</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4755.31px] w-[88.43px]">CONTACT</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4521.09px] w-[88.43px]">TEAM</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[208.33px] text-[14.34px] text-white top-[4793.55px] w-[88.43px]">TEAM</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-heading font-semibold font-semibold leading-[1.63] left-[calc(50%-11.67px)] text-[32.265px] text-white top-[4339.45px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Contact
       </motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.63] left-[calc(50%-11.67px)] text-[32.265px] text-white top-[4611.91px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-heading font-semibold font-semibold leading-[1.63] left-[calc(50%-11.67px)] text-[32.265px] text-white top-[4611.91px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Contact
       </motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[33.67px] text-[14.34px] text-white top-[4678.83px] w-[88.43px]">ABOUT US</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[33.67px] text-[14.34px] text-white top-[4717.07px] w-[88.43px]">SERVICES</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[33.67px] text-[14.34px] text-white top-[4755.31px] w-[88.43px]">CONTACT</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[33.67px] text-[14.34px] text-white top-[4793.55px] w-[88.43px]">TEAM</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.63] left-[calc(50%-186.33px)] text-[32.265px] text-white top-[4611.91px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[33.67px] text-[14.34px] text-white top-[4678.83px] w-[88.43px]">ABOUT US</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[33.67px] text-[14.34px] text-white top-[4717.07px] w-[88.43px]">SERVICES</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[33.67px] text-[14.34px] text-white top-[4755.31px] w-[88.43px]">CONTACT</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[1.63] left-[33.67px] text-[14.34px] text-white top-[4793.55px] w-[88.43px]">TEAM</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-heading font-semibold font-semibold leading-[1.63] left-[calc(50%-186.33px)] text-[32.265px] text-white top-[4611.91px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Menu
       </motion.p>
       <Frame />
       <div className="absolute left-[66.38px] size-[72.309px] top-[1301px]" data-name="4e613751157188230432b7db82abd067-Photoroom 2">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img4E613751157188230432B7Db82Abd067Photoroom2} />
       </div>
-      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-4px)] text-warm-dark text-[55.161px] text-center top-[1561px] w-[314px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-heading font-semibold font-semibold leading-[82.82500457763672%] left-[calc(50%-4px)] text-warm-dark text-[55.161px] text-center top-[1561px] w-[314px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Our Principles
       </motion.p>
-      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%+0.5px)] text-brand text-[17.608px] text-center top-[1510px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</motion.p>
-      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-4px)] not-italic text-slate-text text-[14.781px] text-center top-[1695px] w-[310px]">{`Patterns you can only see once you've been paying attention for long enough.`}</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-display font-medium font-medium leading-[normal] left-[calc(50%+0.5px)] text-brand text-[17.608px] text-center top-[1510px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-sans font-normal leading-[1.37] left-[calc(50%-4px)] not-italic text-slate-text text-[14.781px] text-center top-[1695px] w-[310px]">{`Patterns you can only see once you've been paying attention for long enough.`}</motion.p>
       <div className="absolute flex h-[10.873px] items-center justify-center left-[1081px] top-[7912px] w-[21.747px]">
         <div className="-scale-y-100 flex-none">
           <div className="h-[10.873px] relative w-[21.747px]">
@@ -144,7 +144,7 @@ export default function FoundationsMobile() {
           </svg>
         </div>
       </div>
-      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-0.5px)] text-dark-bg text-[90.18px] text-center top-[280px] w-[397px]">Human State Interface</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-display font-bold font-bold leading-[0.9] left-[calc(50%-0.5px)] text-dark-bg text-[90.18px] text-center top-[280px] w-[397px]">Human State Interface</motion.p>
       <div className="-translate-x-1/2 absolute h-[60px] left-[calc(50%+13.5px)] top-[815px] w-[493px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 493 60">
           <path d={svgPaths.p10978f00} fill="url(#paint0_linear_1_406)" id="Vector 500" />
@@ -164,41 +164,41 @@ export default function FoundationsMobile() {
           <img alt="" className="absolute h-full left-[-16.49%] max-w-none top-0 w-[131.74%]" src={imgImage831} />
         </div>
       </div>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute bottom-[81.93%] font-['Inter_Tight:SemiBold',sans-serif] leading-[1.029] left-[calc(50%-184.01px)] not-italic text-[#7e7e7e] text-[16px] top-[17.74%] tracking-[1.6px] whitespace-nowrap">Introduction</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute bottom-[80.51%] capitalize font-['Inter_Tight:Bold',sans-serif] leading-[1.18] left-[calc(50%-186px)] not-italic text-[#222b32] text-[23.668px] top-[18.36%] w-[396px]">We open source every foundational block behind Syni Capture.</motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[20.828px] left-[33px] not-italic text-[#414141] text-[14px] top-[974.32px] w-[399px]">The same infrastructure powers both Syni and Company. Privacy first. Transparent. Built to be extended.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute bottom-[81.93%] font-sans font-semibold leading-[1.029] left-[calc(50%-184.01px)] not-italic text-[#7e7e7e] text-[16px] top-[17.74%] tracking-[1.6px] whitespace-nowrap">Introduction</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute bottom-[80.51%] capitalize font-sans font-bold leading-[1.18] left-[calc(50%-186px)] not-italic text-[#222b32] text-[23.668px] top-[18.36%] w-[396px]">We open source every foundational block behind Syni Capture.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-sans font-normal leading-[20.828px] left-[33px] not-italic text-graphite-soft text-[14px] top-[974.32px] w-[399px]">The same infrastructure powers both Syni and Company. Privacy first. Transparent. Built to be extended.</motion.p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[66px] left-[calc(50%-2px)] rounded-[33px] top-[1061px] w-[368px]" />
       <div className="-translate-x-1/2 absolute border-2 border-black border-solid h-[66px] left-[calc(50%-2px)] rounded-[33px] top-[1152px] w-[368px]" />
-      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-74px)] not-italic text-[18px] text-white top-[1083px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Explore on Github</Link>
-      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-61px)] not-italic text-[#020202] text-[18px] top-[1174px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Read the Docs</Link>
+      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="[word-break:break-word] absolute font-sans font-semibold leading-[normal] left-[calc(50%-74px)] not-italic text-[18px] text-white top-[1083px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Explore on Github</Link>
+      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="[word-break:break-word] absolute font-sans font-semibold leading-[normal] left-[calc(50%-61px)] not-italic text-[#020202] text-[18px] top-[1174px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Read the Docs</Link>
       <div className="-translate-x-1/2 absolute bg-gradient-to-b from-[#f5f5f5] h-[1403px] left-1/2 opacity-20 rounded-[25px] to-[#e8e8e8] top-[1762px] w-[412px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[296.847px] left-[calc(50%+12.15px)] rounded-[20.66px] shadow-[0px_64px_87.754px_0px_rgba(0,0,0,0.1)] top-[1796px] w-[400.294px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-120.04px)] rounded-[6.361px] top-[1828.81px] w-[64.512px]" />
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-151.82px)] text-[#313734] text-[27.018px] top-[1933.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-heading font-bold font-bold leading-[0.9] left-[calc(50%-151.82px)] text-graphite text-[27.018px] top-[1933.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Transparent by Design
       </motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-152.02px)] opacity-76 text-[#313734] text-[17.369px] top-[1975.68px] w-[306.967px]">Every algorithm, every computation, every decision visible and auditable. No black boxes.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-light font-light leading-[1.54] left-[calc(50%-152.02px)] opacity-76 text-graphite text-[17.369px] top-[1975.68px] w-[306.967px]">Every algorithm, every computation, every decision visible and auditable. No black boxes.</motion.p>
       <HeroiconsCubeTransparent20Solid />
       <div className="-translate-x-1/2 absolute bg-white h-[296.847px] left-[calc(50%+12.15px)] rounded-[20.66px] shadow-[0px_64px_87.754px_0px_rgba(0,0,0,0.1)] top-[2137px] w-[400.294px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-119.67px)] rounded-[6.361px] top-[2169.81px] w-[64.512px]" />
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-151.45px)] text-[#313734] text-[27.018px] top-[2274.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-heading font-bold font-bold leading-[0.9] left-[calc(50%-151.45px)] text-graphite text-[27.018px] top-[2274.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Privacy as Architecture
       </motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-152.02px)] opacity-76 text-[#313734] text-[17.369px] top-[2316.68px] w-[308.091px]">Data stays on-device by default. We built the system so we never have to trust ourselves with your data.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-light font-light leading-[1.54] left-[calc(50%-152.02px)] opacity-76 text-graphite text-[17.369px] top-[2316.68px] w-[308.091px]">Data stays on-device by default. We built the system so we never have to trust ourselves with your data.</motion.p>
       <IcOutlinePrivacyTip />
       <div className="-translate-x-1/2 absolute bg-white h-[296.847px] left-[calc(50%+10.15px)] rounded-[20.66px] shadow-[0px_64px_87.754px_0px_rgba(0,0,0,0.1)] top-[2478px] w-[400.294px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-122.42px)] rounded-[6.361px] top-[2510.81px] w-[64.512px]" />
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-154.2px)] text-[#313734] text-[27.018px] top-[2615.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-heading font-bold font-bold leading-[0.9] left-[calc(50%-154.2px)] text-graphite text-[27.018px] top-[2615.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Community Driven
       </motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-155.14px)] opacity-76 text-[#313734] text-[17.369px] top-[2657.68px] w-[304.718px]">The best ideas come from real users. Open development means anyone can contribute, critique, or extend.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-light font-light leading-[1.54] left-[calc(50%-155.14px)] opacity-76 text-graphite text-[17.369px] top-[2657.68px] w-[304.718px]">The best ideas come from real users. Open development means anyone can contribute, critique, or extend.</motion.p>
       <FlowbiteUsersGroupOutline />
       <div className="-translate-x-1/2 absolute bg-white h-[296.847px] left-[calc(50%+10.15px)] rounded-[20.66px] shadow-[0px_64px_87.754px_0px_rgba(0,0,0,0.1)] top-[2806px] w-[400.294px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-122.42px)] rounded-[6.361px] top-[2838.81px] w-[64.512px]" />
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-154.2px)] text-[#313734] text-[27.018px] top-[2943.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-heading font-bold font-bold leading-[0.9] left-[calc(50%-154.2px)] text-graphite text-[27.018px] top-[2943.73px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Extensible by Design
       </motion.p>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-155.14px)] opacity-76 text-[#313734] text-[17.369px] top-[2985.68px] w-[304.718px]">Built to be extended. The architecture welcomes contributions, custom integrations, and new use cases.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-light font-light leading-[1.54] left-[calc(50%-155.14px)] opacity-76 text-graphite text-[17.369px] top-[2985.68px] w-[304.718px]">Built to be extended. The architecture welcomes contributions, custom integrations, and new use cases.</motion.p>
       <IconoirDesignPencil />
       <div className="absolute flex h-[685.947px] items-center justify-center left-[-212px] top-[3148px] w-[878.635px]">
         <div className="flex-none rotate-[14.85deg]">
@@ -224,7 +224,7 @@ export default function FoundationsMobile() {
           <TablerArrowUp />
         </div>
       </div>
-      <Link href="/" aria-label="Capture home" className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-138.44px)] not-italic text-dark-bg text-[25.918px] top-[124px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
+      <Link href="/" aria-label="Capture home" className="[word-break:break-word] absolute font-sans font-bold leading-[0.8] left-[calc(50%-138.44px)] not-italic text-dark-bg text-[25.918px] top-[124px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
       <div className="absolute bg-dark-bg left-[31px] rounded-[7.058px] size-[39.993px] top-[115px]" />
       <div className="absolute h-[21.863px] left-[38.06px] top-[124px] w-[25.969px]" data-name="image 835">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
