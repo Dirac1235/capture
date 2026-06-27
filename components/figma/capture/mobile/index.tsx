@@ -4,7 +4,6 @@
 import Link from "next/link";
 import { HotspotButton } from "@/components/ui/Hotspot";
 import { img4E613751157188230432B7Db82Abd067Photoroom5, imgImage289, imgImage446, imgImage816, imgImage817, imgImage818, imgImage831, imgImage832, imgImage836, imgImage839, imgImage840, imgRectangle, imgRectangle34625682, imgRectangle34625683, imgRectangle34625684, imgTelegramCloudDocument458142836860104283961, imgTelegramCloudDocument458142836860104284071, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284076, imgTelegramCloudDocument458142836860104284077, svgPaths } from "./assets";
-import { Items, Items1 } from "./graphics";
 import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, NotoFire, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerNotification } from "./icons";
 import { Component1, Component4, CuidaUserOutline, CuidaUserOutline1, CuidaUserOutline2, CuidaUserOutline3, CuidaUserOutline4, CuidaUserOutline5, Frame, Frame2, Frame4, Frame5, Frame6, Frame7, GlyphsSignalBold, Group35, HugeiconsAccess, IPhone16ProMax1, IconParkOutlineClickTap, IconParkOutlineKeyboard, LetsIconsSpeed, LucideLabWatchCheck, LucideRatio, MaskGroup, MynauiWatch } from "./widgets";
 
@@ -318,8 +317,6 @@ export default function CaptureMobile() {
           Visualize your state. Understand it. Interact with it.
         </p>
         <Frame7 />
-        <Items />
-        <Items1 />
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-text-mid text-[17px] top-[2375px] w-[357px]">Smart keyboard that learns your behavioral patterns as you type</p>
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-text-mid text-[17px] top-[2518px] w-[349px]">Syni, your personal AI companion, talks things through with you</p>
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-140px)] text-text-mid text-[17px] top-[2449px] w-[333px]">Live biosignals from your wearable ,HRV, heart rate, recovery</p>

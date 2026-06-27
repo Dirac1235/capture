@@ -2,9 +2,10 @@
 "use client";
 
 import Link from "next/link";
+import { HotspotLink } from "@/components/ui/Hotspot";
 
 import { imgImage, imgImage1, imgImage2, imgImage3, imgImage820, imgImage836, imgImage840, svgPaths } from "./assets";
-import { Items, Items1, MaskGroup1 } from "./graphics";
+import { MaskGroup1 } from "./graphics";
 import { Component, NotoFire, OcticonQuestion, RiMindMap, TablerArrowUp } from "./icons";
 import { Component1, Frame1, Frame2, Frame3, Frame4, Frame5, MeteorIconsDevices, MingcuteTimeLine } from "./widgets";
 
@@ -131,8 +132,7 @@ export default function SyniMobile() {
       </p>
       <div className="-translate-x-1/2 absolute bg-brand h-[55px] left-1/2 rounded-[27.48px] top-[7213px] w-[392px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-107.5px)] text-[18.02px] text-center text-white top-[7229px] whitespace-nowrap">Get Capture Plus</p>
-      <Items />
-      <Items1 />
+      <HotspotLink href="/plus" aria-label="Get Capture Plus" className="-translate-x-1/2 left-1/2 top-[7213px] w-[392px] h-[55px] rounded-[27.48px]" />
       <MaskGroup1 />
       <Frame2 />
       <Frame1 />
@@ -207,6 +207,7 @@ export default function SyniMobile() {
       </div>
       <div className="absolute bg-brand-dark h-[65px] left-[18px] rounded-[5px] top-[607px] w-[220px]" />
       <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[60px] not-italic text-[19.931px] text-white top-[627.33px] whitespace-nowrap">Download Syni</p>
+      <HotspotLink href="/syni" aria-label="Download Syni" className="left-[18px] top-[607px] w-[220px] h-[65px] rounded-[5px]" />
       <Component />
       <Component1 />
       <div className="-translate-x-1/2 absolute bg-[#3f2b2c] left-[calc(50%+170.71px)] rounded-[18.709px] size-[37.417px] top-[7222px]" />

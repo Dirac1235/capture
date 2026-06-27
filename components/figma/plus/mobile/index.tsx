@@ -2,9 +2,10 @@
 "use client";
 
 import Link from "next/link";
+import { HotspotButton, HotspotLink } from "@/components/ui/Hotspot";
 
 import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom2, imgImage289, imgImage820, imgImage835, imgImage836, imgImage837, svgPaths } from "./assets";
-import { Frame5, Frame7, Items, Items1 } from "./graphics";
+import { Frame5, Frame7 } from "./graphics";
 import { AntDesignCloudSyncOutlined, AntDesignCloudSyncOutlined1, FamiconsCalendarOutline, FluentMdl2Insights, MaterialSymbolsBeachAccessOutline, NotoFire, SiInsightsFill, SolarHistoryBold } from "./icons";
 import { Frame1, Frame6, Group17, Group18, Group19, HugeiconsAccess, LucideLabWatchCheck, MynauiWatch, TablerFreeRights } from "./widgets";
 
@@ -85,8 +86,7 @@ export default function PlusMobile() {
       </p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-1/2 rounded-[27.48px] top-[10670px] w-[392px]" />
       <p className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%+0.5px)] text-[18.02px] text-center text-white top-[10686px] whitespace-nowrap">Explore Open Foundations</p>
-      <Items />
-      <Items1 />
+      <HotspotLink href="/foundations" aria-label="Explore Open Foundations" className="-translate-x-1/2 left-1/2 top-[10670px] w-[392px] h-[55px] rounded-[27.48px]" />
       <div className="absolute h-[244px] left-0 top-[10174px] w-[162.667px]" data-name="image 820">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage820} />
       </div>
@@ -162,6 +162,7 @@ export default function PlusMobile() {
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.31] left-[calc(50%-171px)] opacity-70 text-[22px] text-white top-[6224px] w-[367px]">On free, Syni reads your last 30 days and your current signals. On Plus, it has 365 days of history, your wearable data, and context from previous conversations. The difference shows up in how specific it can be.</p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[71px] left-1/2 rounded-[35.474px] top-[6474px] w-[350px]" />
       <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-60px)] text-[23.262px] text-white top-[6494.65px] whitespace-nowrap">Learn more</p>
+      <HotspotButton aria-label="Learn more" className="-translate-x-1/2 left-1/2 top-[6474px] w-[350px] h-[71px] rounded-[35.474px]" />
       <div className="-translate-x-1/2 absolute bg-[#dfdfdf] h-[392px] left-[calc(50%-0.06px)] opacity-85 rounded-[10.316px] top-[6996px] w-[407.87px]" />
       <div className="-translate-x-1/2 absolute bg-[#dfdfdf] h-[392px] left-[calc(50%-0.06px)] opacity-85 rounded-[10.316px] top-[7427px] w-[407.87px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[233.296px] left-[calc(50%-4.03px)] rounded-[10.316px] top-[7119px] w-[357.085px]" />
@@ -350,6 +351,7 @@ export default function PlusMobile() {
       </div>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-129.29px)] text-[#4c4e51] text-[14.713px] top-[8907.07px] whitespace-nowrap">Cloud-powered Syni</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-1.22px)] text-[15.724px] text-center text-white top-[8658.49px] whitespace-nowrap">Get Plus Yearly</p>
+      <HotspotButton aria-label="Get Plus Yearly" className="left-[59.32px] top-[8646.1px] w-[317.496px] h-[44.914px] rounded-[22.457px]" />
       <div className="absolute left-[203.46px] size-[3.494px] top-[8609.57px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.49433 3.49433">
           <circle cx="1.74716" cy="1.74716" fill="var(--fill-0, #949999)" id="Ellipse 5573" r="1.74716" />

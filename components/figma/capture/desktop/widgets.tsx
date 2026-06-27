@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { imgImage25, imgImage840, imgTelegramCloudDocument458142836860104283981, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284073, svgPaths } from "./assets";
+import Link from "next/link";
 import { Items, Items1, Items2, Items3, Items4, Items5, MaskGroup1 } from "./graphics";
 import { Activity, ArcticonsOktaVerify, ArcticonsOktaVerify1, ArcticonsWhoop1, ArrowUp, ArrowUp1, Bg, CuidaHeartRateOutline, F7Return, Fa7SolidBattery, GgAppleWatch, Group, Home, IcOutlineApple, LineiconsEmojiGrin, LineiconsWindows, LineiconsWindows1, MaterialSymbolsLightSentimentStressedOutline, MaterialSymbolsLightSentimentStressedOutline1, MdiHeart, MynauiFocus, MynauiFocus1, RiWalkFill, RotateRight, Setting, StashGlobeLight, TablerClockFilled, TickCircle } from "./icons";
 
@@ -73,7 +74,7 @@ export function Component1() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_16.94%_21.21%_33.01%] leading-[0.89] not-italic text-ui-gray text-[21.262px] whitespace-nowrap">Windows</p>
+      <button type="button" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_16.94%_21.21%_33.01%] leading-[0.89] not-italic text-ui-gray text-[21.262px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Windows</button>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[17.62%_27.5%_65.33%_33.01%] leading-[0.89] not-italic text-ui-gray text-[10.631px] tracking-[0.5315px] whitespace-nowrap">Download For</p>
       <LineiconsWindows />
     </div>
@@ -90,7 +91,7 @@ export function Component4() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_17.03%_20.62%_33.01%] leading-[0.89] not-italic text-ui-gray text-[25.323px] whitespace-nowrap">Windows</p>
+      <button type="button" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] inset-[42.8%_17.03%_20.62%_33.01%] leading-[0.89] not-italic text-ui-gray text-[25.323px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Windows</button>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] inset-[17.62%_27.76%_64.88%_33.01%] leading-[0.89] not-italic text-ui-gray text-[12.662px] tracking-[0.6331px] whitespace-nowrap">Download For</p>
       <LineiconsWindows1 />
     </div>
@@ -170,8 +171,8 @@ export function Frame1() {
   return (
     <div className="[word-break:break-word] absolute content-stretch flex font-['Inter_Tight:Regular',sans-serif] gap-[55px] items-center leading-[1.63] left-[235px] not-italic text-[14px] text-white top-[437px] whitespace-nowrap">
       <p className="relative shrink-0">2025 CAPTURE . All rights reserved</p>
-      <p className="relative shrink-0">Privacy Policy</p>
-      <p className="relative shrink-0">{`Terms & Conditions`}</p>
+      <button type="button" className="relative shrink-0 cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Privacy Policy</button>
+      <button type="button" className="relative shrink-0 cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">{`Terms & Conditions`}</button>
     </div>
   );
 }
@@ -189,23 +190,23 @@ export function Frame2() {
       </div>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:ExtraLight',sans-serif] font-extralight leading-[1.63] left-[calc(50%-664.5px)] text-[17px] text-white top-[247px] w-[444.93px]">Capture reads your biosignals and behavioral patterns every day and gets smarter the longer you use it. Your signals have been telling a story. Capture helps you finally read it.</p>
       <Frame1 />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.63] left-[1349px] not-italic text-[14px] text-white top-[437px] whitespace-nowrap">Privacy Policy</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.63] left-[1487px] not-italic text-[14px] text-white top-[437px] whitespace-nowrap">{`Terms & Conditions`}</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[214px] w-[74px]">How it works</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[214px] whitespace-nowrap">Aboout Company</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[214px] whitespace-nowrap">App store</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[246px] w-[74px]">Meet Syni</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[246px] w-[74px]">Blog</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[246px] whitespace-nowrap">Google Play</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[278px] w-[74px]">Desktop App</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[278px] whitespace-nowrap">Privacy Policy</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[278px] whitespace-nowrap">Macos</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[310px] whitespace-nowrap">What Capture tracks</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[342px] whitespace-nowrap">Privacy</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[310px] w-[74px]">Terms of Use</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[342px] whitespace-nowrap">Support</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[310px] whitespace-nowrap">Windows</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[342px] whitespace-nowrap">Explore Company</p>
+      <button type="button" className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.63] left-[1349px] not-italic text-[14px] text-white top-[437px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Privacy Policy</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.63] left-[1487px] not-italic text-[14px] text-white top-[437px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">{`Terms & Conditions`}</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[214px] w-[74px] cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">How it works</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[214px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Aboout Company</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[214px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">App store</button>
+      <Link href="/syni" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[246px] w-[74px] cursor-pointer transition-opacity hover:opacity-70">Meet Syni</Link>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[246px] w-[74px] cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Blog</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[246px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Google Play</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[278px] w-[74px] cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Desktop App</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[278px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Privacy Policy</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[278px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Macos</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[310px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">What Capture tracks</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1067px] text-[12px] text-white top-[342px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Privacy</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[310px] w-[74px] cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Terms of Use</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1460px] text-[12px] text-white top-[342px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Support</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[310px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Windows</button>
+      <button type="button" className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.63] left-[1267px] text-[12px] text-white top-[342px] whitespace-nowrap cursor-pointer bg-transparent border-0 p-0 m-0 appearance-none text-left transition-opacity hover:opacity-70">Explore Company</button>
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[1.63] left-[calc(50%+167.5px)] text-[27px] text-white top-[158px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Product
       </p>

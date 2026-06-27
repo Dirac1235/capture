@@ -170,11 +170,11 @@ export default function FoundationsDesktop() {
           <circle cx="22.7222" cy="22.7222" id="Ellipse 5279" r="22.3164" stroke="var(--stroke-0, black)" strokeOpacity="0.5" strokeWidth="0.811491" />
         </svg>
       </div>
-      <IconoirFacebook />
-      <StreamlineLinkedin />
-      <ProiconsInstagram />
-      <ProiconsXTwitter />
-      <PhDribbbleLogoLight />
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="contents"><IconoirFacebook /></a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="contents"><StreamlineLinkedin /></a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="contents"><ProiconsInstagram /></a>
+      <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" className="contents"><ProiconsXTwitter /></a>
+      <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" aria-label="Dribbble" className="contents"><PhDribbbleLogoLight /></a>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[50px] left-[calc(50%+419px)] rounded-[25px] top-[838.32px] w-[182px]" />
       <div className="-translate-x-1/2 absolute border border-black border-solid h-[50px] left-[calc(50%+605.5px)] rounded-[25px] top-[838.32px] w-[165px]" />
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%+346px)] not-italic text-[14.201px] text-white top-[854.32px] whitespace-nowrap">Explore on Github</p>
