@@ -10,6 +10,7 @@ import { FaqAccordion } from "@/components/ui/FaqAccordion";
 import { CAPTURE_FAQS } from "../faqs";
 import { motion } from "framer-motion";
 import { revealUp, revealFade } from "@/lib/reveal";
+import { MobileNavMenu } from "@/components/ui/MobileNavMenu";
 
 export default function CaptureMobile() {
   return (
@@ -27,14 +28,7 @@ export default function CaptureMobile() {
         <AnnouncementBannerMobile />
         <Link href="/" aria-label="Capture home" className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-125.8px)] not-italic text-dark-bg text-[33.051px] top-[123.36px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
         <div className="absolute bg-dark-bg left-[31px] rounded-[9px] size-[51px] top-[111px]" />
-        <div className="absolute left-[372px] size-[47px] top-[112px]">
-          <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 47 47">
-            <circle cx="23.5" cy="23.5" id="Ellipse 4" opacity="0.18" r="23" stroke="var(--stroke-0, black)" />
-          </svg>
-        </div>
-        <div className="absolute bg-deep-black h-[2px] left-[392px] rounded-[4px] top-[129px] w-[12px]" />
-        <div className="absolute bg-deep-black h-[2px] left-[388px] rounded-[4px] top-[141px] w-[12px]" />
-        <div className="absolute bg-deep-black h-[2px] left-[385px] rounded-[4px] top-[135px] w-[19px]" />
+        <MobileNavMenu />
         <motion.h1 {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[normal] left-[calc(50%+229.5px)] not-italic text-dark-bg text-[221.575px] text-center top-[162px] uppercase whitespace-nowrap">CAPTURE</motion.h1>
         <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-1/2 text-brand text-[13.846px] text-center top-[734px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</motion.p>
         <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[normal] left-[calc(50%+0.5px)] opacity-66 text-[18px] text-black text-center top-[989px] w-[363px]">Plus gives you more out of your data, Get a personalised dashboard and storage sing Plus, securely, with a customizable dashboard.</motion.p>

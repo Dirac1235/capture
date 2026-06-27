@@ -7,7 +7,7 @@ export default function CapturePage() {
     <>
       {/* Mobile frame — below 1024px, scaled to fit */}
       <div className="block desktop:hidden">
-        <ResponsiveFrame width={438} height={20410}>
+        <ResponsiveFrame width={438} height={20410} collapsibleTopPx={84}>
           <CaptureMobile />
         </ResponsiveFrame>
       </div>

@@ -10,6 +10,7 @@ import { Component, OcticonQuestion, RiMindMap, TablerArrowUp } from "./icons";
 import { Component1, Frame1, Frame2, Frame3, Frame4, Frame5, MeteorIconsDevices, MingcuteTimeLine } from "./widgets";
 import { motion } from "framer-motion";
 import { revealUp, revealFade } from "@/lib/reveal";
+import { MobileNavMenu } from "@/components/ui/MobileNavMenu";
 
 export default function SyniMobile() {
   return (
@@ -108,14 +109,7 @@ export default function SyniMobile() {
         <p className="leading-[1.31]">{`Ask it why today feels heavy. Ask it whether now is a good time to push. It answers based on what it's actually seeing not what you tell it.`}</p>
       </div>
       <AnnouncementBannerMobile />
-      <div className="absolute left-[372px] size-[47px] top-[112px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 47 47">
-          <circle cx="23.5" cy="23.5" id="Ellipse 4" opacity="0.18" r="23" stroke="var(--stroke-0, black)" />
-        </svg>
-      </div>
-      <div className="absolute bg-deep-black h-[2px] left-[392px] rounded-[4px] top-[129px] w-[12px]" />
-      <div className="absolute bg-deep-black h-[2px] left-[388px] rounded-[4px] top-[141px] w-[12px]" />
-      <div className="absolute bg-deep-black h-[2px] left-[385px] rounded-[4px] top-[135px] w-[19px]" />
+      <MobileNavMenu />
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-1/2 text-brand text-[13.846px] text-center top-[204px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</motion.p>
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[normal] left-[calc(50%+0.5px)] opacity-66 text-[18px] text-black text-center top-[482px] w-[363px]">Plus gives you more out of your data, Get a personalised dashboard and storage sing Plus, securely, with a customizable dashboard.</motion.p>
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0] left-1/2 text-[#2c2c2c] text-[64.639px] text-center top-[239px] w-[368px]" style={{ fontVariationSettings: '"wdth" 100' }}>

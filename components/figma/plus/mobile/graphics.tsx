@@ -88,10 +88,10 @@ export function Frame5() {
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[81.7300033569336%] left-[calc(50%-128.06px)] not-italic text-[79.946px] text-center text-white top-[133.38px] uppercase w-[402.5px]">MORE CONTEXT</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[84.06999969482422%] left-[calc(50%-128.5px)] not-italic text-brand text-[79.946px] text-center top-[292.62px] uppercase w-[444.077px]">BETTER ANSWERS</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.35] left-[calc(50%-129px)] text-[18px] text-center text-white top-[481px] w-[369px]">A full year of pattern history. Your wearable data. Cloud sync across devices. And a version of Syni that has been watching long enough to say something genuinely useful.</p>
-      <div className="-translate-x-1/2 absolute bg-brand-dark h-[59px] left-[calc(50%-152px)] rounded-[29.376px] top-[634px] w-[285px]" />
-      <div className="-translate-x-1/2 absolute border border-solid border-white h-[59px] left-[calc(50%+167px)] rounded-[29.376px] top-[634px] w-[299px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[476px] not-italic text-[#003412] text-[20.029px] text-center top-[651px] whitespace-nowrap">Start 7 day Free Trial</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[795px] not-italic text-[20.029px] text-center text-white top-[651px] whitespace-nowrap">View Supported devices</p>
+      <div className="-translate-x-1/2 absolute bg-brand-dark h-[59px] left-[calc(50%-123.5px)] rounded-[29.376px] top-[634px] w-[369px]" />
+      <div className="-translate-x-1/2 absolute border border-solid border-white h-[59px] left-[calc(50%-123.5px)] rounded-[29.376px] top-[705px] w-[369px]" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-123.5px)] not-italic text-[#003412] text-[20.029px] text-center top-[651px] whitespace-nowrap">Start 7 day Free Trial</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-123.5px)] not-italic text-white text-[20.029px] text-center top-[722px] whitespace-nowrap">View Supported devices</p>
     </div>
   );
 }

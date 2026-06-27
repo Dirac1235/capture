@@ -14,6 +14,7 @@ import { useState } from "react";
 import { BillingToggle } from "@/components/ui/BillingToggle";
 import { motion } from "framer-motion";
 import { revealUp, revealFade } from "@/lib/reveal";
+import { MobileNavMenu } from "@/components/ui/MobileNavMenu";
 
 export default function PlusMobile() {
   const [billing, setBilling] = useState<"monthly" | "yearly">("yearly");
@@ -77,14 +78,7 @@ export default function PlusMobile() {
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[1129px] not-italic text-ui-gray text-[20.95px] text-center top-[6257.66px] whitespace-nowrap">Recovery</motion.p>
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+910.5px)] not-italic text-ui-gray text-[50px] text-center top-[6180.87px] whitespace-nowrap">Good</motion.p>
       <AnnouncementBannerMobile />
-      <div className="absolute left-[372px] size-[47px] top-[112px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 47 47">
-          <circle cx="23.5" cy="23.5" id="Ellipse 4" opacity="0.18" r="23" stroke="var(--stroke-0, black)" />
-        </svg>
-      </div>
-      <div className="absolute bg-deep-black h-[2px] left-[392px] rounded-[4px] top-[129px] w-[12px]" />
-      <div className="absolute bg-deep-black h-[2px] left-[388px] rounded-[4px] top-[141px] w-[12px]" />
-      <div className="absolute bg-deep-black h-[2px] left-[385px] rounded-[4px] top-[135px] w-[19px]" />
+      <MobileNavMenu />
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%-0.5px)] not-italic text-slate-text text-[22px] text-center top-[10539px] w-[363px]">See what Syni is like with a full year of context and your wearable data in the picture.</motion.p>
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%-0.18px)] text-warm-dark text-[49.595px] text-center top-[10411px] uppercase w-[381.635px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Start with 7 days free.
