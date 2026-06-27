@@ -22,7 +22,7 @@ desktop frame.
 | Component primitives | **shadcn** (style `base-nova`) on top of **@base-ui/react** |
 | Class utilities | `clsx` + `tailwind-merge`, exposed as `cn()` in `lib/utils.ts`; `class-variance-authority` for variants |
 | Icons | `lucide-react` |
-| Animation | `tw-animate-css` (utility-class animations — no `framer-motion`) |
+| Animation | **Framer Motion** for component animations, plus `tw-animate-css` utilities |
 | Fonts | `next/font/google` (Inter Tight, Mozilla Headline, Stack Sans Headline, Bebas Neue, PT Serif, Figtree, Source Serif 4) + Pretendard via CDN |
 | Package manager | **pnpm** (a `pnpm-lock.yaml` and workspace file are committed) |
 
@@ -86,16 +86,10 @@ lib/
   figma/              # extracted inline SVG paths
 ```
 
-### How the responsive frame works
+### Responsiveness
 
-The Figma frames are single fixed-width canvases (1920px desktop / 438px mobile) full of
-`absolute left-[..] top-[..]` elements. `ResponsiveFrame` renders the canvas at its native
-size and applies a `transform: scale()` computed from a `ResizeObserver` measuring the
-real available width — so the page always fills the viewport and is pixel-faithful to
-Figma at any size. An `aspect-ratio` on the outer box keeps height correct with pure CSS,
-avoiding layout shift before JS runs.
-
-Each `app/.../page.tsx` picks the frame by a custom Tailwind breakpoint:
+The UI is responsive and adapts to any viewport. Each page ships a mobile and a desktop
+frame, and `app/.../page.tsx` picks the right one by a custom Tailwind breakpoint:
 
 ```tsx
 <div className="block desktop:hidden">  …mobile frame… </div>
@@ -124,11 +118,10 @@ All visual values come from design tokens in `globals.css` (brand `#D08E8F`, dar
 - **The Figma frame is the source of truth.** Where the export's absolute coordinates and
   the design intent disagreed, the rendered Figma frame won. Layout is reproduced
   faithfully rather than re-interpreted.
-- **Scale-to-fit over reflow.** Because the export is a fixed canvas of absolutely-
-  positioned elements, the site is *scaled* to fit each viewport rather than re-flowed
-  into native flexbox/grid. This keeps it pixel-perfect at every width; the trade-off is
-  that text scales with the canvas instead of wrapping. A future phase (documented in
-  `AGENTS.md`) covers rebuilding sections into true responsive flow.
+- **Some components were missing from the mobile frames.** A few components had been cut
+  out of the exported mobile versions. I edited those components and implemented the
+  correct UI placement so the mobile layout matches the intended design rather than the
+  incomplete export.
 - **Single breakpoint switch at 1024px.** Below it, the mobile frame renders; at and above
   it, the desktop frame. There's no intermediate tablet-specific frame because Figma only
   provided mobile and desktop.
@@ -146,9 +139,12 @@ All visual values come from design tokens in `globals.css` (brand `#D08E8F`, dar
 The raw Figma export was a flat, static, fixed-size image-in-code. The following were
 added on top of it:
 
-- **Responsive scaling (`ResponsiveFrame`).** The export had hard-coded pixel dimensions
-  and would overflow or sit tiny on real screens. The frame now fills any viewport width
-  with no cut-off and no layout shift.
+- **Responsive UI.** The export had hard-coded pixel dimensions and would overflow or sit
+  tiny on real screens. The UI now adapts to fill any viewport width with no cut-off.
+- **Component animations with Framer Motion.** Static sections were brought to life with
+  motion (entrance/scroll reveals and component transitions) using Framer Motion.
+- **Restored mobile components.** Components missing from the exported mobile frames were
+  re-added and placed correctly so mobile matches the intended design.
 - **Real interactivity via `Hotspot` overlays.** The exported "buttons", "links",
   dropdowns, and toggles are just static art that can't be re-tagged. `HotspotButton` /
   `HotspotLink` lay transparent, pixel-aligned click targets over each control — invisible
