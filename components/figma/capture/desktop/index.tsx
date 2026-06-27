@@ -398,46 +398,23 @@ export default function CaptureDesktop() {
       <motion.h3 {...revealUp} className="[word-break:break-word] absolute font-display font-semibold font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5562px] whitespace-nowrap">Sleep and recovery trends</motion.h3>
       <motion.h3 {...revealUp} className="[word-break:break-word] absolute font-display font-semibold font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5695px] whitespace-nowrap">Behavioral coherence over time</motion.h3>
       <motion.h3 {...revealUp} className="[word-break:break-word] absolute font-display font-semibold font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5695px] whitespace-nowrap">Restorative vs. load balance</motion.h3>
-      <div className="absolute h-[32px] left-[217px] top-[5303px] w-[41px]" data-name="image 821">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
+      {/* Readout-row icons — 4 rows × 2 columns, same image */}
+      {[
+        { pos: "left-[217px] top-[5303px]", name: "image 821" },
+        { pos: "left-[1030px] top-[5303px]", name: "image 826" },
+        { pos: "left-[217px] top-[5436px]", name: "image 822" },
+        { pos: "left-[1030px] top-[5436px]", name: "image 827" },
+        { pos: "left-[217px] top-[5569px]", name: "image 823" },
+        { pos: "left-[1030px] top-[5569px]", name: "image 828" },
+        { pos: "left-[217px] top-[5702px]", name: "image 824" },
+        { pos: "left-[1030px] top-[5702px]", name: "image 829" },
+      ].map((b) => (
+        <div key={b.name} className={`absolute h-[32px] w-[41px] ${b.pos}`} data-name={b.name}>
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
+          </div>
         </div>
-      </div>
-      <div className="absolute h-[32px] left-[1030px] top-[5303px] w-[41px]" data-name="image 826">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
-        </div>
-      </div>
-      <div className="absolute h-[32px] left-[217px] top-[5436px] w-[41px]" data-name="image 822">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
-        </div>
-      </div>
-      <div className="absolute h-[32px] left-[1030px] top-[5436px] w-[41px]" data-name="image 827">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
-        </div>
-      </div>
-      <div className="absolute h-[32px] left-[217px] top-[5569px] w-[41px]" data-name="image 823">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
-        </div>
-      </div>
-      <div className="absolute h-[32px] left-[1030px] top-[5569px] w-[41px]" data-name="image 828">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
-        </div>
-      </div>
-      <div className="absolute h-[32px] left-[217px] top-[5702px] w-[41px]" data-name="image 824">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
-        </div>
-      </div>
-      <div className="absolute h-[32px] left-[1030px] top-[5702px] w-[41px]" data-name="image 829">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
-        </div>
-      </div>
+      ))}
       <div className="absolute flex h-[222px] items-center justify-center left-[1582px] top-[5618px] w-[165.831px]">
         <div className="-scale-y-100 flex-none">
           <div className="h-[222px] relative w-[165.831px]" data-name="image 830">

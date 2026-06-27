@@ -174,21 +174,18 @@ export default function SyniDesktop() {
       <div className="absolute left-[330px] size-[49.899px] top-[3405px]" data-name="image">
         <img alt="" className="absolute block inset-0 max-w-none size-full" height="49.899" src={imgImage} width="49.899" />
       </div>
-      <div className="absolute left-[1013px] size-[46.101px] top-[3407px]" data-name="image">
-        <div className="absolute inset-[-7.17%]">
-          <img alt="" className="block max-w-none size-full" height="52.709" src={imgImage1} width="52.709" />
+      {/* Repeated wearable-brand image markers */}
+      {[
+        { pos: "left-[1013px] size-[46.101px] top-[3407px]", src: imgImage1, dim: "52.709" },
+        { pos: "left-[331.1px] size-[47.899px] top-[3600.1px]", src: imgImage2, dim: "54.763" },
+        { pos: "left-[1015.1px] size-[47.899px] top-[3600.1px]", src: imgImage3, dim: "54.763" },
+      ].map((b, i) => (
+        <div key={i} className={`absolute ${b.pos}`} data-name="image">
+          <div className="absolute inset-[-7.17%]">
+            <img alt="" className="block max-w-none size-full" height={b.dim} src={b.src} width={b.dim} />
+          </div>
         </div>
-      </div>
-      <div className="absolute left-[331.1px] size-[47.899px] top-[3600.1px]" data-name="image">
-        <div className="absolute inset-[-7.17%]">
-          <img alt="" className="block max-w-none size-full" height="54.763" src={imgImage2} width="54.763" />
-        </div>
-      </div>
-      <div className="absolute left-[1015.1px] size-[47.899px] top-[3600.1px]" data-name="image">
-        <div className="absolute inset-[-7.17%]">
-          <img alt="" className="block max-w-none size-full" height="54.763" src={imgImage3} width="54.763" />
-        </div>
-      </div>
+      ))}
       <div className="absolute h-[244px] left-[1353px] top-[3967px] w-[162.667px]" data-name="image 820">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage820} />
       </div>

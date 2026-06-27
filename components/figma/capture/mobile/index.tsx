@@ -477,48 +477,16 @@ export default function CaptureMobile() {
         <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[normal] left-[calc(50%+545.38px)] text-dark-bg-alt text-[16.16px] top-[12309.37px] whitespace-nowrap">Yes — macOS and Windows</motion.p>
         <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-display font-semibold font-semibold leading-[normal] left-[calc(50%+319.51px)] text-dark-bg-alt text-[16.863px] text-center top-[11842.13px] uppercase whitespace-nowrap">WEARABLES (OURA, WHOOP)</motion.p>
         <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-display font-semibold font-semibold leading-[normal] left-[calc(50%+617.38px)] text-dark-bg-alt text-[16.863px] text-center top-[11842.13px] uppercase whitespace-nowrap">CAPTURE BY COMPANY</motion.p>
-        <div className="absolute h-0 left-[37.17px] top-[11968.6px] w-[1092.565px]">
-          <div className="absolute inset-[-0.7px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1092.57 0.702614">
-              <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" strokeWidth="0.702614" x2="1092.57" y1="0.351307" y2="0.351307" />
-            </svg>
+        {/* Comparison-table row dividers */}
+        {["top-[11968.6px]", "top-[12032.54px]", "top-[12096.48px]", "top-[12160.42px]", "top-[12224.35px]", "top-[12288.29px]"].map((top) => (
+          <div key={top} className={`absolute h-0 left-[37.17px] w-[1092.565px] ${top}`}>
+            <div className="absolute inset-[-0.7px_0_0_0]">
+              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1092.57 0.702614">
+                <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" strokeWidth="0.702614" x2="1092.57" y1="0.351307" y2="0.351307" />
+              </svg>
+            </div>
           </div>
-        </div>
-        <div className="absolute h-0 left-[37.17px] top-[12032.54px] w-[1092.565px]">
-          <div className="absolute inset-[-0.7px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1092.57 0.702614">
-              <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" strokeWidth="0.702614" x2="1092.57" y1="0.351307" y2="0.351307" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-0 left-[37.17px] top-[12160.42px] w-[1092.565px]">
-          <div className="absolute inset-[-0.7px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1092.57 0.702614">
-              <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" strokeWidth="0.702614" x2="1092.57" y1="0.351307" y2="0.351307" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-0 left-[37.17px] top-[12288.29px] w-[1092.565px]">
-          <div className="absolute inset-[-0.7px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1092.57 0.702614">
-              <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" strokeWidth="0.702614" x2="1092.57" y1="0.351307" y2="0.351307" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-0 left-[37.17px] top-[12096.48px] w-[1092.565px]">
-          <div className="absolute inset-[-0.7px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1092.57 0.702614">
-              <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" strokeWidth="0.702614" x2="1092.57" y1="0.351307" y2="0.351307" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-0 left-[37.17px] top-[12224.35px] w-[1092.565px]">
-          <div className="absolute inset-[-0.7px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1092.57 0.702614">
-              <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" strokeWidth="0.702614" x2="1092.57" y1="0.351307" y2="0.351307" />
-            </svg>
-          </div>
-        </div>
+        ))}
         <div className="absolute flex items-center justify-center left-[71.48px] size-[22.748px] top-[11917.58px]">
           <div className="-scale-y-100 flex-none rotate-180">
             <GlyphsSignalBold />

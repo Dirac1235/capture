@@ -144,31 +144,14 @@ export default function FoundationsDesktop() {
           </svg>
         </div>
       </div>
-      <div className="absolute left-[296px] size-[45.444px] top-[801.6px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 45.4444 45.4444">
-          <circle cx="22.7222" cy="22.7222" id="Ellipse 5279" r="22.3164" stroke="var(--stroke-0, black)" strokeOpacity="0.5" strokeWidth="0.811491" />
-        </svg>
-      </div>
-      <div className="absolute left-[353.75px] size-[45.444px] top-[801.6px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 45.4444 45.4444">
-          <circle cx="22.7222" cy="22.7222" id="Ellipse 5279" r="22.3164" stroke="var(--stroke-0, black)" strokeOpacity="0.5" strokeWidth="0.811491" />
-        </svg>
-      </div>
-      <div className="absolute left-[411.5px] size-[45.444px] top-[801.6px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 45.4444 45.4444">
-          <circle cx="22.7222" cy="22.7222" id="Ellipse 5279" r="22.3164" stroke="var(--stroke-0, black)" strokeOpacity="0.5" strokeWidth="0.811491" />
-        </svg>
-      </div>
-      <div className="absolute left-[469.25px] size-[45.444px] top-[801.6px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 45.4444 45.4444">
-          <circle cx="22.7222" cy="22.7222" id="Ellipse 5279" r="22.3164" stroke="var(--stroke-0, black)" strokeOpacity="0.5" strokeWidth="0.811491" />
-        </svg>
-      </div>
-      <div className="absolute left-[527.01px] size-[45.444px] top-[801.6px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 45.4444 45.4444">
-          <circle cx="22.7222" cy="22.7222" id="Ellipse 5279" r="22.3164" stroke="var(--stroke-0, black)" strokeOpacity="0.5" strokeWidth="0.811491" />
-        </svg>
-      </div>
+      {/* Avatar-stack circle outlines */}
+      {["left-[296px]", "left-[353.75px]", "left-[411.5px]", "left-[469.25px]", "left-[527.01px]"].map((left) => (
+        <div key={left} className={`absolute size-[45.444px] top-[801.6px] ${left}`}>
+          <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 45.4444 45.4444">
+            <circle cx="22.7222" cy="22.7222" id="Ellipse 5279" r="22.3164" stroke="var(--stroke-0, black)" strokeOpacity="0.5" strokeWidth="0.811491" />
+          </svg>
+        </div>
+      ))}
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="contents"><IconoirFacebook /></a>
       <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="contents"><StreamlineLinkedin /></a>
       <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="contents"><ProiconsInstagram /></a>

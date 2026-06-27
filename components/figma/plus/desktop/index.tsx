@@ -11,7 +11,7 @@ import { AntDesignCloudSyncOutlined, AntDesignCloudSyncOutlined1, ArcticonsWhoop
 import { Frame1, Frame7, Group17, Group19, Group20, Group21, HugeiconsAccess, LucideLabWatchCheck, MynauiWatch, TablerFreeRights } from "./widgets";
 import { FaqAccordion } from "@/components/ui/FaqAccordion";
 import { PLUS_FAQS } from "../faqs";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { BillingToggle } from "@/components/ui/BillingToggle";
 import { motion } from "framer-motion";
 import { revealUp, revealFade } from "@/lib/reveal";
@@ -254,71 +254,30 @@ export default function PlusDesktop() {
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-display font-normal font-normal leading-[1.31] left-[calc(50%-248.65px)] text-[18.286px] text-black text-center top-[6353.99px] whitespace-nowrap">Current Plan</motion.p>
       <div className="absolute border-[#e6e6e6] border-[0.886px] border-solid h-[51.414px] left-[529.85px] rounded-[25.707px] top-[6339.81px] w-[363.441px]" />
       <div className="absolute bg-[#eaeceb] h-[272.138px] left-[505.77px] rounded-[25.707px] top-[6415.16px] w-[417.514px]" />
-      <div className="absolute left-[529.7px] size-[23.048px] top-[6442.64px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 23.0475 23.0475">
-          <circle cx="11.5238" cy="11.5238" fill="var(--fill-0, white)" id="Ellipse 5550" r="11.5238" />
-        </svg>
-      </div>
-      <div className="absolute h-[6.932px] left-[536.35px] top-[6450.62px] w-[9.751px]">
-        <div className="absolute inset-[-17.65%_-12.55%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12.1975 9.37857">
-            <path d={svgPaths.p38585e00} id="Vector 521" stroke="var(--stroke-0, black)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.44658" />
-          </svg>
-        </div>
-      </div>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-medium font-medium leading-[1.31] left-[calc(50%-395.73px)] text-slate text-[16.842px] top-[6443.52px] whitespace-nowrap">Syni on-device</motion.p>
-      <div className="absolute left-[529.7px] size-[23.048px] top-[6491.39px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 23.0475 23.0475">
-          <circle cx="11.5238" cy="11.5238" fill="var(--fill-0, white)" id="Ellipse 5550" r="11.5238" />
-        </svg>
-      </div>
-      <div className="absolute h-[6.932px] left-[536.35px] top-[6499.37px] w-[9.751px]">
-        <div className="absolute inset-[-17.65%_-12.55%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12.1975 9.37857">
-            <path d={svgPaths.p38585e00} id="Vector 521" stroke="var(--stroke-0, black)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.44658" />
-          </svg>
-        </div>
-      </div>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-medium font-medium leading-[1.31] left-[calc(50%-395.73px)] text-slate text-[16.842px] top-[6492.28px] whitespace-nowrap">30-day pattern history</motion.p>
-      <div className="absolute left-[529.7px] size-[23.048px] top-[6540.15px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 23.0475 23.0475">
-          <circle cx="11.5238" cy="11.5238" fill="var(--fill-0, white)" id="Ellipse 5550" r="11.5238" />
-        </svg>
-      </div>
-      <div className="absolute h-[6.932px] left-[536.35px] top-[6548.13px] w-[9.751px]">
-        <div className="absolute inset-[-17.65%_-12.55%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12.1975 9.37857">
-            <path d={svgPaths.p38585e00} id="Vector 521" stroke="var(--stroke-0, black)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.44658" />
-          </svg>
-        </div>
-      </div>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-medium font-medium leading-[1.31] left-[calc(50%-395.73px)] text-slate text-[16.842px] top-[6541.03px] whitespace-nowrap">Daily insights</motion.p>
-      <div className="absolute left-[529.7px] size-[23.048px] top-[6588.9px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 23.0475 23.0475">
-          <circle cx="11.5238" cy="11.5238" fill="var(--fill-0, white)" id="Ellipse 5550" r="11.5238" />
-        </svg>
-      </div>
-      <div className="absolute h-[6.932px] left-[536.35px] top-[6596.88px] w-[9.751px]">
-        <div className="absolute inset-[-17.65%_-12.55%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12.1975 9.37857">
-            <path d={svgPaths.p38585e00} id="Vector 521" stroke="var(--stroke-0, black)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.44658" />
-          </svg>
-        </div>
-      </div>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-medium font-medium leading-[1.31] left-[calc(50%-395.73px)] text-slate text-[16.842px] top-[6589.79px] whitespace-nowrap">Focus, stress, recovery tracking</motion.p>
-      <div className="absolute left-[529.7px] size-[23.048px] top-[6637.66px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 23.0475 23.0475">
-          <circle cx="11.5238" cy="11.5238" fill="var(--fill-0, white)" id="Ellipse 5550" r="11.5238" />
-        </svg>
-      </div>
-      <div className="absolute h-[6.932px] left-[536.35px] top-[6645.63px] w-[9.751px]">
-        <div className="absolute inset-[-17.65%_-12.55%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12.1975 9.37857">
-            <path d={svgPaths.p38585e00} id="Vector 521" stroke="var(--stroke-0, black)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.44658" />
-          </svg>
-        </div>
-      </div>
-      <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-medium font-medium leading-[1.31] left-[calc(50%-395.73px)] text-slate text-[16.842px] top-[6638.54px] whitespace-nowrap">Smart keyboard</motion.p>
+      {/* Plus pricing feature checklist — white-circle + checkmark + label rows */}
+      {[
+        { circle: "top-[6442.64px]", check: "top-[6450.62px]", label: "top-[6443.52px]", text: "Syni on-device" },
+        { circle: "top-[6491.39px]", check: "top-[6499.37px]", label: "top-[6492.28px]", text: "30-day pattern history" },
+        { circle: "top-[6540.15px]", check: "top-[6548.13px]", label: "top-[6541.03px]", text: "Daily insights" },
+        { circle: "top-[6588.9px]", check: "top-[6596.88px]", label: "top-[6589.79px]", text: "Focus, stress, recovery tracking" },
+        { circle: "top-[6637.66px]", check: "top-[6645.63px]", label: "top-[6638.54px]", text: "Smart keyboard" },
+      ].map((r) => (
+        <Fragment key={r.text}>
+          <div className={`absolute left-[529.7px] size-[23.048px] ${r.circle}`}>
+            <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 23.0475 23.0475">
+              <circle cx="11.5238" cy="11.5238" fill="var(--fill-0, white)" id="Ellipse 5550" r="11.5238" />
+            </svg>
+          </div>
+          <div className={`absolute h-[6.932px] left-[536.35px] w-[9.751px] ${r.check}`}>
+            <div className="absolute inset-[-17.65%_-12.55%]">
+              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12.1975 9.37857">
+                <path d={svgPaths.p38585e00} id="Vector 521" stroke="var(--stroke-0, black)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.44658" />
+              </svg>
+            </div>
+          </div>
+          <motion.p {...revealUp} className={`[word-break:break-word] absolute font-display font-medium font-medium leading-[1.31] left-[calc(50%-395.73px)] text-slate text-[16.842px] whitespace-nowrap ${r.label}`}>{r.text}</motion.p>
+        </Fragment>
+      ))}
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-sans font-normal leading-[1.34] left-[calc(50%+0.5px)] not-italic text-slate-text text-[22px] text-center top-[8301px] w-[689px]">See what Syni is like with a full year of context and your wearable data in the picture.</motion.p>
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-heading font-bold font-bold leading-[0.91] left-1/2 text-warm-dark text-[70.909px] text-center top-[8212px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Start with 7 days free.
@@ -482,48 +441,16 @@ export default function PlusDesktop() {
       <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-normal font-normal leading-[normal] left-[calc(50%+299px)] text-dark-bg-alt text-[23px] top-[2065px] whitespace-nowrap">Available</motion.p>
       <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-semibold font-semibold leading-[normal] left-[calc(50%-218px)] text-dark-bg-alt text-[24px] top-[1582px] uppercase whitespace-nowrap">FREE</motion.p>
       <motion.p {...revealUp} className="[word-break:break-word] absolute font-display font-semibold font-semibold leading-[normal] left-[calc(50%+265px)] text-dark-bg-alt text-[24px] top-[1582px] uppercase whitespace-nowrap">CAPTURE PLUS</motion.p>
-      <div className="absolute h-0 left-[190px] top-[1762px] w-[1555px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1555 1">
-            <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" x2="1555" y1="0.5" y2="0.5" />
-          </svg>
+      {/* Comparison-table row dividers — identical hairlines at fixed y-offsets */}
+      {["top-[1762px]", "top-[1853px]", "top-[1944px]", "top-[2035px]", "top-[2126px]", "top-[2217px]"].map((top) => (
+        <div key={top} className={`absolute h-0 left-[190px] w-[1555px] ${top}`}>
+          <div className="absolute inset-[-1px_0_0_0]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1555 1">
+              <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" x2="1555" y1="0.5" y2="0.5" />
+            </svg>
+          </div>
         </div>
-      </div>
-      <div className="absolute h-0 left-[190px] top-[1853px] w-[1555px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1555 1">
-            <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" x2="1555" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-0 left-[190px] top-[2035px] w-[1555px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1555 1">
-            <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" x2="1555" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-0 left-[190px] top-[2217px] w-[1555px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1555 1">
-            <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" x2="1555" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-0 left-[190px] top-[1944px] w-[1555px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1555 1">
-            <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" x2="1555" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-0 left-[190px] top-[2126px] w-[1555px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1555 1">
-            <line id="Line 1176" opacity="0.1" stroke="var(--stroke-0, black)" x2="1555" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div>
+      ))}
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-heading font-semibold font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[68.921px] text-center top-[1253px] w-[690px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Free gets you a lot. Plus takes it further.
       </motion.p>

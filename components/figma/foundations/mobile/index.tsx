@@ -109,41 +109,16 @@ export default function FoundationsMobile() {
           </div>
         </div>
       </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[2601px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
+      {/* Repeated chevron markers */}
+      {["top-[2601px]", "top-[2735px]", "top-[2869px]", "top-[3003px]", "top-[3137px]"].map((top) => (
+        <div key={top} className={`absolute h-[10.873px] left-[1081px] w-[21.747px] ${top}`}>
+          <div className="absolute inset-[-16.67%_-8.33%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
+              <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
+            </svg>
+          </div>
         </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[2735px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[3003px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[2869px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[3137px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
+      ))}
       <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-display font-bold font-bold leading-[0.9] left-[calc(50%-0.5px)] text-dark-bg text-[90.18px] text-center top-[280px] w-[397px]">Human State Interface</motion.p>
       <div className="-translate-x-1/2 absolute h-[60px] left-[calc(50%+13.5px)] top-[815px] w-[493px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 493 60">
