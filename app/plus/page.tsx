@@ -7,7 +7,7 @@ export default function PlusPage() {
     <>
       {/* Mobile frame — below 1024px, scaled to fit */}
       <div className="block desktop:hidden">
-        <ResponsiveFrame width={438} height={11746} collapsibleTopPx={84}>
+        <ResponsiveFrame width={438} height={11746} collapsibleTopPx={84} maxScale={1.5}>
           <PlusMobile />
         </ResponsiveFrame>
       </div>

@@ -7,7 +7,7 @@ export default function SyniPage() {
     <>
       {/* Mobile frame — below 1024px, scaled to fit */}
       <div className="block desktop:hidden">
-        <ResponsiveFrame width={438} height={8297} collapsibleTopPx={84}>
+        <ResponsiveFrame width={438} height={8297} collapsibleTopPx={84} maxScale={1.5}>
           <SyniMobile />
         </ResponsiveFrame>
       </div>

@@ -15,6 +15,14 @@ interface ResponsiveFrameProps {
    * content pulls up to reclaim the space (and the frame shortens to match).
    */
   collapsibleTopPx?: number;
+  /**
+   * Upper bound on the scale factor. Omitted (the default) the canvas scales to
+   * fill any width — i.e. full-bleed, used for the desktop frame. Set it on the
+   * mobile frame so a narrow 438px phone canvas is not magnified into an
+   * oversized layout on tablet-width viewports: past this cap the canvas holds
+   * its size and is centered with side margins instead of stretching to 2×+.
+   */
+  maxScale?: number;
   className?: string;
   children: React.ReactNode;
 }
@@ -44,36 +52,53 @@ export function ResponsiveFrame({
   width,
   height,
   collapsibleTopPx = 0,
+  maxScale = Infinity,
   className,
   children,
 }: ResponsiveFrameProps) {
   const outerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
+  const [containerWidth, setContainerWidth] = useState(0);
   const bannerDismissed = useBannerDismissed();
   const cropTop = bannerDismissed ? collapsibleTopPx : 0;
 
   useIsomorphicLayoutEffect(() => {
     const el = outerRef.current;
     if (!el) return;
-    const update = () => setScale(el.clientWidth / width);
+    const update = () => {
+      setContainerWidth(el.clientWidth);
+      setScale(Math.min(el.clientWidth / width, maxScale));
+    };
     update();
     const observer = new ResizeObserver(update);
     observer.observe(el);
     return () => observer.disconnect();
-  }, [width]);
+  }, [width, maxScale]);
+
+  // When the scale is capped the canvas is narrower than its container, so we
+  // centre it horizontally and pin the container height to the real scaled
+  // height (the full-width aspect-ratio assumes scale === clientWidth/width and
+  // would otherwise leave a tall empty band below the content).
+  const scaledWidth = width * scale;
+  const offsetX = containerWidth > scaledWidth ? (containerWidth - scaledWidth) / 2 : 0;
+  const capped = offsetX > 0;
 
   return (
     <div
       ref={outerRef}
-      className={cn("w-full overflow-hidden transition-[aspect-ratio] duration-200", className)}
-      style={{ aspectRatio: `${width} / ${height - cropTop}` }}
+      className={cn("w-full overflow-hidden transition-[aspect-ratio,height] duration-200", className)}
+      style={
+        capped
+          ? { height: `${(height - cropTop) * scale}px` }
+          : { aspectRatio: `${width} / ${height - cropTop}` }
+      }
     >
       <div
         className="origin-top-left transition-transform duration-200"
         style={{
           width: `${width}px`,
           height: `${height}px`,
-          transform: `scale(${scale}) translateY(${-cropTop}px)`,
+          transform: `translateX(${offsetX}px) scale(${scale}) translateY(${-cropTop}px)`,
         }}
       >
         {children}
