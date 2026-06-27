@@ -2,11 +2,12 @@
 "use client";
 
 import Link from "next/link";
+import { AnnouncementBannerMobile } from "@/components/ui/AnnouncementBannerMobile";
 import { HotspotButton, HotspotLink } from "@/components/ui/Hotspot";
 
 import { img4E613751157188230432B7Db82Abd067Photoroom2, imgChatGptImageMay232025043440PmPhotoroom, imgImage831, imgImage836, imgImage837, svgPaths } from "./assets";
 import { MaskGroup } from "./graphics";
-import { FlowbiteUsersGroupOutline, HeroiconsCubeTransparent20Solid, IcOutlinePrivacyTip, NotoFire, TablerArrowUp, TablerArrowUp1 } from "./icons";
+import { FlowbiteUsersGroupOutline, HeroiconsCubeTransparent20Solid, IcOutlinePrivacyTip, TablerArrowUp, TablerArrowUp1 } from "./icons";
 import { Frame, IconoirDesignPencil } from "./widgets";
 
 export default function FoundationsMobile() {
@@ -46,9 +47,7 @@ export default function FoundationsMobile() {
       </div>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[1129px] not-italic text-ui-gray text-[20.95px] text-center top-[5030.66px] whitespace-nowrap">Recovery</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+910.5px)] not-italic text-ui-gray text-[50px] text-center top-[4953.87px] whitespace-nowrap">Good</p>
-      <div className="-translate-x-1/2 absolute bg-dark-bg h-[41.112px] left-[calc(50%+131px)] top-[60px] w-[1518px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+146.34px)] not-italic text-[12.65px] text-center text-white top-[73.44px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
-      <NotoFire />
+      <AnnouncementBannerMobile />
       <div className="absolute left-[372px] size-[47px] top-[112px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 47 47">
           <circle cx="23.5" cy="23.5" id="Ellipse 4" opacity="0.18" r="23" stroke="var(--stroke-0, black)" />

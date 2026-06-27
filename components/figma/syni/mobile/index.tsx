@@ -2,11 +2,12 @@
 "use client";
 
 import Link from "next/link";
+import { AnnouncementBannerMobile } from "@/components/ui/AnnouncementBannerMobile";
 import { HotspotLink } from "@/components/ui/Hotspot";
 
 import { imgImage, imgImage1, imgImage2, imgImage3, imgImage820, imgImage836, imgImage840, svgPaths } from "./assets";
 import { MaskGroup1 } from "./graphics";
-import { Component, NotoFire, OcticonQuestion, RiMindMap, TablerArrowUp } from "./icons";
+import { Component, OcticonQuestion, RiMindMap, TablerArrowUp } from "./icons";
 import { Component1, Frame1, Frame2, Frame3, Frame4, Frame5, MeteorIconsDevices, MingcuteTimeLine } from "./widgets";
 
 export default function SyniMobile() {
@@ -105,9 +106,7 @@ export default function SyniMobile() {
         <p className="leading-[1.31] mb-0">​</p>
         <p className="leading-[1.31]">{`Ask it why today feels heavy. Ask it whether now is a good time to push. It answers based on what it's actually seeing not what you tell it.`}</p>
       </div>
-      <div className="-translate-x-1/2 absolute bg-dark-bg h-[41.112px] left-[calc(50%+131px)] top-[60px] w-[1518px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+141.34px)] not-italic text-[12.65px] text-center text-white top-[73.44px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
-      <NotoFire />
+      <AnnouncementBannerMobile />
       <div className="absolute left-[372px] size-[47px] top-[112px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 47 47">
           <circle cx="23.5" cy="23.5" id="Ellipse 4" opacity="0.18" r="23" stroke="var(--stroke-0, black)" />

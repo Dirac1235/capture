@@ -2,9 +2,10 @@
 "use client";
 
 import Link from "next/link";
+import { AnnouncementBannerMobile } from "@/components/ui/AnnouncementBannerMobile";
 import { HotspotButton } from "@/components/ui/Hotspot";
 import { img4E613751157188230432B7Db82Abd067Photoroom5, imgImage289, imgImage446, imgImage816, imgImage817, imgImage818, imgImage831, imgImage832, imgImage836, imgImage839, imgImage840, imgRectangle, imgRectangle34625682, imgRectangle34625683, imgRectangle34625684, imgTelegramCloudDocument458142836860104283961, imgTelegramCloudDocument458142836860104284071, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284076, imgTelegramCloudDocument458142836860104284077, svgPaths } from "./assets";
-import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, NotoFire, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerNotification } from "./icons";
+import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerNotification } from "./icons";
 import { Component1, Component4, CuidaUserOutline, CuidaUserOutline1, CuidaUserOutline2, CuidaUserOutline3, CuidaUserOutline4, CuidaUserOutline5, Frame, Frame2, Frame4, Frame5, Frame6, Frame7, GlyphsSignalBold, Group35, HugeiconsAccess, IPhone16ProMax1, IconParkOutlineClickTap, IconParkOutlineKeyboard, LetsIconsSpeed, LucideLabWatchCheck, LucideRatio, MaskGroup, MynauiWatch } from "./widgets";
 
 export default function CaptureMobile() {
@@ -20,9 +21,7 @@ export default function CaptureMobile() {
             <path d={svgPaths.p1150d300} fill="var(--fill-0, #D08E8F)" id="Rectangle 34624439" />
           </svg>
         </div>
-        <div className="-translate-x-1/2 absolute bg-dark-bg h-[41.112px] left-[calc(50%+131px)] top-[51px] w-[1518px]" />
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[normal] left-[calc(50%+140.5px)] not-italic text-[12.65px] text-center text-white top-[64.44px] whitespace-nowrap">{`Capture by Company update 2026: Discover Smart keyboard that learns your behavioral patterns as you type `}</p>
-        <NotoFire />
+        <AnnouncementBannerMobile />
         <Link href="/" aria-label="Capture home" className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-125.8px)] not-italic text-dark-bg text-[33.051px] top-[123.36px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
         <div className="absolute bg-dark-bg left-[31px] rounded-[9px] size-[51px] top-[111px]" />
         <div className="absolute left-[372px] size-[47px] top-[112px]">
