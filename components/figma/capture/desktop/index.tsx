@@ -58,32 +58,32 @@ export default function CaptureDesktop() {
       <div className="-translate-x-1/2 absolute h-[925px] left-[calc(50%+1.5px)] rounded-[17.176px] top-[5975px] w-[1581px]">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[17.176px] size-full" src={imgRectangle34625607} />
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[normal] left-[calc(50%+0.5px)] text-dark-bg text-[402.444px] text-center top-[139.59px] uppercase whitespace-nowrap">CAPTURE</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[68.921px] text-center top-[2459.75px] w-[1090px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <h1 className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[normal] left-[calc(50%+0.5px)] text-dark-bg text-[402.444px] text-center top-[139.59px] uppercase whitespace-nowrap">CAPTURE</h1>
+      <h2 className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[68.921px] text-center top-[2459.75px] w-[1090px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Your biosignals and behavioral patterns, finally in one place.
-      </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[68.921px] text-center top-[7043.75px] w-[1090px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h2>
+      <h2 className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[68.921px] text-center top-[7043.75px] w-[1090px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Wearables know how you recovered. Capture knows what those signals mean for you.
-      </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[83.904px] text-center top-[4702px] w-[1090px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h2>
+      <h2 className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-1/2 text-warm-dark text-[83.904px] text-center top-[4702px] w-[1090px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Two sources. One complete picture.
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[0.89] left-[calc(50%+110.24px)] text-[66.442px] text-white top-[6072px] w-[482.372px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h2>
+      <h2 className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[0.89] left-[calc(50%+110.24px)] text-[66.442px] text-white top-[6072px] w-[482.372px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Capture is also available on your computer.
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[0.89] left-[calc(50%-639px)] opacity-81 text-[#1f2226] text-[60px] top-[6077px] w-[539px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h2>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[0.89] left-[calc(50%-639px)] opacity-81 text-[#1f2226] text-[60px] top-[6077px] w-[539px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Everything you see on your phone is on a larger canvas
-      </p>
+      </h3>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-12.64px)] text-brand text-[19px] top-[1652px] uppercase whitespace-nowrap">NOW ON IOS - ANDROID - DESKTOP</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-13.5px)] text-brand text-[19px] text-center top-[2406px] uppercase whitespace-nowrap">WHAT CAPTURE ACTUALLY IS</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-14px)] text-brand text-[19px] text-center top-[6990px] uppercase whitespace-nowrap">HOW CAPTURE FITS IN</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-17px)] text-brand text-[19px] text-center top-[4663px] uppercase whitespace-nowrap">WHAT CAPTURE READS</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-13.5px)] text-brand text-[20px] text-center top-[1093px] uppercase whitespace-nowrap">WHAT PEOPLE ARE SAYING</p>
-      <p className="[word-break:break-word] absolute capitalize font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.96] left-[calc(50%-13px)] text-warm-dark text-[59.098px] top-[1685px] w-[436px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <h2 className="[word-break:break-word] absolute capitalize font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.96] left-[calc(50%-13px)] text-warm-dark text-[59.098px] top-[1685px] w-[436px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         See your state.
         <br aria-hidden />
         Talk to it.
-      </p>
+      </h2>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-13px)] text-text-mid text-[20px] top-[1821px] w-[645px]">Capture reads your biosignals and behavioral patterns every day building a picture of your focus, stress, and energy that gets clearer the longer you use it.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%+42px)] text-text-mid text-[20px] top-[1942px] whitespace-nowrap">Smart keyboard that learns your behavioral patterns as you type</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%+42px)] text-text-mid text-[20px] top-[2046px] whitespace-nowrap">Syni, your personal AI companion, talks things through with you</p>
@@ -117,8 +117,8 @@ export default function CaptureDesktop() {
         </div>
       </div>
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%-814.96px)] rounded-[35.962px] size-[71.925px] top-[893px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1601.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap">Get Capture Free</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[316.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap">Get Capture Free</p>
+      <span className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1601.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap">Get Capture Free</span>
+      <span className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[316.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap">Get Capture Free</span>
       <HotspotButton aria-label="Get Capture Free" className="-translate-x-1/2 left-[calc(50%+655.5px)] top-[877px] w-[415px] h-[102px] rounded-[51px]" />
       <HotspotButton aria-label="Get Capture Free" className="-translate-x-1/2 left-[calc(50%-657.5px)] top-[877px] w-[415px] h-[102px] rounded-[51px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[584px] left-[calc(50%-602.5px)] rounded-[36px] shadow-[25px_36px_250px_0px_rgba(0,0,0,0.05)] top-[2782px] w-[383px]" />
@@ -137,18 +137,18 @@ export default function CaptureDesktop() {
       <div className="-translate-x-1/2 absolute bg-[#eaeaea] h-[362px] left-[calc(50%+223px)] rounded-[20px] top-[2799px] w-[346px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[584px] left-[calc(50%+632px)] rounded-[36px] shadow-[25px_36px_250px_0px_rgba(0,0,0,0.05)] top-[2782px] w-[382px]" />
       <div className="-translate-x-1/2 absolute bg-[#eaeaea] h-[362px] left-[calc(50%+633px)] rounded-[20px] top-[2799px] w-[346px]" />
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-761.42px)] text-warm-dark text-[28.027px] top-[3246.83px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-761.42px)] text-warm-dark text-[28.027px] top-[3246.83px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Behavioral Keyboard
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-349.36px)] text-warm-dark text-[28.027px] top-[3246.87px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-349.36px)] text-warm-dark text-[28.027px] top-[3246.87px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Live biosignals
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+62.76px)] text-warm-dark text-[28.027px] top-[3246.87px] w-[202.03px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+62.76px)] text-warm-dark text-[28.027px] top-[3246.87px] w-[202.03px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Pattern history
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+472.9px)] text-warm-dark text-[28.027px] top-[3246.83px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+472.9px)] text-warm-dark text-[28.027px] top-[3246.83px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Syni companion
-      </p>
+      </h3>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-761.48px)] not-italic text-text-secondary text-[14.014px] top-[3292.4px] w-[281.704px]">Learns your patterns through how you type rhythm, pace, focus stability every single day.</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%-349.36px)] not-italic text-text-secondary text-[14.014px] top-[3292.4px] w-[280.756px]">HRV, heart rate, recovery pulled from your wearable in real time to complete the picture.</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+62.79px)] not-italic text-text-secondary text-[14.014px] top-[3292.4px] w-[244.363px]">Your growth, stability, and state across days, months, and a year all in one view.</p>
@@ -168,9 +168,9 @@ export default function CaptureDesktop() {
       </div>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[53px] left-[calc(50%+90.86px)] rounded-[26.384px] top-[2129px] w-[207px]" />
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[63.754px] left-[calc(50%-621.5px)] rounded-[31.737px] top-[4068px] w-[249px]" />
-      <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%+11.74px)] text-[17.301px] text-white top-[2144.85px] whitespace-nowrap">Learn More</p>
+      <span className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%+11.74px)] text-[17.301px] text-white top-[2144.85px] whitespace-nowrap">Learn More</span>
       <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%+90.86px)] top-[2129px] w-[207px] h-[53px] rounded-[26.384px]" />
-      <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-716.68px)] text-[20.811px] text-white top-[4087.07px] whitespace-nowrap">Learn More</p>
+      <span className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-716.68px)] text-[20.811px] text-white top-[4087.07px] whitespace-nowrap">Learn More</span>
       <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%-621.5px)] top-[4068px] w-[249px] h-[63.754px] rounded-[31.737px]" />
       <div className="absolute left-[114px] size-[100.129px] top-[2426px]" data-name="4e613751157188230432b7db82abd067-Photoroom 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img4E613751157188230432B7Db82Abd067Photoroom1} />
@@ -229,7 +229,7 @@ export default function CaptureDesktop() {
       <Group27 />
       <div className="-translate-x-1/2 absolute bg-[#6e4b4c] h-[58.751px] left-[calc(50%+718.82px)] rounded-[29.376px] top-[104.34px] w-[209.636px]" />
       <AnnouncementBanner />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1673.55px] not-italic text-[20.029px] text-center text-white top-[121.69px] whitespace-nowrap">Download Syni</p>
+      <span className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1673.55px] not-italic text-[20.029px] text-center text-white top-[121.69px] whitespace-nowrap">Download Syni</span>
       <HotspotButton aria-label="Download Syni" className="-translate-x-1/2 left-[calc(50%+718.82px)] top-[104.34px] w-[209.636px] h-[58.751px] rounded-[29.376px]" />
       <div className="absolute bg-white h-[166px] left-[252px] shadow-[0px_25px_40px_0px_rgba(0,0,0,0.09)] top-[1399px] w-[333px]" />
       <div className="absolute bg-white h-[851px] left-[162px] rounded-[34px] shadow-[40px_51px_250px_0px_rgba(0,0,0,0.05)] top-[5007px] w-[773px]" />
@@ -253,27 +253,27 @@ export default function CaptureDesktop() {
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-321.2px)] opacity-58 text-[14px] text-black top-[1517.49px] whitespace-nowrap">Body Battery, stress, sleep stages, HRV</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+407px)] opacity-58 text-[14px] text-black top-[1517.49px] whitespace-nowrap">Readiness, sleep quality, activity</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[normal] left-1/2 opacity-66 text-[18px] text-black text-center top-[1288px] w-[674px]">Plus gives you more out of your data, Get a personalised dashboard and storage sing Plus, securely, with a customizable dashboard.</p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[274px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[274px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Whoop
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[220px] text-forest text-[42px] top-[5175px] w-[400px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[220px] text-forest text-[42px] top-[5175px] w-[400px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Behavioral signals Company Keyboard
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[1033px] text-forest text-[42px] top-[5175px] w-[214px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.065] left-[1033px] text-forest text-[42px] top-[5175px] w-[214px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Biosignals Wearable
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1005.62px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1005.62px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Apple Watch
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[638.8px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[638.8px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Garmin
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1367px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[1367px] text-forest text-[23px] top-[1486px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Oura Ring
-      </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.953] left-1/2 text-[#393939] text-[64.639px] text-center top-[1138px] w-[688px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h2 className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.953] left-1/2 text-[#393939] text-[64.639px] text-center top-[1138px] w-[688px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Get More Out Of Capture Using Plus
-      </p>
+      </h2>
       <div className="-translate-x-1/2 absolute bg-brand h-[49.925px] left-[calc(50%-662.97px)] top-[1423.25px] w-[48.389px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[91.361px] left-[calc(50%-698.73px)] top-[5053px] w-[88.55px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[91.361px] left-[calc(50%+114.27px)] top-[5053px] w-[88.55px]" />
@@ -310,13 +310,13 @@ export default function CaptureDesktop() {
           <TablerArrowUp3 />
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[normal] left-[calc(50%+85px)] not-italic text-warm-dark text-[100px] top-[8447px] uppercase whitespace-nowrap">SEE IT IN ACTION</p>
+      <h2 className="[word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[normal] left-[calc(50%+85px)] not-italic text-warm-dark text-[100px] top-[8447px] uppercase whitespace-nowrap">SEE IT IN ACTION</h2>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%+85px)] not-italic text-brand text-[35px] top-[8661px] uppercase w-[538px]">how Capture works in real Capture.</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%-6.5px)] text-warm-dark text-[70.909px] text-center top-[13058px] uppercase w-[1281px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <h2 className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%-6.5px)] text-warm-dark text-[70.909px] text-center top-[13058px] uppercase w-[1281px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Visualize your state.
         <br aria-hidden />
         Understand it. Interact with it.
-      </p>
+      </h2>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.69] left-[calc(50%+85px)] not-italic text-text-secondary text-[19px] top-[8730px] w-[568px]">{`Behavioral signal processing happens on your device. No content is ever read. Your signals are not sold, shared with advertisers, or used to build a profile. The Company Keyboard reads rhythm, pace, and interaction patterns. It has no access to the content of what you write. That's a technical boundary, not just a policy.`}</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+85px)] not-italic text-slate-text text-[17px] top-[8567px] w-[508px]">{`Capture surfaces observable patterns over time. It doesn't label you, score your personality, or tell you whether you had a good or bad day.`}</p>
       <div className="absolute h-[41px] left-[368.38px] top-[8936px] w-[399.125px]">
@@ -339,7 +339,7 @@ export default function CaptureDesktop() {
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[22.333px] size-full" src={imgImage289} />
       </div>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55.202px] left-[calc(50%-423.2px)] rounded-[27.48px] top-[8994.8px] w-[215.599px]" />
-      <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-469px)] text-[18.02px] text-white top-[9011.31px] whitespace-nowrap">Read More</p>
+      <span className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-469px)] text-[18.02px] text-white top-[9011.31px] whitespace-nowrap">Read More</span>
       <Frame2 />
       <div className="absolute h-[50px] left-[609.82px] top-[3183.45px] w-[49.074px]" data-name="image 816">
         <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgImage816} />
@@ -359,19 +359,19 @@ export default function CaptureDesktop() {
       <div className="absolute h-[25.29px] left-[947px] top-[1995px] w-[32px]" data-name="image 819">
         <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgImage820} />
       </div>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.86] left-[calc(50%-746px)] text-dark-bg text-[89.44px] top-[3711px] tracking-[-3.5776px] w-[731.168px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <h2 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.86] left-[calc(50%-746px)] text-dark-bg text-[89.44px] top-[3711px] tracking-[-3.5776px] w-[731.168px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Simple to start. Gets smarter as you go.
-      </p>
+      </h2>
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-773px)] text-dark-bg text-[70px] top-[4257px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         01
       </p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-773px)] text-dark-bg text-[28px] top-[4354px] tracking-[-1.12px] whitespace-nowrap">Connect your signals</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-359px)] text-dark-bg text-[28px] top-[4354px] tracking-[-1.12px] whitespace-nowrap">Capture learns your patterns</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+54px)] text-dark-bg text-[28px] top-[4354px] tracking-[-1.12px] whitespace-nowrap">History and insights</p>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-773px)] text-dark-bg text-[28px] top-[4354px] tracking-[-1.12px] whitespace-nowrap">Connect your signals</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%-359px)] text-dark-bg text-[28px] top-[4354px] tracking-[-1.12px] whitespace-nowrap">Capture learns your patterns</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+54px)] text-dark-bg text-[28px] top-[4354px] tracking-[-1.12px] whitespace-nowrap">History and insights</h3>
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+467px)] text-dark-bg text-[70px] top-[4257px] tracking-[-2.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         04
       </p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+467px)] text-dark-bg text-[28px] top-[4354px] tracking-[-1.12px] whitespace-nowrap">Talk to Syni</p>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.944] left-[calc(50%+467px)] text-dark-bg text-[28px] top-[4354px] tracking-[-1.12px] whitespace-nowrap">Talk to Syni</h3>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[1.37] left-[calc(50%-746px)] not-italic text-dark-bg text-[24px] top-[3968px] w-[758px] whitespace-pre-wrap">{`No daily check-ins. No surveys. Capture works in the background  and builds a clearer picture of you the longer it runs.`}</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%-773px)] opacity-66 text-dark-bg text-[17px] top-[4406px] w-[327px]">Enable the Company Keyboard and pair your wearable. Capture starts reading your behavioral and biosignals right away.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.22] left-[calc(50%-359px)] opacity-66 text-dark-bg text-[17px] top-[4406px] w-[325px]">Day by day, Capture builds a picture of your behavioral patterns and body signals your rhythms, your stress, your recovery.</p>
@@ -392,14 +392,14 @@ export default function CaptureDesktop() {
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%+125px)] text-text-mid text-[20px] top-[5598px] w-[461px]">How deeply you rested, and how that connects to your focus and regulation the next day.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-688px)] text-text-mid text-[20px] top-[5731px] w-[463px]">How consistent your patterns are across days and where shifts in state show up.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%+125px)] text-text-mid text-[20px] top-[5731px] w-[510px]">{`Whether your body is in recovery mode or carrying more than it's recovering from.`}</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5296px] whitespace-nowrap">Focus stability</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5296px] whitespace-nowrap">HRV and recovery</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5429px] whitespace-nowrap">Typing rhythm and pace</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5429px] whitespace-nowrap">Heart rate and daily strain</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5562px] whitespace-nowrap">Activity ratio and burstiness</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5562px] whitespace-nowrap">Sleep and recovery trends</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5695px] whitespace-nowrap">Behavioral coherence over time</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5695px] whitespace-nowrap">Restorative vs. load balance</p>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5296px] whitespace-nowrap">Focus stability</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5296px] whitespace-nowrap">HRV and recovery</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5429px] whitespace-nowrap">Typing rhythm and pace</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5429px] whitespace-nowrap">Heart rate and daily strain</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5562px] whitespace-nowrap">Activity ratio and burstiness</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5562px] whitespace-nowrap">Sleep and recovery trends</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%-688px)] text-forest text-[24px] top-[5695px] whitespace-nowrap">Behavioral coherence over time</h3>
+      <h3 className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.43] left-[calc(50%+125px)] text-forest text-[24px] top-[5695px] whitespace-nowrap">Restorative vs. load balance</h3>
       <div className="absolute h-[32px] left-[217px] top-[5303px] w-[41px]" data-name="image 821">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[269.39%] left-[-62.9%] max-w-none top-[-93.88%] w-[212.9%]" src={imgImage821} />
@@ -449,7 +449,7 @@ export default function CaptureDesktop() {
       </div>
       <EpWatch />
       <IconParkOutlineKeyboard />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-638.5px)] text-dark-bg-alt text-[24px] text-center top-[7469px] uppercase whitespace-nowrap">WHAT IT COVERS</p>
+      <h3 className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-638.5px)] text-dark-bg-alt text-[24px] text-center top-[7469px] uppercase whitespace-nowrap">WHAT IT COVERS</h3>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-666px)] text-dark-bg-alt text-[23px] top-[7577px] whitespace-nowrap">Primary signals</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-666px)] text-dark-bg-alt text-[23px] top-[7679px] whitespace-nowrap">Behavioral layer</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-666px)] text-dark-bg-alt text-[23px] top-[7861px] whitespace-nowrap">AI companion</p>
@@ -581,9 +581,9 @@ export default function CaptureDesktop() {
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.22] left-[calc(50%-173px)] not-italic text-[23.541px] text-white top-[10089.47px] w-[255px]">A deeper layer of signal for your practice</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.22] left-[calc(50%+272px)] not-italic text-[23.541px] text-white top-[9782.47px] w-[290px]">Protect the state that makes good work possible</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[1.22] left-[calc(50%+272px)] not-italic text-[23.541px] text-white top-[10089.47px] w-[249px]">Decide with clarity, not accumulated fatigue</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%+0.5px)] text-warm-dark text-[68.921px] text-center top-[11808.74px] w-[991px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <h2 className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%+0.5px)] text-warm-dark text-[68.921px] text-center top-[11808.74px] w-[991px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Your signals. Your patterns. Your understanding.
-      </p>
+      </h2>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-1/2 text-brand text-[22px] text-center top-[11770px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</p>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-[calc(50%+1px)] not-italic text-slate-text text-[20px] text-center top-[11956px] w-[512px]">A few things worth knowing about how Capture reads your signals and what it does with them.</p>
       <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.18px] border-solid h-[333px] left-[calc(50%-517px)] opacity-85 rounded-[10px] top-[12098px] w-[502px]" />
@@ -592,24 +592,24 @@ export default function CaptureDesktop() {
       <div className="-translate-x-1/2 absolute bg-white h-[333px] left-[calc(50%+12px)] opacity-85 rounded-[10px] top-[12468px] w-[502px]" />
       <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.18px] border-solid h-[333px] left-[calc(50%+541px)] opacity-85 rounded-[10px] top-[12098px] w-[502px]" />
       <div className="-translate-x-1/2 absolute bg-white border-[#ebedf0] border-[1.18px] border-solid h-[333px] left-[calc(50%+541px)] opacity-85 rounded-[10px] top-[12468px] w-[502px]" />
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-733.7px)] text-warm-dark text-[33.769px] top-[12232px] w-[203px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-733.7px)] text-warm-dark text-[33.769px] top-[12232px] w-[203px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Patterns, not verdicts
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-733.7px)] text-warm-dark text-[33.769px] top-[12602px] w-[275px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-733.7px)] text-warm-dark text-[33.769px] top-[12602px] w-[275px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         For awareness, not optimization
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-204px)] text-warm-dark text-[33.769px] top-[12232px] w-[262px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-204px)] text-warm-dark text-[33.769px] top-[12232px] w-[262px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Your device. Your data.
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-204px)] text-warm-dark text-[33.769px] top-[12602px] w-[288px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%-204px)] text-warm-dark text-[33.769px] top-[12602px] w-[288px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         A companion, not a medical tool
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+328.3px)] text-warm-dark text-[33.769px] top-[12232px] w-[237px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+328.3px)] text-warm-dark text-[33.769px] top-[12232px] w-[237px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         How you type never what
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+328.3px)] text-warm-dark text-[33.769px] top-[12602px] w-[223px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </h3>
+      <h3 className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[88.25%] left-[calc(50%+328.3px)] text-warm-dark text-[33.769px] top-[12602px] w-[223px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Built on open foundations
-      </p>
+      </h3>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-734px)] not-italic text-text-secondary text-[18px] top-[12317px] w-[390px]">{`Capture surfaces observable patterns over time. It doesn't label you, score your personality, or tell you whether you had a good or bad day.`}</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-733.7px)] not-italic text-text-secondary text-[18px] top-[12686px] w-[418px]">Capture is a companion for understanding your patterns not a tool for becoming more efficient. Self-awareness is the goal. What you do with it is up to you.</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.25] left-[calc(50%-204px)] not-italic text-text-secondary text-[18px] top-[12317px] w-[436px]">Behavioral signal processing happens on your device. No content is ever read. Your signals are not sold, shared with advertisers, or used to build a profile.</p>

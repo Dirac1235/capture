@@ -350,3 +350,141 @@ PHASE 4 — CONSISTENCY CHECK
 *The design is already mostly right. Your job is careful, precise, Figma-verified polishing.
 Make it perfect — without breaking what works.*
 <!-- END:ui-architecture-rules -->
+
+---
+---
+
+# AGENTS.md — Layout Conversion Phase (absolute → responsive flow)
+
+> A later phase, separate from polishing. The pages were exported from Figma as a
+> **flat list of absolutely-positioned elements** inside a fixed canvas that
+> `ResponsiveFrame` scales to fit. This phase rebuilds them, **section by section**,
+> as real mobile-first flexbox/grid that flows naturally at every width.
+> This is a large, multi-week effort. Treat it as such. Do not start it casually.
+
+---
+
+## L0. Read This First — Mindset
+
+- This is a **rebuild of layout**, not a polish. It is the one phase where changing
+  structure is the point. Everything else in this file still applies (tokens only,
+  cn(), shadcn two-layer, Next Image, semantic HTML, no raw CSS).
+- **Strangler pattern is mandatory.** Build each new responsive section *alongside*
+  the existing absolute one and swap it in. The page must stay shippable at every
+  commit. Never delete the old section until the new one is verified.
+- **One section per task. One section per commit.** Never convert a whole page in one
+  pass — context drifts and mistakes compound. A bad section must be one `git revert`.
+- **You are blind to the rendered result.** You cannot see pixels. You MUST pull the
+  Figma frame via MCP for every section, and you MUST ask the human to verify visually
+  (screenshots) before the section is considered done. Never declare a layout "correct"
+  from code alone.
+
+---
+
+## L1. The Strategic Decision — Fluid, Not Pixel-Exact
+
+Default to **true fluid responsive**: the layout flows naturally at every width and is
+allowed to differ from the Figma frame's exact pixels at the 1920px design width.
+This is the entire reason to leave absolute positioning.
+
+- Do **not** fight flexbox to reproduce exact px at the design width ("pixel-exact in
+  flexbox") unless the human explicitly asks — it roughly doubles the work and keeps
+  the magic numbers you are trying to remove.
+- Match Figma's **proportions, hierarchy, spacing rhythm, and breakpoint behavior** —
+  not its absolute coordinates.
+
+---
+
+## L2. Per-Section Workflow (repeat for every section)
+
+```
+1. SCOPE   — one section only (a band of elements by their top-[..] value).
+             DOM order ≠ visual order in these exports — always work top-down by top-[..].
+2. READ    — pull the Figma desktop AND mobile frame for this section via Figma MCP
+             (get_screenshot, get_design_context, get_variable_defs). Never guess
+             values from the absolute px in the export.
+3. PLAN    — enter plan mode. State: the content elements, the decorative elements,
+             the mobile layout, the md: desktop layout, which existing tokens/wrappers
+             you'll use. Wait for human approval before writing code.
+4. BUILD   — new responsive component, mobile-first base + md: desktop overrides.
+             Build it alongside the old absolute markup; then swap it in.
+5. VERIFY  — tsc clean; then the HUMAN screenshots mobile + desktop and compares to
+             Figma. Fix from their visual feedback.
+6. COMMIT  — git commit this single section. Then move to the next.
+```
+
+---
+
+## L3. Content vs Decoration — the time sink
+
+Split every section's elements into two piles:
+
+- **Content** (text, buttons, images, cards) → flows in flex/grid.
+- **Decoration** (background blobs, gradients, lines, glows positioned at fixed coords)
+  → do **not** try to make these "flow." Put them in a single
+  `<div className="absolute inset-0 -z-10 …">` background layer inside the section,
+  or replace with a CSS gradient/blur. Simplify or drop decoration that doesn't earn
+  its complexity. Decoration is where this work goes slow — handle it deliberately.
+
+---
+
+## L4. Merge Desktop + Mobile Into One Component
+
+The exports currently ship **separate `desktop/` and `mobile/` files** — this violates
+the one-responsive-component rule (Section 4 above). As you convert each section,
+**merge the two into a single responsive component** with `md:` breakpoints. Do the
+section once with breakpoints, not twice. Retire the duplicated file only after the
+merged version is verified.
+
+---
+
+## L5. Device Mockups (`widgets.tsx`) — Wrap, Don't Reflow
+
+`widgets.tsx` in each page folder is self-contained phone/app-mockup chrome (keyboards,
+dashboards, chat UIs) built as large absolute compositions. **Do not re-flow their
+internals** — it is enormous work for no benefit. Instead, wrap each mockup in a
+responsive box that sizes/scales it within the new flowing section. Leave the mockup's
+internal absolute layout intact. (This saves a large fraction of total effort.)
+
+---
+
+## L6. Build a Reusable Section Library
+
+The four pages (capture, foundations, plus, syni) share most marketing copy and layout
+patterns. **Page 1 is expensive; pages 2–4 should be cheap composition.**
+
+- On the first page, factor recurring sections into reusable components:
+  `Hero`, `FeatureTrio`, `ReadoutGrid`, `ComparisonTable`, `PrincipleCards`,
+  `FinalCTA`, testimonials, etc. — content via props.
+- Scaffold a `<Section>` wrapper first (max-width container + vertical rhythm) and
+  confirm the tokens in `app/globals.css` cover the spacing/radius/color you need.
+  Reuse those tokens — never reintroduce magic px or arbitrary values.
+- On pages 2–4, compose the existing components; only build new ones for genuinely new
+  patterns.
+
+---
+
+## L7. Order of Work (phased — ship continuously)
+
+```
+PHASE 0 — keep absolute, add only opacity-based scroll-reveal animations (low risk).
+PHASE 1 — convert the home hero + first CTA to responsive flow (highest-value real estate).
+PHASE 2 — scaffold <Section> + build the section library; finish page 1.
+PHASE 3 — roll the components across foundations, plus, syni.
+```
+
+Do not skip ahead. Each phase leaves a shippable site.
+
+---
+
+## L8. Layout-Phase Definition of Done (per section)
+
+- [ ] Figma desktop AND mobile frame read via MCP before building
+- [ ] Mobile-first base classes + `md:` desktop overrides — verified at <768px and ≥768px
+- [ ] Decoration isolated in a background layer; no decorative element in the content flow
+- [ ] Desktop + mobile merged into one responsive component (no new MobileX/DesktopX split)
+- [ ] Zero magic px / arbitrary values — spacing, radius, color all from tokens
+- [ ] Device mockups wrapped, not internally re-flowed
+- [ ] `npx tsc --noEmit` clean
+- [ ] Human has visually compared the rendered section (mobile + desktop) to Figma and approved
+- [ ] Section committed on its own before starting the next
