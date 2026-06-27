@@ -10,6 +10,8 @@ import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom1, imgIm
 import { Frame5, Frame6 } from "./graphics";
 import { AntDesignCloudSyncOutlined, AntDesignCloudSyncOutlined1, ArcticonsWhoop, CbiOuraO, CibGarmin, FamiconsCalendarOutline, FluentMdl2Insights, IcRoundApple, MaterialSymbolsBeachAccessOutline, SiInsightsFill, SolarHistoryBold, TablerArrowUp } from "./icons";
 import { Frame1, Frame7, Group17, Group19, Group20, Group21, HugeiconsAccess, LucideLabWatchCheck, MynauiWatch, TablerFreeRights } from "./widgets";
+import { FaqAccordion } from "@/components/ui/FaqAccordion";
+import { PLUS_FAQS } from "../faqs";
 
 export default function PlusDesktop() {
   return (
@@ -333,125 +335,7 @@ export default function PlusDesktop() {
           <TablerArrowUp />
         </div>
       </div>
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[177px] left-1/2 rounded-[22px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7063px] w-[1240px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-1/2 rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7265px] w-[1240px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-1/2 rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7399px] w-[1240px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-1/2 rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7667px] w-[1240px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-1/2 rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7533px] w-[1240px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-1/2 rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[7801px] w-[1240px]" />
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7104px] whitespace-nowrap">What happens after the free trial?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7303px] whitespace-nowrap">Do I lose my data if I cancel?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7437px] whitespace-nowrap">Is Plus available on all platforms?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7705px] whitespace-nowrap">Is my wearable data private?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7571px] whitespace-nowrap">Does Plus work with both Capture and Syni?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-491px)] text-near-black text-[25px] top-[7839px] whitespace-nowrap">{`What if my device isn't supported yet?`}</p>
-      <div className="absolute flex h-[10.873px] items-center justify-center left-[1505px] top-[7148px] w-[21.747px]">
-        <div className="-scale-y-100 flex-none">
-          <div className="h-[10.873px] relative w-[21.747px]">
-            <div className="absolute inset-[-16.67%_-8.33%]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-                <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1505px] top-[7314px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1505px] top-[7448px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1505px] top-[7716px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1505px] top-[7582px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1505px] top-[7850px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.37] left-[calc(50%-491px)] opacity-85 text-slate-text text-[20px] top-[7148px] w-[788px]">{`Oura and WHOOP focus on physical recovery biosignals like HRV, sleep, and strain. Capture adds the behavioral layer those devices can't see...`}</p>
-      <div className="absolute left-[386.32px] size-[40.353px] top-[7301.18px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40.3533 40.3533">
-          <circle cx="20.1767" cy="20.1767" fill="var(--fill-0, #D08E8F)" id="Ellipse 5566" r="20.1767" />
-        </svg>
-      </div>
-      <div className="absolute left-[386.32px] size-[40.353px] top-[7101px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40.3533 40.3533">
-          <circle cx="20.1767" cy="20.1767" fill="var(--fill-0, #D08E8F)" id="Ellipse 5566" r="20.1767" />
-        </svg>
-      </div>
-      <div className="absolute left-[386.32px] size-[40.353px] top-[7434px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40.3533 40.3533">
-          <circle cx="20.1767" cy="20.1767" fill="var(--fill-0, #D08E8F)" id="Ellipse 5566" r="20.1767" />
-        </svg>
-      </div>
-      <div className="absolute left-[386.32px] size-[40.353px] top-[7568px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40.3533 40.3533">
-          <circle cx="20.1767" cy="20.1767" fill="var(--fill-0, #D08E8F)" id="Ellipse 5566" r="20.1767" />
-        </svg>
-      </div>
-      <div className="absolute left-[386.32px] size-[40.353px] top-[7702px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40.3533 40.3533">
-          <circle cx="20.1767" cy="20.1767" fill="var(--fill-0, #D08E8F)" id="Ellipse 5566" r="20.1767" />
-        </svg>
-      </div>
-      <div className="absolute left-[386.32px] size-[40.353px] top-[7836px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40.3533 40.3533">
-          <circle cx="20.1767" cy="20.1767" fill="var(--fill-0, #D08E8F)" id="Ellipse 5566" r="20.1767" />
-        </svg>
-      </div>
-      <div className="absolute left-[398.06px] size-[16.875px] top-[7313.22px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16.875 16.875">
-          <path d={svgPaths.p2aa36d00} fill="var(--fill-0, white)" id="Star 5" />
-        </svg>
-      </div>
-      <div className="absolute left-[398.06px] size-[16.875px] top-[7113.03px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16.875 16.875">
-          <path d={svgPaths.p2aa36d00} fill="var(--fill-0, white)" id="Star 5" />
-        </svg>
-      </div>
-      <div className="absolute left-[398.06px] size-[16.875px] top-[7446.03px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16.875 16.875">
-          <path d={svgPaths.p2aa36d00} fill="var(--fill-0, white)" id="Star 5" />
-        </svg>
-      </div>
-      <div className="absolute left-[398.06px] size-[16.875px] top-[7580.03px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16.875 16.875">
-          <path d={svgPaths.p2aa36d00} fill="var(--fill-0, white)" id="Star 5" />
-        </svg>
-      </div>
-      <div className="absolute left-[398.06px] size-[16.875px] top-[7714.03px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16.875 16.875">
-          <path d={svgPaths.p2aa36d00} fill="var(--fill-0, white)" id="Star 5" />
-        </svg>
-      </div>
-      <div className="absolute left-[398.06px] size-[16.875px] top-[7848.03px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16.875 16.875">
-          <path d={svgPaths.p2aa36d00} fill="var(--fill-0, white)" id="Star 5" />
-        </svg>
-      </div>
+      <FaqAccordion items={PLUS_FAQS} variant="plusDesktop" className="absolute left-1/2 top-[7063px] w-[1240px] -translate-x-1/2" />
       <div className="absolute h-[244px] left-[1362px] top-[8028px] w-[162.667px]" data-name="image 823">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage823} />
       </div>

@@ -9,6 +9,8 @@ import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom2, imgIm
 import { Frame5, Frame7 } from "./graphics";
 import { AntDesignCloudSyncOutlined, AntDesignCloudSyncOutlined1, FamiconsCalendarOutline, FluentMdl2Insights, MaterialSymbolsBeachAccessOutline, SiInsightsFill, SolarHistoryBold } from "./icons";
 import { Frame1, Frame6, Group17, Group18, Group19, HugeiconsAccess, LucideLabWatchCheck, MynauiWatch, TablerFreeRights } from "./widgets";
+import { FaqAccordion } from "@/components/ui/FaqAccordion";
+import { PLUS_FAQS } from "../faqs";
 
 export default function PlusMobile() {
   return (
@@ -359,65 +361,7 @@ export default function PlusMobile() {
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[1.013] left-1/2 text-warm-dark text-[55px] text-center top-[9070px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Quick answers.
       </p>
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[246px] left-[calc(50%-2.5px)] rounded-[22px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[9170px] w-[393px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-[calc(50%-2.5px)] rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[9447px] w-[393px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-[calc(50%-2.5px)] rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[9581px] w-[393px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-[calc(50%-2.5px)] rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[9849px] w-[393px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-[calc(50%-2.5px)] rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[9715px] w-[393px]" />
-      <div className="-translate-x-1/2 absolute backdrop-blur-[7.9px] bg-white h-[109px] left-[calc(50%-2.5px)] rounded-[17px] shadow-[0px_4px_132.8px_0px_rgba(0,0,0,0.05)] top-[9983px] w-[393px]" />
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.14] left-[calc(50%-174px)] text-near-black text-[25px] top-[9201px] w-[282px]">What happens after the free trial?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-164px)] text-near-black text-[22px] top-[9485px] whitespace-nowrap">Do I lose my data if I cancel?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-164px)] text-near-black text-[22px] top-[9619px] whitespace-nowrap">Is Plus available on all platforms?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-164px)] text-near-black text-[22px] top-[9887px] whitespace-nowrap">Is my wearable data private?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-164px)] text-near-black text-[22px] top-[9738px] w-[326px]">Does Plus work with both Capture and Syni?</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-164px)] text-near-black text-[22px] top-[10006px] w-[316px]">{`What if my device isn't supported yet?`}</p>
-      <div className="absolute flex h-[10.873px] items-center justify-center left-[1081px] top-[9139px] w-[21.747px]">
-        <div className="-scale-y-100 flex-none">
-          <div className="h-[10.873px] relative w-[21.747px]">
-            <div className="absolute inset-[-16.67%_-8.33%]">
-              <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-                <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[9305px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[9439px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[9707px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[9573px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <div className="absolute h-[10.873px] left-[1081px] top-[9841px] w-[21.747px]">
-        <div className="absolute inset-[-16.67%_-8.33%]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 25.3715 14.498">
-            <path d={svgPaths.pbf35600} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.6245" />
-          </svg>
-        </div>
-      </div>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.37] left-[calc(50%-174px)] opacity-85 text-slate-text text-[20px] top-[9276px] w-[373px]">{`Oura and WHOOP focus on physical recovery biosignals like HRV, sleep, and strain. Capture adds the behavioral layer those devices can't see...`}</p>
+      <FaqAccordion items={PLUS_FAQS} variant="plusMobile" className="absolute left-[calc(50%-2.5px)] top-[9170px] w-[393px] -translate-x-1/2" />
       <Frame6 />
       <div className="absolute h-[531.866px] left-[-138px] top-[1729.32px] w-[1631px]">
         <div className="absolute inset-[-4.8%_-1.44%_-0.93%_-1.53%]">

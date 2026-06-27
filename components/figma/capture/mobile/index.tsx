@@ -7,6 +7,8 @@ import { HotspotButton } from "@/components/ui/Hotspot";
 import { img4E613751157188230432B7Db82Abd067Photoroom5, imgImage289, imgImage446, imgImage816, imgImage817, imgImage818, imgImage831, imgImage832, imgImage836, imgImage839, imgImage840, imgRectangle, imgRectangle34625682, imgRectangle34625683, imgRectangle34625684, imgTelegramCloudDocument458142836860104283961, imgTelegramCloudDocument458142836860104284071, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284076, imgTelegramCloudDocument458142836860104284077, svgPaths } from "./assets";
 import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerNotification } from "./icons";
 import { Component1, Component4, CuidaUserOutline, CuidaUserOutline1, CuidaUserOutline2, CuidaUserOutline3, CuidaUserOutline4, CuidaUserOutline5, Frame, Frame2, Frame4, Frame5, Frame6, Frame7, GlyphsSignalBold, Group35, HugeiconsAccess, IPhone16ProMax1, IconParkOutlineClickTap, IconParkOutlineKeyboard, LetsIconsSpeed, LucideLabWatchCheck, LucideRatio, MaskGroup, MynauiWatch } from "./widgets";
+import { FaqAccordion } from "@/components/ui/FaqAccordion";
+import { CAPTURE_FAQS } from "../faqs";
 
 export default function CaptureMobile() {
   return (
@@ -200,109 +202,7 @@ export default function CaptureMobile() {
           </div>
         </div>
         <div className="-translate-x-1/2 absolute backdrop-blur-[5.871px] bg-[rgba(255,255,255,0.4)] h-[622px] left-[calc(50%+1px)] rounded-[16.349px] shadow-[0px_2.973px_98.691px_0px_rgba(0,0,0,0.05)] top-[15756px] w-[406px]" />
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.37] left-[calc(50%-169.07px)] text-near-black text-[14.742px] top-[15789.94px] whitespace-nowrap">How is Capture different from Oura or WHOOP?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[15916.41px] whitespace-nowrap">What is Capture by Company?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[15983.56px] whitespace-nowrap">Does Capture read what I type?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[16050.63px] whitespace-nowrap">Is there a desktop version?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[16117.71px] whitespace-nowrap">QIs Capture a mental health app?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[16250.37px] whitespace-nowrap">QIs Capture a mental health app?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.37] left-[calc(50%-169.07px)] opacity-47 text-near-black text-[14.742px] top-[16184.05px] whitespace-nowrap">Who is Capture built for?</p>
-        <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.37] left-[calc(50%-169px)] opacity-85 text-slate-text text-[11.147px] top-[15816px] w-[331px]">{`Oura and WHOOP focus on physical recovery biosignals like HRV, sleep, and strain. Capture adds the behavioral layer those devices can't see...`}</p>
-        <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+5.43px)] top-[15893.89px] w-[349px]">
-          <div className="absolute inset-[-0.63px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 349 0.628275">
-              <line id="Line 1103" opacity="0.19" stroke="var(--stroke-0, black)" strokeWidth="0.628275" x2="349" y1="0.314137" y2="0.314137" />
-            </svg>
-          </div>
-        </div>
-        <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+5.43px)] top-[15959.89px] w-[349px]">
-          <div className="absolute inset-[-0.63px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 349 0.628275">
-              <line id="Line 1103" opacity="0.19" stroke="var(--stroke-0, black)" strokeWidth="0.628275" x2="349" y1="0.314137" y2="0.314137" />
-            </svg>
-          </div>
-        </div>
-        <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+5.43px)] top-[16026.89px] w-[349px]">
-          <div className="absolute inset-[-0.63px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 349 0.628275">
-              <line id="Line 1103" opacity="0.19" stroke="var(--stroke-0, black)" strokeWidth="0.628275" x2="349" y1="0.314137" y2="0.314137" />
-            </svg>
-          </div>
-        </div>
-        <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+5.43px)] top-[16093.89px] w-[349px]">
-          <div className="absolute inset-[-0.63px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 349 0.628275">
-              <line id="Line 1103" opacity="0.19" stroke="var(--stroke-0, black)" strokeWidth="0.628275" x2="349" y1="0.314137" y2="0.314137" />
-            </svg>
-          </div>
-        </div>
-        <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+5.43px)] top-[16226.89px] w-[349px]">
-          <div className="absolute inset-[-0.63px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 349 0.628275">
-              <line id="Line 1103" opacity="0.19" stroke="var(--stroke-0, black)" strokeWidth="0.628275" x2="349" y1="0.314137" y2="0.314137" />
-            </svg>
-          </div>
-        </div>
-        <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+5.43px)] top-[16160.89px] w-[349px]">
-          <div className="absolute inset-[-0.63px_0_0_0]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 349 0.628275">
-              <line id="Line 1103" opacity="0.19" stroke="var(--stroke-0, black)" strokeWidth="0.628275" x2="349" y1="0.314137" y2="0.314137" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute flex h-[5.108px] items-center justify-center left-[390.01px] top-[15818.47px] w-[10.216px]">
-          <div className="-scale-y-100 flex-none">
-            <div className="h-[5.108px] relative w-[10.216px]">
-              <div className="absolute inset-[-16.67%_-8.33%]">
-                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11.9189 6.81077">
-                  <path d={svgPaths.p7a8f080} id="Vector 7" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.70269" />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="absolute h-[5.108px] left-[390.01px] top-[15925.59px] w-[10.216px]">
-          <div className="absolute inset-[-16.67%_-8.33%]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11.9189 6.81077">
-              <path d={svgPaths.p7a8f080} id="Vector 8" opacity="0.62" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.70269" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-[5.108px] left-[390.01px] top-[15992.67px] w-[10.216px]">
-          <div className="absolute inset-[-16.67%_-8.33%]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11.9189 6.81077">
-              <path d={svgPaths.p7a8f080} id="Vector 8" opacity="0.62" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.70269" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-[5.108px] left-[390.01px] top-[16059.74px] w-[10.216px]">
-          <div className="absolute inset-[-16.67%_-8.33%]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11.9189 6.81077">
-              <path d={svgPaths.p7a8f080} id="Vector 8" opacity="0.62" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.70269" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-[5.108px] left-[390.01px] top-[16123.13px] w-[10.216px]">
-          <div className="absolute inset-[-16.67%_-8.33%]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11.9189 6.81077">
-              <path d={svgPaths.p7a8f080} id="Vector 8" opacity="0.62" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.70269" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-[5.108px] left-[390.01px] top-[16255.79px] w-[10.216px]">
-          <div className="absolute inset-[-16.67%_-8.33%]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11.9189 6.81077">
-              <path d={svgPaths.p7a8f080} id="Vector 8" opacity="0.62" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.70269" />
-            </svg>
-          </div>
-        </div>
-        <div className="absolute h-[5.108px] left-[390.01px] top-[16195.37px] w-[10.216px]">
-          <div className="absolute inset-[-16.67%_-8.33%]">
-            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 11.9189 6.81077">
-              <path d={svgPaths.p7a8f080} id="Vector 8" opacity="0.62" stroke="var(--stroke-0, #101010)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.70269" />
-            </svg>
-          </div>
-        </div>
+        <FaqAccordion items={CAPTURE_FAQS.slice(0, 7)} variant="mobile" className="absolute left-[calc(50%-169.07px)] top-[15767px] w-[349px]" />
         <div className="-translate-x-1/2 absolute h-[478px] left-[calc(50%-2.59px)] rounded-[12.836px] top-[15255px] w-[402.816px]">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12.836px] size-full" src={imgRectangle34625684} />
         </div>
