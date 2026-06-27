@@ -3,7 +3,6 @@
 
 import Link from "next/link";
 import { AnnouncementBannerMobile } from "@/components/ui/AnnouncementBannerMobile";
-import { HotspotButton } from "@/components/ui/Hotspot";
 import { img4E613751157188230432B7Db82Abd067Photoroom5, imgImage289, imgImage446, imgImage816, imgImage817, imgImage818, imgImage831, imgImage832, imgImage836, imgImage839, imgImage840, imgRectangle, imgRectangle34625682, imgRectangle34625683, imgRectangle34625684, imgTelegramCloudDocument458142836860104283961, imgTelegramCloudDocument458142836860104284071, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284076, imgTelegramCloudDocument458142836860104284077, svgPaths } from "./assets";
 import { Activity, AntDesignCloudSyncOutlined, ArcticonsWhoop, BiGrid3X2Gap, CbiOuraO, CibGarmin, Component, Component2, Component3, EpWatch, FamiconsCalendarOutline, FeLayer, FluentMdl2Insights, IcRoundApple, MaterialSymbolsAvgTimeOutline, MaterialSymbolsBeachAccessOutline, MaterialSymbolsVideoStableOutlineSharp, MdiGraphBoxOutline, PhDesktop, PhFire, PhSpinnerGapBold, SiAiLine, SolarHistoryBold, TablerArrowUp, TablerArrowUp1, TablerNotification } from "./icons";
 import { Component1, Component4, CuidaUserOutline, CuidaUserOutline1, CuidaUserOutline2, CuidaUserOutline3, CuidaUserOutline4, CuidaUserOutline5, Frame, Frame2, Frame4, Frame5, Frame6, Frame7, GlyphsSignalBold, Group35, HugeiconsAccess, IPhone16ProMax1, IconParkOutlineClickTap, IconParkOutlineKeyboard, LetsIconsSpeed, LucideLabWatchCheck, LucideRatio, MaskGroup, MynauiWatch } from "./widgets";
@@ -76,8 +75,7 @@ export default function CaptureMobile() {
         </h2>
         <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.43] left-[calc(50%-191px)] text-text-mid text-[20px] top-[2225px] w-[381px]">Capture reads your biosignals and behavioral patterns every day building a picture of your focus, stress, and energy that gets clearer the longer you use it.</p>
         <div className="-translate-x-1/2 absolute bg-brand-dark h-[65px] left-[calc(50%-4.5px)] rounded-[32.358px] top-[2634px] w-[381px]" />
-        <span className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-164px)] text-[21.218px] text-white top-[2653.44px] whitespace-nowrap">Learn More</span>
-        <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%-4.5px)] top-[2634px] w-[381px] h-[65px] rounded-[32.358px]" />
+        <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-164px)] text-[21.218px] text-white top-[2653.44px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Learn More</button>
         <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+153.03px)] rounded-[22.029px] size-[44.059px] top-[2645.13px]" />
         <div className="absolute flex items-center justify-center left-[357.33px] size-[30.546px] top-[2651.46px]">
           <div className="flex-none rotate-90">
@@ -181,8 +179,7 @@ export default function CaptureMobile() {
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[15.337px] size-full" src={imgImage289} />
         </div>
         <div className="-translate-x-1/2 absolute bg-brand h-[55.202px] left-[calc(50%-3.2px)] rounded-[27.48px] top-[12975px] w-[215.599px]" />
-        <span className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-49px)] text-[18.02px] text-white top-[12991.51px] whitespace-nowrap">Read More</span>
-        <HotspotButton aria-label="Read More" className="-translate-x-1/2 left-[calc(50%-3.2px)] top-[12975px] w-[215.599px] h-[55.202px] rounded-[27.48px]" />
+        <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-49px)] text-[18.02px] text-white top-[12991.51px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Read More</button>
         <h2 className="-translate-x-1/2 [word-break:break-word] absolute font-['Bebas_Neue:Regular',sans-serif] leading-[76.29000091552734%] left-[calc(50%-2px)] not-italic text-warm-dark text-[100px] text-center top-[13258px] uppercase w-[310px]">SEE IT IN ACTION</h2>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%-12px)] not-italic text-brand text-[35px] text-center top-[13583px] uppercase w-[338px]">how Capture works in real Capture.</p>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.69] left-[calc(50%-6.5px)] not-italic text-text-secondary text-[20px] text-center top-[13689px] w-[361px]">{`Behavioral signal processing happens on your device. No content is ever read. Your signals are not sold, shared with advertisers, or used to build a profile. The Company Keyboard reads rhythm, pace, and interaction patterns. It has no access to the content of what you write. That's a technical boundary, not just a policy.`}</p>
@@ -339,8 +336,7 @@ export default function CaptureMobile() {
         <div className="-translate-x-1/2 absolute bg-dark-bg h-[1719px] left-1/2 top-[7115px] w-[438px]" />
         <div className="-translate-x-1/2 absolute bg-brand h-[690px] left-[calc(50%-0.5px)] rounded-[20px] top-[7199px] w-[413px]" />
         <div className="-translate-x-1/2 absolute bg-dark-bg h-[64px] left-[calc(50%-0.5px)] rounded-[31.737px] top-[7785px] w-[353px]" />
-        <span className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-150.68px)] text-[20.811px] text-white top-[7804.07px] whitespace-nowrap">Learn More</span>
-        <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%-0.5px)] top-[7785px] w-[353px] h-[64px] rounded-[31.737px]" />
+        <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-150.68px)] text-[20.811px] text-white top-[7804.07px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Learn More</button>
         <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%+142.61px)] rounded-[21.607px] size-[43.214px] top-[7795.92px]" />
         <div className="absolute flex items-center justify-center left-[346.21px] size-[29.96px] top-[7802.12px]">
           <div className="flex-none rotate-90">

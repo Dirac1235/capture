@@ -4,7 +4,6 @@
 import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
 
 import Link from "next/link";
-import { HotspotButton } from "@/components/ui/Hotspot";
 import { FaqAccordion } from "@/components/ui/FaqAccordion";
 import { CAPTURE_FAQS } from "../faqs";
 import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom1, imgImage289, imgImage446, imgImage79, imgImage816, imgImage817, imgImage818, imgImage820, imgImage821, imgImage830, imgImage836, imgImage840, imgRectangle, imgRectangle34625607, imgRectangle34625614, imgRectangle34625623, imgTelegramCloudDocument458142836860104283961, imgTelegramCloudDocument458142836860104284071, imgTelegramCloudDocument458142836860104284072, imgTelegramCloudDocument458142836860104284073, imgTelegramCloudDocument458142836860104284075, svgPaths } from "./assets";
@@ -119,10 +118,8 @@ export default function CaptureDesktop() {
         </div>
       </div>
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%-814.96px)] rounded-[35.962px] size-[71.925px] top-[893px]" />
-      <span className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1601.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap">Get Capture Free</span>
-      <span className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[316.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap">Get Capture Free</span>
-      <HotspotButton aria-label="Get Capture Free" className="-translate-x-1/2 left-[calc(50%+655.5px)] top-[877px] w-[415px] h-[102px] rounded-[51px]" />
-      <HotspotButton aria-label="Get Capture Free" className="-translate-x-1/2 left-[calc(50%-657.5px)] top-[877px] w-[415px] h-[102px] rounded-[51px]" />
+      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1601.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Get Capture Free</button>
+      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[316.5px] not-italic text-[29.366px] text-center text-white top-[910px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Get Capture Free</button>
       <div className="-translate-x-1/2 absolute bg-white h-[584px] left-[calc(50%-602.5px)] rounded-[36px] shadow-[25px_36px_250px_0px_rgba(0,0,0,0.05)] top-[2782px] w-[383px]" />
       <div className="-translate-x-1/2 absolute bg-[#eaeaea] h-[362px] left-[calc(50%-601.5px)] rounded-[20px] top-[2799px] w-[347px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[601px] left-[calc(50%-346px)] rounded-[20px] top-[3597px] w-[896px]" />
@@ -170,10 +167,8 @@ export default function CaptureDesktop() {
       </div>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[53px] left-[calc(50%+90.86px)] rounded-[26.384px] top-[2129px] w-[207px]" />
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[63.754px] left-[calc(50%-621.5px)] rounded-[31.737px] top-[4068px] w-[249px]" />
-      <span className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%+11.74px)] text-[17.301px] text-white top-[2144.85px] whitespace-nowrap">Learn More</span>
-      <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%+90.86px)] top-[2129px] w-[207px] h-[53px] rounded-[26.384px]" />
-      <span className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-716.68px)] text-[20.811px] text-white top-[4087.07px] whitespace-nowrap">Learn More</span>
-      <HotspotButton aria-label="Learn More" className="-translate-x-1/2 left-[calc(50%-621.5px)] top-[4068px] w-[249px] h-[63.754px] rounded-[31.737px]" />
+      <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%+11.74px)] text-[17.301px] text-white top-[2144.85px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Learn More</button>
+      <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-716.68px)] text-[20.811px] text-white top-[4087.07px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Learn More</button>
       <div className="absolute left-[114px] size-[100.129px] top-[2426px]" data-name="4e613751157188230432b7db82abd067-Photoroom 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img4E613751157188230432B7Db82Abd067Photoroom1} />
       </div>
@@ -231,8 +226,7 @@ export default function CaptureDesktop() {
       <Group27 />
       <div className="-translate-x-1/2 absolute bg-[#6e4b4c] h-[58.751px] left-[calc(50%+718.82px)] rounded-[29.376px] top-[104.34px] w-[209.636px]" />
       <AnnouncementBanner />
-      <span className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1673.55px] not-italic text-[20.029px] text-center text-white top-[121.69px] whitespace-nowrap">Download Syni</span>
-      <HotspotButton aria-label="Download Syni" className="-translate-x-1/2 left-[calc(50%+718.82px)] top-[104.34px] w-[209.636px] h-[58.751px] rounded-[29.376px]" />
+      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1673.55px] not-italic text-[20.029px] text-center text-white top-[121.69px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Download Syni</button>
       <div className="absolute bg-white h-[166px] left-[252px] shadow-[0px_25px_40px_0px_rgba(0,0,0,0.09)] top-[1399px] w-[333px]" />
       <div className="absolute bg-white h-[851px] left-[162px] rounded-[34px] shadow-[40px_51px_250px_0px_rgba(0,0,0,0.05)] top-[5007px] w-[773px]" />
       <div className="-translate-x-1/2 absolute backdrop-blur-[63px] bg-[rgba(255,255,255,0.6)] h-[795px] left-1/2 rounded-[11px] shadow-[45px_114px_67px_0px_rgba(0,0,0,0.04)] top-[7419px] w-[1590px]" />

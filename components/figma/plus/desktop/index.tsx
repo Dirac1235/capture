@@ -4,7 +4,6 @@
 import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
 
 import Link from "next/link";
-import { HotspotButton } from "@/components/ui/Hotspot";
 
 import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom1, imgImage289, imgImage823, imgImage829, imgImage836, imgImage840, imgTelegramCloudDocument458142836860104284071, svgPaths } from "./assets";
 import { Frame5, Frame6 } from "./graphics";
@@ -12,8 +11,11 @@ import { AntDesignCloudSyncOutlined, AntDesignCloudSyncOutlined1, ArcticonsWhoop
 import { Frame1, Frame7, Group17, Group19, Group20, Group21, HugeiconsAccess, LucideLabWatchCheck, MynauiWatch, TablerFreeRights } from "./widgets";
 import { FaqAccordion } from "@/components/ui/FaqAccordion";
 import { PLUS_FAQS } from "../faqs";
+import { useState } from "react";
+import { BillingToggle } from "@/components/ui/BillingToggle";
 
 export default function PlusDesktop() {
+  const [billing, setBilling] = useState<"monthly" | "yearly">("yearly");
   return (
     <div className="bg-[#f6f6f6] relative size-full" data-name="Desktop - 100">
       <div className="absolute flex h-[591.64px] items-center justify-center left-[-64.19px] top-[2321.27px] w-[620.679px]">
@@ -47,8 +49,7 @@ export default function PlusDesktop() {
       <Group17 />
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
       <AnnouncementBanner />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.05px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Start Free Trial</p>
-      <HotspotButton aria-label="Start Free Trial" className="-translate-x-1/2 left-[calc(50%+648.82px)] top-[126px] w-[209.636px] h-[58.751px] rounded-[29.376px]" />
+      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.05px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Start Free Trial</button>
       <Frame5 />
       <Frame1 />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[2639.26px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -146,8 +147,7 @@ export default function PlusDesktop() {
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.31] left-[calc(50%-27.25px)] text-[#292b2d] text-[21.275px] top-[5993.49px] whitespace-nowrap">Yearly</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.31] left-[calc(50%-692px)] opacity-70 text-[22px] text-white top-[4858px] w-[725px]">On free, Syni reads your last 30 days and your current signals. On Plus, it has 365 days of history, your wearable data, and context from previous conversations. The difference shows up in how specific it can be.</p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[71px] left-[calc(50%-588.37px)] rounded-[35.474px] top-[4990px] w-[205.255px]" />
-      <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-648.4px)] text-[23.262px] text-white top-[5010.65px] whitespace-nowrap">Learn more</p>
-      <HotspotButton aria-label="Learn more" className="-translate-x-1/2 left-[calc(50%-588.37px)] top-[4990px] w-[205.255px] h-[71px] rounded-[35.474px]" />
+      <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-648.4px)] text-[23.262px] text-white top-[5010.65px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Learn more</button>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-613px)] opacity-58 text-[22px] text-black top-[5245.26px] whitespace-nowrap">HRV, strain, sleep, recovery scores</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%+171px)] opacity-58 text-[22px] text-black top-[5245.26px] whitespace-nowrap">HRV, strain, sleep, recovery scores</p>
       <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[347px] text-forest text-[32.326px] top-[5208px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -238,13 +238,8 @@ export default function PlusDesktop() {
         </div>
       </div>
       <TablerFreeRights />
-      <div className="absolute bg-dark-bg h-[39.003px] left-[837.01px] rounded-[19.502px] top-[5989.06px] w-[73.575px]" />
+      <BillingToggle value={billing} onChange={setBilling} className="absolute left-[837.01px] top-[5989.06px] bg-dark-bg" />
       <div className="absolute bg-brand h-[39.003px] left-[1023.16px] opacity-34 rounded-[19.502px] top-[5989.06px] w-[122.329px]" />
-      <div className="absolute left-[841.44px] size-[30.139px] top-[5993.49px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 30.139 30.139">
-          <circle cx="15.0695" cy="15.0695" fill="var(--fill-0, white)" id="Ellipse 5549" r="15.0695" />
-        </svg>
-      </div>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.31] left-[calc(50%+80.89px)] text-[#292b2d] text-[18.615px] top-[5996.15px] whitespace-nowrap">Save 20%</p>
       <div className="-translate-x-1/2 absolute bg-white h-[617px] left-[calc(50%-245.5px)] rounded-[25.707px] top-[6082.14px] w-[441px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[1.31] left-[calc(50%-420.36px)] text-[#292b2d] text-[25px] top-[6151px] whitespace-nowrap">Capture</p>
@@ -327,8 +322,7 @@ export default function PlusDesktop() {
         Start with 7 days free.
       </p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-[calc(50%+6px)] rounded-[27.48px] top-[8380px] w-[236px]" />
-      <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-85px)] text-[18.02px] text-white top-[8396px] whitespace-nowrap">Start Free trial</p>
-      <HotspotButton aria-label="Start Free trial" className="-translate-x-1/2 left-[calc(50%+6px)] top-[8380px] w-[236px] h-[55px] rounded-[27.48px]" />
+      <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-85px)] text-[18.02px] text-white top-[8396px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Start Free trial</button>
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+94.71px)] rounded-[18.709px] size-[37.417px] top-[8389.45px]" />
       <div className="absolute flex items-center justify-center left-[1041.37px] size-[25.941px] top-[8394.83px]">
         <div className="flex-none rotate-90">
@@ -362,16 +356,16 @@ export default function PlusDesktop() {
       <MaterialSymbolsBeachAccessOutline />
       <FluentMdl2Insights />
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[617px] left-[calc(50%+222.5px)] rounded-[25.707px] top-[6082.14px] w-[441px]" />
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[1.31] left-[calc(50%+48px)] text-[25px] text-white top-[6151px] whitespace-nowrap">Capture Plus · Yearly</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[1.31] left-[calc(50%+48px)] text-[25px] text-white top-[6151px] whitespace-nowrap">Capture Plus · {billing === "yearly" ? "Yearly" : "Monthly"}</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[0] left-[calc(50%+48px)] text-[#71ff00] text-[0px] top-[6233.68px] whitespace-nowrap">
         <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-brand text-[19.948px]">$</span>
-        <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-brand text-[73.975px]">79</span>
+        <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-brand text-[73.975px]">{billing === "yearly" ? "79" : "8"}</span>
       </p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+48px)] text-[#d1d1d1] text-[18.286px] top-[6188.79px] whitespace-nowrap">Everything in free, plus wearables...</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+48px)] text-brand text-[14px] top-[6117px] uppercase whitespace-nowrap">Save 2 months</p>
+      {billing === "yearly" && (<p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+48px)] text-brand text-[14px] top-[6117px] uppercase whitespace-nowrap">Save 2 months</p>)}
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-420.15px)] text-brand text-[14px] top-[6117px] uppercase whitespace-nowrap">FREE</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+149.85px)] opacity-58 text-[18.286px] text-white top-[6287.7px] whitespace-nowrap">/ year</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+212.85px)] opacity-58 text-[18.286px] text-white top-[6287.7px] whitespace-nowrap">$6.58/month</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+149.85px)] opacity-58 text-[18.286px] text-white top-[6287.7px] whitespace-nowrap">/ {billing === "yearly" ? "year" : "month"}</p>
+      {billing === "yearly" && (<p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+212.85px)] opacity-58 text-[18.286px] text-white top-[6287.7px] whitespace-nowrap">$6.58/month</p>)}
       <div className="absolute bg-brand-dark h-[51.414px] left-[997.85px] rounded-[25.707px] top-[6339.81px] w-[363.441px]" />
       <div className="absolute bg-white h-[272.138px] left-[974.13px] rounded-[25.707px] top-[6415.16px] w-[417.514px]" />
       <div className="absolute left-[998.07px] size-[23.048px] top-[6442.64px]">
@@ -439,8 +433,7 @@ export default function PlusDesktop() {
         </div>
       </div>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%+72.64px)] text-[#4c4e51] text-[16.842px] top-[6638.54px] whitespace-nowrap">Cloud-powered Syni</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%+219.35px)] text-[18px] text-center text-white top-[6353.99px] whitespace-nowrap">Get Plus Yearly</p>
-      <HotspotButton aria-label="Get Plus Yearly" className="left-[997.85px] top-[6339.81px] w-[363.441px] h-[51.414px] rounded-[25.707px]" />
+      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%+219.35px)] text-[18px] text-center text-white top-[6353.99px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">{`Get Plus ${billing === "yearly" ? "Yearly" : "Monthly"}`}</button>
       <div className="absolute left-[1162.85px] size-[4px] top-[6298px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 4 4">
           <circle cx="2" cy="2" fill="var(--fill-0, #949999)" id="Ellipse 5573" r="2" />

@@ -3,7 +3,6 @@
 
 import Link from "next/link";
 import { AnnouncementBannerMobile } from "@/components/ui/AnnouncementBannerMobile";
-import { HotspotLink } from "@/components/ui/Hotspot";
 
 import { imgImage, imgImage1, imgImage2, imgImage3, imgImage820, imgImage836, imgImage840, svgPaths } from "./assets";
 import { MaskGroup1 } from "./graphics";
@@ -130,8 +129,7 @@ export default function SyniMobile() {
         Capture Plus gives Syni more to work with
       </p>
       <div className="-translate-x-1/2 absolute bg-brand h-[55px] left-1/2 rounded-[27.48px] top-[7213px] w-[392px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-107.5px)] text-[18.02px] text-center text-white top-[7229px] whitespace-nowrap">Get Capture Plus</p>
-      <HotspotLink href="/plus" aria-label="Get Capture Plus" className="-translate-x-1/2 left-1/2 top-[7213px] w-[392px] h-[55px] rounded-[27.48px]" />
+      <Link href="/plus" className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-107.5px)] text-[18.02px] text-center text-white top-[7229px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Get Capture Plus</Link>
       <MaskGroup1 />
       <Frame2 />
       <Frame1 />
@@ -205,8 +203,7 @@ export default function SyniMobile() {
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage820} />
       </div>
       <div className="absolute bg-brand-dark h-[65px] left-[18px] rounded-[5px] top-[607px] w-[220px]" />
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[60px] not-italic text-[19.931px] text-white top-[627.33px] whitespace-nowrap">Download Syni</p>
-      <HotspotLink href="/syni" aria-label="Download Syni" className="left-[18px] top-[607px] w-[220px] h-[65px] rounded-[5px]" />
+      <Link href="/syni" className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[60px] not-italic text-[19.931px] text-white top-[627.33px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Download Syni</Link>
       <Component />
       <Component1 />
       <div className="-translate-x-1/2 absolute bg-[#3f2b2c] left-[calc(50%+170.71px)] rounded-[18.709px] size-[37.417px] top-[7222px]" />

@@ -4,7 +4,6 @@
 import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
 
 import Link from "next/link";
-import { HotspotLink } from "@/components/ui/Hotspot";
 
 import { imgImage, imgImage1, imgImage2, imgImage3, imgImage820, imgImage836, imgImage837, imgTelegramCloudDocument458142836860104284071, svgPaths } from "./assets";
 import { MaskGroup } from "./graphics";
@@ -59,14 +58,12 @@ export default function SyniDesktop() {
       <Group9 />
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
       <AnnouncementBanner />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Download Syni</p>
-      <HotspotLink href="/syni" aria-label="Download Syni" className="-translate-x-1/2 left-[calc(50%+648.82px)] top-[126px] w-[209.636px] h-[58.751px] rounded-[29.376px]" />
+      <Link href="/syni" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Download Syni</Link>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%+0.5px)] text-warm-dark text-[70.909px] text-center top-[3927px] uppercase w-[991px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Capture Plus gives Syni more to work with
       </p>
       <div className="-translate-x-1/2 absolute bg-brand h-[55px] left-[calc(50%-27.5px)] rounded-[27.48px] top-[4211px] w-[231px]" />
-      <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-116px)] text-[18.02px] text-white top-[4227px] whitespace-nowrap">get Capture Plus</p>
-      <HotspotLink href="/plus" aria-label="Get Capture Plus" className="-translate-x-1/2 left-[calc(50%-27.5px)] top-[4211px] w-[231px] h-[55px] rounded-[27.48px]" />
+      <Link href="/plus" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-116px)] text-[18.02px] text-white top-[4227px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">get Capture Plus</Link>
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+58.71px)] rounded-[18.709px] size-[37.417px] top-[4220.45px]" />
       <div className="absolute flex items-center justify-center left-[1005.37px] size-[25.941px] top-[4225.83px]">
         <div className="flex-none rotate-90">
@@ -104,8 +101,7 @@ export default function SyniDesktop() {
         Desktop and mobile
       </p>
       <div className="absolute bg-[#c85b53] h-[65px] left-[233px] rounded-[5px] top-[869px] w-[220px]" />
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[275px] not-italic text-[19.931px] text-white top-[889.33px] whitespace-nowrap">Download Syni</p>
-      <HotspotLink href="/syni" aria-label="Download Syni" className="left-[233px] top-[869px] w-[220px] h-[65px] rounded-[5px]" />
+      <Link href="/syni" className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[275px] not-italic text-[19.931px] text-white top-[889.33px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Download Syni</Link>
       <div className="absolute left-[247.15px] size-[12.457px] top-[312.01px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12.4568 12.4568">
           <circle cx="6.22842" cy="6.22842" fill="var(--fill-0, white)" id="Ellipse 250" r="6.22842" />

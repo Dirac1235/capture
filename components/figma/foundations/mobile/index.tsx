@@ -3,7 +3,6 @@
 
 import Link from "next/link";
 import { AnnouncementBannerMobile } from "@/components/ui/AnnouncementBannerMobile";
-import { HotspotButton, HotspotLink } from "@/components/ui/Hotspot";
 
 import { img4E613751157188230432B7Db82Abd067Photoroom2, imgChatGptImageMay232025043440PmPhotoroom, imgImage831, imgImage836, imgImage837, svgPaths } from "./assets";
 import { MaskGroup } from "./graphics";
@@ -61,8 +60,7 @@ export default function FoundationsMobile() {
         Build With Us
       </p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-1/2 rounded-[27.48px] top-[3885px] w-[392px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-39.5px)] text-[18.02px] text-center text-white top-[3901px] whitespace-nowrap">Explore Open Foundations</p>
-      <HotspotButton aria-label="Explore Open Foundations" className="-translate-x-1/2 left-1/2 top-[3885px] w-[392px] h-[55px] rounded-[27.48px]" />
+      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-39.5px)] text-[18.02px] text-center text-white top-[3901px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Explore Open Foundations</button>
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[962px] left-1/2 top-[4037px] w-[440px]" />
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:ExtraLight',sans-serif] font-extralight leading-[1.63] left-[calc(50%-175px)] text-[17px] text-white top-[4185px] w-[351px]">Capture was founded with one clear mission: to create insurance that truly cares for pets and their families. We know that veterinary treatments, emergencies.</p>
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-102.9px)] not-italic text-[37.706px] text-white top-[4112.68px] whitespace-nowrap">Capture</p>
@@ -175,10 +173,8 @@ export default function FoundationsMobile() {
       <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[20.828px] left-[33px] not-italic text-[#414141] text-[14px] top-[974.32px] w-[399px]">The same infrastructure powers both Syni and Company. Privacy first. Transparent. Built to be extended.</p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[66px] left-[calc(50%-2px)] rounded-[33px] top-[1061px] w-[368px]" />
       <div className="-translate-x-1/2 absolute border-2 border-black border-solid h-[66px] left-[calc(50%-2px)] rounded-[33px] top-[1152px] w-[368px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-74px)] not-italic text-[18px] text-white top-[1083px] whitespace-nowrap">Explore on Github</p>
-      <HotspotLink href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Explore on Github" className="-translate-x-1/2 left-[calc(50%-2px)] top-[1061px] w-[368px] h-[66px] rounded-[33px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-61px)] not-italic text-[#020202] text-[18px] top-[1174px] whitespace-nowrap">Read the Docs</p>
-      <HotspotLink href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Read the Docs" className="-translate-x-1/2 left-[calc(50%-2px)] top-[1152px] w-[368px] h-[66px] rounded-[33px]" />
+      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-74px)] not-italic text-[18px] text-white top-[1083px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Explore on Github</Link>
+      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%-61px)] not-italic text-[#020202] text-[18px] top-[1174px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Read the Docs</Link>
       <div className="-translate-x-1/2 absolute bg-gradient-to-b from-[#f5f5f5] h-[1403px] left-1/2 opacity-20 rounded-[25px] to-[#e8e8e8] top-[1762px] w-[412px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[296.847px] left-[calc(50%+12.15px)] rounded-[20.66px] shadow-[0px_64px_87.754px_0px_rgba(0,0,0,0.1)] top-[1796px] w-[400.294px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-120.04px)] rounded-[6.361px] top-[1828.81px] w-[64.512px]" />

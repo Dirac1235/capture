@@ -4,7 +4,6 @@
 import { AnnouncementBanner } from "@/components/ui/AnnouncementBanner";
 
 import Link from "next/link";
-import { HotspotButton, HotspotLink } from "@/components/ui/Hotspot";
 
 import { img4E613751157188230432B7Db82Abd067Photoroom1, imgChatGptImageMay232025043440PmPhotoroom, imgImage, imgImage831, imgImage836, imgImage837, imgTelegramCloudDocument458142836860104284071, svgPaths } from "./assets";
 import { MaskGroup } from "./graphics";
@@ -68,8 +67,7 @@ export default function FoundationsDesktop() {
       <Group3 />
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
       <AnnouncementBanner />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap">Download Syni</p>
-      <HotspotLink href="/syni" aria-label="Download Syni" className="-translate-x-1/2 left-[calc(50%+648.82px)] top-[126px] w-[209.636px] h-[58.751px] rounded-[29.376px]" />
+      <Link href="/syni" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Download Syni</Link>
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[1200px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Our Principles
       </p>
@@ -83,8 +81,7 @@ export default function FoundationsDesktop() {
         Build With Us
       </p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-[calc(50%-28px)] rounded-[27.48px] top-[2179px] w-[334px]" />
-      <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-163px)] text-[18.02px] text-white top-[2195px] whitespace-nowrap">Explore Open Foundations</p>
-      <HotspotButton aria-label="Explore Open Foundations" className="-translate-x-1/2 left-[calc(50%-28px)] top-[2179px] w-[334px] h-[55px] rounded-[27.48px]" />
+      <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-163px)] text-[18.02px] text-white top-[2195px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Explore Open Foundations</button>
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+109.71px)] rounded-[18.709px] size-[37.417px] top-[2188.45px]" />
       <div className="absolute flex items-center justify-center left-[1056.37px] size-[25.941px] top-[2193.83px]">
         <div className="flex-none rotate-90">
@@ -177,10 +174,8 @@ export default function FoundationsDesktop() {
       <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" aria-label="Dribbble" className="contents"><PhDribbbleLogoLight /></a>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[50px] left-[calc(50%+419px)] rounded-[25px] top-[838.32px] w-[182px]" />
       <div className="-translate-x-1/2 absolute border border-black border-solid h-[50px] left-[calc(50%+605.5px)] rounded-[25px] top-[838.32px] w-[165px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%+346px)] not-italic text-[14.201px] text-white top-[854.32px] whitespace-nowrap">Explore on Github</p>
-      <HotspotLink href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Explore on Github" className="-translate-x-1/2 left-[calc(50%+419px)] top-[838.32px] w-[182px] h-[50px] rounded-[25px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%+605.5px)] not-italic text-[14.201px] text-black text-center top-[854.32px] whitespace-nowrap">Read the Docs</p>
-      <HotspotLink href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Read the Docs" className="-translate-x-1/2 left-[calc(50%+605.5px)] top-[838.32px] w-[165px] h-[50px] rounded-[25px]" />
+      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%+346px)] not-italic text-[14.201px] text-white top-[854.32px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Explore on Github</Link>
+      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[calc(50%+605.5px)] not-italic text-[14.201px] text-black text-center top-[854.32px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Read the Docs</Link>
       <div className="-translate-x-1/2 absolute h-[59.063px] left-[calc(50%-15.97px)] top-[981.94px] w-[752.065px]">
         <div className="absolute inset-[-37.76%_-2.97%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 796.665 103.663">

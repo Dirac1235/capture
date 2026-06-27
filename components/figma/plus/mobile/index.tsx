@@ -3,7 +3,6 @@
 
 import Link from "next/link";
 import { AnnouncementBannerMobile } from "@/components/ui/AnnouncementBannerMobile";
-import { HotspotButton, HotspotLink } from "@/components/ui/Hotspot";
 
 import { img17464086170411, img4E613751157188230432B7Db82Abd067Photoroom2, imgImage289, imgImage820, imgImage835, imgImage836, imgImage837, svgPaths } from "./assets";
 import { Frame5, Frame7 } from "./graphics";
@@ -11,8 +10,11 @@ import { AntDesignCloudSyncOutlined, AntDesignCloudSyncOutlined1, FamiconsCalend
 import { Frame1, Frame6, Group17, Group18, Group19, HugeiconsAccess, LucideLabWatchCheck, MynauiWatch, TablerFreeRights } from "./widgets";
 import { FaqAccordion } from "@/components/ui/FaqAccordion";
 import { PLUS_FAQS } from "../faqs";
+import { useState } from "react";
+import { BillingToggle } from "@/components/ui/BillingToggle";
 
 export default function PlusMobile() {
+  const [billing, setBilling] = useState<"monthly" | "yearly">("yearly");
   return (
     <div className="bg-white relative size-full" data-name="iPhone 16 & 17 Pro Max - 3">
       <div className="absolute flex h-[347.861px] items-center justify-center left-[-17px] top-[2337px] w-[364.935px]">
@@ -86,8 +88,7 @@ export default function PlusMobile() {
         Start with 7 days free.
       </p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-1/2 rounded-[27.48px] top-[10670px] w-[392px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%+0.5px)] text-[18.02px] text-center text-white top-[10686px] whitespace-nowrap">Explore Open Foundations</p>
-      <HotspotLink href="/foundations" aria-label="Explore Open Foundations" className="-translate-x-1/2 left-1/2 top-[10670px] w-[392px] h-[55px] rounded-[27.48px]" />
+      <Link href="/foundations" className="-translate-x-1/2 [word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%+0.5px)] text-[18.02px] text-center text-white top-[10686px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Explore Open Foundations</Link>
       <div className="absolute h-[244px] left-0 top-[10174px] w-[162.667px]" data-name="image 820">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage820} />
       </div>
@@ -162,8 +163,7 @@ export default function PlusMobile() {
       </p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.31] left-[calc(50%-171px)] opacity-70 text-[22px] text-white top-[6224px] w-[367px]">On free, Syni reads your last 30 days and your current signals. On Plus, it has 365 days of history, your wearable data, and context from previous conversations. The difference shows up in how specific it can be.</p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[71px] left-1/2 rounded-[35.474px] top-[6474px] w-[350px]" />
-      <p className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-60px)] text-[23.262px] text-white top-[6494.65px] whitespace-nowrap">Learn more</p>
-      <HotspotButton aria-label="Learn more" className="-translate-x-1/2 left-1/2 top-[6474px] w-[350px] h-[71px] rounded-[35.474px]" />
+      <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-60px)] text-[23.262px] text-white top-[6494.65px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Learn more</button>
       <div className="-translate-x-1/2 absolute bg-[#dfdfdf] h-[392px] left-[calc(50%-0.06px)] opacity-85 rounded-[10.316px] top-[6996px] w-[407.87px]" />
       <div className="-translate-x-1/2 absolute bg-[#dfdfdf] h-[392px] left-[calc(50%-0.06px)] opacity-85 rounded-[10.316px] top-[7427px] w-[407.87px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[233.296px] left-[calc(50%-4.03px)] rounded-[10.316px] top-[7119px] w-[357.085px]" />
@@ -266,24 +266,19 @@ export default function PlusMobile() {
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%+0.5px)] text-text-secondary text-[19.502px] text-center top-[8184px] w-[353px]">Try it free for 7 days. No charge until you decide to keep it.</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.31] left-[calc(50%-129px)] text-[#292b2d] text-[21.275px] top-[8279.43px] whitespace-nowrap">Monthly</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.31] left-[calc(50%+66.02px)] text-[#292b2d] text-[21.275px] top-[8279.43px] whitespace-nowrap">Yearly</p>
-      <div className="absolute bg-[#1b1b1b] h-[39.003px] left-[189.28px] rounded-[19.502px] top-[8275px] w-[73.575px]" />
+      <BillingToggle value={billing} onChange={setBilling} className="absolute left-[189.28px] top-[8275px] bg-[#1b1b1b]" />
       <div className="absolute bg-brand h-[39.003px] left-[159.27px] opacity-34 rounded-[19.502px] top-[8329.94px] w-[122.329px]" />
-      <div className="absolute left-[193.71px] size-[30.139px] top-[8279.43px]">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 30.139 30.139">
-          <circle cx="15.0695" cy="15.0695" fill="var(--fill-0, white)" id="Ellipse 5549" r="15.0695" />
-        </svg>
-      </div>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[1.31] left-[calc(50%-42px)] text-[#292b2d] text-[18.615px] top-[8337.03px] whitespace-nowrap">Save 20%</p>
       <div className="-translate-x-1/2 absolute bg-dark-bg h-[539px] left-[calc(50%+1.62px)] rounded-[22.457px] top-[8421px] w-[385.25px]" />
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[1.31] left-[calc(50%-150.81px)] text-[21.84px] text-white top-[8481.16px] whitespace-nowrap">Capture Plus · Yearly</p>
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[1.31] left-[calc(50%-150.81px)] text-[21.84px] text-white top-[8481.16px] whitespace-nowrap">Capture Plus · {billing === "yearly" ? "Yearly" : "Monthly"}</p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:SemiBold',sans-serif] font-semibold leading-[0] left-[calc(50%-150.81px)] text-[#71ff00] text-[0px] top-[8553.38px] whitespace-nowrap">
         <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-brand text-[17.426px]">$</span>
-        <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-brand text-[64.623px]">79</span>
+        <span className="font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] text-brand text-[64.623px]">{billing === "yearly" ? "79" : "8"}</span>
       </p>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-150.81px)] text-text-secondary text-[15.974px] top-[8514.17px] whitespace-nowrap">Everything in free, plus wearables...</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-150.81px)] text-brand text-[12.23px] top-[8451.46px] uppercase whitespace-nowrap">Save 2 months</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-61.84px)] opacity-58 text-[15.974px] text-white top-[8600.58px] whitespace-nowrap">/ year</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-6.8px)] opacity-58 text-[15.974px] text-white top-[8600.58px] whitespace-nowrap">$6.58/month</p>
+      {billing === "yearly" && (<p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-150.81px)] text-brand text-[12.23px] top-[8451.46px] uppercase whitespace-nowrap">Save 2 months</p>)}
+      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-61.84px)] opacity-58 text-[15.974px] text-white top-[8600.58px] whitespace-nowrap">/ {billing === "yearly" ? "year" : "month"}</p>
+      {billing === "yearly" && (<p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.31] left-[calc(50%-6.8px)] opacity-58 text-[15.974px] text-white top-[8600.58px] whitespace-nowrap">$6.58/month</p>)}
       <div className="absolute bg-brand-dark h-[44.914px] left-[59.32px] rounded-[22.457px] top-[8646.1px] w-[317.496px]" />
       <div className="absolute bg-white h-[237.735px] left-[38.6px] rounded-[22.457px] top-[8711.92px] w-[364.733px]" />
       <div className="absolute left-[59.51px] size-[20.134px] top-[8735.93px]">
@@ -351,8 +346,7 @@ export default function PlusMobile() {
         </div>
       </div>
       <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-129.29px)] text-[#4c4e51] text-[14.713px] top-[8907.07px] whitespace-nowrap">Cloud-powered Syni</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-1.22px)] text-[15.724px] text-center text-white top-[8658.49px] whitespace-nowrap">Get Plus Yearly</p>
-      <HotspotButton aria-label="Get Plus Yearly" className="left-[59.32px] top-[8646.1px] w-[317.496px] h-[44.914px] rounded-[22.457px]" />
+      <button type="button" className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.31] left-[calc(50%-1.22px)] text-[15.724px] text-center text-white top-[8658.49px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">{`Get Plus ${billing === "yearly" ? "Yearly" : "Monthly"}`}</button>
       <div className="absolute left-[203.46px] size-[3.494px] top-[8609.57px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3.49433 3.49433">
           <circle cx="1.74716" cy="1.74716" fill="var(--fill-0, #949999)" id="Ellipse 5573" r="1.74716" />
