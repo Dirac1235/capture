@@ -9,6 +9,7 @@ import {
   Source_Serif_4,
 } from "next/font/google";
 import "./globals.css";
+import { MotionProvider } from "@/components/layout/MotionProvider";
 
 const interTight = Inter_Tight({
   subsets: ["latin"],
@@ -91,7 +92,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-background text-foreground font-sans">
-        {children}
+        <MotionProvider>{children}</MotionProvider>
       </body>
     </html>
   );

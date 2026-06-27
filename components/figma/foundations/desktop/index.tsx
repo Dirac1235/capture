@@ -9,6 +9,8 @@ import { img4E613751157188230432B7Db82Abd067Photoroom1, imgChatGptImageMay232025
 import { MaskGroup } from "./graphics";
 import { FlowbiteUsersGroupOutline, HeroiconsCubeTransparent20Solid, IcOutlinePrivacyTip, IconoirFacebook, PhDribbbleLogoLight, ProiconsXTwitter, StreamlineLinkedin, TablerArrowUp, TablerArrowUp1 } from "./icons";
 import { Frame1, Group3, IconoirDesignPencil, ProiconsInstagram } from "./widgets";
+import { motion } from "framer-motion";
+import { revealUp, revealFade } from "@/lib/reveal";
 
 export default function FoundationsDesktop() {
   return (
@@ -56,7 +58,7 @@ export default function FoundationsDesktop() {
       <div className="-translate-x-1/2 absolute bg-white h-[40px] left-[calc(50%+102px)] rounded-[24.416px] top-[135px] w-[152px]" />
       <div className="-translate-x-1/2 absolute bg-[#ededed] left-[calc(50%+777px)] rounded-[30.043px] size-[60.087px] top-[125px]" />
       <div className="-translate-x-1/2 absolute bg-brand left-[calc(50%+45.99px)] rounded-[4.994px] size-[9.988px] top-[150px]" />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-742.8px)] not-italic text-[#1e1e1e] text-[33.051px] top-[142px] whitespace-nowrap">Capture</p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-742.8px)] not-italic text-[#1e1e1e] text-[33.051px] top-[142px] whitespace-nowrap">Capture</motion.p>
       <div className="absolute bg-dark-bg left-[154px] rounded-[9px] size-[51px] top-[130px]" />
       <nav aria-label="Primary" className="contents">
         <Link href="/" className="[word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[751px] not-italic text-[#090909] text-[17.757px] top-[145px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Capture</Link>
@@ -68,18 +70,18 @@ export default function FoundationsDesktop() {
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
       <AnnouncementBanner />
       <Link href="/syni" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Download Syni</Link>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[1200px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[82.82500457763672%] left-[calc(50%-3.36px)] text-warm-dark text-[68.921px] text-center top-[1200px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Our Principles
-      </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-14px)] text-brand text-[22px] text-center top-[1161px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-1/2 not-italic text-slate-text text-[18.468px] text-center top-[1283.74px] whitespace-nowrap">Why we chose to build in the open.</p>
+      </motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-14px)] text-brand text-[22px] text-center top-[1161px] uppercase whitespace-nowrap">WHAT CAPTURE PLUS UNLOCKS</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.37] left-1/2 not-italic text-slate-text text-[18.468px] text-center top-[1283.74px] whitespace-nowrap">Why we chose to build in the open.</motion.p>
       <div className="absolute left-[114px] size-[100.129px] top-[1185.01px]" data-name="4e613751157188230432b7db82abd067-Photoroom 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img4E613751157188230432B7Db82Abd067Photoroom1} />
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%+9.5px)] not-italic text-slate-text text-[22px] text-center top-[2043px] w-[689px]">Syni runs on your machine. Nothing you say and nothing it learns about your state ever leaves your device. No servers. No data harvesting. What Syni knows about you stays yours.</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-1/2 text-warm-dark text-[70.909px] text-center top-[1939px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%+9.5px)] not-italic text-slate-text text-[22px] text-center top-[2043px] w-[689px]">Syni runs on your machine. Nothing you say and nothing it learns about your state ever leaves your device. No servers. No data harvesting. What Syni knows about you stays yours.</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-1/2 text-warm-dark text-[70.909px] text-center top-[1939px] uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Build With Us
-      </p>
+      </motion.p>
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[55px] left-[calc(50%-28px)] rounded-[27.48px] top-[2179px] w-[334px]" />
       <button type="button" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-163px)] text-[18.02px] text-white top-[2195px] whitespace-nowrap cursor-pointer appearance-none border-0 bg-transparent p-0 m-0 transition-opacity hover:opacity-70">Explore Open Foundations</button>
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+109.71px)] rounded-[18.709px] size-[37.417px] top-[2188.45px]" />
@@ -114,12 +116,12 @@ export default function FoundationsDesktop() {
           </div>
         </div>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.9] left-1/2 text-dark-bg text-[194.444px] text-center top-[345px] whitespace-nowrap">Human State Interface</p>
-      <p className="[word-break:break-word] absolute bottom-[75.84%] font-['Inter_Tight:SemiBold',sans-serif] leading-[1.029] left-[calc(50%+329.99px)] not-italic text-[#7e7e7e] text-[16px] top-[23.59%] tracking-[1.6px] whitespace-nowrap">Introduction</p>
-      <p className="[word-break:break-word] absolute bottom-[73.31%] capitalize font-['Inter_Tight:Bold',sans-serif] leading-[1.18] left-[calc(50%+328px)] not-italic text-[#222b32] text-[23.668px] top-[24.68%] w-[396px]">We open source every foundational block behind Syni Capture.</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[20.828px] left-[1288px] not-italic text-[#414141] text-[14px] top-[751.32px] w-[399px]">The same infrastructure powers both Syni and Company. Privacy first. Transparent. Built to be extended.</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[20.828px] left-[296.95px] not-italic text-[#414141] text-[17.041px] top-[670px] whitespace-nowrap">Hello@Company.ai</p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[20.828px] left-[296.95px] not-italic text-[#414141] text-[17.041px] top-[725.86px] whitespace-nowrap">+251 (911) 12-1314</p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Bold',sans-serif] font-bold leading-[0.9] left-1/2 text-dark-bg text-[194.444px] text-center top-[345px] whitespace-nowrap">Human State Interface</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute bottom-[75.84%] font-['Inter_Tight:SemiBold',sans-serif] leading-[1.029] left-[calc(50%+329.99px)] not-italic text-[#7e7e7e] text-[16px] top-[23.59%] tracking-[1.6px] whitespace-nowrap">Introduction</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute bottom-[73.31%] capitalize font-['Inter_Tight:Bold',sans-serif] leading-[1.18] left-[calc(50%+328px)] not-italic text-[#222b32] text-[23.668px] top-[24.68%] w-[396px]">We open source every foundational block behind Syni Capture.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[20.828px] left-[1288px] not-italic text-[#414141] text-[14px] top-[751.32px] w-[399px]">The same infrastructure powers both Syni and Company. Privacy first. Transparent. Built to be extended.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[20.828px] left-[296.95px] not-italic text-[#414141] text-[17.041px] top-[670px] whitespace-nowrap">Hello@Company.ai</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Inter_Tight:Medium',sans-serif] leading-[20.828px] left-[296.95px] not-italic text-[#414141] text-[17.041px] top-[725.86px] whitespace-nowrap">+251 (911) 12-1314</motion.p>
       <div className="-translate-x-1/2 absolute h-[453px] left-1/2 pointer-events-none rounded-tl-[204.58px] rounded-tr-[204.58px] top-[564px] w-[410px]">
         <div aria-hidden className="absolute bg-white inset-0 rounded-tl-[204.58px] rounded-tr-[204.58px]" />
         <div className="absolute inset-0 rounded-[inherit] shadow-[inset_0px_17.041px_22.722px_0px_rgba(0,0,0,0.2)]" />
@@ -203,22 +205,22 @@ export default function FoundationsDesktop() {
       <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%-330.76px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%+101.39px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[60.79px] left-[calc(50%+534.29px)] rounded-[6.361px] top-[1474.25px] w-[64.512px]" />
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-795.82px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-795.82px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Transparent by Design
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-362.55px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-362.55px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Privacy as Architecture
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+69.61px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+69.61px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Community Driven
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+502.51px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+502.51px)] text-[#313734] text-[27.018px] top-[1579.18px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Extensible by Design
-      </p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-796.02px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[306.967px]">Every algorithm, every computation, every decision visible and auditable. No black boxes.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-363.12px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[308.091px]">Data stays on-device by default. We built the system so we never have to trust ourselves with your data.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+68.66px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[304.718px]">The best ideas come from real users. Open development means anyone can contribute, critique, or extend.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+501.56px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[304.718px]">Built to be extended. The architecture welcomes contributions, custom integrations, and new use cases.</p>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-796.02px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[306.967px]">Every algorithm, every computation, every decision visible and auditable. No black boxes.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-363.12px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[308.091px]">Data stays on-device by default. We built the system so we never have to trust ourselves with your data.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+68.66px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[304.718px]">The best ideas come from real users. Open development means anyone can contribute, critique, or extend.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+501.56px)] opacity-76 text-[#313734] text-[17.369px] top-[1621.12px] w-[304.718px]">Built to be extended. The architecture welcomes contributions, custom integrations, and new use cases.</motion.p>
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+484.96px)] rounded-[17.962px] size-[35.925px] top-[845.32px]" />
       <div className="absolute flex items-center justify-center left-[1432.16px] size-[24.907px] top-[850.48px]">
         <div className="flex-none rotate-90">

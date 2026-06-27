@@ -9,6 +9,8 @@ import { imgImage, imgImage1, imgImage2, imgImage3, imgImage820, imgImage836, im
 import { MaskGroup } from "./graphics";
 import { Component, OcticonQuestion, RiMindMap, TablerArrowUp } from "./icons";
 import { Component1, Frame, Frame2, Frame3, Frame4, Frame5, Frame6, Group9, MeteorIconsDevices, MingcuteTimeLine } from "./widgets";
+import { motion } from "framer-motion";
+import { revealUp, revealFade } from "@/lib/reveal";
 
 export default function SyniDesktop() {
   return (
@@ -44,7 +46,7 @@ export default function SyniDesktop() {
       <div className="-translate-x-1/2 absolute bg-[#ff7477] h-[49px] left-[calc(50%+351px)] rounded-[5.127px] top-[1478px] w-[52px]" />
       <OcticonQuestion />
       <div className="-translate-x-1/2 absolute bg-[#ff7477] h-[49px] left-[calc(50%+351px)] rounded-[5.127px] top-[1787px] w-[52px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%+0.5px)] not-italic text-slate-text text-[22px] text-center top-[4083px] w-[689px]">Connect your wearables and Capture Plus gives Syni access to richer, longer data. Your patterns become clearer. Every conversation gets more personal the longer you use it</p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:Regular',sans-serif] leading-[1.34] left-[calc(50%+0.5px)] not-italic text-slate-text text-[22px] text-center top-[4083px] w-[689px]">Connect your wearables and Capture Plus gives Syni access to richer, longer data. Your patterns become clearer. Every conversation gets more personal the longer you use it</motion.p>
       <div className="-translate-x-1/2 absolute bg-black h-[49px] left-[calc(50%-26px)] opacity-12 rounded-[24px] top-[131px] w-[456px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[39.953px] left-[calc(50%-84.61px)] rounded-[24.416px] top-[135px] w-[88.784px]" />
       <div className="-translate-x-1/2 absolute bg-[#ededed] left-[calc(50%+777px)] rounded-[30.043px] size-[60.087px] top-[125px]" />
@@ -59,9 +61,9 @@ export default function SyniDesktop() {
       <div className="-translate-x-1/2 absolute bg-brand-dark h-[58.751px] left-[calc(50%+648.82px)] rounded-[29.376px] top-[126px] w-[209.636px]" />
       <AnnouncementBanner />
       <Link href="/syni" className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter_Tight:SemiBold',sans-serif] leading-[normal] left-[1603.55px] not-italic text-[20.029px] text-center text-white top-[143px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Download Syni</Link>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%+0.5px)] text-warm-dark text-[70.909px] text-center top-[3927px] uppercase w-[991px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.91] left-[calc(50%+0.5px)] text-warm-dark text-[70.909px] text-center top-[3927px] uppercase w-[991px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Capture Plus gives Syni more to work with
-      </p>
+      </motion.p>
       <div className="-translate-x-1/2 absolute bg-brand h-[55px] left-[calc(50%-27.5px)] rounded-[27.48px] top-[4211px] w-[231px]" />
       <Link href="/plus" className="[word-break:break-word] absolute capitalize font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[1.251] left-[calc(50%-116px)] text-[18.02px] text-white top-[4227px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">get Capture Plus</Link>
       <div className="-translate-x-1/2 absolute bg-dark-bg left-[calc(50%+58.71px)] rounded-[18.709px] size-[37.417px] top-[4220.45px]" />
@@ -73,8 +75,8 @@ export default function SyniDesktop() {
       <Frame />
       <div className="absolute bg-[#f4f5f6] h-[43px] left-[229px] rounded-[21.713px] top-[296px] w-[479px]" />
       <div className="absolute bg-brand h-[29.896px] left-[238.43px] rounded-[21.713px] top-[303.29px] w-[79.724px]" />
-      <p className="[word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[345.56px] not-italic text-[19.931px] text-black top-[307.02px] whitespace-nowrap">Your personal AI companion</p>
-      <p className="[word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[268.33px] not-italic text-[17.44px] text-white top-[308.27px] whitespace-nowrap">New</p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[345.56px] not-italic text-[19.931px] text-black top-[307.02px] whitespace-nowrap">Your personal AI companion</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[268.33px] not-italic text-[17.44px] text-white top-[308.27px] whitespace-nowrap">New</motion.p>
       <div className="[word-break:break-word] absolute font-['Pretendard:Bold',sans-serif] leading-[0] left-[229px] not-italic text-[0px] text-black top-[393.85px] w-[785.793px]">
         <p className="font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] mb-0 text-[99.655px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           The AI Chatbot
@@ -85,21 +87,21 @@ export default function SyniDesktop() {
           Your State
         </p>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+0.5px)] text-[#ff7477] text-[80px] text-center top-[1188px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+0.5px)] text-[#ff7477] text-[80px] text-center top-[1188px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         What is Capture?
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-683.51px)] text-[25.636px] text-white top-[1559px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-683.51px)] text-[25.636px] text-white top-[1559px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Ask it anything
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-683.51px)] text-[25.636px] text-white top-[1868px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%-683.51px)] text-[25.636px] text-white top-[1868px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         It reads your state first
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+321.49px)] text-[25.636px] text-white top-[1559px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+321.49px)] text-[25.636px] text-white top-[1559px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         It learns over time
-      </p>
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+321.49px)] text-[25.636px] text-white top-[1868px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.9] left-[calc(50%+321.49px)] text-[25.636px] text-white top-[1868px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Desktop and mobile
-      </p>
+      </motion.p>
       <div className="absolute bg-[#c85b53] h-[65px] left-[233px] rounded-[5px] top-[869px] w-[220px]" />
       <Link href="/syni" className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[275px] not-italic text-[19.931px] text-white top-[889.33px] whitespace-nowrap cursor-pointer transition-opacity hover:opacity-70">Download Syni</Link>
       <div className="absolute left-[247.15px] size-[12.457px] top-[312.01px]">
@@ -107,21 +109,21 @@ export default function SyniDesktop() {
           <circle cx="6.22842" cy="6.22842" fill="var(--fill-0, white)" id="Ellipse 250" r="6.22842" />
         </svg>
       </div>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.35] left-[239px] text-[#8f9398] text-[23px] top-[711.24px] w-[642px]">Syni reads your focus, stress, and recovery before you open it. So when you ask a question the answer is shaped around where you actually are, not a generic response.</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.35] left-[calc(50%+0.5px)] text-[20px] text-center text-white top-[1287px] w-[803px]">Syni is your AI companion, powered by Company’s Human State Infrastructure (HSI). It understands your focus, stress, and recovery in real time, giving you personalized insights and more relevant answers the more you use it.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-684px)] opacity-76 text-[15px] text-white top-[1602px] w-[371px]">{`Why did my focus drop? Should I push through or rest? What changed this week? Syni gives you real answers not suggestions to "try journaling."`}</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-684px)] opacity-76 text-[15px] text-white top-[1911px] w-[348px]">Before you type a word, Syni has already checked your focus, stress, and recovery. The conversation starts informed.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+321px)] opacity-76 text-[15px] text-white top-[1602px] w-[354px]">The longer you use it, the sharper its understanding of your patterns. Day 30 is noticeably better than day one.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+321px)] opacity-76 text-[15px] text-white top-[1911px] w-[338px]">{`On your Mac or Windows desktop on its own. On your phone through Capture. Either way, it's the same Syni.`}</p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.35] left-[239px] text-[#8f9398] text-[23px] top-[711.24px] w-[642px]">Syni reads your focus, stress, and recovery before you open it. So when you ask a question the answer is shaped around where you actually are, not a generic response.</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.35] left-[calc(50%+0.5px)] text-[20px] text-center text-white top-[1287px] w-[803px]">Syni is your AI companion, powered by Company’s Human State Infrastructure (HSI). It understands your focus, stress, and recovery in real time, giving you personalized insights and more relevant answers the more you use it.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-684px)] opacity-76 text-[15px] text-white top-[1602px] w-[371px]">{`Why did my focus drop? Should I push through or rest? What changed this week? Syni gives you real answers not suggestions to "try journaling."`}</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%-684px)] opacity-76 text-[15px] text-white top-[1911px] w-[348px]">Before you type a word, Syni has already checked your focus, stress, and recovery. The conversation starts informed.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+321px)] opacity-76 text-[15px] text-white top-[1602px] w-[354px]">The longer you use it, the sharper its understanding of your patterns. Day 30 is noticeably better than day one.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Light',sans-serif] font-light leading-[1.54] left-[calc(50%+321px)] opacity-76 text-[15px] text-white top-[1911px] w-[338px]">{`On your Mac or Windows desktop on its own. On your phone through Capture. Either way, it's the same Syni.`}</motion.p>
       <Frame6 />
       <div className="absolute h-[357.474px] left-[1573px] opacity-24 top-[1108px] w-[283.281px]" data-name="telegram-cloud-document-4-5814283686010428407 1">
         <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgTelegramCloudDocument458142836860104284071} />
       </div>
       <Frame4 />
-      <p className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-56.28px)] text-warm-dark text-[100px] top-[2265px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Mozilla_Headline:SemiBold',sans-serif] font-semibold leading-[normal] left-[calc(50%-56.28px)] text-warm-dark text-[100px] top-[2265px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         How it Works
-      </p>
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%-61px)] not-italic text-brand text-[40.01px] top-[2402.17px] uppercase w-[688.174px]">Syni reads your signals before you say anything</p>
+      </motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Inter_Tight:ExtraBold',sans-serif] leading-[103.37999725341797%] left-[calc(50%-61px)] not-italic text-brand text-[40.01px] top-[2402.17px] uppercase w-[688.174px]">Syni reads your signals before you say anything</motion.p>
       <div className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[0] left-[calc(50%-61px)] text-text-secondary text-[22px] top-[2531.35px] w-[709.893px] whitespace-pre-wrap">
         <p className="leading-[1.31] mb-0">{`Syni pulls your focus, stress, and recovery from the status bar before the conversation starts. By the time you open it, it already has a picture of where you are. Ask it what to do next. `}</p>
         <p className="leading-[1.31] mb-0">​</p>
@@ -153,22 +155,22 @@ export default function SyniDesktop() {
       <div className="-translate-x-1/2 absolute bg-brand h-[10px] left-[calc(50%-468px)] rounded-bl-[4px] rounded-br-[4px] top-[2841px] w-[160px]" />
       <div className="-translate-x-1/2 absolute bg-[#ff912b] h-[10px] left-[calc(50%-7.5px)] rounded-bl-[4px] rounded-br-[4px] top-[2841px] w-[255px]" />
       <div className="-translate-x-1/2 absolute bg-brand h-[10px] left-[calc(50%+446px)] rounded-bl-[4px] rounded-br-[4px] top-[2841px] w-[160px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.963] left-[calc(50%+0.5px)] text-ui-gray text-[68px] text-center top-[3244px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Mozilla_Headline:Bold',sans-serif] font-bold leading-[0.963] left-[calc(50%+0.5px)] text-ui-gray text-[68px] text-center top-[3244px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Same question. Different answer.
-      </p>
+      </motion.p>
       <div className="-translate-x-1/2 absolute bg-white h-[167px] left-[calc(50%-344px)] rounded-[11px] shadow-[0px_27px_18.6px_0px_rgba(0,0,0,0.05)] top-[3379px] w-[654px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[167px] left-[calc(50%-344px)] rounded-[11px] shadow-[0px_27px_18.6px_0px_rgba(0,0,0,0.05)] top-[3574px] w-[654px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[167px] left-[calc(50%+340px)] rounded-[11px] shadow-[0px_27px_18.6px_0px_rgba(0,0,0,0.05)] top-[3574px] w-[654px]" />
       <div className="-translate-x-1/2 absolute bg-white h-[167px] left-[calc(50%+340px)] rounded-[11px] shadow-[0px_27px_18.6px_0px_rgba(0,0,0,0.05)] top-[3379px] w-[654px]" />
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[399px] not-italic text-warm-dark text-[23px] top-[3416px] whitespace-nowrap">{`"Help me plan today. I'm overloaded."`}</p>
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[399px] not-italic text-warm-dark text-[23px] top-[3611px] whitespace-nowrap">{`"Think through this with me."`}</p>
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[1083px] not-italic text-warm-dark text-[23px] top-[3611px] whitespace-nowrap">{`"Should I do deep work now or wait?"`}</p>
-      <p className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[1083px] not-italic text-warm-dark text-[23px] top-[3416px] whitespace-nowrap">{`"Summarize this. I'm low on energy."`}</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%-552px)] text-[#8a8b8c] text-[17px] top-[3458px] w-[470px]">Syni cuts the list down, protects recovery time, and tells you what actually needs doing today.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%-552px)] text-[#8a8b8c] text-[17px] top-[3653px] w-[470px]">Calm, steady reasoning. No rush. Paced to what your focus can actually hold right now.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%+132px)] text-[#8a8b8c] text-[17px] top-[3653px] w-[470px]">A direct answer. Syni checks your signals and tells you what it sees — no vague advice.</p>
-      <p className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%+132px)] text-[#8a8b8c] text-[17px] top-[3458px] w-[447px]">{`Syni gives you a shorter, lighter version. It knows you don't have the bandwidth right now.`}</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-30px)] text-brand text-[22px] text-center top-[3189px] uppercase whitespace-nowrap">WHAT YOU CAN ASK SYNI</p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[399px] not-italic text-warm-dark text-[23px] top-[3416px] whitespace-nowrap">{`"Help me plan today. I'm overloaded."`}</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[399px] not-italic text-warm-dark text-[23px] top-[3611px] whitespace-nowrap">{`"Think through this with me."`}</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[1083px] not-italic text-warm-dark text-[23px] top-[3611px] whitespace-nowrap">{`"Should I do deep work now or wait?"`}</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Pretendard:SemiBold',sans-serif] leading-[normal] left-[1083px] not-italic text-warm-dark text-[23px] top-[3416px] whitespace-nowrap">{`"Summarize this. I'm low on energy."`}</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%-552px)] text-[#8a8b8c] text-[17px] top-[3458px] w-[470px]">Syni cuts the list down, protects recovery time, and tells you what actually needs doing today.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%-552px)] text-[#8a8b8c] text-[17px] top-[3653px] w-[470px]">Calm, steady reasoning. No rush. Paced to what your focus can actually hold right now.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%+132px)] text-[#8a8b8c] text-[17px] top-[3653px] w-[470px]">A direct answer. Syni checks your signals and tells you what it sees — no vague advice.</motion.p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Stack_Sans_Headline:Regular',sans-serif] font-normal leading-[1.37] left-[calc(50%+132px)] text-[#8a8b8c] text-[17px] top-[3458px] w-[447px]">{`Syni gives you a shorter, lighter version. It knows you don't have the bandwidth right now.`}</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Stack_Sans_Headline:Medium',sans-serif] font-medium leading-[normal] left-[calc(50%-30px)] text-brand text-[22px] text-center top-[3189px] uppercase whitespace-nowrap">WHAT YOU CAN ASK SYNI</motion.p>
       <div className="absolute left-[330px] size-[49.899px] top-[3405px]" data-name="image">
         <img alt="" className="absolute block inset-0 max-w-none size-full" height="49.899" src={imgImage} width="49.899" />
       </div>
@@ -223,19 +225,19 @@ export default function SyniDesktop() {
           </defs>
         </svg>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[491.5px] not-italic text-ui-gray text-[20.95px] text-center top-[2954.66px] whitespace-nowrap">Focus</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%-469px)] not-italic text-ui-gray text-[50px] text-center top-[2877.87px] whitespace-nowrap">High</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[960.22px] not-italic text-ui-gray text-[20.95px] text-center top-[2954.66px] whitespace-nowrap">Load</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-1/2 not-italic text-ui-gray text-[50px] text-center top-[2877.87px] whitespace-nowrap">Moderate</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[1406px] not-italic text-ui-gray text-[20.95px] text-center top-[2954.66px] whitespace-nowrap">Recovery</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+446.5px)] not-italic text-ui-gray text-[50px] text-center top-[2877.87px] whitespace-nowrap">Good</p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[491.5px] not-italic text-ui-gray text-[20.95px] text-center top-[2954.66px] whitespace-nowrap">Focus</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%-469px)] not-italic text-ui-gray text-[50px] text-center top-[2877.87px] whitespace-nowrap">High</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[960.22px] not-italic text-ui-gray text-[20.95px] text-center top-[2954.66px] whitespace-nowrap">Load</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-1/2 not-italic text-ui-gray text-[50px] text-center top-[2877.87px] whitespace-nowrap">Moderate</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['Pretendard:Medium',sans-serif] leading-[normal] left-[1406px] not-italic text-ui-gray text-[20.95px] text-center top-[2954.66px] whitespace-nowrap">Recovery</motion.p>
+      <motion.p {...revealFade} className="-translate-x-1/2 [word-break:break-word] absolute font-['PT_Serif:Bold',sans-serif] leading-[normal] left-[calc(50%+446.5px)] not-italic text-ui-gray text-[50px] text-center top-[2877.87px] whitespace-nowrap">Good</motion.p>
       <MingcuteTimeLine />
       <MeteorIconsDevices />
       <RiMindMap />
       <Frame5 />
       <Component />
       <Component1 />
-      <p className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-737.8px)] not-italic text-dark-bg text-[33.051px] top-[146.36px] whitespace-nowrap">Capture</p>
+      <motion.p {...revealUp} className="[word-break:break-word] absolute font-['Inter_Tight:Bold',sans-serif] leading-[0.8] left-[calc(50%-737.8px)] not-italic text-dark-bg text-[33.051px] top-[146.36px] whitespace-nowrap">Capture</motion.p>
       <div className="absolute bg-dark-bg left-[159px] rounded-[9px] size-[51px] top-[134px]" />
       <div className="absolute h-[27.88px] left-[168px] top-[146px] w-[33.117px]" data-name="image 835">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
